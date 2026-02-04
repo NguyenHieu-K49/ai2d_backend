@@ -114,18 +114,25 @@ class DiagramService:
             raw_data=raw_data
         )
 
-    async def get_all_diagrams(self, limit=10):
+    async def get_all_diagrams(self, limit=10, category=None):
         diagrams = []
         pg_conn = None
         try:
             pg_conn = db.get_postgres_conn()
             cursor = pg_conn.cursor()
-            # Lay danh sach ID
-            cursor.execute("SELECT diagram_id FROM diagram_captions LIMIT %s", (limit,))
+
+            # Loc theo category
+            if category:
+                query = "SELECT diagram_id FROM diagram_captions WHERE category = %s LIMIT %s"
+                cursor.execute(query, (category, limit))
+            else:
+                query = "SELECT diagram_id FROM diagram_captions LIMIT %s"
+                cursor.execute(query, (limit,))
+
             rows = cursor.fetchall()
             cursor.close()
 
-            # Loop qua tung ID de lay full data (Bao gom ca edges)
+            # Loop qua tung ID de lay full data
             for row in rows:
                 d_id = row[0]
                 detail = await self.get_diagram_by_id(d_id)
@@ -140,5 +147,59 @@ class DiagramService:
 
         return DiagramListResponse(total=len(diagrams), items=diagrams)
 
+    async def get_related_diagrams(self, keyword: str, current_category: str = None):
+        related_diagrams = []
+        try:
+            #1: Tim ID tu Neo4j
+            query = """
+            MATCH (d:Diagram)-[:CONTAINS]->(n:Entity)
+            WHERE toLower(n.name) CONTAINS toLower($kw)
+            RETURN DISTINCT d.id as diagram_id
+            """
+
+            with db.get_neo4j_session() as session:
+                result = session.run(query, kw=keyword)
+                diagram_ids = [record["diagram_id"] for record in result]
+
+            if diagram_ids:
+                pg_conn = db.get_postgres_conn()
+                cursor = pg_conn.cursor()
+
+                #2: Loc category ngay tai SQL (Postgres)
+                # Neu co current_category -> Them dieu kien AND category = ...
+                if current_category:
+                    sql = """
+                    SELECT diagram_id, category, description
+                    FROM diagram_captions
+                    WHERE diagram_id = ANY (%s) \
+                    AND category = %s \
+                    """
+                    cursor.execute(sql, (diagram_ids, current_category))
+                else:
+                    # Neu khong co category -> Lay het
+                    sql = """
+                    SELECT diagram_id, category, description
+                    FROM diagram_captions
+                    WHERE diagram_id = ANY (%s) \
+                    """
+                    cursor.execute(sql, (diagram_ids,))
+
+                rows = cursor.fetchall()
+                cursor.close()
+                db.put_postgres_conn(pg_conn)
+
+                for row in rows:
+                    d_id = row[0]
+                    related_diagrams.append({
+                        "id": d_id,
+                        "image_url": f"{settings.R2_BASE_URL}/ai2d/raw/{d_id}",
+                        "meta": {
+                            "category": row[1],
+                            "description": row[2][:100] + "..." if row[2] else ""
+                        }
+                    })
+        except Exception as e:
+            logger.error(f"Related Search Error: {e}")
+        return DiagramListResponse(total=len(related_diagrams), items=related_diagrams)
 
 diagram_service = DiagramService()

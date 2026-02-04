@@ -1,7 +1,7 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 
-# --- 1. Khuon mau cho Node & Edge (Tu Neo4j) ---
+# Khuon mau cho Node & Edge (Tu Neo4j)
 class GraphNode(BaseModel):
     uid: str
     name: str
@@ -17,19 +17,19 @@ class GraphStructure(BaseModel):
     nodes: List[GraphNode]
     edges: List[GraphEdge]
 
-# --- 2. Khuon mau cho Metadata (Tu Mongo & Postgres) ---
+# Khuon mau cho Metadata (Tu Mongo & Postgres)
 class DiagramMeta(BaseModel):
     category: str
     domain: str = "Biology"
     description: Optional[str] = None
 
-# --- 3. KHUON MAU TONG HOP (Response tra ve Frontend) ---
+# Khuon mau tong hop (Response tra ve Frontend)
 class DiagramResponse(BaseModel):
     id: str
     meta: DiagramMeta
-    graph: GraphStructure
+    graph: Optional[GraphStructure] = None
     image_url: str
-    raw_data: Optional[Dict[str, Any]] = None # Bbox tu Mongo
+    raw_data: Optional[Dict[str, Any]] = None
 
 # Khuon mau cho danh sach (Phan trang)
 class DiagramListResponse(BaseModel):

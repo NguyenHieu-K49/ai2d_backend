@@ -10,7 +10,6 @@
 
 
 #####################################
- - chcp 65001
  - uvicorn app.main:app --reload
     --> https://127.0.0.1:8000/docs
 #####################################
@@ -27,8 +26,8 @@ app/
 ├── services/           # Logic xu ly chinh
 │   └── diagram_service.py # Ham gop du lieu (Aggregation)
 ├── api/                # Cac endpoints (URL)
-│   └── endpoints.py    # GET /diagrams, GET /search
-├── main.py             # File khoi chay chinh
+│   └── endpoints.py    # GET /diagrams, GET /search, ...
+├── main.py
 │
 ├── run_pipeline.py     # Chay cac Scripts
 │
