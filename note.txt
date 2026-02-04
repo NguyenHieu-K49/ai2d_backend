@@ -1,0 +1,35 @@
+################################
+           SCRIPTS
+################################
+- 01_filter_biology.py: lấy các file thuộc nhóm Sinh học từ dataset gốc ra một chỗ riêng để xử lý
+- 02_create_mapping.py: Tạo bảng quy tắc chuẩn hóa (gán nhãn Node) cho riêng nhóm Biology
+- 03_standardize_json.py: Gộp dữ liệu Annotation và RST, giữ lại Bbox
+- 04_process_graph.py: Gộp Node, Tạo Edge, Xuất file cho DB Loader
+
+
+
+
+#####################################
+ - chcp 65001
+ - uvicorn app.main:app --reload
+    --> https://127.0.0.1:8000/docs
+#####################################
+
+#####################################################
+    Cấu trúc folder
+#####################################################
+app/
+├── core/               # Cau hinh he thong
+│   ├── config.py       # Load bien moi truong (.env)
+│   └── database.py     # Quan ly ket noi 3 DB
+├── models/             # Dinh nghia khuon mau du lieu (Pydantic)
+│   └── schemas.py      # Input/Output Schema
+├── services/           # Logic xu ly chinh
+│   └── diagram_service.py # Ham gop du lieu (Aggregation)
+├── api/                # Cac endpoints (URL)
+│   └── endpoints.py    # GET /diagrams, GET /search
+├── main.py             # File khoi chay chinh
+│
+├── run_pipeline.py     # Chay cac Scripts
+│
+└──

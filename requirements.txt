@@ -1,0 +1,10 @@
+pandas
+openpyxl
+fastapi
+uvicorn
+python-multipart
+pydantic-settings
+pymongo
+neo4j
+psycopg2
+python-dotenv
