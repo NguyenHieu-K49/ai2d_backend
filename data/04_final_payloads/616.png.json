@@ -1,0 +1,339 @@
+{
+  "id": "616.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "616.png_B0",
+        "name": "Land preparation",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "616.png_B1",
+        "name": "Seedlings or cuttings planted",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "616.png_B2",
+        "name": "Pruning",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "616.png_B3",
+        "name": "Thinning",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "616.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "616.png_B5",
+        "name": "Felling",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "616.png_B6",
+        "name": "Logs to market",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T3"
+        ]
+      },
+      {
+        "uid": "616.png_B7",
+        "name": "B7",
+        "type": "Stage",
+        "components": [
+          "B7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "616.png_B0",
+        "target": "616.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "616.png_B1",
+        "target": "616.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "616.png_B2",
+        "target": "616.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "616.png_B3",
+        "target": "616.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "616.png_B5",
+        "target": "616.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "616.png_B7",
+        "target": "616.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          36,
+          36,
+          220,
+          64
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          320,
+          35,
+          144,
+          125
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          321,
+          199,
+          149,
+          212
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          164,
+          371,
+          208,
+          153
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          31,
+          218,
+          60,
+          163
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          82,
+          287,
+          112,
+          115
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          141,
+          166,
+          115,
+          67
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          101,
+          143,
+          39,
+          28
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Land preparation",
+        "bbox": [
+          [
+            157,
+            101
+          ],
+          [
+            263,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seedlings or cuttings planted",
+        "bbox": [
+          [
+            346,
+            159
+          ],
+          [
+            449,
+            186
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pruning",
+        "bbox": [
+          [
+            409,
+            302
+          ],
+          [
+            457,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Logs to market",
+        "bbox": [
+          [
+            157,
+            235
+          ],
+          [
+            252,
+            251
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Felling",
+        "bbox": [
+          [
+            68,
+            314
+          ],
+          [
+            116,
+            329
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Thinning",
+        "bbox": [
+          [
+            235,
+            349
+          ],
+          [
+            288,
+            367
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          264,
+          105,
+          51,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          364,
+          181,
+          19,
+          28
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          287,
+          347,
+          48,
+          23
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          178,
+          347,
+          57,
+          21
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          132,
+          110,
+          34,
+          36
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          120,
+          176,
+          42,
+          139
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Land preparation phat trien thanh Seedlings or cuttings planted. Giai doan Seedlings or cuttings planted phat trien thanh Pruning. Giai doan Pruning phat trien thanh Thinning. Giai doan Thinning phat trien thanh Felling. Giai doan Felling phat trien thanh Logs to market. Giai doan B7 phat trien thanh Land preparation."
+}

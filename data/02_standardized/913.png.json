@@ -1,0 +1,262 @@
+{
+  "id": "913.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Wedge Tailed Eagle",
+        "bbox": [
+          [
+            462,
+            36
+          ],
+          [
+            981,
+            108
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Carpet Snake",
+        "bbox": [
+          [
+            183,
+            357
+          ],
+          [
+            540,
+            447
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Goanna",
+        "bbox": [
+          [
+            678,
+            645
+          ],
+          [
+            903,
+            723
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Black Flying Fox",
+        "bbox": [
+          [
+            24,
+            1035
+          ],
+          [
+            462,
+            1122
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Grey Headed Flying Fox",
+        "bbox": [
+          [
+            705,
+            1050
+          ],
+          [
+            1338,
+            1119
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Native Tree Leaves",
+        "bbox": [
+          [
+            429,
+            1422
+          ],
+          [
+            948,
+            1499
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          357,
+          105,
+          213,
+          258
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          414,
+          105,
+          231,
+          936
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          540,
+          432,
+          216,
+          183
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          210,
+          435,
+          99,
+          615
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          762,
+          129,
+          57,
+          489
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          810,
+          123,
+          342,
+          921
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          840,
+          720,
+          135,
+          321
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          792,
+          1122,
+          102,
+          285
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          339,
+          1143,
+          234,
+          267
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          324,
+          717,
+          393,
+          339
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          513,
+          435,
+          315,
+          609
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T1",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T0",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T1",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T3",
+      "via": "A7"
+    }
+  ],
+  "rst_source": true
+}

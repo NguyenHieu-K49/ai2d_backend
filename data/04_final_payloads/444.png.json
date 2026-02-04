@@ -1,0 +1,619 @@
+{
+  "id": "444.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "444.png_B0",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "444.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "444.png_B10",
+        "name": "Amphipods",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T7"
+        ]
+      },
+      {
+        "uid": "444.png_B11",
+        "name": "CATFISH",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T10"
+        ]
+      },
+      {
+        "uid": "444.png_B12",
+        "name": "Crayfish",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T9"
+        ]
+      },
+      {
+        "uid": "444.png_B2",
+        "name": "Protozoa",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "444.png_B3",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "444.png_B4",
+        "name": "Dead organisms",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T8"
+        ]
+      },
+      {
+        "uid": "444.png_B5",
+        "name": "Snails",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T2"
+        ]
+      },
+      {
+        "uid": "444.png_B6",
+        "name": "Diving beetles",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "444.png_B7",
+        "name": "Pickerel",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      },
+      {
+        "uid": "444.png_B8",
+        "name": "Bass",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T11"
+        ]
+      },
+      {
+        "uid": "444.png_B9",
+        "name": "Copepods",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "444.png_B0",
+        "target": "444.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "444.png_B0",
+        "target": "444.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "444.png_B10",
+        "target": "444.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "444.png_B10",
+        "target": "444.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "444.png_B12",
+        "target": "444.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "444.png_B12",
+        "target": "444.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "444.png_B2",
+        "target": "444.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "444.png_B4",
+        "target": "444.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "444.png_B4",
+        "target": "444.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "444.png_B5",
+        "target": "444.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "444.png_B6",
+        "target": "444.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "444.png_B8",
+        "target": "444.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "444.png_B9",
+        "target": "444.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          164,
+          20,
+          83,
+          26
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          283,
+          61,
+          52,
+          26
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          154,
+          190,
+          100,
+          58
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          154,
+          294,
+          115,
+          50
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          164,
+          382,
+          95,
+          56
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          313,
+          64,
+          50,
+          40
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          351,
+          156,
+          29,
+          26
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          308,
+          261,
+          86,
+          32
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          82,
+          59,
+          54,
+          35
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          41,
+          131,
+          47,
+          48
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          10,
+          245,
+          122,
+          36
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          49,
+          341,
+          94,
+          41
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          183,
+          59,
+          56,
+          78
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Algae",
+        "bbox": [
+          [
+            187,
+            0
+          ],
+          [
+            253,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Protozoa",
+        "bbox": [
+          [
+            340,
+            33
+          ],
+          [
+            433,
+            59
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "CATFISH",
+        "bbox": [
+          [
+            185,
+            341
+          ],
+          [
+            245,
+            360
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Bass",
+        "bbox": [
+          [
+            75,
+            391
+          ],
+          [
+            126,
+            402
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Snails",
+        "bbox": [
+          [
+            54,
+            28
+          ],
+          [
+            109,
+            55
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Copepods",
+        "bbox": [
+          [
+            169,
+            137
+          ],
+          [
+            256,
+            157
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            325,
+            181
+          ],
+          [
+            411,
+            208
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Diving beetles",
+        "bbox": [
+          [
+            3,
+            180
+          ],
+          [
+            127,
+            196
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Pickerel",
+        "bbox": [
+          [
+            40,
+            280
+          ],
+          [
+            126,
+            302
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Amphipods",
+        "bbox": [
+          [
+            165,
+            246
+          ],
+          [
+            260,
+            266
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Dead organisms",
+        "bbox": [
+          [
+            283,
+            293
+          ],
+          [
+            415,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Crayfish",
+        "bbox": [
+          [
+            178,
+            441
+          ],
+          [
+            261,
+            459
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          257,
+          316,
+          98,
+          98
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          362,
+          204,
+          17,
+          68
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          64,
+          90,
+          36,
+          49
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          113,
+          35,
+          51,
+          35
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          243,
+          29,
+          63,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          204,
+          361,
+          14,
+          44
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          114,
+          376,
+          51,
+          37
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          117,
+          266,
+          68,
+          81
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          205,
+          267,
+          12,
+          41
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          232,
+          91,
+          73,
+          36
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          205,
+          156,
+          13,
+          32
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          63,
+          300,
+          27,
+          45
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          47,
+          201,
+          13,
+          50
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Algae la nguon thuc an cho Snails. Algae la nguon thuc an cho B1. Amphipods la nguon thuc an cho Bass. Amphipods la nguon thuc an cho CATFISH. Crayfish la nguon thuc an cho CATFISH. Crayfish la nguon thuc an cho Bass. Protozoa la nguon thuc an cho Copepods. Dead organisms la nguon thuc an cho Crayfish. Dead organisms la nguon thuc an cho Bacteria. Snails la nguon thuc an cho Diving beetles. Diving beetles la nguon thuc an cho Pickerel. Bass la nguon thuc an cho Pickerel. Copepods la nguon thuc an cho Amphipods."
+}

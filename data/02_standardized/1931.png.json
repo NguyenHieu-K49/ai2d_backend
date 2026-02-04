@@ -1,0 +1,261 @@
+{
+  "id": "1931.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Small fish",
+        "bbox": [
+          [
+            89,
+            135
+          ],
+          [
+            140,
+            148
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seaweed",
+        "bbox": [
+          [
+            91,
+            180
+          ],
+          [
+            136,
+            192
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Crabs",
+        "bbox": [
+          [
+            188,
+            135
+          ],
+          [
+            218,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Large fish",
+        "bbox": [
+          [
+            166,
+            90
+          ],
+          [
+            218,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Sharks",
+        "bbox": [
+          [
+            163,
+            0
+          ],
+          [
+            199,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sea otters",
+        "bbox": [
+          [
+            67,
+            45
+          ],
+          [
+            117,
+            58
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Sea urchins",
+        "bbox": [
+          [
+            0,
+            136
+          ],
+          [
+            59,
+            148
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          24,
+          61,
+          49,
+          75
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          90,
+          9,
+          66,
+          37
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          124,
+          50,
+          70,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          89,
+          60,
+          96,
+          76
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          113,
+          96,
+          49,
+          38
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          199,
+          105,
+          8,
+          32
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          134,
+          149,
+          47,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          146,
+          136,
+          36,
+          8
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          109,
+          149,
+          9,
+          32
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          54,
+          152,
+          41,
+          30
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T6",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T5",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,219 @@
+{
+  "id": "351.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "351.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "351.png_B1",
+        "name": "nymphs",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "351.png_B2",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "351.png_B3",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "351.png_B0",
+        "target": "351.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "351.png_B1",
+        "target": "351.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "351.png_B2",
+        "target": "351.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "351.png_B3",
+        "target": "351.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "351.png_B3",
+        "target": "351.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          13,
+          95,
+          57,
+          43
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          105,
+          5,
+          88,
+          91
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          181,
+          92,
+          107,
+          70
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          128,
+          197,
+          17,
+          10
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "nymphs",
+        "bbox": [
+          [
+            82,
+            109
+          ],
+          [
+            118,
+            119
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "adult",
+        "bbox": [
+          [
+            193,
+            142
+          ],
+          [
+            218,
+            154
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "egg",
+        "bbox": [
+          [
+            131,
+            183
+          ],
+          [
+            151,
+            195
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          41,
+          37,
+          77,
+          60
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          102,
+          83,
+          32,
+          29
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          53,
+          110,
+          29,
+          21
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          34,
+          140,
+          94,
+          70
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          151,
+          151,
+          80,
+          58
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          172,
+          41,
+          60,
+          52
+        ]
+      }
+    }
+  }
+}

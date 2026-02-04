@@ -1,0 +1,421 @@
+{
+  "id": "1803.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1803.png_B0",
+        "name": "Ciliates",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1803.png_B1",
+        "name": "Heterotrophic flagellates",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1803.png_B2",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1803.png_B3",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1803.png_B4",
+        "name": "Dissolved organic matter",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1803.png_B5",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1803.png_B6",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1803.png_B0",
+        "target": "1803.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1803.png_B1",
+        "target": "1803.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1803.png_B1",
+        "target": "1803.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1803.png_B2",
+        "target": "1803.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1803.png_B2",
+        "target": "1803.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1803.png_B2",
+        "target": "1803.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1803.png_B3",
+        "target": "1803.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1803.png_B4",
+        "target": "1803.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1803.png_B5",
+        "target": "1803.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1803.png_B6",
+        "target": "1803.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1803.png_B6",
+        "target": "1803.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          852,
+          310,
+          158,
+          120
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          1235,
+          298,
+          93,
+          125
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          865,
+          630,
+          130,
+          107
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          395,
+          738,
+          128,
+          74
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          405,
+          1002,
+          105,
+          61
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          347,
+          418,
+          205,
+          155
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          102,
+          33,
+          536,
+          230
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            317,
+            568
+          ],
+          [
+            595,
+            622
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Algae",
+        "bbox": [
+          [
+            388,
+            812
+          ],
+          [
+            522,
+            867
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            832,
+            746
+          ],
+          [
+            1025,
+            799
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Ciliates",
+        "bbox": [
+          [
+            847,
+            435
+          ],
+          [
+            1013,
+            492
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Heterotrophic flagellates",
+        "bbox": [
+          [
+            1133,
+            432
+          ],
+          [
+            1437,
+            542
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Dissolved organic matter",
+        "bbox": [
+          [
+            350,
+            1070
+          ],
+          [
+            568,
+            1228
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fish",
+        "bbox": [
+          [
+            408,
+            267
+          ],
+          [
+            508,
+            320
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          73,
+          128,
+          352,
+          930
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          107,
+          497,
+          236,
+          183
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          590,
+          598,
+          267,
+          109
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          560,
+          218,
+          737,
+          367
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          412,
+          313,
+          93,
+          150
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          410,
+          612,
+          95,
+          155
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          168,
+          760,
+          215,
+          158
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          515,
+          777,
+          448,
+          280
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          892,
+          483,
+          80,
+          155
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1000,
+          513,
+          327,
+          192
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          1005,
+          425,
+          123,
+          85
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          593,
+          445,
+          252,
+          160
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Ciliates la nguon thuc an cho Zooplankton. Heterotrophic flagellates la nguon thuc an cho Zooplankton. Heterotrophic flagellates la nguon thuc an cho Ciliates. Bacteria la nguon thuc an cho Zooplankton. Bacteria la nguon thuc an cho Ciliates. Bacteria la nguon thuc an cho Heterotrophic flagellates. Algae la nguon thuc an cho Dissolved organic matter. Dissolved organic matter la nguon thuc an cho Bacteria. Zooplankton la nguon thuc an cho Algae. Fish la nguon thuc an cho Dissolved organic matter. Fish la nguon thuc an cho Zooplankton."
+}

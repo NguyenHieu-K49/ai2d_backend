@@ -1,0 +1,129 @@
+{
+  "id": "881.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Chicken",
+        "bbox": [
+          [
+            344,
+            61
+          ],
+          [
+            408,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Earthworm",
+        "bbox": [
+          [
+            284,
+            252
+          ],
+          [
+            372,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Plant",
+        "bbox": [
+          [
+            139,
+            164
+          ],
+          [
+            186,
+            183
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Fox",
+        "bbox": [
+          [
+            91,
+            73
+          ],
+          [
+            123,
+            92
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          165,
+          74,
+          192,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          123,
+          64,
+          224,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          328,
+          83,
+          46,
+          170
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          179,
+          168,
+          119,
+          84
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A3"
+    }
+  ],
+  "rst_source": true
+}

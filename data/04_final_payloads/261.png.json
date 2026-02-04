@@ -1,0 +1,207 @@
+{
+  "id": "261.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "261.png_T0",
+        "name": "TUSSOCK GRASS. (producer)",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "261.png_T1",
+        "name": "(herbivore) GRASSHOPPER (primary consumer)",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "261.png_T2",
+        "name": "(carnivore) DRAGON _ (secondary consumer)",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "261.png_T3",
+        "name": "(omnivore) QUOLL (tertiary consumer)",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "261.png_T4",
+        "name": "(omnivore) FOX (tertiary consumer)",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "261.png_T0",
+        "target": "261.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "261.png_T1",
+        "target": "261.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "261.png_T2",
+        "target": "261.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "261.png_T4",
+        "target": "261.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "261.png_T4",
+        "target": "261.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "TUSSOCK GRASS. (producer)",
+        "bbox": [
+          [
+            8,
+            35
+          ],
+          [
+            171,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "(herbivore) GRASSHOPPER (primary consumer)",
+        "bbox": [
+          [
+            250,
+            23
+          ],
+          [
+            393,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "(carnivore) DRAGON _ (secondary consumer)",
+        "bbox": [
+          [
+            444,
+            23
+          ],
+          [
+            586,
+            83
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "(omnivore) QUOLL (tertiary consumer)",
+        "bbox": [
+          [
+            623,
+            20
+          ],
+          [
+            752,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "(omnivore) FOX (tertiary consumer)",
+        "bbox": [
+          [
+            354,
+            89
+          ],
+          [
+            490,
+            154
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          166,
+          49,
+          78,
+          11
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          322,
+          74,
+          69,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          398,
+          45,
+          77,
+          17
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          449,
+          72,
+          87,
+          51
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          572,
+          48,
+          74,
+          11
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: TUSSOCK GRASS. (producer) la nguon thuc an cho (herbivore) GRASSHOPPER (primary consumer). (herbivore) GRASSHOPPER (primary consumer) la nguon thuc an cho (carnivore) DRAGON _ (secondary consumer). (carnivore) DRAGON _ (secondary consumer) la nguon thuc an cho (omnivore) QUOLL (tertiary consumer). (omnivore) FOX (tertiary consumer) la nguon thuc an cho (herbivore) GRASSHOPPER (primary consumer). (omnivore) FOX (tertiary consumer) la nguon thuc an cho (carnivore) DRAGON _ (secondary consumer)."
+}

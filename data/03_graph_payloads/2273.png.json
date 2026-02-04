@@ -1,0 +1,412 @@
+{
+  "id": "2273.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2273.png_B0",
+        "name": "Conidiophores and conidia from grey mould on infected tissue",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2273.png_B1",
+        "name": "Invaded tissue becomes soft and rots",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2273.png_B2",
+        "name": "Infected cells collapse and disintegrate",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2273.png_B3",
+        "name": "Schlerotia and mycelium overwinter in or on plant debris or in soil",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2273.png_B4",
+        "name": "Schlerotium produces mycelium",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2273.png_B5",
+        "name": "Conidiophore and conldla",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2273.png_B6",
+        "name": "Conidium",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2273.png_B7",
+        "name": "Conidium germinates, penetrates and Invades tissue",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2273.png_B0",
+        "target": "2273.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2273.png_B1",
+        "target": "2273.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2273.png_B2",
+        "target": "2273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2273.png_B3",
+        "target": "2273.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2273.png_B4",
+        "target": "2273.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2273.png_B5",
+        "target": "2273.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2273.png_B6",
+        "target": "2273.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2273.png_B7",
+        "target": "2273.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          160,
+          362,
+          137,
+          55
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          345,
+          284,
+          131,
+          80
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          342,
+          149,
+          93,
+          74
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          36,
+          274,
+          43,
+          33
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          12,
+          183,
+          57,
+          59
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          38,
+          10,
+          103,
+          135
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          170,
+          18,
+          35,
+          28
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          265,
+          28,
+          91,
+          63
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Conidiophores and conidia from grey mould on infected tissue",
+        "bbox": [
+          [
+            116,
+            421
+          ],
+          [
+            350,
+            450
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Invaded tissue becomes soft and rots",
+        "bbox": [
+          [
+            332,
+            361
+          ],
+          [
+            487,
+            391
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Infected cells collapse and disintegrate",
+        "bbox": [
+          [
+            301,
+            218
+          ],
+          [
+            471,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Conidium germinates, penetrates and Invades tissue",
+        "bbox": [
+          [
+            248,
+            94
+          ],
+          [
+            438,
+            123
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Conidium",
+        "bbox": [
+          [
+            168,
+            45
+          ],
+          [
+            230,
+            58
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Conidiophore and conldla",
+        "bbox": [
+          [
+            52,
+            142
+          ],
+          [
+            168,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Schlerotium produces mycelium",
+        "bbox": [
+          [
+            76,
+            189
+          ],
+          [
+            218,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Schlerotium",
+        "bbox": [
+          [
+            61,
+            266
+          ],
+          [
+            141,
+            280
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Schlerotia and mycelium overwinter in or on plant debris or in soil",
+        "bbox": [
+          [
+            10,
+            309
+          ],
+          [
+            165,
+            353
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          120,
+          24,
+          54,
+          31
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          387,
+          117,
+          32,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          23,
+          107,
+          45,
+          78
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          20,
+          236,
+          29,
+          44
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          83,
+          358,
+          70,
+          44
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          284,
+          377,
+          55,
+          28
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          400,
+          245,
+          31,
+          38
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          203,
+          6,
+          82,
+          40
+        ]
+      }
+    }
+  }
+}

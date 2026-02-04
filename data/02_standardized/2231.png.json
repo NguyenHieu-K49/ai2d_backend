@@ -1,0 +1,411 @@
+{
+  "id": "2231.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          236,
+          22,
+          60,
+          89
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          348,
+          350,
+          32,
+          43
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          163,
+          155,
+          24,
+          25
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          61,
+          10,
+          110,
+          124
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "CWD",
+        "bbox": [
+          [
+            237,
+            494
+          ],
+          [
+            275,
+            513
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "thining",
+        "bbox": [
+          [
+            108,
+            401
+          ],
+          [
+            146,
+            434
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "maturing",
+        "bbox": [
+          [
+            432,
+            220
+          ],
+          [
+            452,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Closed-canopy even-aged stand",
+        "bbox": [
+          [
+            384,
+            287
+          ],
+          [
+            511,
+            323
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "beetle outbreak",
+        "bbox": [
+          [
+            372,
+            376
+          ],
+          [
+            424,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "tree mortality",
+        "bbox": [
+          [
+            198,
+            423
+          ],
+          [
+            276,
+            462
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Residual overstory and regeneration",
+        "bbox": [
+          [
+            24,
+            330
+          ],
+          [
+            162,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "growth release",
+        "bbox": [
+          [
+            46,
+            211
+          ],
+          [
+            64,
+            297
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Mixed multi-story stand",
+        "bbox": [
+          [
+            50,
+            149
+          ],
+          [
+            144,
+            187
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "beetle outbreak",
+        "bbox": [
+          [
+            149,
+            126
+          ],
+          [
+            201,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Stand replacement fire",
+        "bbox": [
+          [
+            215,
+            103
+          ],
+          [
+            337,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "stand initiation",
+        "bbox": [
+          [
+            324,
+            78
+          ],
+          [
+            391,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "fire supression",
+        "bbox": [
+          [
+            134,
+            79
+          ],
+          [
+            195,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Open-canopy even-aged stand",
+        "bbox": [
+          [
+            361,
+            175
+          ],
+          [
+            487,
+            205
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          239,
+          461,
+          19,
+          36
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          107,
+          126,
+          44,
+          21
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          111,
+          79,
+          128,
+          56
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          308,
+          87,
+          100,
+          78
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          419,
+          206,
+          22,
+          89
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          60,
+          182,
+          33,
+          139
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          396,
+          323,
+          31,
+          47
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          96,
+          368,
+          94,
+          74
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          280,
+          402,
+          87,
+          49
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          183,
+          155,
+          102,
+          270
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T9",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T13",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "T13",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "B1",
+      "via": "A6"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B1"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T2",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B0"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T11",
+      "via": "A4"
+    }
+  ],
+  "rst_source": true
+}

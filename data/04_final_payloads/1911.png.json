@@ -1,0 +1,229 @@
+{
+  "id": "1911.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1911.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1911.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1911.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1911.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1911.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1911.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1911.png_B0",
+        "target": "1911.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1911.png_B0",
+        "target": "1911.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1911.png_B1",
+        "target": "1911.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1911.png_B1",
+        "target": "1911.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1911.png_B2",
+        "target": "1911.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1911.png_B3",
+        "target": "1911.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1911.png_B5",
+        "target": "1911.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          1,
+          143,
+          63,
+          106
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          135,
+          47,
+          81,
+          40
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          321,
+          147,
+          81,
+          53
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          487,
+          2,
+          82,
+          51
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          197,
+          292,
+          39,
+          85
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          519,
+          304,
+          49,
+          77
+        ]
+      }
+    },
+    "texts": [],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          52,
+          70,
+          91,
+          143
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          61,
+          203,
+          463,
+          158
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          204,
+          67,
+          126,
+          124
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          395,
+          65,
+          141,
+          92
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          390,
+          210,
+          145,
+          104
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          225,
+          208,
+          146,
+          146
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          19,
+          258,
+          180,
+          98
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B0 la nguon thuc an cho B5. B0 la nguon thuc an cho B4. B1 la nguon thuc an cho B0. B1 la nguon thuc an cho B2. B2 la nguon thuc an cho B4. B3 la nguon thuc an cho B2. B5 la nguon thuc an cho B2."
+}

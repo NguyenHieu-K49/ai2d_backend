@@ -1,0 +1,506 @@
+{
+  "id": "2079.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2079.png_B0",
+        "name": "Unknown Fish 2",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2079.png_B1",
+        "name": "Bird",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2079.png_B2",
+        "name": "Hermit Crab",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2079.png_B3",
+        "name": "Crab",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2079.png_B4",
+        "name": "Unknown Fish",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2079.png_B5",
+        "name": "Goby",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2079.png_B6",
+        "name": "Lizardfish",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2079.png_B7",
+        "name": "Algae and Seaweed",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2079.png_B8",
+        "name": "Sunlight",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2079.png_B0",
+        "target": "2079.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2079.png_B2",
+        "target": "2079.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2079.png_B3",
+        "target": "2079.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2079.png_B4",
+        "target": "2079.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2079.png_B4",
+        "target": "2079.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2079.png_B5",
+        "target": "2079.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2079.png_B5",
+        "target": "2079.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2079.png_B6",
+        "target": "2079.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2079.png_B7",
+        "target": "2079.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2079.png_B7",
+        "target": "2079.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2079.png_B7",
+        "target": "2079.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2079.png_B7",
+        "target": "2079.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2079.png_B8",
+        "target": "2079.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          437,
+          161,
+          65,
+          72
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          198,
+          0,
+          54,
+          81
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          319,
+          164,
+          74,
+          63
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          191,
+          139,
+          72,
+          67
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          12,
+          170,
+          66,
+          55
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          48,
+          303,
+          65,
+          26
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          313,
+          300,
+          62,
+          46
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          192,
+          314,
+          64,
+          63
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          193,
+          434,
+          69,
+          69
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Unknown Fish 2",
+        "bbox": [
+          [
+            439,
+            228
+          ],
+          [
+            503,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Bird",
+        "bbox": [
+          [
+            211,
+            84
+          ],
+          [
+            238,
+            98
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Crab",
+        "bbox": [
+          [
+            214,
+            204
+          ],
+          [
+            239,
+            215
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Unknown Fish",
+        "bbox": [
+          [
+            15,
+            226
+          ],
+          [
+            78,
+            237
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Goby",
+        "bbox": [
+          [
+            69,
+            333
+          ],
+          [
+            98,
+            342
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Algae and Seaweed",
+        "bbox": [
+          [
+            202,
+            377
+          ],
+          [
+            249,
+            399
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Lizardfish",
+        "bbox": [
+          [
+            320,
+            343
+          ],
+          [
+            367,
+            358
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Sunlight",
+        "bbox": [
+          [
+            205,
+            501
+          ],
+          [
+            249,
+            514
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Hermit Crab",
+        "bbox": [
+          [
+            329,
+            224
+          ],
+          [
+            380,
+            232
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          47,
+          92,
+          160,
+          82
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          218,
+          94,
+          14,
+          45
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          230,
+          229,
+          96,
+          79
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          82,
+          94,
+          124,
+          209
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          78,
+          176,
+          121,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          244,
+          95,
+          115,
+          78
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          239,
+          89,
+          236,
+          80
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          252,
+          212,
+          93,
+          92
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          226,
+          248,
+          217,
+          70
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          257,
+          326,
+          55,
+          32
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          83,
+          213,
+          120,
+          93
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          220,
+          398,
+          12,
+          38
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          115,
+          321,
+          78,
+          38
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Unknown Fish 2 la nguon thuc an cho Bird. Hermit Crab la nguon thuc an cho Bird. Crab la nguon thuc an cho Bird. Unknown Fish la nguon thuc an cho Bird. Unknown Fish la nguon thuc an cho Crab. Goby la nguon thuc an cho Bird. Goby la nguon thuc an cho Crab. Lizardfish la nguon thuc an cho Crab. Algae and Seaweed la nguon thuc an cho Hermit Crab. Algae and Seaweed la nguon thuc an cho Unknown Fish 2. Algae and Seaweed la nguon thuc an cho Lizardfish. Algae and Seaweed la nguon thuc an cho Goby. Sunlight la nguon thuc an cho Algae and Seaweed."
+}

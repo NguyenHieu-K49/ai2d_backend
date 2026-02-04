@@ -1,0 +1,326 @@
+{
+  "id": "2185.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2185.png_B0",
+        "name": "ADULT",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2185.png_B1",
+        "name": "EGGS",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2185.png_B2",
+        "name": "FIRST INSTAR LARVA",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2185.png_B3",
+        "name": "SECOND INSTAR LARVA",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2185.png_B4",
+        "name": "THIRD INSTAR LARVA",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2185.png_B5",
+        "name": "PUPA",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2185.png_T6",
+        "name": "FLY LIFE CYCLE",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2185.png_B0",
+        "target": "2185.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2185.png_B1",
+        "target": "2185.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2185.png_B2",
+        "target": "2185.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2185.png_B3",
+        "target": "2185.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2185.png_B4",
+        "target": "2185.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2185.png_B5",
+        "target": "2185.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          238,
+          52,
+          126,
+          143
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          434,
+          164,
+          88,
+          84
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          428,
+          356,
+          94,
+          56
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          243,
+          476,
+          128,
+          30
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          13,
+          353,
+          193,
+          61
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          54,
+          169,
+          130,
+          54
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "EGGS",
+        "bbox": [
+          [
+            514,
+            197
+          ],
+          [
+            560,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "FIRST INSTAR LARVA",
+        "bbox": [
+          [
+            479,
+            415
+          ],
+          [
+            586,
+            455
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SECOND INSTAR LARVA",
+        "bbox": [
+          [
+            264,
+            511
+          ],
+          [
+            377,
+            549
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "THIRD INSTAR LARVA",
+        "bbox": [
+          [
+            14,
+            395
+          ],
+          [
+            132,
+            442
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "ADULT",
+        "bbox": [
+          [
+            271,
+            23
+          ],
+          [
+            333,
+            45
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "PUPA",
+        "bbox": [
+          [
+            34,
+            213
+          ],
+          [
+            85,
+            240
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "FLY LIFE CYCLE",
+        "bbox": [
+          [
+            198,
+            251
+          ],
+          [
+            399,
+            335
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          141,
+          84,
+          71,
+          57
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          387,
+          85,
+          68,
+          56
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          492,
+          268,
+          38,
+          70
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          406,
+          421,
+          67,
+          60
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          149,
+          434,
+          62,
+          53
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          69,
+          251,
+          35,
+          78
+        ]
+      }
+    }
+  }
+}

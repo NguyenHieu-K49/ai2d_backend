@@ -1,0 +1,409 @@
+{
+  "id": "2155.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2155.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2155.png_B1",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2155.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2155.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2155.png_T0",
+        "name": "Life Cycle of a Housefly Worksheet",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2155.png_T4",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2155.png_T5",
+        "name": "8-30 hours",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2155.png_T6",
+        "name": "2.25-23 days",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2155.png_T7",
+        "name": "3-10 days",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2155.png_T8",
+        "name": "3-14 days",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2155.png_T9",
+        "name": "SOLARO www.solaro.com",
+        "type": "Stage",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2155.png_B0",
+        "target": "2155.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2155.png_B1",
+        "target": "2155.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2155.png_B2",
+        "target": "2155.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2155.png_B3",
+        "target": "2155.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2155.png_T5",
+        "target": "2155.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2155.png_T6",
+        "target": "2155.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2155.png_T7",
+        "target": "2155.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2155.png_T8",
+        "target": "2155.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          133,
+          288,
+          63,
+          29
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          260,
+          157,
+          64,
+          30
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          143,
+          34,
+          41,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          2,
+          124,
+          91,
+          84
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Life Cycle of a Housefly Worksheet",
+        "bbox": [
+          [
+            16,
+            0
+          ],
+          [
+            332,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Larva",
+        "bbox": [
+          [
+            378,
+            53
+          ],
+          [
+            431,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            377,
+            17
+          ],
+          [
+            430,
+            40
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            377,
+            88
+          ],
+          [
+            424,
+            109
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Pupa",
+        "bbox": [
+          [
+            372,
+            125
+          ],
+          [
+            427,
+            147
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "8-30 hours",
+        "bbox": [
+          [
+            209,
+            78
+          ],
+          [
+            314,
+            99
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "2.25-23 days",
+        "bbox": [
+          [
+            16,
+            79
+          ],
+          [
+            131,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "3-10 days",
+        "bbox": [
+          [
+            25,
+            255
+          ],
+          [
+            113,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "3-14 days",
+        "bbox": [
+          [
+            230,
+            252
+          ],
+          [
+            320,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "SOLARO www.solaro.com",
+        "bbox": [
+          [
+            306,
+            329
+          ],
+          [
+            424,
+            361
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          45,
+          102,
+          26,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          82,
+          49,
+          59,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          188,
+          46,
+          64,
+          32
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          272,
+          97,
+          30,
+          62
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          275,
+          200,
+          27,
+          54
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          194,
+          270,
+          67,
+          37
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          97,
+          283,
+          35,
+          21
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          54,
+          228,
+          21,
+          31
+        ]
+      }
+    }
+  }
+}

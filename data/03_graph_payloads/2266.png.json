@@ -1,0 +1,351 @@
+{
+  "id": "2266.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2266.png_B0",
+        "name": "Gametes",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2266.png_B1",
+        "name": "Planula",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2266.png_B2",
+        "name": "Scyphistoma",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2266.png_B3",
+        "name": "Young Strobila (Polip muda)",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2266.png_B4",
+        "name": "Strobila",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2266.png_B5",
+        "name": "Young medusa (ephyra)",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2266.png_B6",
+        "name": "Adult medusa",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2266.png_B0",
+        "target": "2266.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2266.png_B1",
+        "target": "2266.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2266.png_B2",
+        "target": "2266.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2266.png_B3",
+        "target": "2266.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2266.png_B4",
+        "target": "2266.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2266.png_B5",
+        "target": "2266.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2266.png_B6",
+        "target": "2266.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          200,
+          24,
+          21,
+          53
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          237,
+          88,
+          25,
+          46
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          224,
+          148,
+          46,
+          71
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          189,
+          215,
+          39,
+          77
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          105,
+          188,
+          65,
+          109
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          11,
+          136,
+          95,
+          91
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          34,
+          11,
+          137,
+          117
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Gametes",
+        "bbox": [
+          [
+            220,
+            44
+          ],
+          [
+            263,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Planula",
+        "bbox": [
+          [
+            249,
+            86
+          ],
+          [
+            283,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Young medusa (ephyra)",
+        "bbox": [
+          [
+            15,
+            226
+          ],
+          [
+            79,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Strobila",
+        "bbox": [
+          [
+            83,
+            282
+          ],
+          [
+            116,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Young Strobila (Polip muda)",
+        "bbox": [
+          [
+            221,
+            268
+          ],
+          [
+            275,
+            299
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Scyphistoma",
+        "bbox": [
+          [
+            178,
+            178
+          ],
+          [
+            232,
+            190
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Adult medusa",
+        "bbox": [
+          [
+            5,
+            2
+          ],
+          [
+            68,
+            20
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          224,
+          216,
+          22,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          154,
+          246,
+          35,
+          17
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          79,
+          208,
+          37,
+          35
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          41,
+          100,
+          23,
+          41
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          158,
+          38,
+          52,
+          22
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          217,
+          60,
+          29,
+          38
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          240,
+          133,
+          10,
+          24
+        ]
+      }
+    }
+  }
+}

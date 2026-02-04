@@ -1,0 +1,493 @@
+{
+  "id": "1865.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          32,
+          0,
+          57,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          481,
+          13,
+          113,
+          76
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          5,
+          413,
+          110,
+          79
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          187,
+          412,
+          104,
+          82
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          362,
+          459,
+          90,
+          48
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          369,
+          417,
+          65,
+          35
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          409,
+          437,
+          42,
+          20
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          526,
+          417,
+          113,
+          77
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          119,
+          540,
+          85,
+          79
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          459,
+          539,
+          91,
+          86
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          41,
+          132,
+          39,
+          86
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          183,
+          139,
+          111,
+          79
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          356,
+          136,
+          114,
+          90
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          539,
+          137,
+          84,
+          85
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          26,
+          273,
+          67,
+          87
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          187,
+          275,
+          100,
+          83
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          386,
+          278,
+          60,
+          78
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          548,
+          274,
+          69,
+          85
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Grassland food web",
+        "bbox": [
+          [
+            124,
+            16
+          ],
+          [
+            331,
+            50
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Vulture",
+        "bbox": [
+          [
+            31,
+            87
+          ],
+          [
+            92,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Impala",
+        "bbox": [
+          [
+            209,
+            364
+          ],
+          [
+            257,
+            384
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Grasses",
+        "bbox": [
+          [
+            213,
+            502
+          ],
+          [
+            266,
+            521
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Acacia",
+        "bbox": [
+          [
+            34,
+            501
+          ],
+          [
+            86,
+            519
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Fungi",
+        "bbox": [
+          [
+            142,
+            630
+          ],
+          [
+            184,
+            649
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Termites",
+        "bbox": [
+          [
+            380,
+            500
+          ],
+          [
+            444,
+            520
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Zebra",
+        "bbox": [
+          [
+            557,
+            501
+          ],
+          [
+            607,
+            522
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Dung beetles ",
+        "bbox": [
+          [
+            459,
+            625
+          ],
+          [
+            553,
+            647
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Cheetah",
+        "bbox": [
+          [
+            30,
+            225
+          ],
+          [
+            90,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Giraffe",
+        "bbox": [
+          [
+            33,
+            366
+          ],
+          [
+            90,
+            385
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Leopard",
+        "bbox": [
+          [
+            208,
+            225
+          ],
+          [
+            271,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Hyena",
+        "bbox": [
+          [
+            517,
+            97
+          ],
+          [
+            565,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Hunting dog",
+        "bbox": [
+          [
+            535,
+            225
+          ],
+          [
+            615,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Lion",
+        "bbox": [
+          [
+            396,
+            225
+          ],
+          [
+            435,
+            241
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Baboon",
+        "bbox": [
+          [
+            385,
+            366
+          ],
+          [
+            441,
+            387
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Wildebeest ",
+        "bbox": [
+          [
+            543,
+            363
+          ],
+          [
+            623,
+            384
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  },
+  "relationships": [
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B16"
+    },
+    {
+      "type": "labeling",
+      "label": "T14",
+      "object": "B12"
+    },
+    {
+      "type": "labeling",
+      "label": "T15",
+      "object": "B15"
+    },
+    {
+      "type": "labeling",
+      "label": "T16",
+      "object": "B17"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B9"
+    }
+  ],
+  "rst_source": true
+}

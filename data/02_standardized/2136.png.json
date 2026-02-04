@@ -1,0 +1,443 @@
+{
+  "id": "2136.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          3,
+          90,
+          99,
+          107
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          132,
+          181,
+          50,
+          47
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          133,
+          60,
+          41,
+          39
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          226,
+          42,
+          81,
+          81
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          357,
+          42,
+          85,
+          77
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          505,
+          67,
+          19,
+          22
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          487,
+          141,
+          61,
+          40
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          217,
+          153,
+          98,
+          97
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          356,
+          156,
+          94,
+          90
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          485,
+          206,
+          66,
+          54
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Life Cycle of a Star",
+        "bbox": [
+          [
+            210,
+            3
+          ],
+          [
+            356,
+            27
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "average star",
+        "bbox": [
+          [
+            130,
+            101
+          ],
+          [
+            181,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "black hole",
+        "bbox": [
+          [
+            487,
+            254
+          ],
+          [
+            555,
+            278
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "red giant",
+        "bbox": [
+          [
+            239,
+            126
+          ],
+          [
+            299,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "planetary nebula",
+        "bbox": [
+          [
+            347,
+            120
+          ],
+          [
+            455,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "White",
+        "bbox": [
+          [
+            493,
+            90
+          ],
+          [
+            539,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "stellar nebula",
+        "bbox": [
+          [
+            6,
+            204
+          ],
+          [
+            88,
+            221
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "massive star",
+        "bbox": [
+          [
+            118,
+            225
+          ],
+          [
+            205,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "red supergiant",
+        "bbox": [
+          [
+            236,
+            250
+          ],
+          [
+            301,
+            280
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "supernova",
+        "bbox": [
+          [
+            365,
+            255
+          ],
+          [
+            432,
+            271
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "neutron star",
+        "bbox": [
+          [
+            478,
+            181
+          ],
+          [
+            559,
+            203
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          180,
+          70,
+          40,
+          20
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          314,
+          71,
+          36,
+          18
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          449,
+          68,
+          38,
+          19
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          95,
+          161,
+          32,
+          34
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          180,
+          192,
+          38,
+          19
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          315,
+          195,
+          36,
+          16
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          443,
+          198,
+          37,
+          32
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          447,
+          171,
+          27,
+          33
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          96,
+          85,
+          33,
+          33
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B2",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B8",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B9",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B6",
+      "via": "A7"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B6"
+    }
+  ],
+  "rst_source": true
+}

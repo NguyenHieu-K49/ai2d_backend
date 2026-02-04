@@ -1,0 +1,227 @@
+{
+  "id": "2451.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2451.png_B0",
+        "name": "larvae develop in host egg ",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2451.png_B1",
+        "name": "pupae in blackened host egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2451.png_B2",
+        "name": "adults emerge",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2451.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2451.png_B4",
+        "name": "female lays eggs in host egg",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2451.png_B0",
+        "target": "2451.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2451.png_B1",
+        "target": "2451.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2451.png_B2",
+        "target": "2451.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2451.png_B4",
+        "target": "2451.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          486,
+          0,
+          164,
+          159
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          834,
+          242,
+          154,
+          144
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          501,
+          521,
+          165,
+          148
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          374,
+          375,
+          138,
+          164
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          139,
+          117,
+          156,
+          297
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "larvae develop in host egg ",
+        "bbox": [
+          [
+            417,
+            158
+          ],
+          [
+            731,
+            194
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "pupae in blackened host egg",
+        "bbox": [
+          [
+            742,
+            395
+          ],
+          [
+            1090,
+            422
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "adults emerge",
+        "bbox": [
+          [
+            497,
+            477
+          ],
+          [
+            669,
+            515
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "female lays eggs in host egg",
+        "bbox": [
+          [
+            7,
+            419
+          ],
+          [
+            347,
+            455
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          268,
+          93,
+          167,
+          121
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          699,
+          84,
+          177,
+          109
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          714,
+          435,
+          198,
+          143
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          259,
+          451,
+          202,
+          136
+        ]
+      }
+    }
+  }
+}

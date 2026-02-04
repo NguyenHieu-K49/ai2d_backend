@@ -1,0 +1,423 @@
+{
+  "id": "870.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "870.png_T0",
+        "name": "Export",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "870.png_T1",
+        "name": "Heterotrophic prokaryotes",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "870.png_T2",
+        "name": "LOOP",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "870.png_T3",
+        "name": "Cell debris",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "870.png_T4",
+        "name": "Viruses",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "870.png_T5",
+        "name": "Grazers",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "870.png_T6",
+        "name": "Inorganic nutrients N, P, Fe...",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "870.png_T7",
+        "name": "DISSOLVED ORGANIC MATTER",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "870.png_T8",
+        "name": "Primary producers",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "870.png_T1",
+        "target": "870.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "870.png_T1",
+        "target": "870.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "870.png_T3",
+        "target": "870.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "870.png_T4",
+        "target": "870.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "870.png_T5",
+        "target": "870.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "870.png_T5",
+        "target": "870.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "870.png_T5",
+        "target": "870.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "870.png_T6",
+        "target": "870.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "870.png_T7",
+        "target": "870.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "870.png_T8",
+        "target": "870.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "870.png_T8",
+        "target": "870.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "870.png_T8",
+        "target": "870.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "870.png_T8",
+        "target": "870.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Export",
+        "bbox": [
+          [
+            0,
+            61
+          ],
+          [
+            76,
+            104
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Heterotrophic prokaryotes",
+        "bbox": [
+          [
+            155,
+            28
+          ],
+          [
+            306,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LOOP",
+        "bbox": [
+          [
+            306,
+            108
+          ],
+          [
+            386,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Cell debris",
+        "bbox": [
+          [
+            438,
+            102
+          ],
+          [
+            562,
+            131
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Viruses",
+        "bbox": [
+          [
+            512,
+            65
+          ],
+          [
+            599,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Grazers",
+        "bbox": [
+          [
+            38,
+            141
+          ],
+          [
+            131,
+            171
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Inorganic nutrients N, P, Fe...",
+        "bbox": [
+          [
+            152,
+            204
+          ],
+          [
+            259,
+            278
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "DISSOLVED ORGANIC MATTER",
+        "bbox": [
+          [
+            363,
+            193
+          ],
+          [
+            477,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Primary producers",
+        "bbox": [
+          [
+            192,
+            382
+          ],
+          [
+            385,
+            415
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          297,
+          0,
+          262,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          480,
+          140,
+          33,
+          40
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          110,
+          182,
+          41,
+          45
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          117,
+          82,
+          63,
+          62
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          26,
+          102,
+          56,
+          50
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          74,
+          174,
+          130,
+          225
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          480,
+          102,
+          97,
+          152
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          405,
+          119,
+          194,
+          286
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          510,
+          143,
+          35,
+          202
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          201,
+          79,
+          171,
+          142
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          185,
+          84,
+          26,
+          110
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          170,
+          158,
+          192,
+          78
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          266,
+          257,
+          109,
+          135
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          175,
+          288,
+          62,
+          86
+        ]
+      }
+    }
+  }
+}

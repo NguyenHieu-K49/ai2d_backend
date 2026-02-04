@@ -1,0 +1,290 @@
+{
+  "id": "661.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "661.png_B0",
+        "name": "egg ~12 days",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "661.png_B1",
+        "name": "1st instar grub ~ 19 days",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "661.png_B2",
+        "name": "2nd instar grub ~21 days",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "661.png_B3",
+        "name": "3rd instar grub ~32 days",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "661.png_B4",
+        "name": "pupa 20 days",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T0"
+        ]
+      },
+      {
+        "uid": "661.png_B5",
+        "name": "adult ~95 days",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "661.png_B0",
+        "target": "661.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "661.png_B1",
+        "target": "661.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "661.png_B2",
+        "target": "661.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "661.png_B3",
+        "target": "661.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "661.png_B4",
+        "target": "661.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          630,
+          280,
+          58,
+          32
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          571,
+          396,
+          57,
+          36
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          286,
+          442,
+          176,
+          111
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          18,
+          198,
+          209,
+          251
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          75,
+          69,
+          209,
+          86
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          333,
+          15,
+          260,
+          112
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "pupa 20 days",
+        "bbox": [
+          [
+            169,
+            152
+          ],
+          [
+            273,
+            200
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "3rd instar grub ~32 days",
+        "bbox": [
+          [
+            151,
+            255
+          ],
+          [
+            316,
+            306
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "2nd instar grub ~21 days",
+        "bbox": [
+          [
+            287,
+            379
+          ],
+          [
+            472,
+            441
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "1st instar grub ~ 19 days",
+        "bbox": [
+          [
+            599,
+            432
+          ],
+          [
+            765,
+            487
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "egg ~12 days",
+        "bbox": [
+          [
+            602,
+            215
+          ],
+          [
+            711,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "adult ~95 days",
+        "bbox": [
+          [
+            581,
+            46
+          ],
+          [
+            688,
+            108
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          272,
+          66,
+          78,
+          49
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          604,
+          319,
+          52,
+          77
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          473,
+          430,
+          112,
+          69
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          201,
+          419,
+          92,
+          76
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          131,
+          152,
+          35,
+          66
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan egg ~12 days phat trien thanh 1st instar grub ~ 19 days. Giai doan 1st instar grub ~ 19 days phat trien thanh 2nd instar grub ~21 days. Giai doan 2nd instar grub ~21 days phat trien thanh 3rd instar grub ~32 days. Giai doan 3rd instar grub ~32 days phat trien thanh pupa 20 days. Giai doan pupa 20 days phat trien thanh adult ~95 days."
+}

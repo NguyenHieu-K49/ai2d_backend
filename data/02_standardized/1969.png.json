@@ -1,0 +1,305 @@
+{
+  "id": "1969.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Sun",
+        "bbox": [
+          [
+            19,
+            145
+          ],
+          [
+            59,
+            162
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Producers",
+        "bbox": [
+          [
+            163,
+            143
+          ],
+          [
+            262,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Heat",
+        "bbox": [
+          [
+            288,
+            74
+          ],
+          [
+            336,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Consumers",
+        "bbox": [
+          [
+            475,
+            148
+          ],
+          [
+            584,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Heat",
+        "bbox": [
+          [
+            568,
+            76
+          ],
+          [
+            612,
+            96
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Decomposrs",
+        "bbox": [
+          [
+            474,
+            329
+          ],
+          [
+            593,
+            353
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Heat",
+        "bbox": [
+          [
+            446,
+            423
+          ],
+          [
+            491,
+            442
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Inorganic Nutrient",
+        "bbox": [
+          [
+            174,
+            305
+          ],
+          [
+            264,
+            379
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          211,
+          94,
+          81,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          525,
+          99,
+          62,
+          42
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          277,
+          326,
+          200,
+          35
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          81,
+          138,
+          81,
+          35
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          555,
+          177,
+          37,
+          133
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          472,
+          368,
+          83,
+          44
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          199,
+          181,
+          22,
+          116
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          273,
+          128,
+          186,
+          26
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          273,
+          169,
+          218,
+          149
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          278,
+          159,
+          178,
+          17
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          252,
+          175,
+          214,
+          146
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          485,
+          187,
+          32,
+          125
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T7",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T1",
+      "via": "A4"
+    }
+  ],
+  "rst_source": true
+}

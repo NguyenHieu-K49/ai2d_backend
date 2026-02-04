@@ -1,0 +1,660 @@
+{
+  "id": "1990.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1990.png_T0",
+        "name": "Rabbit",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1990.png_T1",
+        "name": "Garter snake",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1990.png_T10",
+        "name": "Red-tailed hawk",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "1990.png_T11",
+        "name": "Hognose snake",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "1990.png_T2",
+        "name": "Sparrow",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1990.png_T3",
+        "name": "Clover",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1990.png_T4",
+        "name": "Oats",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1990.png_T5",
+        "name": "Sunflower",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1990.png_T6",
+        "name": "Field mouse",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1990.png_T7",
+        "name": "Spider",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "1990.png_T8",
+        "name": "Toad",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "1990.png_T9",
+        "name": "Grasshopper",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1990.png_T0",
+        "target": "1990.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1990.png_T1",
+        "target": "1990.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1990.png_T11",
+        "target": "1990.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1990.png_T2",
+        "target": "1990.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1990.png_T3",
+        "target": "1990.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1990.png_T3",
+        "target": "1990.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1990.png_T3",
+        "target": "1990.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1990.png_T4",
+        "target": "1990.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1990.png_T4",
+        "target": "1990.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1990.png_T4",
+        "target": "1990.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "1990.png_T4",
+        "target": "1990.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1990.png_T5",
+        "target": "1990.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1990.png_T5",
+        "target": "1990.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "1990.png_T5",
+        "target": "1990.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "1990.png_T5",
+        "target": "1990.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1990.png_T6",
+        "target": "1990.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1990.png_T7",
+        "target": "1990.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1990.png_T7",
+        "target": "1990.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "1990.png_T7",
+        "target": "1990.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "1990.png_T8",
+        "target": "1990.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "1990.png_T9",
+        "target": "1990.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1990.png_T9",
+        "target": "1990.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "1990.png_T9",
+        "target": "1990.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "1990.png_T9",
+        "target": "1990.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "1990.png_T9",
+        "target": "1990.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            11,
+            177
+          ],
+          [
+            52,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Garter snake",
+        "bbox": [
+          [
+            35,
+            116
+          ],
+          [
+            75,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Red-tailed hawk",
+        "bbox": [
+          [
+            18,
+            3
+          ],
+          [
+            71,
+            30
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Hognose snake",
+        "bbox": [
+          [
+            256,
+            37
+          ],
+          [
+            338,
+            59
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Sparrow",
+        "bbox": [
+          [
+            69,
+            56
+          ],
+          [
+            115,
+            75
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Clover",
+        "bbox": [
+          [
+            3,
+            288
+          ],
+          [
+            45,
+            308
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Oats",
+        "bbox": [
+          [
+            146,
+            251
+          ],
+          [
+            179,
+            271
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sunflower",
+        "bbox": [
+          [
+            263,
+            303
+          ],
+          [
+            321,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Field mouse",
+        "bbox": [
+          [
+            345,
+            199
+          ],
+          [
+            407,
+            213
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Spider",
+        "bbox": [
+          [
+            346,
+            164
+          ],
+          [
+            380,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Toad",
+        "bbox": [
+          [
+            292,
+            117
+          ],
+          [
+            320,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            166,
+            128
+          ],
+          [
+            229,
+            143
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          13,
+          195,
+          16,
+          98
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          41,
+          214,
+          334,
+          88
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          97,
+          44,
+          161,
+          18
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          118,
+          61,
+          255,
+          104
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          112,
+          70,
+          72,
+          58
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          165,
+          145,
+          32,
+          113
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          39,
+          193,
+          112,
+          73
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          25,
+          195,
+          239,
+          123
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          207,
+          144,
+          77,
+          161
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          175,
+          214,
+          180,
+          52
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          225,
+          118,
+          68,
+          19
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          324,
+          125,
+          39,
+          39
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          31,
+          142,
+          141,
+          150
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          299,
+          56,
+          17,
+          63
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          226,
+          132,
+          120,
+          41
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          220,
+          137,
+          123,
+          73
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          362,
+          176,
+          11,
+          24
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          317,
+          214,
+          73,
+          106
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          13,
+          30,
+          18,
+          147
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          37,
+          35,
+          20,
+          84
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          69,
+          128,
+          96,
+          13
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          79,
+          75,
+          76,
+          181
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          97,
+          76,
+          170,
+          234
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          74,
+          6,
+          321,
+          195
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          68,
+          18,
+          199,
+          25
+        ]
+      }
+    }
+  }
+}

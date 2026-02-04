@@ -1,0 +1,295 @@
+{
+  "id": "294.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "294.png_T0",
+        "name": "Kingfisher",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "294.png_T1",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "294.png_T2",
+        "name": "Snail",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "294.png_T3",
+        "name": "Water Beetle",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "294.png_T4",
+        "name": "ALGAE",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "294.png_T5",
+        "name": "Small fish",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "294.png_T6",
+        "name": "Tadpole",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "294.png_T1",
+        "target": "294.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "294.png_T2",
+        "target": "294.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "294.png_T3",
+        "target": "294.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "294.png_T4",
+        "target": "294.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "294.png_T4",
+        "target": "294.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "294.png_T4",
+        "target": "294.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "294.png_T5",
+        "target": "294.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "294.png_T6",
+        "target": "294.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Kingfisher",
+        "bbox": [
+          [
+            103,
+            3
+          ],
+          [
+            178,
+            26
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Frog",
+        "bbox": [
+          [
+            199,
+            63
+          ],
+          [
+            233,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Snail",
+        "bbox": [
+          [
+            286,
+            118
+          ],
+          [
+            325,
+            132
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Water Beetle",
+        "bbox": [
+          [
+            151,
+            119
+          ],
+          [
+            243,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "ALGAE",
+        "bbox": [
+          [
+            162,
+            171
+          ],
+          [
+            201,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Small fish",
+        "bbox": [
+          [
+            52,
+            62
+          ],
+          [
+            127,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            2,
+            116
+          ],
+          [
+            65,
+            133
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          100,
+          26,
+          34,
+          38
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          41,
+          74,
+          41,
+          49
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          177,
+          134,
+          12,
+          45
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          186,
+          73,
+          33,
+          51
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          188,
+          132,
+          105,
+          46
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          226,
+          71,
+          76,
+          51
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          157,
+          23,
+          60,
+          41
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          32,
+          129,
+          144,
+          50
+        ]
+      }
+    }
+  }
+}

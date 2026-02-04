@@ -1,0 +1,570 @@
+{
+  "id": "1778.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1778.png_T0",
+        "name": "Top Carnivores",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1778.png_T1",
+        "name": "Human Beings",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1778.png_T10",
+        "name": "Mammals",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "1778.png_T11",
+        "name": "Birds",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "1778.png_T12",
+        "name": "Mammals",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "1778.png_T13",
+        "name": "Higher Plants",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "1778.png_T2",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1778.png_T3",
+        "name": "Annelid",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1778.png_T4",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1778.png_T5",
+        "name": "Soil",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1778.png_T6",
+        "name": "Detritus",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1778.png_T7",
+        "name": "Mollusks",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "1778.png_T8",
+        "name": "Arthropods",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "1778.png_T9",
+        "name": "Birds",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1778.png_T10",
+        "target": "1778.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1778.png_T11",
+        "target": "1778.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1778.png_T12",
+        "target": "1778.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1778.png_T13",
+        "target": "1778.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1778.png_T13",
+        "target": "1778.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1778.png_T2",
+        "target": "1778.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1778.png_T3",
+        "target": "1778.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1778.png_T4",
+        "target": "1778.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1778.png_T4",
+        "target": "1778.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1778.png_T4",
+        "target": "1778.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1778.png_T6",
+        "target": "1778.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1778.png_T7",
+        "target": "1778.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1778.png_T8",
+        "target": "1778.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1778.png_T8",
+        "target": "1778.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1778.png_T9",
+        "target": "1778.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1778.png_T9",
+        "target": "1778.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Top Carnivores",
+        "bbox": [
+          [
+            133,
+            6
+          ],
+          [
+            230,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Human Beings",
+        "bbox": [
+          [
+            290,
+            6
+          ],
+          [
+            384,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Mammals",
+        "bbox": [
+          [
+            62,
+            58
+          ],
+          [
+            135,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Birds",
+        "bbox": [
+          [
+            84,
+            109
+          ],
+          [
+            127,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Mammals",
+        "bbox": [
+          [
+            0,
+            108
+          ],
+          [
+            67,
+            127
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Higher Plants",
+        "bbox": [
+          [
+            24,
+            145
+          ],
+          [
+            120,
+            165
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Fish",
+        "bbox": [
+          [
+            231,
+            63
+          ],
+          [
+            266,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Annelid",
+        "bbox": [
+          [
+            286,
+            88
+          ],
+          [
+            344,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Algae",
+        "bbox": [
+          [
+            231,
+            148
+          ],
+          [
+            274,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Soil",
+        "bbox": [
+          [
+            156,
+            186
+          ],
+          [
+            188,
+            204
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Detritus",
+        "bbox": [
+          [
+            153,
+            148
+          ],
+          [
+            210,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Mollusks",
+        "bbox": [
+          [
+            217,
+            91
+          ],
+          [
+            275,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Arthropods",
+        "bbox": [
+          [
+            147,
+            108
+          ],
+          [
+            225,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Birds",
+        "bbox": [
+          [
+            162,
+            64
+          ],
+          [
+            200,
+            76
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          89,
+          20,
+          58,
+          46
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          157,
+          20,
+          28,
+          47
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          148,
+          74,
+          29,
+          37
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          87,
+          75,
+          24,
+          37
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          25,
+          71,
+          52,
+          43
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          34,
+          123,
+          30,
+          29
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          64,
+          121,
+          41,
+          29
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          153,
+          121,
+          26,
+          30
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          188,
+          10,
+          105,
+          58
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          246,
+          19,
+          54,
+          48
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          254,
+          72,
+          42,
+          24
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          230,
+          72,
+          20,
+          21
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          163,
+          68,
+          74,
+          44
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          253,
+          102,
+          48,
+          51
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          190,
+          121,
+          53,
+          35
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          230,
+          105,
+          20,
+          44
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Mammals la nguon thuc an cho Top Carnivores. Birds la nguon thuc an cho Mammals. Mammals la nguon thuc an cho Mammals. Higher Plants la nguon thuc an cho Mammals. Higher Plants la nguon thuc an cho Birds. Fish la nguon thuc an cho Human Beings. Annelid la nguon thuc an cho Fish. Algae la nguon thuc an cho Annelid. Algae la nguon thuc an cho Arthropods. Algae la nguon thuc an cho Mollusks. Detritus la nguon thuc an cho Arthropods. Mollusks la nguon thuc an cho Fish. Arthropods la nguon thuc an cho Birds. Arthropods la nguon thuc an cho Fish. Birds la nguon thuc an cho Top Carnivores. Birds la nguon thuc an cho Human Beings."
+}

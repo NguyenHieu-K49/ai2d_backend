@@ -1,0 +1,453 @@
+{
+  "id": "2087.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2087.png_B0",
+        "name": "Grass",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2087.png_B1",
+        "name": "Dingo",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2087.png_B2",
+        "name": "Vulture",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2087.png_B3",
+        "name": "Kangaroo",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2087.png_B4",
+        "name": "Hunter",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2087.png_B5",
+        "name": "Leaves",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2087.png_T6",
+        "name": "Tertiary Consumer",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2087.png_T7",
+        "name": "Secondary Consumer",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2087.png_T8",
+        "name": "Primary Consumer",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2087.png_T9",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2087.png_B0",
+        "target": "2087.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2087.png_B1",
+        "target": "2087.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2087.png_B2",
+        "target": "2087.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2087.png_B3",
+        "target": "2087.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2087.png_B3",
+        "target": "2087.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2087.png_B3",
+        "target": "2087.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2087.png_B3",
+        "target": "2087.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2087.png_B3",
+        "target": "2087.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2087.png_B4",
+        "target": "2087.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2087.png_B5",
+        "target": "2087.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          318,
+          81,
+          55
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          190,
+          66,
+          64,
+          82
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          24,
+          70,
+          62,
+          82
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          103,
+          193,
+          83,
+          75
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          94,
+          0,
+          60,
+          79
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          209,
+          319,
+          49,
+          67
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Hunter",
+        "bbox": [
+          [
+            104,
+            86
+          ],
+          [
+            142,
+            98
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Dingo",
+        "bbox": [
+          [
+            202,
+            149
+          ],
+          [
+            237,
+            167
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Kangaroo",
+        "bbox": [
+          [
+            117,
+            272
+          ],
+          [
+            169,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Leaves",
+        "bbox": [
+          [
+            210,
+            397
+          ],
+          [
+            255,
+            413
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Grass",
+        "bbox": [
+          [
+            22,
+            377
+          ],
+          [
+            56,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Vulture",
+        "bbox": [
+          [
+            34,
+            156
+          ],
+          [
+            72,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Tertiary Consumer",
+        "bbox": [
+          [
+            342,
+            17
+          ],
+          [
+            402,
+            51
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Secondary Consumer",
+        "bbox": [
+          [
+            347,
+            109
+          ],
+          [
+            401,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Primary Consumer",
+        "bbox": [
+          [
+            339,
+            225
+          ],
+          [
+            393,
+            256
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Producer",
+        "bbox": [
+          [
+            353,
+            353
+          ],
+          [
+            399,
+            369
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          180,
+          273,
+          62,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          71,
+          281,
+          80,
+          79
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          140,
+          281,
+          72,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          33,
+          281,
+          74,
+          42
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          118,
+          96,
+          30,
+          101
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          50,
+          163,
+          58,
+          43
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          84,
+          163,
+          60,
+          38
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          175,
+          154,
+          55,
+          49
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          141,
+          159,
+          51,
+          39
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          143,
+          97,
+          18,
+          97
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Grass la nguon thuc an cho Kangaroo. Dingo la nguon thuc an cho Kangaroo. Vulture la nguon thuc an cho Kangaroo. Kangaroo la nguon thuc an cho Grass. Kangaroo la nguon thuc an cho Leaves. Kangaroo la nguon thuc an cho Vulture. Kangaroo la nguon thuc an cho Dingo. Kangaroo la nguon thuc an cho Hunter. Hunter la nguon thuc an cho Kangaroo. Leaves la nguon thuc an cho Kangaroo."
+}

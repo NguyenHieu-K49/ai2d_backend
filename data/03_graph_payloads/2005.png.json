@@ -1,0 +1,730 @@
+{
+  "id": "2005.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2005.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2005.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2005.png_B10",
+        "name": "B10",
+        "type": "Organism",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "2005.png_B11",
+        "name": "B11",
+        "type": "Organism",
+        "components": [
+          "B11"
+        ]
+      },
+      {
+        "uid": "2005.png_B12",
+        "name": "B12",
+        "type": "Organism",
+        "components": [
+          "B12"
+        ]
+      },
+      {
+        "uid": "2005.png_B13",
+        "name": "B13",
+        "type": "Organism",
+        "components": [
+          "B13"
+        ]
+      },
+      {
+        "uid": "2005.png_B14",
+        "name": "B14",
+        "type": "Organism",
+        "components": [
+          "B14"
+        ]
+      },
+      {
+        "uid": "2005.png_B15",
+        "name": "B15",
+        "type": "Organism",
+        "components": [
+          "B15"
+        ]
+      },
+      {
+        "uid": "2005.png_B16",
+        "name": "B16",
+        "type": "Organism",
+        "components": [
+          "B16"
+        ]
+      },
+      {
+        "uid": "2005.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2005.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2005.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2005.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2005.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2005.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "2005.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2005.png_B9",
+        "name": "B9",
+        "type": "Organism",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "2005.png_T0",
+        "name": "(everything is connected)",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2005.png_T1",
+        "name": "FOOD CHAIN (just one path of energy)",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2005.png_B1",
+        "target": "2005.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2005.png_B10",
+        "target": "2005.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "2005.png_B10",
+        "target": "2005.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "2005.png_B11",
+        "target": "2005.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2005.png_B12",
+        "target": "2005.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2005.png_B12",
+        "target": "2005.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2005.png_B12",
+        "target": "2005.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "2005.png_B13",
+        "target": "2005.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2005.png_B14",
+        "target": "2005.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2005.png_B14",
+        "target": "2005.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2005.png_B14",
+        "target": "2005.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "2005.png_B15",
+        "target": "2005.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2005.png_B15",
+        "target": "2005.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2005.png_B15",
+        "target": "2005.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2005.png_B16",
+        "target": "2005.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2005.png_B2",
+        "target": "2005.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2005.png_B3",
+        "target": "2005.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2005.png_B4",
+        "target": "2005.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2005.png_B5",
+        "target": "2005.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2005.png_B5",
+        "target": "2005.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2005.png_B5",
+        "target": "2005.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2005.png_B5",
+        "target": "2005.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2005.png_B6",
+        "target": "2005.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2005.png_B7",
+        "target": "2005.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2005.png_B7",
+        "target": "2005.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          54,
+          7,
+          85,
+          83
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          66,
+          110,
+          54,
+          58
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          486,
+          178,
+          40,
+          54
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          425,
+          222,
+          45,
+          28
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          424,
+          257,
+          75,
+          56
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          320,
+          257,
+          52,
+          68
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          320,
+          212,
+          65,
+          39
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          302,
+          153,
+          65,
+          38
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          419,
+          177,
+          45,
+          29
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          79,
+          193,
+          51,
+          28
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          47,
+          241,
+          102,
+          82
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          215,
+          188,
+          99,
+          104
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          205,
+          12,
+          107,
+          175
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          320,
+          92,
+          22,
+          36
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          351,
+          50,
+          69,
+          60
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          425,
+          25,
+          92,
+          77
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          417,
+          121,
+          99,
+          55
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "(everything is connected)",
+        "bbox": [
+          [
+            265,
+            338
+          ],
+          [
+            471,
+            360
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "FOOD CHAIN (just one path of energy)",
+        "bbox": [
+          [
+            24,
+            321
+          ],
+          [
+            184,
+            358
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          95,
+          78,
+          9,
+          38
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          92,
+          146,
+          14,
+          47
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          355,
+          103,
+          36,
+          106
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          353,
+          104,
+          48,
+          173
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          299,
+          221,
+          130,
+          65
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          363,
+          284,
+          69,
+          22
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          350,
+          180,
+          94,
+          52
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          304,
+          180,
+          124,
+          32
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          357,
+          144,
+          69,
+          74
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          358,
+          148,
+          69,
+          131
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          428,
+          152,
+          20,
+          37
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          447,
+          204,
+          51,
+          29
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          92,
+          211,
+          16,
+          29
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          434,
+          236,
+          28,
+          33
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          471,
+          166,
+          35,
+          27
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          410,
+          81,
+          107,
+          107
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          472,
+          99,
+          55,
+          91
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          352,
+          78,
+          97,
+          137
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          261,
+          166,
+          31,
+          45
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          265,
+          159,
+          71,
+          53
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          288,
+          142,
+          40,
+          24
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          290,
+          129,
+          138,
+          59
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          307,
+          74,
+          23,
+          22
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          330,
+          120,
+          10,
+          44
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          351,
+          98,
+          34,
+          66
+        ]
+      }
+    }
+  }
+}

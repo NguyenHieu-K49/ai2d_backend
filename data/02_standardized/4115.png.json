@@ -1,0 +1,357 @@
+{
+  "id": "4115.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          123,
+          23,
+          129,
+          115
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          103,
+          277,
+          183,
+          100
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "photosynthesis",
+        "bbox": [
+          [
+            127,
+            143
+          ],
+          [
+            230,
+            162
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "energy from sunlight",
+        "bbox": [
+          [
+            27,
+            7
+          ],
+          [
+            161,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "6CO2",
+        "bbox": [
+          [
+            2,
+            189
+          ],
+          [
+            52,
+            212
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "6H2O",
+        "bbox": [
+          [
+            68,
+            190
+          ],
+          [
+            108,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "cellular respiration",
+        "bbox": [
+          [
+            142,
+            247
+          ],
+          [
+            215,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "6O2",
+        "bbox": [
+          [
+            236,
+            181
+          ],
+          [
+            273,
+            211
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "C6H12O6",
+        "bbox": [
+          [
+            297,
+            190
+          ],
+          [
+            352,
+            206
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "glycolysis",
+        "bbox": [
+          [
+            289,
+            249
+          ],
+          [
+            357,
+            269
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "ATP",
+        "bbox": [
+          [
+            324,
+            318
+          ],
+          [
+            358,
+            334
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "@2011 Pearson Education,inc",
+        "bbox": [
+          [
+            125,
+            379
+          ],
+          [
+            242,
+            396
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          86,
+          19,
+          49,
+          54
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          25,
+          82,
+          93,
+          105
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          269,
+          308,
+          49,
+          31
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          278,
+          272,
+          47,
+          42
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          17,
+          210,
+          90,
+          135
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          84,
+          112,
+          44,
+          77
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          79,
+          207,
+          37,
+          107
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          233,
+          100,
+          42,
+          89
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          247,
+          81,
+          88,
+          111
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          244,
+          210,
+          30,
+          68
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          313,
+          209,
+          23,
+          34
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          327,
+          276,
+          22,
+          37
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T8",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T3",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "B1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "B1",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T8",
+      "via": "A9"
+    }
+  ],
+  "rst_source": true
+}

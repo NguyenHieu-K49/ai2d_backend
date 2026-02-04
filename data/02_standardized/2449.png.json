@@ -1,0 +1,186 @@
+{
+  "id": "2449.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          574,
+          319,
+          43,
+          51
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          168,
+          0,
+          392,
+          179
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          179,
+          543,
+          382,
+          132
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          0,
+          188,
+          136,
+          348
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            260,
+            168
+          ],
+          [
+            379,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa",
+        "bbox": [
+          [
+            137,
+            337
+          ],
+          [
+            236,
+            383
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Egg",
+        "bbox": [
+          [
+            490,
+            324
+          ],
+          [
+            563,
+            376
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larva",
+        "bbox": [
+          [
+            254,
+            511
+          ],
+          [
+            366,
+            556
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          98,
+          124,
+          107,
+          90
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          451,
+          121,
+          153,
+          207
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          474,
+          376,
+          132,
+          202
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          95,
+          497,
+          98,
+          95
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

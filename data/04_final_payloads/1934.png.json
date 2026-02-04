@@ -1,0 +1,265 @@
+{
+  "id": "1934.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1934.png_B0",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1934.png_B1",
+        "name": "Primary consumer",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1934.png_B2",
+        "name": "Secondary consumer",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1934.png_B3",
+        "name": "Tertiary consumer",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1934.png_B4",
+        "name": "Decomposer",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1934.png_T0",
+        "name": "Example of a Food Chain",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1934.png_B0",
+        "target": "1934.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1934.png_B1",
+        "target": "1934.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1934.png_B2",
+        "target": "1934.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1934.png_B3",
+        "target": "1934.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          14,
+          277,
+          157,
+          186
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          158,
+          138,
+          89,
+          217
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          259,
+          130,
+          125,
+          150
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          371,
+          193,
+          170,
+          155
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          526,
+          308,
+          111,
+          170
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Example of a Food Chain",
+        "bbox": [
+          [
+            77,
+            55
+          ],
+          [
+            561,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            44,
+            202
+          ],
+          [
+            144,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Producer",
+        "bbox": [
+          [
+            105,
+            435
+          ],
+          [
+            156,
+            454
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            297,
+            308
+          ],
+          [
+            356,
+            351
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tertiary consumer",
+        "bbox": [
+          [
+            490,
+            164
+          ],
+          [
+            593,
+            185
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Decomposer",
+        "bbox": [
+          [
+            460,
+            435
+          ],
+          [
+            528,
+            455
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          102,
+          279,
+          67,
+          79
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          221,
+          196,
+          60,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          374,
+          198,
+          44,
+          40
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          511,
+          296,
+          43,
+          58
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Producer la nguon thuc an cho Primary consumer. Primary consumer la nguon thuc an cho Secondary consumer. Secondary consumer la nguon thuc an cho Tertiary consumer. Tertiary consumer la nguon thuc an cho Decomposer."
+}

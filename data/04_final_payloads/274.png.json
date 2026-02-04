@@ -1,0 +1,757 @@
+{
+  "id": "274.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "274.png_B0",
+        "name": "Red squirrel",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T8"
+        ]
+      },
+      {
+        "uid": "274.png_B1",
+        "name": "Red fox",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "274.png_B10",
+        "name": "Maple",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T12"
+        ]
+      },
+      {
+        "uid": "274.png_B11",
+        "name": "Pine",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T11"
+        ]
+      },
+      {
+        "uid": "274.png_B2",
+        "name": "Gray wolf",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "274.png_B3",
+        "name": "Raven (detritivore)",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "274.png_B4",
+        "name": "Beaver",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "274.png_B5",
+        "name": "Aquatic plants",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T15"
+        ]
+      },
+      {
+        "uid": "274.png_B6",
+        "name": "Aspen, white birch",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T14"
+        ]
+      },
+      {
+        "uid": "274.png_B7",
+        "name": "Moose",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      },
+      {
+        "uid": "274.png_B8",
+        "name": "Balsam Fir",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T13"
+        ]
+      },
+      {
+        "uid": "274.png_B9",
+        "name": "SNOWSHOE HARE",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T7"
+        ]
+      },
+      {
+        "uid": "274.png_T0",
+        "name": "Trophic level",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "274.png_T1",
+        "name": "Secondary consumers",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "274.png_T10",
+        "name": "Primary producers",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "274.png_T16",
+        "name": "55.7 Food Web of Isle Royale Nation Park. This food web includes only large vertebrates and the plants on which they depend. Even with these restrictions, the web is complex. The arrows show who eats whom.",
+        "type": "Organism",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "274.png_T9",
+        "name": "Primary consumers",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "274.png_B0",
+        "target": "274.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "274.png_B1",
+        "target": "274.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "274.png_B1",
+        "target": "274.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "274.png_B2",
+        "target": "274.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "274.png_B2",
+        "target": "274.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "274.png_B2",
+        "target": "274.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "274.png_B3",
+        "target": "274.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "274.png_B4",
+        "target": "274.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "274.png_B4",
+        "target": "274.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "274.png_B7",
+        "target": "274.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "274.png_B7",
+        "target": "274.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "274.png_B7",
+        "target": "274.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "274.png_B7",
+        "target": "274.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "274.png_B9",
+        "target": "274.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "274.png_B9",
+        "target": "274.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "274.png_B9",
+        "target": "274.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          114,
+          142,
+          81,
+          64
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          176,
+          59,
+          117,
+          56
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          240,
+          259,
+          64,
+          64
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          79,
+          271,
+          71,
+          53
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          377,
+          45,
+          92,
+          69
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          574,
+          55,
+          68,
+          56
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          652,
+          167,
+          87,
+          42
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          689,
+          260,
+          50,
+          63
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          546,
+          282,
+          77,
+          48
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          446,
+          140,
+          104,
+          94
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          385,
+          268,
+          72,
+          58
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          313,
+          132,
+          56,
+          83
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Trophic level",
+        "bbox": [
+          [
+            6,
+            22
+          ],
+          [
+            104,
+            50
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Secondary consumers",
+        "bbox": [
+          [
+            12,
+            69
+          ],
+          [
+            98,
+            109
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Primary producers",
+        "bbox": [
+          [
+            12,
+            291
+          ],
+          [
+            86,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Pine",
+        "bbox": [
+          [
+            101,
+            320
+          ],
+          [
+            143,
+            343
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Maple",
+        "bbox": [
+          [
+            245,
+            320
+          ],
+          [
+            299,
+            348
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Balsam Fir",
+        "bbox": [
+          [
+            387,
+            321
+          ],
+          [
+            463,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Aspen, white birch",
+        "bbox": [
+          [
+            513,
+            334
+          ],
+          [
+            638,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Aquatic plants",
+        "bbox": [
+          [
+            656,
+            329
+          ],
+          [
+            748,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "55.7 Food Web of Isle Royale Nation Park. This food web includes only large vertebrates and the plants on which they depend. Even with these restrictions, the web is complex. The arrows show who eats whom.",
+        "bbox": [
+          [
+            9,
+            355
+          ],
+          [
+            422,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Red fox",
+        "bbox": [
+          [
+            201,
+            104
+          ],
+          [
+            262,
+            128
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Gray wolf",
+        "bbox": [
+          [
+            391,
+            100
+          ],
+          [
+            468,
+            128
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Raven (detritivore)",
+        "bbox": [
+          [
+            588,
+            100
+          ],
+          [
+            680,
+            147
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Beaver",
+        "bbox": [
+          [
+            662,
+            204
+          ],
+          [
+            723,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Moose",
+        "bbox": [
+          [
+            485,
+            229
+          ],
+          [
+            542,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SNOWSHOE HARE",
+        "bbox": [
+          [
+            304,
+            204
+          ],
+          [
+            382,
+            238
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Red squirrel",
+        "bbox": [
+          [
+            108,
+            201
+          ],
+          [
+            195,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Primary consumers",
+        "bbox": [
+          [
+            6,
+            175
+          ],
+          [
+            94,
+            215
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          457,
+          94,
+          199,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          532,
+          94,
+          63,
+          85
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          355,
+          118,
+          52,
+          55
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          284,
+          226,
+          39,
+          56
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          245,
+          115,
+          65,
+          63
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          171,
+          118,
+          43,
+          50
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          115,
+          220,
+          39,
+          70
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          134,
+          214,
+          176,
+          96
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          694,
+          217,
+          29,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          595,
+          206,
+          67,
+          85
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          546,
+          207,
+          141,
+          86
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          533,
+          231,
+          41,
+          54
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          371,
+          206,
+          171,
+          96
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          438,
+          226,
+          55,
+          69
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          301,
+          207,
+          184,
+          94
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          443,
+          120,
+          32,
+          33
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Red squirrel la nguon thuc an cho Pine. Red fox la nguon thuc an cho SNOWSHOE HARE. Red fox la nguon thuc an cho Red squirrel. Gray wolf la nguon thuc an cho Beaver. Gray wolf la nguon thuc an cho SNOWSHOE HARE. Gray wolf la nguon thuc an cho Moose. Raven (detritivore) la nguon thuc an cho Moose. Beaver la nguon thuc an cho Aquatic plants. Beaver la nguon thuc an cho Aspen, white birch. Moose la nguon thuc an cho Aquatic plants. Moose la nguon thuc an cho Aspen, white birch. Moose la nguon thuc an cho Balsam Fir. Moose la nguon thuc an cho Maple. SNOWSHOE HARE la nguon thuc an cho Maple. SNOWSHOE HARE la nguon thuc an cho Pine. SNOWSHOE HARE la nguon thuc an cho Aspen, white birch."
+}

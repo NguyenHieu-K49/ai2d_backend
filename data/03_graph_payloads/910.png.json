@@ -1,0 +1,421 @@
+{
+  "id": "910.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "910.png_T0",
+        "name": "Seagull",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "910.png_T1",
+        "name": "Mussel",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "910.png_T2",
+        "name": "Starfish",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "910.png_T3",
+        "name": "Sea Anemone",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "910.png_T4",
+        "name": "Plant Plankton",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "910.png_T5",
+        "name": "Seaweed",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "910.png_T6",
+        "name": "Shrimp",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "910.png_T7",
+        "name": "Rock Cod",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "910.png_T8",
+        "name": "Chiton",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "910.png_T9",
+        "name": "Crab",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "910.png_T1",
+        "target": "910.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "910.png_T4",
+        "target": "910.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "910.png_T4",
+        "target": "910.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "910.png_T5",
+        "target": "910.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "910.png_T5",
+        "target": "910.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "910.png_T6",
+        "target": "910.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "910.png_T7",
+        "target": "910.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "910.png_T7",
+        "target": "910.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "910.png_T8",
+        "target": "910.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "910.png_T8",
+        "target": "910.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "910.png_T8",
+        "target": "910.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "910.png_T9",
+        "target": "910.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Seagull",
+        "bbox": [
+          [
+            283,
+            6
+          ],
+          [
+            334,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Mussel",
+        "bbox": [
+          [
+            450,
+            148
+          ],
+          [
+            496,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Starfish",
+        "bbox": [
+          [
+            272,
+            103
+          ],
+          [
+            324,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Sea Anemone",
+        "bbox": [
+          [
+            291,
+            193
+          ],
+          [
+            379,
+            212
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Plant Plankton",
+        "bbox": [
+          [
+            353,
+            336
+          ],
+          [
+            453,
+            357
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Seaweed",
+        "bbox": [
+          [
+            167,
+            336
+          ],
+          [
+            226,
+            355
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Shrimp",
+        "bbox": [
+          [
+            174,
+            249
+          ],
+          [
+            227,
+            267
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Rock Cod",
+        "bbox": [
+          [
+            112,
+            175
+          ],
+          [
+            178,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Chiton",
+        "bbox": [
+          [
+            4,
+            246
+          ],
+          [
+            55,
+            266
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Crab",
+        "bbox": [
+          [
+            15,
+            59
+          ],
+          [
+            52,
+            82
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          419,
+          179,
+          61,
+          154
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          237,
+          272,
+          112,
+          69
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          69,
+          201,
+          72,
+          57
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          34,
+          89,
+          19,
+          153
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          237,
+          219,
+          85,
+          45
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          343,
+          11,
+          110,
+          138
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          76,
+          1,
+          197,
+          68
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          182,
+          102,
+          86,
+          74
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          191,
+          176,
+          93,
+          35
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          200,
+          277,
+          14,
+          55
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          47,
+          270,
+          106,
+          81
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          79,
+          252,
+          83,
+          14
+        ]
+      }
+    }
+  }
+}

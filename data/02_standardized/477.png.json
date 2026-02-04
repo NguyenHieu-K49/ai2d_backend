@@ -1,0 +1,287 @@
+{
+  "id": "477.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "eagle",
+        "bbox": [
+          [
+            19,
+            6
+          ],
+          [
+            65,
+            27
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "alligator",
+        "bbox": [
+          [
+            187,
+            7
+          ],
+          [
+            256,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Elizabeth Morales",
+        "bbox": [
+          [
+            166,
+            368
+          ],
+          [
+            263,
+            386
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "fish",
+        "bbox": [
+          [
+            204,
+            90
+          ],
+          [
+            238,
+            110
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "crayfish",
+        "bbox": [
+          [
+            190,
+            174
+          ],
+          [
+            252,
+            194
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "snail",
+        "bbox": [
+          [
+            199,
+            257
+          ],
+          [
+            244,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "algae",
+        "bbox": [
+          [
+            199,
+            342
+          ],
+          [
+            244,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "lichen",
+        "bbox": [
+          [
+            15,
+            338
+          ],
+          [
+            69,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "slug",
+        "bbox": [
+          [
+            24,
+            258
+          ],
+          [
+            62,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "toad",
+        "bbox": [
+          [
+            23,
+            173
+          ],
+          [
+            64,
+            192
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "snake",
+        "bbox": [
+          [
+            17,
+            92
+          ],
+          [
+            67,
+            108
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          31,
+          28,
+          18,
+          56
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          212,
+          33,
+          18,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          30,
+          114,
+          22,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          213,
+          116,
+          19,
+          51
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          34,
+          201,
+          18,
+          46
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          213,
+          197,
+          15,
+          53
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          214,
+          285,
+          16,
+          46
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          32,
+          281,
+          21,
+          49
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T8",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T0",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

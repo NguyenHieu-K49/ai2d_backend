@@ -1,0 +1,528 @@
+{
+  "id": "2074.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2074.png_B0",
+        "name": "Piscivorous fish",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2074.png_B1",
+        "name": "Planktivorous fish",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2074.png_B2",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2074.png_B3",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2074.png_B4",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2074.png_B5",
+        "name": "Protozoa",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2074.png_T0",
+        "name": "?",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2074.png_T2",
+        "name": "CO2",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2074.png_T7",
+        "name": "DOM",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2074.png_T8",
+        "name": "Humic DOM from catchment",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2074.png_B1",
+        "target": "2074.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2074.png_B1",
+        "target": "2074.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2074.png_B2",
+        "target": "2074.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2074.png_B2",
+        "target": "2074.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2074.png_B3",
+        "target": "2074.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2074.png_B3",
+        "target": "2074.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2074.png_B4",
+        "target": "2074.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2074.png_B4",
+        "target": "2074.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2074.png_B4",
+        "target": "2074.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2074.png_B4",
+        "target": "2074.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2074.png_B4",
+        "target": "2074.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2074.png_B5",
+        "target": "2074.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2074.png_B5",
+        "target": "2074.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2074.png_T7",
+        "target": "2074.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2074.png_T8",
+        "target": "2074.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          18,
+          26,
+          150,
+          38
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          38,
+          169,
+          108,
+          51
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          68,
+          320,
+          39,
+          71
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          20,
+          496,
+          124,
+          47
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          566,
+          222,
+          77,
+          55
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          364,
+          143,
+          76,
+          52
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "?",
+        "bbox": [
+          [
+            549,
+            136
+          ],
+          [
+            592,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Piscivorous fish",
+        "bbox": [
+          [
+            20,
+            60
+          ],
+          [
+            165,
+            84
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "CO2",
+        "bbox": [
+          [
+            609,
+            50
+          ],
+          [
+            699,
+            99
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Protozoa",
+        "bbox": [
+          [
+            361,
+            204
+          ],
+          [
+            446,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Planktivorous fish",
+        "bbox": [
+          [
+            5,
+            219
+          ],
+          [
+            182,
+            243
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            19,
+            387
+          ],
+          [
+            142,
+            412
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            18,
+            548
+          ],
+          [
+            156,
+            571
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "DOM",
+        "bbox": [
+          [
+            347,
+            471
+          ],
+          [
+            411,
+            498
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Humic DOM from catchment",
+        "bbox": [
+          [
+            555,
+            478
+          ],
+          [
+            740,
+            536
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            569,
+            281
+          ],
+          [
+            650,
+            304
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          134,
+          479,
+          214,
+          57
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          401,
+          304,
+          181,
+          172
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          450,
+          167,
+          112,
+          59
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          590,
+          91,
+          82,
+          127
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          104,
+          269,
+          457,
+          90
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          110,
+          281,
+          453,
+          98
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          565,
+          294,
+          100,
+          190
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          72,
+          405,
+          22,
+          88
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          57,
+          242,
+          30,
+          74
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          93,
+          237,
+          12,
+          72
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          59,
+          81,
+          26,
+          83
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          88,
+          68,
+          18,
+          92
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          115,
+          180,
+          252,
+          141
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          115,
+          199,
+          250,
+          148
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          444,
+          191,
+          116,
+          65
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Planktivorous fish la nguon thuc an cho Piscivorous fish. Planktivorous fish la nguon thuc an cho Piscivorous fish. Zooplankton la nguon thuc an cho Planktivorous fish. Zooplankton la nguon thuc an cho Planktivorous fish. Phytoplankton la nguon thuc an cho DOM. Phytoplankton la nguon thuc an cho Zooplankton. Bacteria la nguon thuc an cho Protozoa. Bacteria la nguon thuc an cho CO2. Bacteria la nguon thuc an cho Zooplankton. Bacteria la nguon thuc an cho Zooplankton. Bacteria la nguon thuc an cho Protozoa. Protozoa la nguon thuc an cho Zooplankton. Protozoa la nguon thuc an cho Zooplankton. DOM la nguon thuc an cho Bacteria. Humic DOM from catchment la nguon thuc an cho Bacteria."
+}

@@ -1,0 +1,478 @@
+{
+  "id": "2223.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2223.png_B0",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T11"
+        ]
+      },
+      {
+        "uid": "2223.png_B1",
+        "name": "Eyed eggs",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2223.png_B2",
+        "name": "Alevin",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T10"
+        ]
+      },
+      {
+        "uid": "2223.png_B3",
+        "name": "Fry",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2223.png_B4",
+        "name": "Parr",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2223.png_B5",
+        "name": "Smolt",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2223.png_B6",
+        "name": "Spawning in a Redd",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2223.png_B7",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2223.png_T0",
+        "name": "Wild Atlantic salmon a wondrous life cycle",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2223.png_T12",
+        "name": "Visit www.asf.ca to learn more",
+        "type": "Stage",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2223.png_T2",
+        "name": "Atlantic Salmon Federation All Rights reserved",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2223.png_T7",
+        "name": "Atlantic Salmon Federation",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2223.png_T8",
+        "name": "Pairings by Jud ponnanen",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2223.png_B2",
+        "target": "2223.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2223.png_B3",
+        "target": "2223.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2223.png_B4",
+        "target": "2223.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2223.png_B5",
+        "target": "2223.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2223.png_B6",
+        "target": "2223.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2223.png_B7",
+        "target": "2223.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          122,
+          333,
+          56,
+          51
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          185,
+          371,
+          43,
+          32
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          261,
+          341,
+          130,
+          78
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          382,
+          300,
+          139,
+          37
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          324,
+          213,
+          217,
+          69
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          283,
+          103,
+          276,
+          88
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          6,
+          164,
+          280,
+          159
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          14,
+          24,
+          326,
+          89
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Wild Atlantic salmon a wondrous life cycle",
+        "bbox": [
+          [
+            323,
+            10
+          ],
+          [
+            570,
+            72
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult",
+        "bbox": [
+          [
+            188,
+            112
+          ],
+          [
+            221,
+            132
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Alevin",
+        "bbox": [
+          [
+            318,
+            412
+          ],
+          [
+            368,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Eggs",
+        "bbox": [
+          [
+            114,
+            386
+          ],
+          [
+            147,
+            400
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Visit www.asf.ca to learn more",
+        "bbox": [
+          [
+            9,
+            391
+          ],
+          [
+            99,
+            417
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Atlantic Salmon Federation All Rights reserved",
+        "bbox": [
+          [
+            15,
+            110
+          ],
+          [
+            139,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Spawning in a Redd",
+        "bbox": [
+          [
+            160,
+            309
+          ],
+          [
+            272,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Smolt",
+        "bbox": [
+          [
+            373,
+            189
+          ],
+          [
+            406,
+            202
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Parr",
+        "bbox": [
+          [
+            409,
+            277
+          ],
+          [
+            435,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fry",
+        "bbox": [
+          [
+            461,
+            339
+          ],
+          [
+            483,
+            355
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Atlantic Salmon Federation",
+        "bbox": [
+          [
+            448,
+            376
+          ],
+          [
+            572,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Pairings by Jud ponnanen",
+        "bbox": [
+          [
+            564,
+            277
+          ],
+          [
+            574,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Eyed eggs",
+        "bbox": [
+          [
+            166,
+            401
+          ],
+          [
+            230,
+            424
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          109,
+          113,
+          74,
+          66
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          324,
+          89,
+          66,
+          45
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          462,
+          185,
+          28,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          452,
+          279,
+          28,
+          31
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          398,
+          336,
+          38,
+          43
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          79,
+          318,
+          42,
+          32
+        ]
+      }
+    }
+  }
+}

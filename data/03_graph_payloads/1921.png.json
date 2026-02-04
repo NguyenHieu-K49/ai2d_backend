@@ -1,0 +1,1319 @@
+{
+  "id": "1921.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1921.png_B0",
+        "name": "trout",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T12"
+        ]
+      },
+      {
+        "uid": "1921.png_B1",
+        "name": "bully",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T14"
+        ]
+      },
+      {
+        "uid": "1921.png_B10",
+        "name": "detritus",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1921.png_B11",
+        "name": "Conoesucidae (caddisfly)",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1921.png_B12",
+        "name": "Coloburiscus (mayfly)",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1921.png_B13",
+        "name": "algae",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1921.png_B14",
+        "name": "Austrosimulium blackfly",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1921.png_B15",
+        "name": "Hydroblosis (caddisfly)",
+        "type": "Organism",
+        "components": [
+          "B15",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1921.png_B16",
+        "name": "Deleotidium (mayfly)",
+        "type": "Organism",
+        "components": [
+          "B16",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1921.png_B17",
+        "name": "Stenoperla (stonefly)",
+        "type": "Organism",
+        "components": [
+          "B17",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1921.png_B18",
+        "name": "Bully",
+        "type": "Organism",
+        "components": [
+          "B18",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1921.png_B2",
+        "name": "Hydroblosis (caddisfly)",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T17"
+        ]
+      },
+      {
+        "uid": "1921.png_B3",
+        "name": "Stenoperla (stonefly)",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T13"
+        ]
+      },
+      {
+        "uid": "1921.png_B4",
+        "name": "Conoesucldae (caddisfly)",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T15"
+        ]
+      },
+      {
+        "uid": "1921.png_B5",
+        "name": "Coloburiscus (mayfly)",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T20"
+        ]
+      },
+      {
+        "uid": "1921.png_B6",
+        "name": "deleatidium mayfly",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T18"
+        ]
+      },
+      {
+        "uid": "1921.png_B7",
+        "name": "Austrosimulium blackfly",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T19"
+        ]
+      },
+      {
+        "uid": "1921.png_B8",
+        "name": "algae",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T9"
+        ]
+      },
+      {
+        "uid": "1921.png_B9",
+        "name": "detritus",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T16"
+        ]
+      },
+      {
+        "uid": "1921.png_T10",
+        "name": "al",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "1921.png_T11",
+        "name": "b0",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1921.png_B0",
+        "target": "1921.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A38"
+      },
+      {
+        "source": "1921.png_B0",
+        "target": "1921.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A42"
+      },
+      {
+        "source": "1921.png_B1",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A31"
+      },
+      {
+        "source": "1921.png_B10",
+        "target": "1921.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1921.png_B10",
+        "target": "1921.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "1921.png_B10",
+        "target": "1921.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1921.png_B11",
+        "target": "1921.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1921.png_B12",
+        "target": "1921.png_B17",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1921.png_B12",
+        "target": "1921.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1921.png_B13",
+        "target": "1921.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1921.png_B13",
+        "target": "1921.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1921.png_B13",
+        "target": "1921.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1921.png_B13",
+        "target": "1921.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1921.png_B14",
+        "target": "1921.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1921.png_B14",
+        "target": "1921.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1921.png_B15",
+        "target": "1921.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1921.png_B16",
+        "target": "1921.png_B17",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1921.png_B16",
+        "target": "1921.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1921.png_B16",
+        "target": "1921.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1921.png_B16",
+        "target": "1921.png_B17",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1921.png_B2",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A33"
+      },
+      {
+        "source": "1921.png_B2",
+        "target": "1921.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A34"
+      },
+      {
+        "source": "1921.png_B3",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A28"
+      },
+      {
+        "source": "1921.png_B3",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A29"
+      },
+      {
+        "source": "1921.png_B3",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A30"
+      },
+      {
+        "source": "1921.png_B4",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A27"
+      },
+      {
+        "source": "1921.png_B4",
+        "target": "1921.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A37"
+      },
+      {
+        "source": "1921.png_B5",
+        "target": "1921.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A35"
+      },
+      {
+        "source": "1921.png_B5",
+        "target": "1921.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A36"
+      },
+      {
+        "source": "1921.png_B6",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A32"
+      },
+      {
+        "source": "1921.png_B6",
+        "target": "1921.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A39"
+      },
+      {
+        "source": "1921.png_B6",
+        "target": "1921.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A40"
+      },
+      {
+        "source": "1921.png_B7",
+        "target": "1921.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "1921.png_B7",
+        "target": "1921.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "1921.png_B7",
+        "target": "1921.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "1921.png_B8",
+        "target": "1921.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "1921.png_B8",
+        "target": "1921.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "1921.png_B8",
+        "target": "1921.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "1921.png_B8",
+        "target": "1921.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "1921.png_B8",
+        "target": "1921.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A41"
+      },
+      {
+        "source": "1921.png_B9",
+        "target": "1921.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "1921.png_B9",
+        "target": "1921.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "1921.png_B9",
+        "target": "1921.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          363,
+          0,
+          126,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          367,
+          80,
+          78,
+          32
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          178,
+          236,
+          28,
+          27
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          190,
+          178,
+          57,
+          22
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          145,
+          159,
+          38,
+          34
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          42,
+          244,
+          42,
+          23
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          4,
+          167,
+          48,
+          37
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          68,
+          131,
+          47,
+          31
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          83,
+          162,
+          53,
+          41
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          114,
+          132,
+          76,
+          33
+        ]
+      },
+      "B18": {
+        "id": "B18",
+        "bbox": [
+          74,
+          71,
+          114,
+          48
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          345,
+          125,
+          63,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          412,
+          126,
+          47,
+          32
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          485,
+          175,
+          41,
+          19
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          451,
+          162,
+          18,
+          38
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          377,
+          162,
+          49,
+          34
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          302,
+          167,
+          39,
+          31
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          295,
+          234,
+          84,
+          38
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          458,
+          235,
+          38,
+          31
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Bully",
+        "bbox": [
+          [
+            154,
+            68
+          ],
+          [
+            180,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Stenoperla (stonefly)",
+        "bbox": [
+          [
+            169,
+            119
+          ],
+          [
+            217,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "al",
+        "bbox": [
+          [
+            64,
+            73
+          ],
+          [
+            80,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "b0",
+        "bbox": [
+          [
+            344,
+            13
+          ],
+          [
+            356,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "trout",
+        "bbox": [
+          [
+            444,
+            2
+          ],
+          [
+            468,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Stenoperla (stonefly)",
+        "bbox": [
+          [
+            454,
+            117
+          ],
+          [
+            503,
+            143
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "bully",
+        "bbox": [
+          [
+            423,
+            72
+          ],
+          [
+            447,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Conoesucldae (caddisfly)",
+        "bbox": [
+          [
+            481,
+            194
+          ],
+          [
+            544,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "detritus",
+        "bbox": [
+          [
+            461,
+            263
+          ],
+          [
+            504,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Hydroblosis (caddisfly)",
+        "bbox": [
+          [
+            344,
+            152
+          ],
+          [
+            396,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "deleatidium mayfly",
+        "bbox": [
+          [
+            365,
+            192
+          ],
+          [
+            422,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "Austrosimulium blackfly",
+        "bbox": [
+          [
+            291,
+            193
+          ],
+          [
+            359,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "detritus",
+        "bbox": [
+          [
+            180,
+            264
+          ],
+          [
+            221,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "Coloburiscus (mayfly)",
+        "bbox": [
+          [
+            424,
+            194
+          ],
+          [
+            478,
+            219
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "algae",
+        "bbox": [
+          [
+            51,
+            265
+          ],
+          [
+            78,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Hydroblosis (caddisfly)",
+        "bbox": [
+          [
+            55,
+            151
+          ],
+          [
+            108,
+            178
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Deleotidium (mayfly)",
+        "bbox": [
+          [
+            80,
+            194
+          ],
+          [
+            130,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Austrosimulium blackfly",
+        "bbox": [
+          [
+            4,
+            195
+          ],
+          [
+            73,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Conoesucidae (caddisfly)",
+        "bbox": [
+          [
+            198,
+            195
+          ],
+          [
+            256,
+            221
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Coloburiscus (mayfly)",
+        "bbox": [
+          [
+            136,
+            195
+          ],
+          [
+            190,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "algae",
+        "bbox": [
+          [
+            318,
+            266
+          ],
+          [
+            349,
+            277
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          28,
+          104,
+          68,
+          74
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          32,
+          161,
+          27,
+          22
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          94,
+          106,
+          20,
+          28
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          120,
+          156,
+          28,
+          38
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          147,
+          153,
+          19,
+          25
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          136,
+          112,
+          36,
+          59
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          144,
+          106,
+          61,
+          75
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          193,
+          213,
+          22,
+          30
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          164,
+          214,
+          25,
+          27
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          308,
+          50,
+          86,
+          130
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          315,
+          102,
+          66,
+          79
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          317,
+          165,
+          28,
+          23
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          46,
+          209,
+          18,
+          34
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          332,
+          211,
+          18,
+          30
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          353,
+          213,
+          26,
+          33
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          366,
+          216,
+          26,
+          31
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          372,
+          211,
+          77,
+          43
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          410,
+          204,
+          60,
+          47
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          455,
+          213,
+          24,
+          29
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          479,
+          216,
+          27,
+          30
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          479,
+          142,
+          20,
+          42
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          434,
+          52,
+          24,
+          88
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          452,
+          54,
+          14,
+          65
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          66,
+          218,
+          23,
+          23
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          463,
+          54,
+          24,
+          62
+        ]
+      },
+      "A31": {
+        "id": "A31",
+        "bbox": [
+          414,
+          45,
+          12,
+          35
+        ]
+      },
+      "A32": {
+        "id": "A32",
+        "bbox": [
+          394,
+          48,
+          23,
+          129
+        ]
+      },
+      "A33": {
+        "id": "A33",
+        "bbox": [
+          372,
+          48,
+          35,
+          83
+        ]
+      },
+      "A34": {
+        "id": "A34",
+        "bbox": [
+          380,
+          103,
+          30,
+          30
+        ]
+      },
+      "A35": {
+        "id": "A35",
+        "bbox": [
+          414,
+          106,
+          43,
+          68
+        ]
+      },
+      "A36": {
+        "id": "A36",
+        "bbox": [
+          433,
+          150,
+          31,
+          29
+        ]
+      },
+      "A37": {
+        "id": "A37",
+        "bbox": [
+          427,
+          103,
+          63,
+          80
+        ]
+      },
+      "A38": {
+        "id": "A38",
+        "bbox": [
+          451,
+          127,
+          18,
+          47
+        ]
+      },
+      "A39": {
+        "id": "A39",
+        "bbox": [
+          383,
+          160,
+          21,
+          21
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          74,
+          217,
+          32,
+          30
+        ]
+      },
+      "A40": {
+        "id": "A40",
+        "bbox": [
+          399,
+          150,
+          29,
+          32
+        ]
+      },
+      "A41": {
+        "id": "A41",
+        "bbox": [
+          404,
+          158,
+          35,
+          36
+        ]
+      },
+      "A42": {
+        "id": "A42",
+        "bbox": [
+          277,
+          44,
+          96,
+          206
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          84,
+          209,
+          74,
+          49
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          119,
+          205,
+          64,
+          50
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          95,
+          158,
+          18,
+          23
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          107,
+          112,
+          21,
+          63
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          113,
+          146,
+          24,
+          35
+        ]
+      }
+    }
+  }
+}

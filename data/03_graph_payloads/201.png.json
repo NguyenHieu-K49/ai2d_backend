@@ -1,0 +1,516 @@
+{
+  "id": "201.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "201.png_T0",
+        "name": "PEOPLE",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "201.png_T1",
+        "name": "eating maple syrup",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "201.png_T10",
+        "name": "leaves falling",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "201.png_T11",
+        "name": "roots taking up water",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "201.png_T12",
+        "name": "nutrients leaching into soil",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "201.png_T13",
+        "name": "roots taking up water",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "201.png_T14",
+        "name": "SOIL",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "201.png_T2",
+        "name": "TREES",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "201.png_T3",
+        "name": "ANIMALS",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "201.png_T4",
+        "name": "animals eating plants",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "201.png_T5",
+        "name": "animals excreting and dying",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "201.png_T6",
+        "name": "leaves falling plants dying",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "201.png_T7",
+        "name": "roots taking up nutrients",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "201.png_T8",
+        "name": "UNDERSTORY PLANTS",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "201.png_T9",
+        "name": "FOREST FLOOR",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "201.png_T14",
+        "target": "201.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "201.png_T14",
+        "target": "201.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "201.png_T2",
+        "target": "201.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "201.png_T2",
+        "target": "201.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "201.png_T2",
+        "target": "201.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "201.png_T3",
+        "target": "201.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "201.png_T8",
+        "target": "201.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "201.png_T8",
+        "target": "201.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "201.png_T9",
+        "target": "201.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "201.png_T9",
+        "target": "201.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "201.png_T9",
+        "target": "201.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "PEOPLE",
+        "bbox": [
+          [
+            31,
+            24
+          ],
+          [
+            132,
+            52
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "eating maple syrup",
+        "bbox": [
+          [
+            23,
+            88
+          ],
+          [
+            113,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "leaves falling",
+        "bbox": [
+          [
+            0,
+            252
+          ],
+          [
+            55,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "roots taking up water",
+        "bbox": [
+          [
+            21,
+            391
+          ],
+          [
+            125,
+            436
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "nutrients leaching into soil",
+        "bbox": [
+          [
+            159,
+            391
+          ],
+          [
+            241,
+            446
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "roots taking up water",
+        "bbox": [
+          [
+            269,
+            397
+          ],
+          [
+            368,
+            435
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "SOIL",
+        "bbox": [
+          [
+            172,
+            491
+          ],
+          [
+            234,
+            521
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "TREES",
+        "bbox": [
+          [
+            71,
+            166
+          ],
+          [
+            149,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "ANIMALS",
+        "bbox": [
+          [
+            265,
+            26
+          ],
+          [
+            382,
+            55
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "animals eating plants",
+        "bbox": [
+          [
+            242,
+            90
+          ],
+          [
+            362,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "animals excreting and dying",
+        "bbox": [
+          [
+            390,
+            123
+          ],
+          [
+            471,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "leaves falling plants dying",
+        "bbox": [
+          [
+            322,
+            249
+          ],
+          [
+            432,
+            291
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "roots taking up nutrients",
+        "bbox": [
+          [
+            149,
+            232
+          ],
+          [
+            253,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "UNDERSTORY PLANTS",
+        "bbox": [
+          [
+            227,
+            161
+          ],
+          [
+            354,
+            204
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "FOREST FLOOR",
+        "bbox": [
+          [
+            159,
+            313
+          ],
+          [
+            246,
+            359
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          190,
+          366,
+          25,
+          109
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          104,
+          218,
+          94,
+          78
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          276,
+          215,
+          54,
+          292
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          282,
+          180,
+          109,
+          167
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          282,
+          39,
+          153,
+          304
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          120,
+          74,
+          202,
+          67
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          207,
+          214,
+          96,
+          82
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          78,
+          74,
+          42,
+          67
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          75,
+          211,
+          55,
+          301
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          287,
+          76,
+          39,
+          71
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          10,
+          172,
+          118,
+          177
+        ]
+      }
+    }
+  }
+}

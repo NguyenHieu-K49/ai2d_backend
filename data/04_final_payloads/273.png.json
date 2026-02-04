@@ -1,0 +1,777 @@
+{
+  "id": "273.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "273.png_B0",
+        "name": "baleen whale",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "273.png_B1",
+        "name": "smaller toothed whales",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "273.png_B2",
+        "name": "other seals",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "273.png_B3",
+        "name": "birds",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "273.png_B4",
+        "name": "leopard seal",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      },
+      {
+        "uid": "273.png_B5",
+        "name": "penguins",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "273.png_B6",
+        "name": "elephant seal",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "273.png_B7",
+        "name": "fish",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T11"
+        ]
+      },
+      {
+        "uid": "273.png_B8",
+        "name": "krill",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T5"
+        ]
+      },
+      {
+        "uid": "273.png_B9",
+        "name": "phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T8"
+        ]
+      },
+      {
+        "uid": "273.png_T10",
+        "name": "carnivorous zooplankton",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "273.png_T9",
+        "name": "other herbivorous zooplankton",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "273.png_B0",
+        "target": "273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "273.png_B2",
+        "target": "273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "273.png_B3",
+        "target": "273.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "273.png_B4",
+        "target": "273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "273.png_B5",
+        "target": "273.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "273.png_B5",
+        "target": "273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "273.png_B6",
+        "target": "273.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "273.png_B7",
+        "target": "273.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "273.png_B7",
+        "target": "273.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "273.png_B7",
+        "target": "273.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "273.png_B7",
+        "target": "273.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "273.png_B8",
+        "target": "273.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "273.png_B9",
+        "target": "273.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "273.png_B9",
+        "target": "273.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "273.png_T10",
+        "target": "273.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "273.png_T10",
+        "target": "273.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "273.png_T10",
+        "target": "273.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "273.png_T9",
+        "target": "273.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "273.png_T9",
+        "target": "273.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "273.png_T9",
+        "target": "273.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          23,
+          139,
+          75
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          174,
+          0,
+          143,
+          71
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          0,
+          137,
+          132,
+          104
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          120,
+          124,
+          129,
+          84
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          218,
+          84,
+          139,
+          46
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          393,
+          55,
+          56,
+          97
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          463,
+          73,
+          108,
+          71
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          399,
+          178,
+          133,
+          68
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          248,
+          228,
+          127,
+          69
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          287,
+          319,
+          68,
+          61
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "baleen whale",
+        "bbox": [
+          [
+            28,
+            68
+          ],
+          [
+            134,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "smaller toothed whales",
+        "bbox": [
+          [
+            243,
+            44
+          ],
+          [
+            366,
+            79
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "carnivorous zooplankton",
+        "bbox": [
+          [
+            102,
+            274
+          ],
+          [
+            199,
+            309
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "fish",
+        "bbox": [
+          [
+            450,
+            224
+          ],
+          [
+            493,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "leopard seal",
+        "bbox": [
+          [
+            251,
+            122
+          ],
+          [
+            353,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "birds",
+        "bbox": [
+          [
+            192,
+            174
+          ],
+          [
+            243,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "other seals",
+        "bbox": [
+          [
+            9,
+            234
+          ],
+          [
+            102,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "krill",
+        "bbox": [
+          [
+            319,
+            277
+          ],
+          [
+            355,
+            299
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "penguins",
+        "bbox": [
+          [
+            373,
+            148
+          ],
+          [
+            447,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "elephant seal",
+        "bbox": [
+          [
+            471,
+            140
+          ],
+          [
+            575,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "phytoplankton",
+        "bbox": [
+          [
+            267,
+            376
+          ],
+          [
+            389,
+            395
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "other herbivorous zooplankton",
+        "bbox": [
+          [
+            427,
+            271
+          ],
+          [
+            562,
+            300
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          116,
+          47,
+          68,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          226,
+          56,
+          45,
+          37
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          178,
+          204,
+          225,
+          72
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          200,
+          291,
+          225,
+          19
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          198,
+          261,
+          87,
+          33
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          101,
+          239,
+          156,
+          29
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          46,
+          250,
+          56,
+          50
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          148,
+          188,
+          22,
+          86
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          234,
+          169,
+          61,
+          79
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          235,
+          148,
+          198,
+          63
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          295,
+          135,
+          18,
+          106
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          321,
+          135,
+          123,
+          69
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          310,
+          10,
+          224,
+          96
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          412,
+          158,
+          45,
+          41
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          318,
+          115,
+          73,
+          131
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          346,
+          89,
+          58,
+          26
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          83,
+          62,
+          127,
+          133
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          234,
+          112,
+          25,
+          26
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          74,
+          79,
+          180,
+          175
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          335,
+          56,
+          67,
+          40
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          497,
+          148,
+          21,
+          44
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          497,
+          219,
+          16,
+          47
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          358,
+          305,
+          66,
+          66
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          297,
+          273,
+          17,
+          48
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          364,
+          259,
+          60,
+          25
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          357,
+          227,
+          52,
+          32
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: baleen whale la nguon thuc an cho smaller toothed whales. other seals la nguon thuc an cho smaller toothed whales. birds la nguon thuc an cho leopard seal. leopard seal la nguon thuc an cho smaller toothed whales. penguins la nguon thuc an cho leopard seal. penguins la nguon thuc an cho smaller toothed whales. elephant seal la nguon thuc an cho smaller toothed whales. fish la nguon thuc an cho birds. fish la nguon thuc an cho leopard seal. fish la nguon thuc an cho penguins. fish la nguon thuc an cho elephant seal. krill la nguon thuc an cho carnivorous zooplankton. krill la nguon thuc an cho other seals. krill la nguon thuc an cho birds. krill la nguon thuc an cho leopard seal. krill la nguon thuc an cho penguins. krill la nguon thuc an cho baleen whale. krill la nguon thuc an cho fish. phytoplankton la nguon thuc an cho other herbivorous zooplankton. phytoplankton la nguon thuc an cho krill. carnivorous zooplankton la nguon thuc an cho fish. carnivorous zooplankton la nguon thuc an cho other seals. carnivorous zooplankton la nguon thuc an cho birds. other herbivorous zooplankton la nguon thuc an cho carnivorous zooplankton. other herbivorous zooplankton la nguon thuc an cho fish. other herbivorous zooplankton la nguon thuc an cho krill."
+}

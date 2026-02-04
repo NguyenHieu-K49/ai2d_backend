@@ -1,0 +1,677 @@
+{
+  "id": "266.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "266.png_B0",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T10"
+        ]
+      },
+      {
+        "uid": "266.png_B1",
+        "name": "Waterweed",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T9"
+        ]
+      },
+      {
+        "uid": "266.png_B10",
+        "name": "Slug",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T7"
+        ]
+      },
+      {
+        "uid": "266.png_B11",
+        "name": "Pond Fly",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T8"
+        ]
+      },
+      {
+        "uid": "266.png_B2",
+        "name": "Prawn",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T11"
+        ]
+      },
+      {
+        "uid": "266.png_B3",
+        "name": "Trout",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "266.png_B4",
+        "name": "Kingfisher",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T0"
+        ]
+      },
+      {
+        "uid": "266.png_B5",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T1"
+        ]
+      },
+      {
+        "uid": "266.png_B6",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T2"
+        ]
+      },
+      {
+        "uid": "266.png_B7",
+        "name": "Turtle",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T4"
+        ]
+      },
+      {
+        "uid": "266.png_B8",
+        "name": "CARP",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T6"
+        ]
+      },
+      {
+        "uid": "266.png_B9",
+        "name": "Dragonfly",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "266.png_B0",
+        "target": "266.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "266.png_B0",
+        "target": "266.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "266.png_B0",
+        "target": "266.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "266.png_B1",
+        "target": "266.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "266.png_B1",
+        "target": "266.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "266.png_B1",
+        "target": "266.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "266.png_B1",
+        "target": "266.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "266.png_B1",
+        "target": "266.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "266.png_B10",
+        "target": "266.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "266.png_B11",
+        "target": "266.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "266.png_B11",
+        "target": "266.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "266.png_B2",
+        "target": "266.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "266.png_B3",
+        "target": "266.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "266.png_B6",
+        "target": "266.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "266.png_B6",
+        "target": "266.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "266.png_B8",
+        "target": "266.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "266.png_B8",
+        "target": "266.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "266.png_B9",
+        "target": "266.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          18,
+          88,
+          65,
+          50
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          14,
+          259,
+          70,
+          102
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          273,
+          289,
+          74,
+          42
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          275,
+          374,
+          57,
+          54
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          261,
+          29,
+          91,
+          55
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          469,
+          27,
+          151,
+          59
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          789,
+          52,
+          81,
+          83
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          764,
+          359,
+          118,
+          63
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          638,
+          239,
+          92,
+          81
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          460,
+          190,
+          124,
+          71
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          250,
+          142,
+          131,
+          65
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          491,
+          363,
+          75,
+          70
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Kingfisher",
+        "bbox": [
+          [
+            780,
+            151
+          ],
+          [
+            861,
+            174
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Snake",
+        "bbox": [
+          [
+            801,
+            422
+          ],
+          [
+            854,
+            446
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Algae",
+        "bbox": [
+          [
+            31,
+            144
+          ],
+          [
+            77,
+            162
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Prawn",
+        "bbox": [
+          [
+            279,
+            88
+          ],
+          [
+            332,
+            110
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Frog",
+        "bbox": [
+          [
+            659,
+            323
+          ],
+          [
+            699,
+            343
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Dragonfly",
+        "bbox": [
+          [
+            483,
+            433
+          ],
+          [
+            557,
+            455
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Turtle",
+        "bbox": [
+          [
+            487,
+            262
+          ],
+          [
+            536,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Trout",
+        "bbox": [
+          [
+            518,
+            93
+          ],
+          [
+            561,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "CARP",
+        "bbox": [
+          [
+            291,
+            210
+          ],
+          [
+            334,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Slug",
+        "bbox": [
+          [
+            282,
+            332
+          ],
+          [
+            322,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Pond Fly",
+        "bbox": [
+          [
+            275,
+            429
+          ],
+          [
+            341,
+            456
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Waterweed",
+        "bbox": [
+          [
+            4,
+            368
+          ],
+          [
+            97,
+            392
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          90,
+          45,
+          169,
+          74
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          86,
+          113,
+          166,
+          68
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          325,
+          282,
+          308,
+          106
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          539,
+          311,
+          104,
+          93
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          712,
+          291,
+          86,
+          76
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          708,
+          124,
+          79,
+          113
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          627,
+          49,
+          156,
+          52
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          379,
+          104,
+          396,
+          79
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          359,
+          72,
+          124,
+          83
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          343,
+          41,
+          119,
+          24
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          75,
+          126,
+          200,
+          179
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          54,
+          68,
+          214,
+          205
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          83,
+          187,
+          188,
+          101
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          86,
+          217,
+          372,
+          94
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          84,
+          298,
+          195,
+          36
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          70,
+          340,
+          200,
+          84
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          332,
+          241,
+          133,
+          88
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          336,
+          392,
+          155,
+          27
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Algae la nguon thuc an cho Prawn. Algae la nguon thuc an cho CARP. Algae la nguon thuc an cho Slug. Waterweed la nguon thuc an cho Prawn. Waterweed la nguon thuc an cho CARP. Waterweed la nguon thuc an cho Turtle. Waterweed la nguon thuc an cho Slug. Waterweed la nguon thuc an cho Pond Fly. Slug la nguon thuc an cho Turtle. Pond Fly la nguon thuc an cho Frog. Pond Fly la nguon thuc an cho Dragonfly. Prawn la nguon thuc an cho Trout. Trout la nguon thuc an cho Kingfisher. Frog la nguon thuc an cho Snake. Frog la nguon thuc an cho Kingfisher. CARP la nguon thuc an cho Kingfisher. CARP la nguon thuc an cho Trout. Dragonfly la nguon thuc an cho Frog."
+}

@@ -1,0 +1,756 @@
+{
+  "id": "2123.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2123.png_T0",
+        "name": "Northern brown Bandicoot",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2123.png_T1",
+        "name": "Termites",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2123.png_T10",
+        "name": "Green Plum",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2123.png_T11",
+        "name": "Cooktown ironwood",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2123.png_T12",
+        "name": "Dingoes",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2123.png_T13",
+        "name": "Saltwater Crocodile",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2123.png_T14",
+        "name": "Gould's Goanna",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "2123.png_T2",
+        "name": "Blue winged Kookaburra",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2123.png_T3",
+        "name": "Red tailed black cockatoo",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2123.png_T4",
+        "name": "Frill necked Lizard",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2123.png_T5",
+        "name": "Northern Tart Bat",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2123.png_T6",
+        "name": "Black-footed tree rats",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2123.png_T7",
+        "name": "Pandanus Plant",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2123.png_T8",
+        "name": "Darwin Woollybutt",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2123.png_T9",
+        "name": "Spear Grass",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2123.png_T0",
+        "target": "2123.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2123.png_T0",
+        "target": "2123.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2123.png_T0",
+        "target": "2123.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "2123.png_T0",
+        "target": "2123.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "2123.png_T0",
+        "target": "2123.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2123.png_T1",
+        "target": "2123.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2123.png_T1",
+        "target": "2123.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "2123.png_T1",
+        "target": "2123.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2123.png_T10",
+        "target": "2123.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2123.png_T12",
+        "target": "2123.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2123.png_T12",
+        "target": "2123.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "2123.png_T12",
+        "target": "2123.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "2123.png_T13",
+        "target": "2123.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2123.png_T13",
+        "target": "2123.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2123.png_T13",
+        "target": "2123.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "2123.png_T13",
+        "target": "2123.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2123.png_T14",
+        "target": "2123.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2123.png_T14",
+        "target": "2123.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2123.png_T14",
+        "target": "2123.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2123.png_T2",
+        "target": "2123.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2123.png_T2",
+        "target": "2123.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      },
+      {
+        "source": "2123.png_T4",
+        "target": "2123.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2123.png_T4",
+        "target": "2123.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2123.png_T5",
+        "target": "2123.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2123.png_T6",
+        "target": "2123.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2123.png_T6",
+        "target": "2123.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2123.png_T6",
+        "target": "2123.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Northern brown Bandicoot",
+        "bbox": [
+          [
+            722,
+            237
+          ],
+          [
+            811,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Termites",
+        "bbox": [
+          [
+            639,
+            235
+          ],
+          [
+            692,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Green Plum",
+        "bbox": [
+          [
+            516,
+            405
+          ],
+          [
+            579,
+            422
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Cooktown ironwood",
+        "bbox": [
+          [
+            641,
+            406
+          ],
+          [
+            748,
+            421
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Dingoes",
+        "bbox": [
+          [
+            201,
+            28
+          ],
+          [
+            246,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Saltwater Crocodile",
+        "bbox": [
+          [
+            407,
+            29
+          ],
+          [
+            460,
+            58
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Gould's Goanna",
+        "bbox": [
+          [
+            601,
+            27
+          ],
+          [
+            645,
+            56
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Blue winged Kookaburra",
+        "bbox": [
+          [
+            517,
+            233
+          ],
+          [
+            585,
+            267
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Red tailed black cockatoo",
+        "bbox": [
+          [
+            398,
+            233
+          ],
+          [
+            487,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Frill necked Lizard",
+        "bbox": [
+          [
+            280,
+            234
+          ],
+          [
+            351,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Northern Tart Bat",
+        "bbox": [
+          [
+            141,
+            234
+          ],
+          [
+            226,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Black-footed tree rats",
+        "bbox": [
+          [
+            22,
+            233
+          ],
+          [
+            89,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Pandanus Plant",
+        "bbox": [
+          [
+            56,
+            405
+          ],
+          [
+            145,
+            422
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Darwin Woollybutt",
+        "bbox": [
+          [
+            223,
+            406
+          ],
+          [
+            333,
+            420
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Spear Grass",
+        "bbox": [
+          [
+            379,
+            409
+          ],
+          [
+            447,
+            425
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          323,
+          53,
+          95,
+          184
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          22,
+          240,
+          64,
+          166
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          91,
+          239,
+          77,
+          168
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          692,
+          259,
+          65,
+          153
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          529,
+          250,
+          213,
+          161
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          542,
+          53,
+          73,
+          192
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          67,
+          31,
+          345,
+          206
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          524,
+          251,
+          46,
+          153
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          439,
+          47,
+          166,
+          199
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          397,
+          253,
+          146,
+          167
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          183,
+          39,
+          47,
+          198
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          75,
+          237,
+          327,
+          184
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          267,
+          241,
+          385,
+          173
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          234,
+          36,
+          79,
+          203
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          463,
+          44,
+          304,
+          212
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          406,
+          57,
+          20,
+          178
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          549,
+          247,
+          111,
+          157
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          640,
+          55,
+          94,
+          191
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          47,
+          36,
+          161,
+          198
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          263,
+          240,
+          271,
+          171
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          82,
+          261,
+          10,
+          142
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          631,
+          53,
+          33,
+          184
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          424,
+          244,
+          318,
+          163
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          449,
+          54,
+          126,
+          194
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          238,
+          253,
+          66,
+          155
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          194,
+          34,
+          413,
+          209
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          114,
+          242,
+          169,
+          175
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "id": "269.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          60,
+          39,
+          201,
+          204
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          459,
+          18,
+          300,
+          177
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1017,
+          27,
+          230,
+          303
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          81,
+          420,
+          156,
+          188
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          108,
+          762,
+          153,
+          93
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          597,
+          684,
+          138,
+          203
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          1139,
+          755,
+          196,
+          120
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          1127,
+          434,
+          297,
+          190
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Hawk - tertiary consumer",
+        "bbox": [
+          [
+            453,
+            198
+          ],
+          [
+            666,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Sun's energy",
+        "bbox": [
+          [
+            45,
+            261
+          ],
+          [
+            231,
+            300
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Plant - Producer",
+        "bbox": [
+          [
+            75,
+            612
+          ],
+          [
+            288,
+            662
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Grasshopper- primary consumer",
+        "bbox": [
+          [
+            57,
+            845
+          ],
+          [
+            276,
+            941
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Spider - secondary consumer",
+        "bbox": [
+          [
+            552,
+            890
+          ],
+          [
+            716,
+            1017
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Shrew - secondary consumer",
+        "bbox": [
+          [
+            1058,
+            912
+          ],
+          [
+            1310,
+            983
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Weasel-secondary consumer",
+        "bbox": [
+          [
+            1142,
+            633
+          ],
+          [
+            1400,
+            699
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Owl-tertiary consumer",
+        "bbox": [
+          [
+            1007,
+            318
+          ],
+          [
+            1196,
+            420
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          735,
+          183,
+          267,
+          18
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          165,
+          309,
+          18,
+          105
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          630,
+          270,
+          453,
+          509
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          755,
+          564,
+          355,
+          179
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          669,
+          546,
+          345,
+          231
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          314,
+          549,
+          348,
+          225
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          285,
+          498,
+          288,
+          252
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          579,
+          492,
+          512,
+          66
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          581,
+          288,
+          66,
+          390
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          288,
+          282,
+          276,
+          404
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          171,
+          669,
+          12,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          314,
+          816,
+          217,
+          27
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          779,
+          804,
+          243,
+          27
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          1088,
+          593,
+          42,
+          169
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1073,
+          405,
+          34,
+          83
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1037,
+          402,
+          36,
+          311
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          681,
+          258,
+          404,
+          273
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          662,
+          237,
+          24,
+          27
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B6",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B7",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B1",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B1",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B7",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B2",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B1",
+      "via": "A8"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

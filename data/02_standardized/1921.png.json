@@ -1,0 +1,1219 @@
+{
+  "id": "1921.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          363,
+          0,
+          126,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          367,
+          80,
+          78,
+          32
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          178,
+          236,
+          28,
+          27
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          190,
+          178,
+          57,
+          22
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          145,
+          159,
+          38,
+          34
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          42,
+          244,
+          42,
+          23
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          4,
+          167,
+          48,
+          37
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          68,
+          131,
+          47,
+          31
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          83,
+          162,
+          53,
+          41
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          114,
+          132,
+          76,
+          33
+        ]
+      },
+      "B18": {
+        "id": "B18",
+        "bbox": [
+          74,
+          71,
+          114,
+          48
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          345,
+          125,
+          63,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          412,
+          126,
+          47,
+          32
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          485,
+          175,
+          41,
+          19
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          451,
+          162,
+          18,
+          38
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          377,
+          162,
+          49,
+          34
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          302,
+          167,
+          39,
+          31
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          295,
+          234,
+          84,
+          38
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          458,
+          235,
+          38,
+          31
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Bully",
+        "bbox": [
+          [
+            154,
+            68
+          ],
+          [
+            180,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Stenoperla (stonefly)",
+        "bbox": [
+          [
+            169,
+            119
+          ],
+          [
+            217,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "al",
+        "bbox": [
+          [
+            64,
+            73
+          ],
+          [
+            80,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "b0",
+        "bbox": [
+          [
+            344,
+            13
+          ],
+          [
+            356,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "trout",
+        "bbox": [
+          [
+            444,
+            2
+          ],
+          [
+            468,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Stenoperla (stonefly)",
+        "bbox": [
+          [
+            454,
+            117
+          ],
+          [
+            503,
+            143
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "bully",
+        "bbox": [
+          [
+            423,
+            72
+          ],
+          [
+            447,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Conoesucldae (caddisfly)",
+        "bbox": [
+          [
+            481,
+            194
+          ],
+          [
+            544,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "detritus",
+        "bbox": [
+          [
+            461,
+            263
+          ],
+          [
+            504,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Hydroblosis (caddisfly)",
+        "bbox": [
+          [
+            344,
+            152
+          ],
+          [
+            396,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "deleatidium mayfly",
+        "bbox": [
+          [
+            365,
+            192
+          ],
+          [
+            422,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "Austrosimulium blackfly",
+        "bbox": [
+          [
+            291,
+            193
+          ],
+          [
+            359,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "detritus",
+        "bbox": [
+          [
+            180,
+            264
+          ],
+          [
+            221,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "Coloburiscus (mayfly)",
+        "bbox": [
+          [
+            424,
+            194
+          ],
+          [
+            478,
+            219
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "algae",
+        "bbox": [
+          [
+            51,
+            265
+          ],
+          [
+            78,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Hydroblosis (caddisfly)",
+        "bbox": [
+          [
+            55,
+            151
+          ],
+          [
+            108,
+            178
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Deleotidium (mayfly)",
+        "bbox": [
+          [
+            80,
+            194
+          ],
+          [
+            130,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Austrosimulium blackfly",
+        "bbox": [
+          [
+            4,
+            195
+          ],
+          [
+            73,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Conoesucidae (caddisfly)",
+        "bbox": [
+          [
+            198,
+            195
+          ],
+          [
+            256,
+            221
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Coloburiscus (mayfly)",
+        "bbox": [
+          [
+            136,
+            195
+          ],
+          [
+            190,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "algae",
+        "bbox": [
+          [
+            318,
+            266
+          ],
+          [
+            349,
+            277
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          28,
+          104,
+          68,
+          74
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          32,
+          161,
+          27,
+          22
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          94,
+          106,
+          20,
+          28
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          120,
+          156,
+          28,
+          38
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          147,
+          153,
+          19,
+          25
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          136,
+          112,
+          36,
+          59
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          144,
+          106,
+          61,
+          75
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          193,
+          213,
+          22,
+          30
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          164,
+          214,
+          25,
+          27
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          308,
+          50,
+          86,
+          130
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          315,
+          102,
+          66,
+          79
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          317,
+          165,
+          28,
+          23
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          46,
+          209,
+          18,
+          34
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          332,
+          211,
+          18,
+          30
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          353,
+          213,
+          26,
+          33
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          366,
+          216,
+          26,
+          31
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          372,
+          211,
+          77,
+          43
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          410,
+          204,
+          60,
+          47
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          455,
+          213,
+          24,
+          29
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          479,
+          216,
+          27,
+          30
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          479,
+          142,
+          20,
+          42
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          434,
+          52,
+          24,
+          88
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          452,
+          54,
+          14,
+          65
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          66,
+          218,
+          23,
+          23
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          463,
+          54,
+          24,
+          62
+        ]
+      },
+      "A31": {
+        "id": "A31",
+        "bbox": [
+          414,
+          45,
+          12,
+          35
+        ]
+      },
+      "A32": {
+        "id": "A32",
+        "bbox": [
+          394,
+          48,
+          23,
+          129
+        ]
+      },
+      "A33": {
+        "id": "A33",
+        "bbox": [
+          372,
+          48,
+          35,
+          83
+        ]
+      },
+      "A34": {
+        "id": "A34",
+        "bbox": [
+          380,
+          103,
+          30,
+          30
+        ]
+      },
+      "A35": {
+        "id": "A35",
+        "bbox": [
+          414,
+          106,
+          43,
+          68
+        ]
+      },
+      "A36": {
+        "id": "A36",
+        "bbox": [
+          433,
+          150,
+          31,
+          29
+        ]
+      },
+      "A37": {
+        "id": "A37",
+        "bbox": [
+          427,
+          103,
+          63,
+          80
+        ]
+      },
+      "A38": {
+        "id": "A38",
+        "bbox": [
+          451,
+          127,
+          18,
+          47
+        ]
+      },
+      "A39": {
+        "id": "A39",
+        "bbox": [
+          383,
+          160,
+          21,
+          21
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          74,
+          217,
+          32,
+          30
+        ]
+      },
+      "A40": {
+        "id": "A40",
+        "bbox": [
+          399,
+          150,
+          29,
+          32
+        ]
+      },
+      "A41": {
+        "id": "A41",
+        "bbox": [
+          404,
+          158,
+          35,
+          36
+        ]
+      },
+      "A42": {
+        "id": "A42",
+        "bbox": [
+          277,
+          44,
+          96,
+          206
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          84,
+          209,
+          74,
+          49
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          119,
+          205,
+          64,
+          50
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          95,
+          158,
+          18,
+          23
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          107,
+          112,
+          21,
+          63
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          113,
+          146,
+          24,
+          35
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B5",
+      "via": "A38"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B8",
+      "via": "A42"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A31"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B11",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B12",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B16",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B18",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B17",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B18",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B14",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B16",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B16",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B12",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B14",
+      "to": "B18",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B14",
+      "to": "B15",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B15",
+      "to": "B18",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B16",
+      "to": "B17",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B16",
+      "to": "B15",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B16",
+      "to": "B18",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B16",
+      "to": "B17",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B0",
+      "via": "A33"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A34"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A28"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A29"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A30"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B0",
+      "via": "A27"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A37"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B1",
+      "via": "A35"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B3",
+      "via": "A36"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B0",
+      "via": "A32"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B2",
+      "via": "A39"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B3",
+      "via": "A40"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B0",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B1",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B2",
+      "via": "A19"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B7",
+      "via": "A20"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B6",
+      "via": "A21"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B6",
+      "via": "A22"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B5",
+      "via": "A23"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B3",
+      "via": "A41"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B6",
+      "via": "A24"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B5",
+      "via": "A25"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B4",
+      "via": "A26"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B18"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B17"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T14",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T15",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T16",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T17",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T18",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T19",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T20",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B13"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B15"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B16"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B14"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B12"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B8"
+    }
+  ],
+  "rst_source": true
+}

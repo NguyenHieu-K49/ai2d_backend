@@ -1,0 +1,225 @@
+{
+  "id": "2238.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2238.png_B0",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2238.png_B1",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2238.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2238.png_B3",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2238.png_B0",
+        "target": "2238.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2238.png_B1",
+        "target": "2238.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2238.png_B2",
+        "target": "2238.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2238.png_B3",
+        "target": "2238.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          98,
+          385,
+          99,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          0,
+          201,
+          137,
+          69
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          147,
+          4,
+          232,
+          120
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          343,
+          257,
+          75,
+          47
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            221,
+            84
+          ],
+          [
+            277,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Nymph",
+        "bbox": [
+          [
+            68,
+            267
+          ],
+          [
+            131,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Eggs",
+        "bbox": [
+          [
+            325,
+            155
+          ],
+          [
+            371,
+            179
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Nymph",
+        "bbox": [
+          [
+            277,
+            268
+          ],
+          [
+            346,
+            292
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Nymph",
+        "bbox": [
+          [
+            101,
+            445
+          ],
+          [
+            189,
+            470
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          28,
+          253,
+          73,
+          160
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          53,
+          60,
+          114,
+          155
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          368,
+          89,
+          41,
+          168
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          202,
+          306,
+          156,
+          126
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Nymph phat trien thanh Nymph. Giai doan Nymph phat trien thanh Eggs. Giai doan Eggs phat trien thanh Nymph. Giai doan Nymph phat trien thanh Nymph."
+}

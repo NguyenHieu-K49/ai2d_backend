@@ -1,0 +1,380 @@
+{
+  "id": "808.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "wood mouse",
+        "bbox": [
+          [
+            260,
+            132
+          ],
+          [
+            367,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "snail",
+        "bbox": [
+          [
+            290,
+            242
+          ],
+          [
+            333,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            143,
+            246
+          ],
+          [
+            249,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "beetle",
+        "bbox": [
+          [
+            44,
+            242
+          ],
+          [
+            96,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "owl",
+        "bbox": [
+          [
+            167,
+            20
+          ],
+          [
+            196,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "spider",
+        "bbox": [
+          [
+            159,
+            130
+          ],
+          [
+            210,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "shrew",
+        "bbox": [
+          [
+            45,
+            132
+          ],
+          [
+            94,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "green plant",
+        "bbox": [
+          [
+            141,
+            355
+          ],
+          [
+            237,
+            374
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          237,
+          262,
+          75,
+          104
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          263,
+          20,
+          91
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          177,
+          34,
+          22,
+          97
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          201,
+          29,
+          103,
+          104
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          210,
+          132,
+          53,
+          19
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          177,
+          147,
+          20,
+          93
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          96,
+          132,
+          60,
+          18
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          89,
+          150,
+          208,
+          100
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          197,
+          153,
+          77,
+          88
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          62,
+          264,
+          80,
+          103
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          50,
+          150,
+          22,
+          96
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          75,
+          152,
+          71,
+          98
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          216,
+          149,
+          82,
+          206
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          304,
+          151,
+          21,
+          94
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          80,
+          149,
+          86,
+          97
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          66,
+          37,
+          113,
+          211
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          56,
+          31,
+          111,
+          103
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T6",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T5",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T6",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T4",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T0",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T4",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T0",
+      "via": "A5"
+    }
+  ],
+  "rst_source": true
+}

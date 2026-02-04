@@ -1,0 +1,619 @@
+{
+  "id": "2096.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          270,
+          73,
+          74,
+          83
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          405,
+          0,
+          96,
+          78
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          409,
+          104,
+          83,
+          82
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          435,
+          240,
+          83,
+          65
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          437,
+          349,
+          60,
+          86
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          438,
+          473,
+          67,
+          86
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          617,
+          409,
+          63,
+          92
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          268,
+          391,
+          83,
+          53
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          264,
+          287,
+          87,
+          66
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          274,
+          197,
+          79,
+          57
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "pill bug",
+        "bbox": [
+          [
+            270,
+            153
+          ],
+          [
+            322,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "spider",
+        "bbox": [
+          [
+            403,
+            76
+          ],
+          [
+            447,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "grass flowers ground foliage",
+        "bbox": [
+          [
+            126,
+            292
+          ],
+          [
+            223,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "large leaves bushes shrubs",
+        "bbox": [
+          [
+            126,
+            387
+          ],
+          [
+            212,
+            438
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "deer",
+        "bbox": [
+          [
+            269,
+            448
+          ],
+          [
+            301,
+            459
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "rabbit",
+        "bbox": [
+          [
+            266,
+            352
+          ],
+          [
+            306,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "mouse",
+        "bbox": [
+          [
+            274,
+            252
+          ],
+          [
+            320,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "toad",
+        "bbox": [
+          [
+            406,
+            188
+          ],
+          [
+            441,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "snake",
+        "bbox": [
+          [
+            430,
+            302
+          ],
+          [
+            471,
+            319
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "lynx",
+        "bbox": [
+          [
+            436,
+            436
+          ],
+          [
+            468,
+            449
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "wolf",
+        "bbox": [
+          [
+            437,
+            561
+          ],
+          [
+            467,
+            573
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "mtn. lion",
+        "bbox": [
+          [
+            618,
+            505
+          ],
+          [
+            675,
+            518
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "detritus",
+        "bbox": [
+          [
+            125,
+            106
+          ],
+          [
+            182,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "\"land\" surface tile",
+        "bbox": [
+          [
+            9,
+            240
+          ],
+          [
+            57,
+            299
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "nuts roots small seeds",
+        "bbox": [
+          [
+            126,
+            205
+          ],
+          [
+            207,
+            247
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          202,
+          100,
+          75,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          324,
+          36,
+          87,
+          85
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          212,
+          399,
+          58,
+          35
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          352,
+          371,
+          85,
+          54
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          346,
+          270,
+          92,
+          65
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          346,
+          212,
+          95,
+          75
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          353,
+          413,
+          88,
+          116
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          502,
+          453,
+          119,
+          79
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          495,
+          382,
+          129,
+          90
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          317,
+          100,
+          92,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          439,
+          182,
+          56,
+          67
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          214,
+          204,
+          63,
+          36
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          59,
+          130,
+          80,
+          131
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          60,
+          216,
+          68,
+          60
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          63,
+          264,
+          60,
+          54
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          56,
+          281,
+          74,
+          139
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          226,
+          301,
+          42,
+          33
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B6",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B4",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B5",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B3",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B3",
+      "via": "A13"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "B8",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "B7",
+      "via": "A10"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T14",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B6"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T7",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T10",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T11",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "B9",
+      "via": "A4"
+    }
+  ],
+  "rst_source": true
+}

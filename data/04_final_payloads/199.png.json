@@ -1,0 +1,252 @@
+{
+  "id": "199.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "199.png_B0",
+        "name": "Grasses and ferns",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T7"
+        ]
+      },
+      {
+        "uid": "199.png_B1",
+        "name": "Stage 2",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "199.png_B2",
+        "name": "Stage 3",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "199.png_B3",
+        "name": "Stage 4",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "199.png_B0",
+        "target": "199.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "199.png_B1",
+        "target": "199.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "199.png_B2",
+        "target": "199.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          15,
+          162,
+          73,
+          35
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          111,
+          129,
+          86,
+          68
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          206,
+          115,
+          104,
+          81
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          292,
+          21,
+          122,
+          176
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Tall soft-stem plants",
+        "bbox": [
+          [
+            112,
+            235
+          ],
+          [
+            197,
+            298
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Shrubs and - bushes",
+        "bbox": [
+          [
+            220,
+            237
+          ],
+          [
+            300,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Trees",
+        "bbox": [
+          [
+            328,
+            255
+          ],
+          [
+            385,
+            278
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Stage 4",
+        "bbox": [
+          [
+            319,
+            204
+          ],
+          [
+            395,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Stage 3",
+        "bbox": [
+          [
+            220,
+            202
+          ],
+          [
+            298,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Stage 2",
+        "bbox": [
+          [
+            114,
+            204
+          ],
+          [
+            195,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Stage 1",
+        "bbox": [
+          [
+            5,
+            202
+          ],
+          [
+            80,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Grasses and ferns",
+        "bbox": [
+          [
+            0,
+            239
+          ],
+          [
+            82,
+            297
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          70,
+          262,
+          37,
+          12
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          197,
+          262,
+          37,
+          10
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          291,
+          263,
+          35,
+          9
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Grasses and ferns la nguon thuc an cho Stage 2. Stage 2 la nguon thuc an cho Stage 3. Stage 3 la nguon thuc an cho Stage 4."
+}

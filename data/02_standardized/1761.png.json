@@ -1,0 +1,407 @@
+{
+  "id": "1761.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "snake",
+        "bbox": [
+          [
+            98,
+            28
+          ],
+          [
+            139,
+            41
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Toad",
+        "bbox": [
+          [
+            150,
+            112
+          ],
+          [
+            189,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "weaverbird",
+        "bbox": [
+          [
+            398,
+            286
+          ],
+          [
+            480,
+            302
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "garter snake",
+        "bbox": [
+          [
+            295,
+            72
+          ],
+          [
+            383,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "hawk",
+        "bbox": [
+          [
+            376,
+            27
+          ],
+          [
+            419,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "preying mantis",
+        "bbox": [
+          [
+            398,
+            199
+          ],
+          [
+            501,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "spider",
+        "bbox": [
+          [
+            246,
+            159
+          ],
+          [
+            289,
+            173
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            102,
+            202
+          ],
+          [
+            190,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "rabbit",
+        "bbox": [
+          [
+            35,
+            157
+          ],
+          [
+            84,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "grass",
+        "bbox": [
+          [
+            34,
+            331
+          ],
+          [
+            80,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "mouse",
+        "bbox": [
+          [
+            218,
+            285
+          ],
+          [
+            263,
+            302
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          416,
+          47,
+          162,
+          271
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          134,
+          48,
+          227,
+          16
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          162,
+          167,
+          92,
+          37
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          184,
+          202,
+          216,
+          95
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          141,
+          213,
+          85,
+          77
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          45,
+          162,
+          16,
+          173
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          57,
+          205,
+          79,
+          134
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          73,
+          289,
+          153,
+          61
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          107,
+          51,
+          53,
+          88
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          359,
+          50,
+          34,
+          47
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          162,
+          52,
+          214,
+          78
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          127,
+          126,
+          43,
+          76
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          140,
+          85,
+          183,
+          111
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          187,
+          119,
+          267,
+          82
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          409,
+          219,
+          50,
+          65
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          236,
+          173,
+          36,
+          111
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T10",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T9",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T10",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T9",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T7",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T6",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A15"
+    }
+  ],
+  "rst_source": true
+}

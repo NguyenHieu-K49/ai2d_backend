@@ -1,0 +1,381 @@
+{
+  "id": "1884.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1884.png_B0",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1884.png_B1",
+        "name": "Hawk",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1884.png_B2",
+        "name": "Rabbit",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1884.png_B3",
+        "name": "Grasshopper",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1884.png_B4",
+        "name": "Grass",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1884.png_B5",
+        "name": "Mouse",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1884.png_B6",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1884.png_B0",
+        "target": "1884.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1884.png_B2",
+        "target": "1884.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1884.png_B3",
+        "target": "1884.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1884.png_B3",
+        "target": "1884.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1884.png_B4",
+        "target": "1884.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1884.png_B4",
+        "target": "1884.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1884.png_B4",
+        "target": "1884.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1884.png_B5",
+        "target": "1884.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1884.png_B6",
+        "target": "1884.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          185,
+          30,
+          45,
+          42
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          312,
+          82,
+          38,
+          56
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          156,
+          101,
+          52,
+          37
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          68,
+          65,
+          54,
+          22
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          47,
+          138,
+          61,
+          40
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          151,
+          199,
+          55,
+          27
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          260,
+          157,
+          48,
+          49
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Mouse",
+        "bbox": [
+          [
+            137,
+            228
+          ],
+          [
+            201,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Snake",
+        "bbox": [
+          [
+            275,
+            205
+          ],
+          [
+            330,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Hawk",
+        "bbox": [
+          [
+            341,
+            136
+          ],
+          [
+            390,
+            161
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Frog",
+        "bbox": [
+          [
+            177,
+            3
+          ],
+          [
+            222,
+            31
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            4,
+            30
+          ],
+          [
+            116,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            162,
+            139
+          ],
+          [
+            222,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Grass",
+        "bbox": [
+          [
+            23,
+            169
+          ],
+          [
+            78,
+            192
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          56,
+          78,
+          31,
+          60
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          103,
+          35,
+          81,
+          31
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          232,
+          39,
+          89,
+          52
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          125,
+          67,
+          164,
+          44
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          106,
+          123,
+          54,
+          37
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          207,
+          110,
+          92,
+          23
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          299,
+          130,
+          40,
+          54
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          83,
+          178,
+          74,
+          40
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          197,
+          191,
+          77,
+          26
+        ]
+      }
+    }
+  }
+}

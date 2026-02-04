@@ -1,0 +1,392 @@
+{
+  "id": "1904.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1904.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1904.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1904.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1904.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1904.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1904.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1904.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "1904.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "1904.png_T0",
+        "name": "Detritivores and decomposers",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1904.png_T1",
+        "name": "Buzzle.com",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1904.png_B0",
+        "target": "1904.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1904.png_B4",
+        "target": "1904.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1904.png_B4",
+        "target": "1904.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1904.png_B4",
+        "target": "1904.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1904.png_B4",
+        "target": "1904.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1904.png_B5",
+        "target": "1904.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1904.png_B5",
+        "target": "1904.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1904.png_B5",
+        "target": "1904.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1904.png_B7",
+        "target": "1904.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1904.png_B7",
+        "target": "1904.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1904.png_B7",
+        "target": "1904.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1904.png_B7",
+        "target": "1904.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          10,
+          73,
+          102,
+          100
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          234,
+          11,
+          102,
+          96
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          108,
+          202,
+          98,
+          99
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          225,
+          231,
+          109,
+          97
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          30,
+          333,
+          96,
+          111
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          235,
+          386,
+          105,
+          107
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          357,
+          175,
+          106,
+          113
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          2,
+          469,
+          202,
+          78
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Detritivores and decomposers",
+        "bbox": [
+          [
+            508,
+            129
+          ],
+          [
+            532,
+            415
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Buzzle.com",
+        "bbox": [
+          [
+            534,
+            471
+          ],
+          [
+            548,
+            548
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          98,
+          19,
+          140,
+          68
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          3,
+          165,
+          36,
+          190
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          211,
+          485,
+          53,
+          27
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          209,
+          433,
+          316,
+          99
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          345,
+          293,
+          76,
+          132
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          55,
+          68,
+          187,
+          261
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          307,
+          95,
+          53,
+          303
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          421,
+          36,
+          80,
+          463
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          79,
+          282,
+          38,
+          43
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          105,
+          301,
+          81,
+          170
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          182,
+          325,
+          79,
+          150
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          301,
+          329,
+          20,
+          62
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          18,
+          424,
+          31,
+          52
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B0 la nguon thuc an cho B1. B4 la nguon thuc an cho B0. B4 la nguon thuc an cho B1. B4 la nguon thuc an cho B2. B4 la nguon thuc an cho B7. B5 la nguon thuc an cho B6. B5 la nguon thuc an cho B1. B5 la nguon thuc an cho B3. B7 la nguon thuc an cho B5. B7 la nguon thuc an cho Detritivores and decomposers. B7 la nguon thuc an cho B2. B7 la nguon thuc an cho B3."
+}

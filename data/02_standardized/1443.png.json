@@ -1,0 +1,306 @@
+{
+  "id": "1443.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          21,
+          184,
+          66,
+          57
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          75,
+          73,
+          87,
+          59
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          230,
+          46,
+          34,
+          42
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          338,
+          69,
+          54,
+          68
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          403,
+          183,
+          67,
+          60
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          380,
+          318,
+          75,
+          57
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          287,
+          407,
+          69,
+          49
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          156,
+          399,
+          54,
+          63
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          41,
+          317,
+          73,
+          63
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            233,
+            114
+          ],
+          [
+            284,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Larva",
+        "bbox": [
+          [
+            315,
+            208
+          ],
+          [
+            376,
+            239
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            254,
+            351
+          ],
+          [
+            310,
+            377
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "IV. Adult Butterfly",
+        "bbox": [
+          [
+            107,
+            198
+          ],
+          [
+            213,
+            250
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          294,
+          53,
+          36,
+          27
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          397,
+          130,
+          32,
+          33
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          435,
+          263,
+          19,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          361,
+          385,
+          37,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          221,
+          444,
+          58,
+          16
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          98,
+          386,
+          38,
+          38
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          42,
+          269,
+          22,
+          38
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          61,
+          137,
+          35,
+          39
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          163,
+          59,
+          35,
+          26
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B8",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B0",
+      "via": "A6"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,169 @@
+{
+  "id": "1972.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          333,
+          0,
+          482,
+          248
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          117,
+          963,
+          315,
+          97
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          513,
+          938,
+          355,
+          135
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          637,
+          1272,
+          371,
+          133
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          5,
+          1270,
+          578,
+          122
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "killer whales",
+        "bbox": [
+          [
+            347,
+            298
+          ],
+          [
+            682,
+            370
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "sea otter",
+        "bbox": [
+          [
+            198,
+            1112
+          ],
+          [
+            402,
+            1175
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pinnipeds",
+        "bbox": [
+          [
+            568,
+            1112
+          ],
+          [
+            810,
+            1187
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "small cetaceans",
+        "bbox": [
+          [
+            632,
+            1447
+          ],
+          [
+            1017,
+            1499
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "large cetaceans",
+        "bbox": [
+          [
+            62,
+            1442
+          ],
+          [
+            480,
+            1499
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          483,
+          392,
+          80,
+          555
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

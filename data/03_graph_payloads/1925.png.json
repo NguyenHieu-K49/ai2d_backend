@@ -1,0 +1,341 @@
+{
+  "id": "1925.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1925.png_B0",
+        "name": "Moose",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1925.png_B1",
+        "name": "Brown Bear",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1925.png_B2",
+        "name": "Nuts",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1925.png_B3",
+        "name": "Berries",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1925.png_B4",
+        "name": "Deer",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1925.png_B5",
+        "name": "Grass",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1925.png_T4",
+        "name": "Brown Bear's Food Chain",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1925.png_B0",
+        "target": "1925.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1925.png_B2",
+        "target": "1925.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1925.png_B3",
+        "target": "1925.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1925.png_B3",
+        "target": "1925.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1925.png_B4",
+        "target": "1925.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1925.png_B5",
+        "target": "1925.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1925.png_B5",
+        "target": "1925.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          120,
+          202,
+          111,
+          92
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          306,
+          73,
+          64,
+          79
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          542,
+          131,
+          87,
+          63
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          515,
+          335,
+          94,
+          71
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          283,
+          260,
+          78,
+          86
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          44,
+          387,
+          130,
+          100
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Nuts",
+        "bbox": [
+          [
+            563,
+            200
+          ],
+          [
+            604,
+            220
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Deer",
+        "bbox": [
+          [
+            288,
+            353
+          ],
+          [
+            331,
+            367
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Grass",
+        "bbox": [
+          [
+            69,
+            492
+          ],
+          [
+            130,
+            509
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Berries",
+        "bbox": [
+          [
+            521,
+            410
+          ],
+          [
+            588,
+            433
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Brown Bear's Food Chain",
+        "bbox": [
+          [
+            131,
+            23
+          ],
+          [
+            588,
+            67
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Brown Bear",
+        "bbox": [
+          [
+            298,
+            159
+          ],
+          [
+            385,
+            179
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Moose",
+        "bbox": [
+          [
+            136,
+            291
+          ],
+          [
+            196,
+            309
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          391,
+          110,
+          149,
+          64
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          381,
+          141,
+          174,
+          198
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          320,
+          176,
+          30,
+          89
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          369,
+          288,
+          145,
+          76
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          159,
+          301,
+          123,
+          94
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          93,
+          310,
+          72,
+          83
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          222,
+          136,
+          81,
+          62
+        ]
+      }
+    }
+  }
+}

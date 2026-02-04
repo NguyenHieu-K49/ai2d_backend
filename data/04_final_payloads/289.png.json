@@ -1,0 +1,448 @@
+{
+  "id": "289.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "289.png_B0",
+        "name": "Fox",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "289.png_B1",
+        "name": "RABBIT",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T8"
+        ]
+      },
+      {
+        "uid": "289.png_B2",
+        "name": "Mouse",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "289.png_B3",
+        "name": "Owl",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "289.png_B4",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      },
+      {
+        "uid": "289.png_B5",
+        "name": "Sparrow",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "289.png_B6",
+        "name": "Insect",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "289.png_B7",
+        "name": "Cardinal",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "289.png_B8",
+        "name": "Plants",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T6"
+        ]
+      },
+      {
+        "uid": "289.png_B9",
+        "name": "B9",
+        "type": "Organism",
+        "components": [
+          "B9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "289.png_B2",
+        "target": "289.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "289.png_B7",
+        "target": "289.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "289.png_B8",
+        "target": "289.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "289.png_B8",
+        "target": "289.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "289.png_B8",
+        "target": "289.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          39,
+          25,
+          96,
+          76
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          5,
+          264,
+          57,
+          46
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          143,
+          246,
+          48,
+          30
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          256,
+          14,
+          39,
+          62
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          350,
+          39,
+          123,
+          29
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          290,
+          158,
+          48,
+          32
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          408,
+          217,
+          38,
+          32
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          255,
+          256,
+          47,
+          41
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          2,
+          373,
+          374,
+          23
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          448,
+          374,
+          58,
+          22
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Fox",
+        "bbox": [
+          [
+            69,
+            113
+          ],
+          [
+            98,
+            132
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Owl",
+        "bbox": [
+          [
+            249,
+            102
+          ],
+          [
+            283,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Snake",
+        "bbox": [
+          [
+            393,
+            80
+          ],
+          [
+            434,
+            93
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Sparrow",
+        "bbox": [
+          [
+            276,
+            201
+          ],
+          [
+            331,
+            214
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Insect",
+        "bbox": [
+          [
+            393,
+            257
+          ],
+          [
+            433,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Cardinal",
+        "bbox": [
+          [
+            265,
+            305
+          ],
+          [
+            318,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Plants",
+        "bbox": [
+          [
+            390,
+            369
+          ],
+          [
+            430,
+            382
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Mouse",
+        "bbox": [
+          [
+            140,
+            295
+          ],
+          [
+            186,
+            310
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "RABBIT",
+        "bbox": [
+          [
+            10,
+            327
+          ],
+          [
+            51,
+            342
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          284,
+          325,
+          16,
+          54
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          151,
+          324,
+          15,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          32,
+          349,
+          15,
+          26
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          33,
+          83,
+          213,
+          190
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          93,
+          96,
+          286,
+          163
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          160,
+          107,
+          77,
+          152
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          117,
+          106,
+          300,
+          190
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          251,
+          122,
+          20,
+          172
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          275,
+          107,
+          141,
+          81
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          359,
+          108,
+          67,
+          140
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Mouse la nguon thuc an cho Owl. Cardinal la nguon thuc an cho Owl. Plants la nguon thuc an cho Cardinal. Plants la nguon thuc an cho Mouse. Plants la nguon thuc an cho RABBIT."
+}

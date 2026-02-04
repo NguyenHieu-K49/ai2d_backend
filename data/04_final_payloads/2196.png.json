@@ -1,0 +1,170 @@
+{
+  "id": "2196.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2196.png_T0",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2196.png_T1",
+        "name": "larval",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2196.png_T2",
+        "name": "pupal stage",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2196.png_T3",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2196.png_T0",
+        "target": "2196.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2196.png_T1",
+        "target": "2196.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2196.png_T2",
+        "target": "2196.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2196.png_T3",
+        "target": "2196.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "egg",
+        "bbox": [
+          [
+            3,
+            70
+          ],
+          [
+            36,
+            84
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "larval",
+        "bbox": [
+          [
+            122,
+            6
+          ],
+          [
+            164,
+            44
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pupal stage",
+        "bbox": [
+          [
+            223,
+            67
+          ],
+          [
+            274,
+            105
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "adult",
+        "bbox": [
+          [
+            116,
+            117
+          ],
+          [
+            158,
+            155
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          25,
+          24,
+          87,
+          41
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          30,
+          87,
+          81,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          163,
+          102,
+          73,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          172,
+          21,
+          68,
+          43
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan egg phat trien thanh larval. Giai doan larval phat trien thanh pupal stage. Giai doan pupal stage phat trien thanh adult. Giai doan adult phat trien thanh egg."
+}

@@ -1,0 +1,199 @@
+{
+  "id": "2437.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          217,
+          980,
+          139,
+          120
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          45,
+          702,
+          85,
+          281
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          31,
+          348,
+          340,
+          242
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          126,
+          123,
+          126,
+          146
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Life cycle of the Knopper Gall wasp Andricus quercuscalisis",
+        "bbox": [
+          [
+            16,
+            20
+          ],
+          [
+            388,
+            84
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fig 1",
+        "bbox": [
+          [
+            18,
+            106
+          ],
+          [
+            73,
+            132
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "1 cm",
+        "bbox": [
+          [
+            288,
+            199
+          ],
+          [
+            330,
+            216
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Bisected agamic knopper gall on acorn of Quercus robor showing the inner cells of the gall former",
+        "bbox": [
+          [
+            16,
+            292
+          ],
+          [
+            383,
+            333
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Asexual female Andricus quercuscalisis which emerges from above gall in springtime",
+        "bbox": [
+          [
+            51,
+            622
+          ],
+          [
+            350,
+            659
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "1mm",
+        "bbox": [
+          [
+            164,
+            596
+          ],
+          [
+            223,
+            612
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Catkins of Quercus cerris on which the newly emerged gall wasp lays its eggs. The small sexual galls produced will protude from groups of anthers",
+        "bbox": [
+          [
+            152,
+            791
+          ],
+          [
+            376,
+            882
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "1cm",
+        "bbox": [
+          [
+            73,
+            1010
+          ],
+          [
+            118,
+            1030
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "1mm",
+        "bbox": [
+          [
+            265,
+            1117
+          ],
+          [
+            316,
+            1138
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "The sexual females from these galls will seek out acorns of Quercus robor in which to lay their eggs",
+        "bbox": [
+          [
+            39,
+            1065
+          ],
+          [
+            242,
+            1141
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  },
+  "relationships": [
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

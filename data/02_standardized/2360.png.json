@@ -1,0 +1,209 @@
+{
+  "id": "2360.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          416,
+          186,
+          30,
+          24
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          96,
+          118,
+          90,
+          114
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          77,
+          350,
+          127,
+          222
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          342,
+          346,
+          176,
+          232
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          495,
+          353,
+          34,
+          26
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "sprouting seed",
+        "bbox": [
+          [
+            66,
+            8
+          ],
+          [
+            198,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "the soils surface",
+        "bbox": [
+          [
+            1,
+            155
+          ],
+          [
+            85,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Plant with Bud Buds will grow into flowers",
+        "bbox": [
+          [
+            41,
+            306
+          ],
+          [
+            219,
+            350
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "the soils surface",
+        "bbox": [
+          [
+            0,
+            457
+          ],
+          [
+            85,
+            476
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "the soils surface",
+        "bbox": [
+          [
+            282,
+            458
+          ],
+          [
+            365,
+            475
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "EnchantedLearning com",
+        "bbox": [
+          [
+            427,
+            591
+          ],
+          [
+            556,
+            607
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Plant with Flowers Fertilized flowers produce new seeds.",
+        "bbox": [
+          [
+            293,
+            306
+          ],
+          [
+            548,
+            343
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "the soils surface",
+        "bbox": [
+          [
+            282,
+            156
+          ],
+          [
+            366,
+            173
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Seed",
+        "bbox": [
+          [
+            403,
+            10
+          ],
+          [
+            450,
+            28
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  },
+  "relationships": [
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

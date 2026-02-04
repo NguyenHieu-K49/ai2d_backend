@@ -1,0 +1,272 @@
+{
+  "id": "2174.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          204,
+          230,
+          52,
+          71
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          288,
+          113,
+          38,
+          47
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          245,
+          18,
+          18,
+          27
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          62,
+          0,
+          65,
+          73
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          0,
+          109,
+          52,
+          59
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          69,
+          189,
+          47,
+          112
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult Medusa",
+        "bbox": [
+          [
+            120,
+            61
+          ],
+          [
+            168,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fertilized Egg",
+        "bbox": [
+          [
+            193,
+            44
+          ],
+          [
+            257,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Planula",
+        "bbox": [
+          [
+            232,
+            125
+          ],
+          [
+            285,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Polyp",
+        "bbox": [
+          [
+            213,
+            203
+          ],
+          [
+            248,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Strobilating Polyp",
+        "bbox": [
+          [
+            107,
+            168
+          ],
+          [
+            186,
+            201
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Ephyra",
+        "bbox": [
+          [
+            52,
+            127
+          ],
+          [
+            108,
+            149
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          23,
+          39,
+          42,
+          72
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          128,
+          0,
+          114,
+          23
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          266,
+          35,
+          42,
+          70
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          26,
+          166,
+          36,
+          68
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          124,
+          269,
+          80,
+          24
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          258,
+          175,
+          50,
+          77
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

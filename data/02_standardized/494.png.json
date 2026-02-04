@@ -1,0 +1,422 @@
+{
+  "id": "494.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "seagulls (birds)",
+        "bbox": [
+          [
+            204,
+            17
+          ],
+          [
+            262,
+            49
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "tiny floating animals",
+        "bbox": [
+          [
+            59,
+            86
+          ],
+          [
+            141,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "seaweed",
+        "bbox": [
+          [
+            460,
+            324
+          ],
+          [
+            529,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "tiny floating plants",
+        "bbox": [
+          [
+            187,
+            86
+          ],
+          [
+            271,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "limpets (molluscs)",
+        "bbox": [
+          [
+            337,
+            130
+          ],
+          [
+            411,
+            166
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "prawns (crustaceans)",
+        "bbox": [
+          [
+            183,
+            170
+          ],
+          [
+            281,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "whelks (mollusc)",
+        "bbox": [
+          [
+            68,
+            225
+          ],
+          [
+            133,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "mollusc",
+        "bbox": [
+          [
+            64,
+            327
+          ],
+          [
+            133,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "lobsters (crustaceans)",
+        "bbox": [
+          [
+            185,
+            264
+          ],
+          [
+            283,
+            302
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "crabs (crustaceans)",
+        "bbox": [
+          [
+            328,
+            220
+          ],
+          [
+            420,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "lugworms (annelids)",
+        "bbox": [
+          [
+            452,
+            176
+          ],
+          [
+            535,
+            214
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          516,
+          218,
+          14,
+          98
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          427,
+          215,
+          71,
+          34
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          284,
+          265,
+          72,
+          29
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          151,
+          97,
+          28,
+          15
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          117,
+          127,
+          63,
+          70
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          284,
+          13,
+          74,
+          114
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          284,
+          35,
+          24,
+          158
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          154,
+          171,
+          203,
+          67
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          388,
+          172,
+          13,
+          46
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          388,
+          58,
+          175,
+          282
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          151,
+          265,
+          253,
+          83
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          151,
+          305,
+          85,
+          25
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          74,
+          262,
+          16,
+          48
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          117,
+          262,
+          59,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          27,
+          102,
+          19,
+          225
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          9,
+          24,
+          167,
+          325
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          152,
+          246,
+          167,
+          10
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T4",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T9",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T8",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T0",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T7",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T8",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T8",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T0",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T7",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T8",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

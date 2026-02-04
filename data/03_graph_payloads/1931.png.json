@@ -1,0 +1,325 @@
+{
+  "id": "1931.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1931.png_T0",
+        "name": "Small fish",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1931.png_T1",
+        "name": "Seaweed",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1931.png_T2",
+        "name": "Crabs",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1931.png_T3",
+        "name": "Large fish",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1931.png_T4",
+        "name": "Sharks",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1931.png_T5",
+        "name": "Sea otters",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1931.png_T6",
+        "name": "Sea urchins",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1931.png_T0",
+        "target": "1931.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1931.png_T0",
+        "target": "1931.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1931.png_T1",
+        "target": "1931.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1931.png_T1",
+        "target": "1931.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1931.png_T1",
+        "target": "1931.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1931.png_T2",
+        "target": "1931.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1931.png_T2",
+        "target": "1931.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1931.png_T3",
+        "target": "1931.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1931.png_T5",
+        "target": "1931.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1931.png_T6",
+        "target": "1931.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Small fish",
+        "bbox": [
+          [
+            89,
+            135
+          ],
+          [
+            140,
+            148
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seaweed",
+        "bbox": [
+          [
+            91,
+            180
+          ],
+          [
+            136,
+            192
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Crabs",
+        "bbox": [
+          [
+            188,
+            135
+          ],
+          [
+            218,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Large fish",
+        "bbox": [
+          [
+            166,
+            90
+          ],
+          [
+            218,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Sharks",
+        "bbox": [
+          [
+            163,
+            0
+          ],
+          [
+            199,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sea otters",
+        "bbox": [
+          [
+            67,
+            45
+          ],
+          [
+            117,
+            58
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Sea urchins",
+        "bbox": [
+          [
+            0,
+            136
+          ],
+          [
+            59,
+            148
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          24,
+          61,
+          49,
+          75
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          90,
+          9,
+          66,
+          37
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          124,
+          50,
+          70,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          89,
+          60,
+          96,
+          76
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          113,
+          96,
+          49,
+          38
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          199,
+          105,
+          8,
+          32
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          134,
+          149,
+          47,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          146,
+          136,
+          36,
+          8
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          109,
+          149,
+          9,
+          32
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          54,
+          152,
+          41,
+          30
+        ]
+      }
+    }
+  }
+}

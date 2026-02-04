@@ -1,0 +1,574 @@
+{
+  "id": "704.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "704.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "704.png_T0",
+        "name": "Tertiary consumer",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "704.png_T1",
+        "name": "Secondary consumer",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "704.png_T10",
+        "name": "Secondary consumer",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "704.png_T11",
+        "name": "Decomposers",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "704.png_T2",
+        "name": "Primary consumer",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "704.png_T3",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "704.png_T4",
+        "name": "Primary consumer",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "704.png_T5",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "704.png_T6",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "704.png_T7",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "704.png_T8",
+        "name": "Primary Consumer",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "704.png_T9",
+        "name": "Primary consumer",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "704.png_B0",
+        "target": "704.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "704.png_B0",
+        "target": "704.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "704.png_B0",
+        "target": "704.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "704.png_B0",
+        "target": "704.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "704.png_T1",
+        "target": "704.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "704.png_T10",
+        "target": "704.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "704.png_T2",
+        "target": "704.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "704.png_T3",
+        "target": "704.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "704.png_T3",
+        "target": "704.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "704.png_T4",
+        "target": "704.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "704.png_T5",
+        "target": "704.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "704.png_T6",
+        "target": "704.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "704.png_T6",
+        "target": "704.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "704.png_T6",
+        "target": "704.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "704.png_T7",
+        "target": "704.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "704.png_T7",
+        "target": "704.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "704.png_T8",
+        "target": "704.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "704.png_T9",
+        "target": "704.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          309,
+          473,
+          111,
+          102
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Tertiary consumer",
+        "bbox": [
+          [
+            226,
+            21
+          ],
+          [
+            321,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            41,
+            152
+          ],
+          [
+            141,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            395,
+            148
+          ],
+          [
+            501,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Decomposers",
+        "bbox": [
+          [
+            736,
+            131
+          ],
+          [
+            864,
+            166
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            16,
+            265
+          ],
+          [
+            111,
+            314
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Producer",
+        "bbox": [
+          [
+            41,
+            379
+          ],
+          [
+            127,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            176,
+            261
+          ],
+          [
+            272,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Producer",
+        "bbox": [
+          [
+            210,
+            385
+          ],
+          [
+            298,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Producer",
+        "bbox": [
+          [
+            400,
+            383
+          ],
+          [
+            483,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Producer",
+        "bbox": [
+          [
+            580,
+            397
+          ],
+          [
+            665,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Primary Consumer",
+        "bbox": [
+          [
+            506,
+            265
+          ],
+          [
+            598,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            348,
+            263
+          ],
+          [
+            441,
+            318
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          83,
+          81,
+          183,
+          65
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          302,
+          78,
+          153,
+          74
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          598,
+          325,
+          42,
+          65
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          462,
+          318,
+          95,
+          58
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          429,
+          325,
+          23,
+          54
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          254,
+          319,
+          189,
+          64
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          243,
+          210,
+          202,
+          53
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          138,
+          206,
+          262,
+          59
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          478,
+          210,
+          88,
+          51
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          691,
+          19,
+          64,
+          417
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          56,
+          206,
+          48,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          115,
+          418,
+          181,
+          102
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          78,
+          323,
+          21,
+          49
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          88,
+          321,
+          150,
+          53
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          123,
+          319,
+          149,
+          67
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          265,
+          425,
+          47,
+          51
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          418,
+          425,
+          41,
+          58
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          429,
+          439,
+          192,
+          90
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B0 la nguon thuc an cho Producer. B0 la nguon thuc an cho Producer. B0 la nguon thuc an cho Producer. B0 la nguon thuc an cho Producer. Secondary consumer la nguon thuc an cho Tertiary consumer. Secondary consumer la nguon thuc an cho Tertiary consumer. Primary consumer la nguon thuc an cho Secondary consumer. Producer la nguon thuc an cho Primary consumer. Producer la nguon thuc an cho Primary consumer. Primary consumer la nguon thuc an cho Secondary consumer. Producer la nguon thuc an cho Primary consumer. Producer la nguon thuc an cho Primary Consumer. Producer la nguon thuc an cho Primary consumer. Producer la nguon thuc an cho Primary consumer. Producer la nguon thuc an cho Primary Consumer. Producer la nguon thuc an cho Decomposers. Primary Consumer la nguon thuc an cho Secondary consumer. Primary consumer la nguon thuc an cho Secondary consumer."
+}

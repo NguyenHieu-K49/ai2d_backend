@@ -1,0 +1,200 @@
+{
+  "id": "2219.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          435,
+          96,
+          98,
+          115
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          422,
+          327,
+          112,
+          130
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          51,
+          376,
+          97,
+          72
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          78,
+          117,
+          110,
+          86
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Plant Life Cycle",
+        "bbox": [
+          [
+            175,
+            40
+          ],
+          [
+            451,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seedling",
+        "bbox": [
+          [
+            7,
+            109
+          ],
+          [
+            77,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Sapling",
+        "bbox": [
+          [
+            544,
+            94
+          ],
+          [
+            610,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Seed",
+        "bbox": [
+          [
+            6,
+            357
+          ],
+          [
+            67,
+            384
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult",
+        "bbox": [
+          [
+            541,
+            327
+          ],
+          [
+            582,
+            357
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          186,
+          161,
+          248,
+          21
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          475,
+          210,
+          16,
+          118
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          155,
+          399,
+          279,
+          11
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          116,
+          208,
+          11,
+          172
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

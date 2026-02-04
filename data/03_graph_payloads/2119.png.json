@@ -1,0 +1,875 @@
+{
+  "id": "2119.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2119.png_B0",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T12"
+        ]
+      },
+      {
+        "uid": "2119.png_B1",
+        "name": "Other herbivorous plankton",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2119.png_B2",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2119.png_B3",
+        "name": "Euphausia Superba (Krill)",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2119.png_B4",
+        "name": "Birds",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2119.png_B5",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T10"
+        ]
+      },
+      {
+        "uid": "2119.png_B6",
+        "name": "Balleen whales",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T13"
+        ]
+      },
+      {
+        "uid": "2119.png_B7",
+        "name": "Man",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2119.png_T0",
+        "name": "Crabeater Seal",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2119.png_T11",
+        "name": "Carnivorous Plankton",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2119.png_T5",
+        "name": "Elephant seal",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2119.png_T6",
+        "name": "Sperm whale",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2119.png_T8",
+        "name": "Smaller toothed whales",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2119.png_T9",
+        "name": "Leopard seal",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2119.png_B1",
+        "target": "2119.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A27"
+      },
+      {
+        "source": "2119.png_B2",
+        "target": "2119.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2119.png_B2",
+        "target": "2119.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2119.png_B2",
+        "target": "2119.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2119.png_B3",
+        "target": "2119.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "2119.png_B3",
+        "target": "2119.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      },
+      {
+        "source": "2119.png_B3",
+        "target": "2119.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A28"
+      },
+      {
+        "source": "2119.png_B4",
+        "target": "2119.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2119.png_B4",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2119.png_B4",
+        "target": "2119.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "2119.png_B4",
+        "target": "2119.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "2119.png_B4",
+        "target": "2119.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "2119.png_B5",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2119.png_B5",
+        "target": "2119.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2119.png_B6",
+        "target": "2119.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A30"
+      },
+      {
+        "source": "2119.png_B7",
+        "target": "2119.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2119.png_B7",
+        "target": "2119.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2119.png_B7",
+        "target": "2119.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2119.png_T0",
+        "target": "2119.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A29"
+      },
+      {
+        "source": "2119.png_T11",
+        "target": "2119.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "2119.png_T11",
+        "target": "2119.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "2119.png_T5",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2119.png_T6",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2119.png_T8",
+        "target": "2119.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2119.png_T8",
+        "target": "2119.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2119.png_T8",
+        "target": "2119.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2119.png_T8",
+        "target": "2119.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2119.png_T8",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2119.png_T9",
+        "target": "2119.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2119.png_T9",
+        "target": "2119.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2119.png_T9",
+        "target": "2119.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          181,
+          469,
+          51,
+          41
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          296,
+          391,
+          54,
+          34
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          280,
+          302,
+          83,
+          26
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          61,
+          379,
+          62,
+          50
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          67,
+          247,
+          37,
+          46
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          157,
+          299,
+          94,
+          35
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          47,
+          114,
+          81,
+          44
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          192,
+          20,
+          36,
+          43
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Crabeater Seal",
+        "bbox": [
+          [
+            63,
+            185
+          ],
+          [
+            122,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Birds",
+        "bbox": [
+          [
+            75,
+            230
+          ],
+          [
+            99,
+            241
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Fish",
+        "bbox": [
+          [
+            194,
+            277
+          ],
+          [
+            217,
+            289
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Carnivorous Plankton",
+        "bbox": [
+          [
+            162,
+            369
+          ],
+          [
+            249,
+            382
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            175,
+            453
+          ],
+          [
+            238,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Balleen whales",
+        "bbox": [
+          [
+            59,
+            98
+          ],
+          [
+            125,
+            109
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Euphausia Superba (Krill)",
+        "bbox": [
+          [
+            52,
+            367
+          ],
+          [
+            130,
+            382
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Other herbivorous plankton",
+        "bbox": [
+          [
+            278,
+            364
+          ],
+          [
+            362,
+            384
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Squid",
+        "bbox": [
+          [
+            307,
+            277
+          ],
+          [
+            336,
+            290
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Elephant seal",
+        "bbox": [
+          [
+            297,
+            185
+          ],
+          [
+            351,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Sperm whale",
+        "bbox": [
+          [
+            292,
+            101
+          ],
+          [
+            350,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Man",
+        "bbox": [
+          [
+            197,
+            8
+          ],
+          [
+            218,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Smaller toothed whales",
+        "bbox": [
+          [
+            177,
+            94
+          ],
+          [
+            236,
+            115
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Leopard seal",
+        "bbox": [
+          [
+            176,
+            184
+          ],
+          [
+            234,
+            201
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          128,
+          62,
+          42,
+          35
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          123,
+          108,
+          48,
+          77
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          195,
+          202,
+          21,
+          69
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          213,
+          202,
+          69,
+          104
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          131,
+          268,
+          32,
+          13
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          129,
+          220,
+          159,
+          57
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          350,
+          98,
+          49,
+          195
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          246,
+          298,
+          34,
+          16
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          243,
+          315,
+          37,
+          17
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          310,
+          335,
+          20,
+          29
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          240,
+          335,
+          43,
+          34
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          240,
+          331,
+          40,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          126,
+          112,
+          64,
+          116
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          121,
+          287,
+          50,
+          81
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          125,
+          281,
+          155,
+          126
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          130,
+          366,
+          34,
+          12
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          247,
+          367,
+          33,
+          17
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          91,
+          314,
+          71,
+          51
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          65,
+          294,
+          20,
+          71
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          131,
+          415,
+          146,
+          13
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          246,
+          428,
+          84,
+          72
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          83,
+          424,
+          82,
+          78
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          6,
+          187,
+          44,
+          210
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          127,
+          202,
+          70,
+          62
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          0,
+          138,
+          51,
+          275
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          198,
+          113,
+          16,
+          69
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          247,
+          38,
+          86,
+          54
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          311,
+          201,
+          20,
+          72
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          240,
+          60,
+          67,
+          120
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          241,
+          108,
+          45,
+          84
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          230,
+          111,
+          72,
+          161
+        ]
+      }
+    }
+  }
+}

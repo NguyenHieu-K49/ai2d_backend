@@ -1,0 +1,292 @@
+{
+  "id": "2417.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2417.png_B0",
+        "name": "mature females",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2417.png_B1",
+        "name": "females before egg laying",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2417.png_B2",
+        "name": "second instars on twig",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2417.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2417.png_B4",
+        "name": "crawlers",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2417.png_B5",
+        "name": "settled first instars",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2417.png_B6",
+        "name": "eggs beneath female scale cover",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2417.png_B0",
+        "target": "2417.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2417.png_B1",
+        "target": "2417.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2417.png_B2",
+        "target": "2417.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2417.png_B5",
+        "target": "2417.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          530,
+          95,
+          435,
+          165
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          116,
+          340,
+          434,
+          146
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          527,
+          674,
+          431,
+          139
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          988,
+          139,
+          54,
+          43
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          1042,
+          155,
+          88,
+          63
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          1025,
+          139,
+          380,
+          438
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          281,
+          157,
+          136,
+          100
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "mature females",
+        "bbox": [
+          [
+            649,
+            57
+          ],
+          [
+            864,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "crawlers",
+        "bbox": [
+          [
+            988,
+            80
+          ],
+          [
+            1104,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "eggs beneath female scale cover",
+        "bbox": [
+          [
+            100,
+            165
+          ],
+          [
+            283,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "females before egg laying",
+        "bbox": [
+          [
+            325,
+            502
+          ],
+          [
+            530,
+            584
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "second instars on twig",
+        "bbox": [
+          [
+            587,
+            631
+          ],
+          [
+            900,
+            669
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "settled first instars",
+        "bbox": [
+          [
+            1315,
+            443
+          ],
+          [
+            1415,
+            554
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          958,
+          576,
+          305,
+          206
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          216,
+          528,
+          307,
+          244
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          250,
+          201,
+          286,
+          164
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          967,
+          188,
+          145,
+          80
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan mature females phat trien thanh settled first instars. Giai doan females before egg laying phat trien thanh mature females. Giai doan second instars on twig phat trien thanh females before egg laying. Giai doan settled first instars phat trien thanh second instars on twig."
+}

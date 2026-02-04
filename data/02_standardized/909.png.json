@@ -1,0 +1,318 @@
+{
+  "id": "909.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Barracuda",
+        "bbox": [
+          [
+            480,
+            30
+          ],
+          [
+            639,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Squid",
+        "bbox": [
+          [
+            1140,
+            24
+          ],
+          [
+            1239,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Fish fry",
+        "bbox": [
+          [
+            1143,
+            240
+          ],
+          [
+            1260,
+            285
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Silver porgies",
+        "bbox": [
+          [
+            825,
+            132
+          ],
+          [
+            942,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Spotlight parrot fish",
+        "bbox": [
+          [
+            318,
+            210
+          ],
+          [
+            492,
+            294
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "CORAL",
+        "bbox": [
+          [
+            507,
+            396
+          ],
+          [
+            651,
+            444
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            843,
+            420
+          ],
+          [
+            1062,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            849,
+            657
+          ],
+          [
+            1074,
+            705
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Algae",
+        "bbox": [
+          [
+            300,
+            714
+          ],
+          [
+            393,
+            753
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Four eyed Buterfly fish",
+        "bbox": [
+          [
+            24,
+            402
+          ],
+          [
+            237,
+            486
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          1203,
+          90,
+          42,
+          138
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          1038,
+          189,
+          78,
+          51
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          441,
+          105,
+          87,
+          96
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          1122,
+          321,
+          66,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          966,
+          480,
+          45,
+          165
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          726,
+          405,
+          105,
+          45
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          354,
+          300,
+          45,
+          396
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          156,
+          501,
+          159,
+          207
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          24,
+          24,
+          447,
+          360
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          675,
+          9,
+          447,
+          48
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          657,
+          75,
+          159,
+          117
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T0",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T0",
+      "via": "A7"
+    }
+  ],
+  "rst_source": true
+}

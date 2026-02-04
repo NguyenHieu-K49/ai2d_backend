@@ -1,0 +1,295 @@
+{
+  "id": "2103.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2103.png_T0",
+        "name": "7",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2103.png_T1",
+        "name": "Caterpillar",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2103.png_T2",
+        "name": "w",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2103.png_T3",
+        "name": "x",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2103.png_T4",
+        "name": "Plant",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2103.png_T5",
+        "name": "Aphid",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2103.png_T6",
+        "name": "v",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2103.png_T0",
+        "target": "2103.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2103.png_T1",
+        "target": "2103.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2103.png_T2",
+        "target": "2103.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2103.png_T4",
+        "target": "2103.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2103.png_T4",
+        "target": "2103.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2103.png_T4",
+        "target": "2103.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2103.png_T5",
+        "target": "2103.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2103.png_T6",
+        "target": "2103.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "7",
+        "bbox": [
+          [
+            399,
+            21
+          ],
+          [
+            416,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            148,
+            80
+          ],
+          [
+            224,
+            97
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "w",
+        "bbox": [
+          [
+            172,
+            140
+          ],
+          [
+            192,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "x",
+        "bbox": [
+          [
+            322,
+            141
+          ],
+          [
+            338,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Plant",
+        "bbox": [
+          [
+            22,
+            82
+          ],
+          [
+            63,
+            98
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Aphid",
+        "bbox": [
+          [
+            158,
+            19
+          ],
+          [
+            209,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "v",
+        "bbox": [
+          [
+            288,
+            19
+          ],
+          [
+            304,
+            32
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          226,
+          19,
+          35,
+          15
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          333,
+          36,
+          83,
+          99
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          228,
+          38,
+          163,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          333,
+          19,
+          35,
+          18
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          217,
+          141,
+          77,
+          14
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          35,
+          100,
+          111,
+          55
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          78,
+          81,
+          62,
+          13
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          34,
+          16,
+          116,
+          63
+        ]
+      }
+    }
+  }
+}

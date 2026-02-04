@@ -1,0 +1,401 @@
+{
+  "id": "282.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          36,
+          63,
+          241,
+          198
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          345,
+          76,
+          246,
+          45
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          478,
+          157,
+          125,
+          98
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          575,
+          246,
+          83,
+          221
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          430,
+          348,
+          109,
+          70
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          297,
+          373,
+          84,
+          57
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          151,
+          329,
+          69,
+          133
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          272,
+          208,
+          174,
+          89
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "hawk",
+        "bbox": [
+          [
+            128,
+            256
+          ],
+          [
+            185,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "E.M. Collins 2001",
+        "bbox": [
+          [
+            32,
+            298
+          ],
+          [
+            181,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "marsh grass",
+        "bbox": [
+          [
+            44,
+            418
+          ],
+          [
+            144,
+            444
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Red Arrows = Energy!",
+        "bbox": [
+          [
+            250,
+            486
+          ],
+          [
+            507,
+            526
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            284,
+            431
+          ],
+          [
+            386,
+            456
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "shrew",
+        "bbox": [
+          [
+            344,
+            301
+          ],
+          [
+            402,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "FROG",
+        "bbox": [
+          [
+            606,
+            205
+          ],
+          [
+            648,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "snake",
+        "bbox": [
+          [
+            594,
+            99
+          ],
+          [
+            655,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "cattail",
+        "bbox": [
+          [
+            652,
+            424
+          ],
+          [
+            711,
+            453
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "cricket",
+        "bbox": [
+          [
+            463,
+            416
+          ],
+          [
+            530,
+            446
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          288,
+          74,
+          45,
+          31
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          438,
+          128,
+          48,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          341,
+          122,
+          54,
+          89
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          492,
+          255,
+          47,
+          113
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          224,
+          419,
+          73,
+          40
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          317,
+          293,
+          24,
+          71
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          412,
+          297,
+          61,
+          64
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          281,
+          130,
+          51,
+          81
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          529,
+          422,
+          48,
+          41
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B7",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B0",
+      "via": "A7"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

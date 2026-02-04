@@ -1,0 +1,995 @@
+{
+  "id": "2021.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2021.png_T0",
+        "name": "Food Web",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2021.png_T1",
+        "name": "Bottlenose Dolphins",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2021.png_T10",
+        "name": "Copepods",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2021.png_T11",
+        "name": "Baleen Whales",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2021.png_T12",
+        "name": "Salmon",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2021.png_T13",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2021.png_T14",
+        "name": "Tuna",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "2021.png_T15",
+        "name": "Crustaceans",
+        "type": "Organism",
+        "components": [
+          "T15"
+        ]
+      },
+      {
+        "uid": "2021.png_T16",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "2021.png_T17",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "T17"
+        ]
+      },
+      {
+        "uid": "2021.png_T18",
+        "name": "Microplankton",
+        "type": "Organism",
+        "components": [
+          "T18"
+        ]
+      },
+      {
+        "uid": "2021.png_T2",
+        "name": "Killer Whales",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2021.png_T3",
+        "name": "seals",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2021.png_T4",
+        "name": "Sperm Whale",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2021.png_T5",
+        "name": "penguins",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2021.png_T6",
+        "name": "birds",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2021.png_T7",
+        "name": "Pelagic Fishes",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2021.png_T8",
+        "name": "Squids",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2021.png_T9",
+        "name": "Krill",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2021.png_T0",
+        "target": "2021.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2021.png_T0",
+        "target": "2021.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2021.png_T1",
+        "target": "2021.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2021.png_T1",
+        "target": "2021.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2021.png_T1",
+        "target": "2021.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2021.png_T1",
+        "target": "2021.png_T15",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2021.png_T10",
+        "target": "2021.png_T18",
+        "relation": "LINKED_TO",
+        "via": "A28"
+      },
+      {
+        "source": "2021.png_T11",
+        "target": "2021.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A27"
+      },
+      {
+        "source": "2021.png_T11",
+        "target": "2021.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A29"
+      },
+      {
+        "source": "2021.png_T12",
+        "target": "2021.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "2021.png_T12",
+        "target": "2021.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      },
+      {
+        "source": "2021.png_T13",
+        "target": "2021.png_T15",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2021.png_T13",
+        "target": "2021.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "2021.png_T13",
+        "target": "2021.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "2021.png_T13",
+        "target": "2021.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "2021.png_T13",
+        "target": "2021.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "2021.png_T14",
+        "target": "2021.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2021.png_T14",
+        "target": "2021.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "2021.png_T15",
+        "target": "2021.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2021.png_T15",
+        "target": "2021.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2021.png_T16",
+        "target": "2021.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2021.png_T2",
+        "target": "2021.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A31"
+      },
+      {
+        "source": "2021.png_T2",
+        "target": "2021.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2021.png_T2",
+        "target": "2021.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A34"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2021.png_T3",
+        "target": "2021.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2021.png_T4",
+        "target": "2021.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2021.png_T4",
+        "target": "2021.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2021.png_T5",
+        "target": "2021.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A33"
+      },
+      {
+        "source": "2021.png_T6",
+        "target": "2021.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A30"
+      },
+      {
+        "source": "2021.png_T6",
+        "target": "2021.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A32"
+      },
+      {
+        "source": "2021.png_T8",
+        "target": "2021.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A35"
+      },
+      {
+        "source": "2021.png_T9",
+        "target": "2021.png_T18",
+        "relation": "LINKED_TO",
+        "via": "A36"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            388,
+            9
+          ],
+          [
+            426,
+            39
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Bottlenose Dolphins",
+        "bbox": [
+          [
+            487,
+            86
+          ],
+          [
+            545,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Copepods",
+        "bbox": [
+          [
+            352,
+            478
+          ],
+          [
+            403,
+            493
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Baleen Whales",
+        "bbox": [
+          [
+            373,
+            346
+          ],
+          [
+            413,
+            377
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Salmon",
+        "bbox": [
+          [
+            484,
+            301
+          ],
+          [
+            521,
+            317
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Squid",
+        "bbox": [
+          [
+            545,
+            216
+          ],
+          [
+            578,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Tuna",
+        "bbox": [
+          [
+            632,
+            297
+          ],
+          [
+            663,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Crustaceans",
+        "bbox": [
+          [
+            752,
+            298
+          ],
+          [
+            818,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            618,
+            402
+          ],
+          [
+            688,
+            419
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            524,
+            532
+          ],
+          [
+            603,
+            551
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "Microplankton",
+        "bbox": [
+          [
+            268,
+            559
+          ],
+          [
+            348,
+            575
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Killer Whales",
+        "bbox": [
+          [
+            274,
+            88
+          ],
+          [
+            316,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "seals",
+        "bbox": [
+          [
+            97,
+            188
+          ],
+          [
+            127,
+            203
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Sperm Whale",
+        "bbox": [
+          [
+            22,
+            252
+          ],
+          [
+            60,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "penguins",
+        "bbox": [
+          [
+            177,
+            260
+          ],
+          [
+            224,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "birds",
+        "bbox": [
+          [
+            303,
+            254
+          ],
+          [
+            337,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Pelagic Fishes",
+        "bbox": [
+          [
+            222,
+            360
+          ],
+          [
+            262,
+            389
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Squids",
+        "bbox": [
+          [
+            70,
+            361
+          ],
+          [
+            105,
+            375
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Krill",
+        "bbox": [
+          [
+            220,
+            477
+          ],
+          [
+            248,
+            495
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          38,
+          192,
+          38,
+          52
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          81,
+          207,
+          16,
+          141
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          411,
+          46,
+          79,
+          41
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          495,
+          125,
+          27,
+          164
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          514,
+          124,
+          46,
+          82
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          556,
+          101,
+          92,
+          186
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          556,
+          99,
+          192,
+          194
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          601,
+          220,
+          133,
+          88
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          689,
+          327,
+          91,
+          70
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          625,
+          328,
+          161,
+          214
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          559,
+          322,
+          64,
+          198
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          562,
+          432,
+          93,
+          86
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          37,
+          287,
+          27,
+          68
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          556,
+          246,
+          11,
+          270
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          529,
+          249,
+          33,
+          46
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          557,
+          249,
+          62,
+          150
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          558,
+          246,
+          49,
+          65
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          639,
+          329,
+          21,
+          62
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          495,
+          330,
+          32,
+          195
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          502,
+          325,
+          99,
+          89
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          372,
+          384,
+          25,
+          79
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          351,
+          507,
+          30,
+          45
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          262,
+          378,
+          107,
+          94
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          65,
+          280,
+          152,
+          80
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          270,
+          286,
+          52,
+          71
+        ]
+      },
+      "A31": {
+        "id": "A31",
+        "bbox": [
+          323,
+          120,
+          70,
+          218
+        ]
+      },
+      "A32": {
+        "id": "A32",
+        "bbox": [
+          128,
+          258,
+          156,
+          111
+        ]
+      },
+      "A33": {
+        "id": "A33",
+        "bbox": [
+          116,
+          282,
+          85,
+          73
+        ]
+      },
+      "A34": {
+        "id": "A34",
+        "bbox": [
+          108,
+          215,
+          101,
+          257
+        ]
+      },
+      "A35": {
+        "id": "A35",
+        "bbox": [
+          85,
+          387,
+          113,
+          103
+        ]
+      },
+      "A36": {
+        "id": "A36",
+        "bbox": [
+          227,
+          506,
+          45,
+          48
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          108,
+          213,
+          94,
+          163
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          138,
+          210,
+          23,
+          58
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          145,
+          206,
+          150,
+          45
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          292,
+          129,
+          35,
+          114
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          140,
+          116,
+          134,
+          66
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          323,
+          46,
+          83,
+          43
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Food Web la nguon thuc an cho Bottlenose Dolphins. Food Web la nguon thuc an cho Killer Whales. Bottlenose Dolphins la nguon thuc an cho Salmon. Bottlenose Dolphins la nguon thuc an cho Squid. Bottlenose Dolphins la nguon thuc an cho Tuna. Bottlenose Dolphins la nguon thuc an cho Crustaceans. Copepods la nguon thuc an cho Microplankton. Baleen Whales la nguon thuc an cho Copepods. Baleen Whales la nguon thuc an cho Krill. Salmon la nguon thuc an cho Phytoplankton. Salmon la nguon thuc an cho Zooplankton. Squid la nguon thuc an cho Crustaceans. Squid la nguon thuc an cho Phytoplankton. Squid la nguon thuc an cho Salmon. Squid la nguon thuc an cho Zooplankton. Squid la nguon thuc an cho Tuna. Tuna la nguon thuc an cho Phytoplankton. Tuna la nguon thuc an cho Zooplankton. Crustaceans la nguon thuc an cho Zooplankton. Crustaceans la nguon thuc an cho Phytoplankton. Zooplankton la nguon thuc an cho Phytoplankton. Killer Whales la nguon thuc an cho Baleen Whales. Killer Whales la nguon thuc an cho birds. Killer Whales la nguon thuc an cho seals. seals la nguon thuc an cho Sperm Whale. seals la nguon thuc an cho Squids. seals la nguon thuc an cho Krill. seals la nguon thuc an cho Pelagic Fishes. seals la nguon thuc an cho penguins. seals la nguon thuc an cho birds. Sperm Whale la nguon thuc an cho Squids. Sperm Whale la nguon thuc an cho Pelagic Fishes. penguins la nguon thuc an cho Squids. birds la nguon thuc an cho Pelagic Fishes. birds la nguon thuc an cho Squids. Squids la nguon thuc an cho Krill. Krill la nguon thuc an cho Microplankton."
+}

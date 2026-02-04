@@ -1,0 +1,294 @@
+{
+  "id": "4090.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4090.png_B0",
+        "name": "LIGHT ENERGY",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "4090.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "4090.png_T0",
+        "name": "Basic Photosynthesis",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "4090.png_T1",
+        "name": "OXYGEN",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "4090.png_T2",
+        "name": "carbon dioxide",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "4090.png_T4",
+        "name": "Water",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4090.png_B0",
+        "target": "4090.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "4090.png_B0",
+        "target": "4090.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "4090.png_B0",
+        "target": "4090.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "4090.png_B1",
+        "target": "4090.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "4090.png_B1",
+        "target": "4090.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "4090.png_B1",
+        "target": "4090.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "4090.png_T2",
+        "target": "4090.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "4090.png_T2",
+        "target": "4090.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "4090.png_T4",
+        "target": "4090.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          0,
+          77,
+          68
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          93,
+          38,
+          272,
+          314
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Basic Photosynthesis",
+        "bbox": [
+          [
+            186,
+            6
+          ],
+          [
+            392,
+            31
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "OXYGEN",
+        "bbox": [
+          [
+            322,
+            92
+          ],
+          [
+            384,
+            127
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "carbon dioxide",
+        "bbox": [
+          [
+            29,
+            199
+          ],
+          [
+            145,
+            220
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "LIGHT ENERGY",
+        "bbox": [
+          [
+            19,
+            53
+          ],
+          [
+            104,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Water",
+        "bbox": [
+          [
+            12,
+            312
+          ],
+          [
+            76,
+            337
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          43,
+          108,
+          34,
+          75
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          65,
+          98,
+          47,
+          70
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          82,
+          83,
+          58,
+          62
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          32,
+          209,
+          131,
+          26
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          27,
+          223,
+          158,
+          33
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          38,
+          320,
+          93,
+          32
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          294,
+          124,
+          47,
+          62
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          315,
+          119,
+          46,
+          74
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          327,
+          139,
+          52,
+          67
+        ]
+      }
+    }
+  }
+}

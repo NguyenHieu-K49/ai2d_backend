@@ -1,0 +1,352 @@
+{
+  "id": "2203.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2203.png_B0",
+        "name": "Dead tree",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2203.png_B1",
+        "name": "1",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2203.png_B2",
+        "name": "2",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2203.png_B3",
+        "name": "3",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2203.png_T1",
+        "name": "Gap regeneration cycle 500-700 years",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2203.png_T2",
+        "name": "Gap created by the fall of a large, dead tree is filled by tree ferns.",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2203.png_T3",
+        "name": "Kamahi grows and suppresses the ferns. Seeding conifers grow beneath the kamahi.",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2203.png_T4",
+        "name": "Rapid growth of conifers to fill the gap and complete the cycle.",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2203.png_T8",
+        "name": "Tawa",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2203.png_T9",
+        "name": "Kamahi",
+        "type": "Stage",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2203.png_B0",
+        "target": "2203.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2203.png_B1",
+        "target": "2203.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2203.png_B2",
+        "target": "2203.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2203.png_B3",
+        "target": "2203.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          16,
+          27,
+          461,
+          205
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          317,
+          291,
+          54,
+          40
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          264,
+          395,
+          178,
+          119
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          32,
+          363,
+          185,
+          159
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Dead tree",
+        "bbox": [
+          [
+            138,
+            64
+          ],
+          [
+            192,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Gap regeneration cycle 500-700 years",
+        "bbox": [
+          [
+            160,
+            317
+          ],
+          [
+            296,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Gap created by the fall of a large, dead tree is filled by tree ferns.",
+        "bbox": [
+          [
+            379,
+            286
+          ],
+          [
+            472,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Kamahi grows and suppresses the ferns. Seeding conifers grow beneath the kamahi.",
+        "bbox": [
+          [
+            272,
+            521
+          ],
+          [
+            434,
+            556
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Rapid growth of conifers to fill the gap and complete the cycle.",
+        "bbox": [
+          [
+            40,
+            519
+          ],
+          [
+            209,
+            552
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "3",
+        "bbox": [
+          [
+            174,
+            437
+          ],
+          [
+            191,
+            452
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "2",
+        "bbox": [
+          [
+            350,
+            389
+          ],
+          [
+            361,
+            402
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "1",
+        "bbox": [
+          [
+            352,
+            276
+          ],
+          [
+            368,
+            293
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Tawa",
+        "bbox": [
+          [
+            432,
+            38
+          ],
+          [
+            464,
+            53
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Kamahi",
+        "bbox": [
+          [
+            434,
+            22
+          ],
+          [
+            476,
+            38
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          183,
+          69,
+          28,
+          58
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          89,
+          219,
+          58,
+          148
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          169,
+          445,
+          130,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          337,
+          333,
+          23,
+          65
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          263,
+          207,
+          85,
+          88
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Dead tree phat trien thanh 1. Giai doan 1 phat trien thanh 2. Giai doan 2 phat trien thanh 3. Giai doan 3 phat trien thanh Dead tree."
+}

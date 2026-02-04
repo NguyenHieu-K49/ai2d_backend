@@ -1,0 +1,155 @@
+{
+  "id": "1320.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          80,
+          111,
+          163,
+          109
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          19,
+          15,
+          60,
+          58
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SUNLIGHT",
+        "bbox": [
+          [
+            87,
+            74
+          ],
+          [
+            141,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "CARBON DIOXIDE",
+        "bbox": [
+          [
+            185,
+            62
+          ],
+          [
+            233,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "WATER",
+        "bbox": [
+          [
+            229,
+            118
+          ],
+          [
+            274,
+            134
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "GLUCOSE",
+        "bbox": [
+          [
+            217,
+            167
+          ],
+          [
+            284,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PHOTOSYNTHESIS",
+        "bbox": [
+          [
+            100,
+            163
+          ],
+          [
+            195,
+            176
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          57,
+          71,
+          52,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          83,
+          32,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          215,
+          128,
+          60,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          221,
+          153,
+          58,
+          20
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

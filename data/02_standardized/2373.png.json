@@ -1,0 +1,229 @@
+{
+  "id": "2373.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          277,
+          34,
+          78,
+          60
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          304,
+          164,
+          66,
+          78
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          214,
+          222,
+          64,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          113,
+          141,
+          74,
+          66
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          134,
+          30,
+          76,
+          72
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "EGG",
+        "bbox": [
+          [
+            146,
+            43
+          ],
+          [
+            181,
+            56
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Caterpillar ",
+        "bbox": [
+          [
+            329,
+            31
+          ],
+          [
+            416,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa ",
+        "bbox": [
+          [
+            358,
+            174
+          ],
+          [
+            395,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Emerging Butterfly ",
+        "bbox": [
+          [
+            139,
+            287
+          ],
+          [
+            284,
+            308
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "ADULT BUTTERFLY",
+        "bbox": [
+          [
+            44,
+            159
+          ],
+          [
+            118,
+            195
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          256,
+          240,
+          81,
+          37
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          150,
+          208,
+          57,
+          69
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          143,
+          94,
+          31,
+          57
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          198,
+          57,
+          93,
+          14
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          336,
+          88,
+          15,
+          67
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

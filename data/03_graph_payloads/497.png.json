@@ -1,0 +1,645 @@
+{
+  "id": "497.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "497.png_T0",
+        "name": "coyotes",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "497.png_T1",
+        "name": "hawks",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "497.png_T10",
+        "name": "Prairie Food Web",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "497.png_T11",
+        "name": "mice",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "497.png_T2",
+        "name": "SMALL BIRDS",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "497.png_T3",
+        "name": "grasses and other plants",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "497.png_T4",
+        "name": "insects",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "497.png_T5",
+        "name": "lizards",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "497.png_T6",
+        "name": "shrews",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "497.png_T7",
+        "name": "snakes",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "497.png_T8",
+        "name": "prairie dogs",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "497.png_T9",
+        "name": "antelope",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "497.png_T11",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "497.png_T11",
+        "target": "497.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "497.png_T11",
+        "target": "497.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "497.png_T11",
+        "target": "497.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "497.png_T2",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "497.png_T3",
+        "target": "497.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "497.png_T3",
+        "target": "497.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "497.png_T3",
+        "target": "497.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "497.png_T3",
+        "target": "497.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "497.png_T3",
+        "target": "497.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "497.png_T4",
+        "target": "497.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "497.png_T5",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "497.png_T6",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "497.png_T7",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "497.png_T7",
+        "target": "497.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "497.png_T8",
+        "target": "497.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "497.png_T8",
+        "target": "497.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "497.png_T8",
+        "target": "497.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "497.png_T9",
+        "target": "497.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "coyotes",
+        "bbox": [
+          [
+            29,
+            30
+          ],
+          [
+            91,
+            46
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "hawks",
+        "bbox": [
+          [
+            355,
+            28
+          ],
+          [
+            401,
+            48
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Prairie Food Web",
+        "bbox": [
+          [
+            149,
+            0
+          ],
+          [
+            295,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "mice",
+        "bbox": [
+          [
+            223,
+            163
+          ],
+          [
+            256,
+            176
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SMALL BIRDS",
+        "bbox": [
+          [
+            396,
+            81
+          ],
+          [
+            431,
+            121
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "grasses and other plants",
+        "bbox": [
+          [
+            174,
+            235
+          ],
+          [
+            266,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "insects",
+        "bbox": [
+          [
+            296,
+            164
+          ],
+          [
+            354,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "lizards",
+        "bbox": [
+          [
+            284,
+            84
+          ],
+          [
+            331,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "shrews",
+        "bbox": [
+          [
+            173,
+            88
+          ],
+          [
+            226,
+            102
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "snakes",
+        "bbox": [
+          [
+            82,
+            97
+          ],
+          [
+            139,
+            115
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "prairie dogs",
+        "bbox": [
+          [
+            106,
+            161
+          ],
+          [
+            158,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "antelope",
+        "bbox": [
+          [
+            3,
+            160
+          ],
+          [
+            66,
+            180
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          334,
+          97,
+          62,
+          61
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          384,
+          43,
+          34,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          242,
+          42,
+          112,
+          115
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          206,
+          101,
+          33,
+          56
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          150,
+          33,
+          204,
+          127
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          193,
+          37,
+          142,
+          47
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          116,
+          25,
+          215,
+          72
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          137,
+          109,
+          173,
+          52
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          73,
+          45,
+          163,
+          114
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          124,
+          117,
+          103,
+          45
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          112,
+          113,
+          21,
+          44
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          135,
+          201,
+          72,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          269,
+          121,
+          149,
+          136
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          24,
+          177,
+          148,
+          81
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          31,
+          47,
+          71,
+          130
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          27,
+          45,
+          33,
+          114
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          59,
+          49,
+          52,
+          44
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          232,
+          179,
+          94,
+          58
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          218,
+          177,
+          25,
+          58
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          258,
+          164,
+          42,
+          13
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          328,
+          51,
+          50,
+          106
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          303,
+          101,
+          25,
+          53
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          214,
+          99,
+          113,
+          61
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          303,
+          45,
+          71,
+          40
+        ]
+      }
+    }
+  }
+}

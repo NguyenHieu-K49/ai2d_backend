@@ -1,0 +1,224 @@
+{
+  "id": "2187.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          281,
+          154,
+          62,
+          33
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          232,
+          266,
+          109,
+          35
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          130,
+          59,
+          118,
+          79
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          105,
+          283,
+          65,
+          36
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          63,
+          162,
+          53,
+          59
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adults emerge and live on one host for up to 2 months",
+        "bbox": [
+          [
+            4,
+            102
+          ],
+          [
+            83,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Typical Flea Lifecycle",
+        "bbox": [
+          [
+            124,
+            176
+          ],
+          [
+            270,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Eggs hatch in 2-3 days",
+        "bbox": [
+          [
+            314,
+            114
+          ],
+          [
+            370,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larvae go through three stages in 5-10 days before pupating",
+        "bbox": [
+          [
+            333,
+            229
+          ],
+          [
+            403,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Pupae live from 5-10 days to 6 months in a cocoon",
+        "bbox": [
+          [
+            12,
+            268
+          ],
+          [
+            83,
+            336
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          231,
+          80,
+          74,
+          67
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          291,
+          179,
+          40,
+          92
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          161,
+          292,
+          131,
+          49
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          71,
+          98,
+          73,
+          73
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          75,
+          223,
+          63,
+          72
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

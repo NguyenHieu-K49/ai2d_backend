@@ -1,0 +1,143 @@
+{
+  "id": "2234.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          185,
+          9,
+          112,
+          54
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          379,
+          130,
+          233,
+          167
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          0,
+          218,
+          324,
+          150
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            227,
+            76
+          ],
+          [
+            274,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "nymph",
+        "bbox": [
+          [
+            456,
+            313
+          ],
+          [
+            536,
+            337
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            141,
+            384
+          ],
+          [
+            210,
+            409
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          102,
+          83,
+          79,
+          160
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          315,
+          28,
+          136,
+          94
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          292,
+          318,
+          147,
+          121
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,290 @@
+{
+  "id": "2440.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2440.png_B0",
+        "name": "EGGS",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2440.png_B1",
+        "name": "SEPT. - JULY LEATHERJACKETS",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2440.png_B2",
+        "name": "JULY - SEPTEMBER",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2440.png_B3",
+        "name": "CRANE FLY",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2440.png_T0",
+        "name": "2 WEEKS AUGUST-SEPT",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2440.png_T2",
+        "name": "LIFE CYCLE",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2440.png_T6",
+        "name": "AUGUST-SEPTEMBER",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2440.png_B0",
+        "target": "2440.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2440.png_B1",
+        "target": "2440.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2440.png_B2",
+        "target": "2440.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2440.png_B3",
+        "target": "2440.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          118,
+          128,
+          26,
+          29
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          197,
+          28,
+          80,
+          17
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          277,
+          69,
+          81,
+          82
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          155,
+          171,
+          148,
+          108
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "2 WEEKS AUGUST-SEPT",
+        "bbox": [
+          [
+            62,
+            127
+          ],
+          [
+            113,
+            165
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "EGGS",
+        "bbox": [
+          [
+            154,
+            137
+          ],
+          [
+            183,
+            151
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LIFE CYCLE",
+        "bbox": [
+          [
+            198,
+            7
+          ],
+          [
+            286,
+            22
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "SEPT. - JULY LEATHERJACKETS",
+        "bbox": [
+          [
+            200,
+            57
+          ],
+          [
+            293,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PUPA CRANE FLY EMERGING",
+        "bbox": [
+          [
+            271,
+            108
+          ],
+          [
+            327,
+            146
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "JULY - SEPTEMBER",
+        "bbox": [
+          [
+            385,
+            127
+          ],
+          [
+            445,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "AUGUST-SEPTEMBER",
+        "bbox": [
+          [
+            290,
+            255
+          ],
+          [
+            395,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "CRANE FLY",
+        "bbox": [
+          [
+            106,
+            255
+          ],
+          [
+            165,
+            270
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          126,
+          38,
+          75,
+          93
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          277,
+          36,
+          52,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          295,
+          149,
+          56,
+          75
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          126,
+          158,
+          49,
+          65
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "id": "2159.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2159.png_B0",
+        "name": "ADULT STAGE",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T12"
+        ]
+      },
+      {
+        "uid": "2159.png_B1",
+        "name": "1 mm",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2159.png_B2",
+        "name": "-3 mm",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2159.png_B3",
+        "name": "STRAIGHT HINGE LARVA",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T15"
+        ]
+      },
+      {
+        "uid": "2159.png_B4",
+        "name": "230 UM",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2159.png_B5",
+        "name": "TROCHOPHORE STAGE",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T18"
+        ]
+      },
+      {
+        "uid": "2159.png_B6",
+        "name": "EXTERNALLY FERTILIZED EGGS - 70 um",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T19"
+        ]
+      },
+      {
+        "uid": "2159.png_T1",
+        "name": "5-15 days",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2159.png_T13",
+        "name": "EGGS FROM ADULT",
+        "type": "Stage",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2159.png_T14",
+        "name": "3 days",
+        "type": "Stage",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "2159.png_T16",
+        "name": "24 hours",
+        "type": "Stage",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "2159.png_T20",
+        "name": "SPERM FROM ADULT",
+        "type": "Stage",
+        "components": [
+          "T20"
+        ]
+      },
+      {
+        "uid": "2159.png_T3",
+        "name": "4 months",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2159.png_T8",
+        "name": "3-4 years",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2159.png_T9",
+        "name": "20-30 days",
+        "type": "Stage",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2159.png_B0",
+        "target": "2159.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2159.png_B0",
+        "target": "2159.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2159.png_B1",
+        "target": "2159.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2159.png_B2",
+        "target": "2159.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2159.png_B3",
+        "target": "2159.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2159.png_B4",
+        "target": "2159.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2159.png_B5",
+        "target": "2159.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2159.png_B6",
+        "target": "2159.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          648,
+          416,
+          167,
+          123
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          409,
+          86,
+          107,
+          112
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          644,
+          197,
+          100,
+          106
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          109,
+          434,
+          119,
+          124
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          146,
+          197,
+          144,
+          119
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          237,
+          648,
+          142,
+          97
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          506,
+          651,
+          96,
+          79
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "NEWLY SETTLED JUVENILE",
+        "bbox": [
+          [
+            422,
+            13
+          ],
+          [
+            513,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "5-15 days",
+        "bbox": [
+          [
+            300,
+            188
+          ],
+          [
+            400,
+            216
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "~ 110 um",
+        "bbox": [
+          [
+            232,
+            511
+          ],
+          [
+            320,
+            531
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "<18 cm",
+        "bbox": [
+          [
+            545,
+            460
+          ],
+          [
+            618,
+            480
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "ADULT STAGE",
+        "bbox": [
+          [
+            822,
+            445
+          ],
+          [
+            886,
+            497
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "EGGS FROM ADULT",
+        "bbox": [
+          [
+            554,
+            544
+          ],
+          [
+            678,
+            589
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "3 days",
+        "bbox": [
+          [
+            237,
+            589
+          ],
+          [
+            299,
+            613
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "STRAIGHT HINGE LARVA",
+        "bbox": [
+          [
+            79,
+            564
+          ],
+          [
+            179,
+            632
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "24 hours",
+        "bbox": [
+          [
+            414,
+            678
+          ],
+          [
+            491,
+            701
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "~ 70 um",
+        "bbox": [
+          [
+            337,
+            616
+          ],
+          [
+            415,
+            638
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "TROCHOPHORE STAGE",
+        "bbox": [
+          [
+            221,
+            758
+          ],
+          [
+            378,
+            803
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "EXTERNALLY FERTILIZED EGGS - 70 um",
+        "bbox": [
+          [
+            506,
+            731
+          ],
+          [
+            631,
+            816
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "1 mm",
+        "bbox": [
+          [
+            432,
+            202
+          ],
+          [
+            497,
+            220
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "SPERM FROM ADULT",
+        "bbox": [
+          [
+            700,
+            616
+          ],
+          [
+            832,
+            658
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "4 months",
+        "bbox": [
+          [
+            524,
+            180
+          ],
+          [
+            610,
+            201
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PEDIVELIGER LARVA",
+        "bbox": [
+          [
+            125,
+            141
+          ],
+          [
+            254,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "EARLY JUVENILE",
+        "bbox": [
+          [
+            660,
+            143
+          ],
+          [
+            760,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "230 UM",
+        "bbox": [
+          [
+            278,
+            304
+          ],
+          [
+            357,
+            328
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "-3 mm",
+        "bbox": [
+          [
+            580,
+            276
+          ],
+          [
+            647,
+            297
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "3-4 years",
+        "bbox": [
+          [
+            645,
+            349
+          ],
+          [
+            727,
+            373
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "20-30 days",
+        "bbox": [
+          [
+            178,
+            371
+          ],
+          [
+            285,
+            397
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          267,
+          132,
+          134,
+          77
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          519,
+          135,
+          134,
+          86
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          711,
+          308,
+          47,
+          106
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          614,
+          555,
+          134,
+          117
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          607,
+          542,
+          96,
+          112
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          384,
+          699,
+          132,
+          27
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          185,
+          545,
+          111,
+          126
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          156,
+          315,
+          40,
+          118
+        ]
+      }
+    }
+  }
+}

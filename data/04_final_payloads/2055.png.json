@@ -1,0 +1,852 @@
+{
+  "id": "2055.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2055.png_B0",
+        "name": "Small carnivores e.g. crabs, whelks, starfish",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2055.png_B1",
+        "name": "Large carnivores e.g. fish, birds",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2055.png_B10",
+        "name": "Detritivores e.g. amphipods, isopods, polychaetes",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2055.png_B2",
+        "name": "Vertebrates herbivores e.g fish",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2055.png_B3",
+        "name": "Other invertebrates herbivores e.g. periwinkles",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2055.png_B4",
+        "name": "Browsers on small algae e.g. molluscs",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2055.png_B5",
+        "name": "Filter feeders e.g. mussels, barnacles",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2055.png_B6",
+        "name": "Animals Plankton e.g. copepods",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2055.png_B7",
+        "name": "Plant plankton",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2055.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2055.png_B9",
+        "name": "Algae e.g seaweed",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2055.png_T10",
+        "name": "Mud (detritus)",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2055.png_T11",
+        "name": "Figure 19. Food web",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2055.png_T12",
+        "name": "Under rocks (detritus)",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2055.png_T13",
+        "name": "Surface of rocks",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2055.png_T14",
+        "name": "Under fronds of sea weeds (detritus)",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "2055.png_T15",
+        "name": "Open water",
+        "type": "Organism",
+        "components": [
+          "T15"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2055.png_B0",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2055.png_B10",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2055.png_B10",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2055.png_B2",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2055.png_B2",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2055.png_B3",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2055.png_B3",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2055.png_B5",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2055.png_B5",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2055.png_B6",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2055.png_B7",
+        "target": "2055.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2055.png_B8",
+        "target": "2055.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2055.png_B8",
+        "target": "2055.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2055.png_B9",
+        "target": "2055.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2055.png_B9",
+        "target": "2055.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2055.png_B9",
+        "target": "2055.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2055.png_T10",
+        "target": "2055.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "2055.png_T12",
+        "target": "2055.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "2055.png_T13",
+        "target": "2055.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2055.png_T13",
+        "target": "2055.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2055.png_T14",
+        "target": "2055.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2055.png_T15",
+        "target": "2055.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2055.png_T15",
+        "target": "2055.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "2055.png_T15",
+        "target": "2055.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          3,
+          22,
+          99,
+          70
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          253,
+          18,
+          213,
+          78
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          18,
+          245,
+          108,
+          22
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          20,
+          141,
+          70,
+          29
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          130,
+          138,
+          45,
+          32
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          224,
+          142,
+          43,
+          29
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          296,
+          136,
+          59,
+          30
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          384,
+          121,
+          57,
+          50
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          376,
+          237,
+          28,
+          29
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          409,
+          231,
+          23,
+          31
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          184,
+          229,
+          94,
+          42
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Small carnivores e.g. crabs, whelks, starfish",
+        "bbox": [
+          [
+            86,
+            20
+          ],
+          [
+            170,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Large carnivores e.g. fish, birds",
+        "bbox": [
+          [
+            224,
+            5
+          ],
+          [
+            302,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Mud (detritus)",
+        "bbox": [
+          [
+            22,
+            364
+          ],
+          [
+            73,
+            393
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Figure 19. Food web",
+        "bbox": [
+          [
+            0,
+            401
+          ],
+          [
+            112,
+            418
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Under rocks (detritus)",
+        "bbox": [
+          [
+            98,
+            361
+          ],
+          [
+            164,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Surface of rocks",
+        "bbox": [
+          [
+            218,
+            362
+          ],
+          [
+            265,
+            394
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Under fronds of sea weeds (detritus)",
+        "bbox": [
+          [
+            326,
+            361
+          ],
+          [
+            388,
+            400
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Open water",
+        "bbox": [
+          [
+            404,
+            367
+          ],
+          [
+            464,
+            384
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Vertebrates herbivores e.g fish",
+        "bbox": [
+          [
+            17,
+            174
+          ],
+          [
+            72,
+            214
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Other invertebrates herbivores e.g. periwinkles",
+        "bbox": [
+          [
+            116,
+            167
+          ],
+          [
+            204,
+            210
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Filter feeders e.g. mussels, barnacles",
+        "bbox": [
+          [
+            296,
+            174
+          ],
+          [
+            377,
+            201
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Browsers on small algae e.g. molluscs",
+        "bbox": [
+          [
+            212,
+            166
+          ],
+          [
+            274,
+            208
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Animals Plankton e.g. copepods",
+        "bbox": [
+          [
+            384,
+            171
+          ],
+          [
+            468,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Detritivores e.g. amphipods, isopods, polychaetes",
+        "bbox": [
+          [
+            5,
+            275
+          ],
+          [
+            131,
+            303
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Algae e.g seaweed",
+        "bbox": [
+          [
+            192,
+            275
+          ],
+          [
+            278,
+            291
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Plant plankton",
+        "bbox": [
+          [
+            368,
+            281
+          ],
+          [
+            435,
+            296
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          165,
+          41,
+          96,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          168,
+          45,
+          237,
+          103
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          164,
+          49,
+          269,
+          322
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          386,
+          205,
+          24,
+          46
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          331,
+          196,
+          84,
+          53
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          71,
+          194,
+          341,
+          56
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          67,
+          198,
+          178,
+          47
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          230,
+          199,
+          21,
+          49
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          177,
+          198,
+          73,
+          50
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          107,
+          283,
+          247,
+          87
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          230,
+          288,
+          18,
+          84
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          224,
+          198,
+          108,
+          181
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          163,
+          47,
+          176,
+          96
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          395,
+          292,
+          41,
+          90
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          396,
+          67,
+          72,
+          322
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          85,
+          295,
+          57,
+          77
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          42,
+          297,
+          26,
+          81
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          322,
+          90,
+          25,
+          57
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          77,
+          64,
+          192,
+          88
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          70,
+          69,
+          212,
+          179
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          146,
+          70,
+          148,
+          79
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          146,
+          52,
+          14,
+          98
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          65,
+          49,
+          79,
+          202
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          74,
+          52,
+          47,
+          111
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Small carnivores e.g. crabs, whelks, starfish la nguon thuc an cho Large carnivores e.g. fish, birds. Detritivores e.g. amphipods, isopods, polychaetes la nguon thuc an cho Large carnivores e.g. fish, birds. Detritivores e.g. amphipods, isopods, polychaetes la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Vertebrates herbivores e.g fish la nguon thuc an cho Large carnivores e.g. fish, birds. Vertebrates herbivores e.g fish la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Other invertebrates herbivores e.g. periwinkles la nguon thuc an cho Large carnivores e.g. fish, birds. Other invertebrates herbivores e.g. periwinkles la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Filter feeders e.g. mussels, barnacles la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Filter feeders e.g. mussels, barnacles la nguon thuc an cho Large carnivores e.g. fish, birds. Animals Plankton e.g. copepods la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Plant plankton la nguon thuc an cho Animals Plankton e.g. copepods. B8 la nguon thuc an cho Filter feeders e.g. mussels, barnacles. B8 la nguon thuc an cho Vertebrates herbivores e.g fish. Algae e.g seaweed la nguon thuc an cho Vertebrates herbivores e.g fish. Algae e.g seaweed la nguon thuc an cho Browsers on small algae e.g. molluscs. Algae e.g seaweed la nguon thuc an cho Other invertebrates herbivores e.g. periwinkles. Mud (detritus) la nguon thuc an cho Detritivores e.g. amphipods, isopods, polychaetes. Under rocks (detritus) la nguon thuc an cho Detritivores e.g. amphipods, isopods, polychaetes. Surface of rocks la nguon thuc an cho Algae e.g seaweed. Surface of rocks la nguon thuc an cho Filter feeders e.g. mussels, barnacles. Under fronds of sea weeds (detritus) la nguon thuc an cho Detritivores e.g. amphipods, isopods, polychaetes. Open water la nguon thuc an cho Small carnivores e.g. crabs, whelks, starfish. Open water la nguon thuc an cho Plant plankton. Open water la nguon thuc an cho Large carnivores e.g. fish, birds."
+}

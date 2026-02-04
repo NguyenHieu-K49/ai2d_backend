@@ -1,0 +1,231 @@
+{
+  "id": "4100.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          26,
+          8,
+          48,
+          47
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          79,
+          50,
+          93,
+          186
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Sunlight",
+        "bbox": [
+          [
+            97,
+            16
+          ],
+          [
+            147,
+            31
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Oxygen",
+        "bbox": [
+          [
+            173,
+            66
+          ],
+          [
+            218,
+            83
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Carbon Dioxide",
+        "bbox": [
+          [
+            7,
+            106
+          ],
+          [
+            94,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Chlorophyll",
+        "bbox": [
+          [
+            96,
+            123
+          ],
+          [
+            155,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Glucose",
+        "bbox": [
+          [
+            184,
+            185
+          ],
+          [
+            231,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Water",
+        "bbox": [
+          [
+            6,
+            209
+          ],
+          [
+            45,
+            223
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          54,
+          53,
+          24,
+          22
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          65,
+          45,
+          32,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          73,
+          38,
+          21,
+          20
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          147,
+          80,
+          40,
+          32
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          138,
+          148,
+          69,
+          30
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          52,
+          213,
+          28,
+          12
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          33,
+          121,
+          54,
+          19
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "T4",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "B1",
+      "via": "A6"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B1"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "B1",
+      "via": "A5"
+    }
+  ],
+  "rst_source": true
+}

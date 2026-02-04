@@ -1,0 +1,518 @@
+{
+  "id": "494.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "494.png_T0",
+        "name": "seagulls (birds)",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "494.png_T1",
+        "name": "tiny floating animals",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "494.png_T10",
+        "name": "seaweed",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "494.png_T2",
+        "name": "tiny floating plants",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "494.png_T3",
+        "name": "limpets (molluscs)",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "494.png_T4",
+        "name": "prawns (crustaceans)",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "494.png_T5",
+        "name": "whelks (mollusc)",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "494.png_T6",
+        "name": "mollusc",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "494.png_T7",
+        "name": "lobsters (crustaceans)",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "494.png_T8",
+        "name": "crabs (crustaceans)",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "494.png_T9",
+        "name": "lugworms (annelids)",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "494.png_T1",
+        "target": "494.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "494.png_T10",
+        "target": "494.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "494.png_T10",
+        "target": "494.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "494.png_T2",
+        "target": "494.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "494.png_T3",
+        "target": "494.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "494.png_T3",
+        "target": "494.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "494.png_T3",
+        "target": "494.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "494.png_T4",
+        "target": "494.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "494.png_T5",
+        "target": "494.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "494.png_T5",
+        "target": "494.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "494.png_T6",
+        "target": "494.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "494.png_T6",
+        "target": "494.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "494.png_T6",
+        "target": "494.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "494.png_T6",
+        "target": "494.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "494.png_T6",
+        "target": "494.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "494.png_T8",
+        "target": "494.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "494.png_T9",
+        "target": "494.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "seagulls (birds)",
+        "bbox": [
+          [
+            204,
+            17
+          ],
+          [
+            262,
+            49
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "tiny floating animals",
+        "bbox": [
+          [
+            59,
+            86
+          ],
+          [
+            141,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "seaweed",
+        "bbox": [
+          [
+            460,
+            324
+          ],
+          [
+            529,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "tiny floating plants",
+        "bbox": [
+          [
+            187,
+            86
+          ],
+          [
+            271,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "limpets (molluscs)",
+        "bbox": [
+          [
+            337,
+            130
+          ],
+          [
+            411,
+            166
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "prawns (crustaceans)",
+        "bbox": [
+          [
+            183,
+            170
+          ],
+          [
+            281,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "whelks (mollusc)",
+        "bbox": [
+          [
+            68,
+            225
+          ],
+          [
+            133,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "mollusc",
+        "bbox": [
+          [
+            64,
+            327
+          ],
+          [
+            133,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "lobsters (crustaceans)",
+        "bbox": [
+          [
+            185,
+            264
+          ],
+          [
+            283,
+            302
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "crabs (crustaceans)",
+        "bbox": [
+          [
+            328,
+            220
+          ],
+          [
+            420,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "lugworms (annelids)",
+        "bbox": [
+          [
+            452,
+            176
+          ],
+          [
+            535,
+            214
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          516,
+          218,
+          14,
+          98
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          427,
+          215,
+          71,
+          34
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          284,
+          265,
+          72,
+          29
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          151,
+          97,
+          28,
+          15
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          117,
+          127,
+          63,
+          70
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          284,
+          13,
+          74,
+          114
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          284,
+          35,
+          24,
+          158
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          154,
+          171,
+          203,
+          67
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          388,
+          172,
+          13,
+          46
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          388,
+          58,
+          175,
+          282
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          151,
+          265,
+          253,
+          83
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          151,
+          305,
+          85,
+          25
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          74,
+          262,
+          16,
+          48
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          117,
+          262,
+          59,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          27,
+          102,
+          19,
+          225
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          9,
+          24,
+          167,
+          325
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          152,
+          246,
+          167,
+          10
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "2443.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2443.png_B0",
+        "name": "EGGS",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2443.png_B1",
+        "name": "LARVAE",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2443.png_B2",
+        "name": "PUPA",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2443.png_B3",
+        "name": "ADULT",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2443.png_T0",
+        "name": "The Fungus Gnat life cyle is approximately 28 days",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2443.png_T1",
+        "name": "3-6 DAYS",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2443.png_T3",
+        "name": "7-10 DAYS",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2443.png_T5",
+        "name": "4-6 DAYS",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2443.png_T8",
+        "name": "12-14 DAYS",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2443.png_B0",
+        "target": "2443.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2443.png_B1",
+        "target": "2443.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2443.png_B2",
+        "target": "2443.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2443.png_B3",
+        "target": "2443.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          344,
+          236,
+          117,
+          87
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          116,
+          366,
+          234,
+          76
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          22,
+          249,
+          191,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          166,
+          10,
+          168,
+          218
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "The Fungus Gnat life cyle is approximately 28 days",
+        "bbox": [
+          [
+            17,
+            20
+          ],
+          [
+            152,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "3-6 DAYS",
+        "bbox": [
+          [
+            14,
+            158
+          ],
+          [
+            83,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "ADULT",
+        "bbox": [
+          [
+            178,
+            186
+          ],
+          [
+            209,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "7-10 DAYS",
+        "bbox": [
+          [
+            379,
+            154
+          ],
+          [
+            451,
+            179
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "EGGS",
+        "bbox": [
+          [
+            325,
+            233
+          ],
+          [
+            363,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "4-6 DAYS",
+        "bbox": [
+          [
+            395,
+            361
+          ],
+          [
+            464,
+            387
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "LARVAE",
+        "bbox": [
+          [
+            225,
+            363
+          ],
+          [
+            261,
+            378
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "PUPA",
+        "bbox": [
+          [
+            127,
+            332
+          ],
+          [
+            156,
+            345
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "12-14 DAYS",
+        "bbox": [
+          [
+            17,
+            355
+          ],
+          [
+            89,
+            381
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          81,
+          142,
+          81,
+          94
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          75,
+          314,
+          56,
+          87
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          343,
+          310,
+          62,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          317,
+          142,
+          81,
+          89
+        ]
+      }
+    }
+  }
+}

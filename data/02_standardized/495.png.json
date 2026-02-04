@@ -1,0 +1,146 @@
+{
+  "id": "495.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          16,
+          24,
+          686,
+          146
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          332,
+          200,
+          120,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          364,
+          314,
+          35,
+          35
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          372,
+          297,
+          58,
+          27
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          405,
+          285,
+          25,
+          23
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Krill",
+        "bbox": [
+          [
+            453,
+            196
+          ],
+          [
+            501,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Baleen whale",
+        "bbox": [
+          [
+            592,
+            130
+          ],
+          [
+            663,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            453,
+            296
+          ],
+          [
+            585,
+            333
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          381,
+          140,
+          17,
+          58
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          381,
+          226,
+          18,
+          72
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

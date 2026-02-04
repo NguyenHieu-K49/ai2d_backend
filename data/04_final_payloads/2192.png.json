@@ -1,0 +1,773 @@
+{
+  "id": "2192.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2192.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2192.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2192.png_B10",
+        "name": "B10",
+        "type": "Stage",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "2192.png_B11",
+        "name": "B11",
+        "type": "Stage",
+        "components": [
+          "B11"
+        ]
+      },
+      {
+        "uid": "2192.png_B12",
+        "name": "B12",
+        "type": "Stage",
+        "components": [
+          "B12"
+        ]
+      },
+      {
+        "uid": "2192.png_B13",
+        "name": "B13",
+        "type": "Stage",
+        "components": [
+          "B13"
+        ]
+      },
+      {
+        "uid": "2192.png_B14",
+        "name": "B14",
+        "type": "Stage",
+        "components": [
+          "B14"
+        ]
+      },
+      {
+        "uid": "2192.png_B15",
+        "name": "B15",
+        "type": "Stage",
+        "components": [
+          "B15"
+        ]
+      },
+      {
+        "uid": "2192.png_B16",
+        "name": "B16",
+        "type": "Stage",
+        "components": [
+          "B16"
+        ]
+      },
+      {
+        "uid": "2192.png_B17",
+        "name": "B17",
+        "type": "Stage",
+        "components": [
+          "B17"
+        ]
+      },
+      {
+        "uid": "2192.png_B18",
+        "name": "B18",
+        "type": "Stage",
+        "components": [
+          "B18"
+        ]
+      },
+      {
+        "uid": "2192.png_B19",
+        "name": "B19",
+        "type": "Stage",
+        "components": [
+          "B19"
+        ]
+      },
+      {
+        "uid": "2192.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2192.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2192.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2192.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2192.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2192.png_B7",
+        "name": "B7",
+        "type": "Stage",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "2192.png_B8",
+        "name": "B8",
+        "type": "Stage",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2192.png_B9",
+        "name": "B9",
+        "type": "Stage",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "2192.png_T0",
+        "name": "Katak",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2192.png_T1",
+        "name": "Kupu-Kupu",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2192.png_T2",
+        "name": "Nyamuk",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2192.png_T3",
+        "name": "Lebah",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2192.png_T4",
+        "name": "Lalat",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2192.png_B0",
+        "target": "2192.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2192.png_B1",
+        "target": "2192.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2192.png_B10",
+        "target": "2192.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2192.png_B11",
+        "target": "2192.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2192.png_B12",
+        "target": "2192.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2192.png_B13",
+        "target": "2192.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2192.png_B14",
+        "target": "2192.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2192.png_B15",
+        "target": "2192.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2192.png_B16",
+        "target": "2192.png_B19",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2192.png_B17",
+        "target": "2192.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2192.png_B18",
+        "target": "2192.png_B17",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2192.png_B19",
+        "target": "2192.png_B18",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2192.png_B2",
+        "target": "2192.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2192.png_B3",
+        "target": "2192.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2192.png_B4",
+        "target": "2192.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2192.png_B5",
+        "target": "2192.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2192.png_B6",
+        "target": "2192.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2192.png_B7",
+        "target": "2192.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2192.png_B8",
+        "target": "2192.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2192.png_B9",
+        "target": "2192.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          423,
+          2,
+          46,
+          45
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          502,
+          23,
+          50,
+          54
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          239,
+          6,
+          54,
+          40
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          234,
+          63,
+          97,
+          97
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          190,
+          158,
+          67,
+          72
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          113,
+          217,
+          75,
+          50
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          40,
+          186,
+          30,
+          48
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          115,
+          131,
+          36,
+          54
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          3,
+          57,
+          66,
+          29
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          20,
+          89,
+          80,
+          63
+        ]
+      },
+      "B18": {
+        "id": "B18",
+        "bbox": [
+          105,
+          37,
+          58,
+          56
+        ]
+      },
+      "B19": {
+        "id": "B19",
+        "bbox": [
+          47,
+          21,
+          51,
+          18
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          435,
+          80,
+          67,
+          52
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          458,
+          161,
+          39,
+          61
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          381,
+          181,
+          79,
+          79
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          335,
+          171,
+          38,
+          43
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          384,
+          129,
+          72,
+          52
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          321,
+          35,
+          70,
+          49
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          399,
+          54,
+          27,
+          31
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          185,
+          43,
+          37,
+          26
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Katak",
+        "bbox": [
+          [
+            59,
+            70
+          ],
+          [
+            98,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Kupu-Kupu",
+        "bbox": [
+          [
+            259,
+            54
+          ],
+          [
+            337,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Nyamuk",
+        "bbox": [
+          [
+            443,
+            53
+          ],
+          [
+            503,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Lebah",
+        "bbox": [
+          [
+            119,
+            189
+          ],
+          [
+            164,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Lalat",
+        "bbox": [
+          [
+            334,
+            233
+          ],
+          [
+            378,
+            249
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          207,
+          13,
+          46,
+          30
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          295,
+          12,
+          42,
+          30
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          453,
+          217,
+          35,
+          26
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          146,
+          136,
+          56,
+          36
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          178,
+          202,
+          38,
+          39
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          68,
+          221,
+          34,
+          31
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          65,
+          148,
+          50,
+          37
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          97,
+          81,
+          40,
+          35
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          8,
+          81,
+          29,
+          39
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          20,
+          32,
+          35,
+          30
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          100,
+          20,
+          32,
+          27
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          200,
+          71,
+          41,
+          49
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          335,
+          80,
+          31,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          406,
+          27,
+          27,
+          31
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          461,
+          6,
+          54,
+          21
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          496,
+          60,
+          44,
+          50
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          410,
+          82,
+          37,
+          33
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          352,
+          136,
+          39,
+          35
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          442,
+          136,
+          35,
+          35
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          357,
+          203,
+          39,
+          29
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan B0 phat trien thanh B1. Giai doan B1 phat trien thanh B2. Giai doan B10 phat trien thanh B7. Giai doan B11 phat trien thanh B9. Giai doan B12 phat trien thanh B13. Giai doan B13 phat trien thanh B14. Giai doan B14 phat trien thanh B15. Giai doan B15 phat trien thanh B12. Giai doan B16 phat trien thanh B19. Giai doan B17 phat trien thanh B16. Giai doan B18 phat trien thanh B17. Giai doan B19 phat trien thanh B18. Giai doan B2 phat trien thanh B8. Giai doan B3 phat trien thanh B4. Giai doan B4 phat trien thanh B5. Giai doan B5 phat trien thanh B6. Giai doan B6 phat trien thanh B3. Giai doan B7 phat trien thanh B11. Giai doan B8 phat trien thanh B0. Giai doan B9 phat trien thanh B10."
+}

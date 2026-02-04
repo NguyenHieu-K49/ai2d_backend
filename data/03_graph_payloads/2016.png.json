@@ -1,0 +1,494 @@
+{
+  "id": "2016.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2016.png_B0",
+        "name": "Great grey slug",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2016.png_B1",
+        "name": "Lichen",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2016.png_B10",
+        "name": "Blackberries",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2016.png_B2",
+        "name": "Common toad",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2016.png_B3",
+        "name": "Grass snake",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2016.png_B4",
+        "name": "Song thrush",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2016.png_B5",
+        "name": "Sparrowhawk",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2016.png_B6",
+        "name": "Thistle",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2016.png_B7",
+        "name": "Garden snail",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2016.png_B8",
+        "name": "Bank vole",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2016.png_B9",
+        "name": "Stoat",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T10"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2016.png_B0",
+        "target": "2016.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2016.png_B1",
+        "target": "2016.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2016.png_B10",
+        "target": "2016.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2016.png_B2",
+        "target": "2016.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2016.png_B4",
+        "target": "2016.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2016.png_B6",
+        "target": "2016.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2016.png_B7",
+        "target": "2016.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2016.png_B8",
+        "target": "2016.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          124,
+          2,
+          95,
+          120
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          10,
+          7,
+          107,
+          124
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          15,
+          338,
+          123,
+          157
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          243,
+          27,
+          97,
+          85
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          353,
+          3,
+          94,
+          131
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          266,
+          183,
+          135,
+          125
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          411,
+          158,
+          114,
+          143
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          47,
+          173,
+          103,
+          136
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          174,
+          160,
+          92,
+          145
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          143,
+          374,
+          129,
+          98
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          284,
+          357,
+          130,
+          139
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Lichen",
+        "bbox": [
+          [
+            39,
+            129
+          ],
+          [
+            72,
+            144
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Great grey slug",
+        "bbox": [
+          [
+            142,
+            128
+          ],
+          [
+            202,
+            144
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Stoat",
+        "bbox": [
+          [
+            326,
+            488
+          ],
+          [
+            352,
+            504
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Common toad",
+        "bbox": [
+          [
+            268,
+            129
+          ],
+          [
+            324,
+            144
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Grass snake",
+        "bbox": [
+          [
+            376,
+            131
+          ],
+          [
+            427,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Thistle",
+        "bbox": [
+          [
+            82,
+            308
+          ],
+          [
+            114,
+            327
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Garden snail",
+        "bbox": [
+          [
+            167,
+            307
+          ],
+          [
+            217,
+            322
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Song thrush",
+        "bbox": [
+          [
+            272,
+            308
+          ],
+          [
+            319,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Sparrowhawk",
+        "bbox": [
+          [
+            436,
+            309
+          ],
+          [
+            495,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Blackberries",
+        "bbox": [
+          [
+            40,
+            491
+          ],
+          [
+            87,
+            506
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Bank vole",
+        "bbox": [
+          [
+            194,
+            486
+          ],
+          [
+            236,
+            504
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          95,
+          65,
+          32,
+          12
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          216,
+          62,
+          37,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          338,
+          61,
+          29,
+          19
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          147,
+          234,
+          27,
+          19
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          246,
+          235,
+          34,
+          19
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          385,
+          235,
+          34,
+          16
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          121,
+          402,
+          30,
+          15
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          271,
+          404,
+          28,
+          13
+        ]
+      }
+    }
+  }
+}

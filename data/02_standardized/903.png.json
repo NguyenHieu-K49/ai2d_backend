@@ -1,0 +1,229 @@
+{
+  "id": "903.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          306,
+          3,
+          195,
+          119
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          151,
+          83,
+          106,
+          54
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          6,
+          129,
+          103,
+          185
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          402,
+          190,
+          81,
+          111
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          229,
+          230,
+          59,
+          40
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Grasses",
+        "bbox": [
+          [
+            39,
+            328
+          ],
+          [
+            87,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Mouse",
+        "bbox": [
+          [
+            160,
+            136
+          ],
+          [
+            209,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            224,
+            275
+          ],
+          [
+            303,
+            292
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Bird",
+        "bbox": [
+          [
+            427,
+            309
+          ],
+          [
+            461,
+            329
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Snake",
+        "bbox": [
+          [
+            371,
+            132
+          ],
+          [
+            414,
+            150
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          222,
+          72,
+          84,
+          29
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          292,
+          228,
+          130,
+          28
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          88,
+          132,
+          73,
+          68
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          88,
+          235,
+          137,
+          24
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          208,
+          132,
+          46,
+          106
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

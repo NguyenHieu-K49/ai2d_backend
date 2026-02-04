@@ -1,0 +1,334 @@
+{
+  "id": "795.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Dingo",
+        "bbox": [
+          [
+            46,
+            9
+          ],
+          [
+            86,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Tiger Snake",
+        "bbox": [
+          [
+            155,
+            10
+          ],
+          [
+            238,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Striped Legless Lizard",
+        "bbox": [
+          [
+            195,
+            86
+          ],
+          [
+            310,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "plains Wanderer",
+        "bbox": [
+          [
+            6,
+            102
+          ],
+          [
+            127,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Golden Sun Moth",
+        "bbox": [
+          [
+            32,
+            198
+          ],
+          [
+            160,
+            214
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Eastern Barred Bandicoot",
+        "bbox": [
+          [
+            202,
+            192
+          ],
+          [
+            311,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Ants",
+        "bbox": [
+          [
+            96,
+            273
+          ],
+          [
+            134,
+            289
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Trees",
+        "bbox": [
+          [
+            11,
+            331
+          ],
+          [
+            58,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Wallaby Grass",
+        "bbox": [
+          [
+            195,
+            333
+          ],
+          [
+            301,
+            355
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          127,
+          217,
+          133,
+          120
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          126,
+          210,
+          84,
+          66
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          79,
+          23,
+          78,
+          79
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          55,
+          25,
+          17,
+          73
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          11,
+          117,
+          22,
+          208
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          163,
+          196,
+          41,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          103,
+          213,
+          17,
+          53
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          45,
+          285,
+          53,
+          50
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          70,
+          119,
+          19,
+          74
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          114,
+          111,
+          107,
+          78
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          224,
+          25,
+          31,
+          65
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          166,
+          29,
+          54,
+          159
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          84,
+          22,
+          115,
+          175
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T1",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T1",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T0",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T3",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T6",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T4",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

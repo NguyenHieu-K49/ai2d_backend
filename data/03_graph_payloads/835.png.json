@@ -1,0 +1,394 @@
+{
+  "id": "835.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "835.png_B0",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "835.png_B1",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "835.png_B10",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B10",
+          "T2"
+        ]
+      },
+      {
+        "uid": "835.png_B11",
+        "name": "Nymphs",
+        "type": "Stage",
+        "components": [
+          "B11",
+          "T4"
+        ]
+      },
+      {
+        "uid": "835.png_B12",
+        "name": "B12",
+        "type": "Stage",
+        "components": [
+          "B12"
+        ]
+      },
+      {
+        "uid": "835.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "835.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "835.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "835.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "835.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "835.png_B7",
+        "name": "B7",
+        "type": "Stage",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "835.png_B8",
+        "name": "B8",
+        "type": "Stage",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "835.png_B9",
+        "name": "B9",
+        "type": "Stage",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "835.png_T0",
+        "name": "(Actual size of adult 1/16 in./1.5 mm",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "835.png_B0",
+        "target": "835.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "835.png_B10",
+        "target": "835.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "835.png_B11",
+        "target": "835.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "835.png_B4",
+        "target": "835.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          201,
+          74,
+          269,
+          352
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          486,
+          499,
+          29,
+          31
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          2,
+          463,
+          201,
+          275
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          248,
+          732,
+          164,
+          228
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          472,
+          767,
+          58,
+          106
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          453,
+          556,
+          27,
+          38
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          461,
+          594,
+          19,
+          27
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          496,
+          594,
+          31,
+          39
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          550,
+          575,
+          23,
+          27
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          577,
+          536,
+          23,
+          31
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          592,
+          478,
+          28,
+          37
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          581,
+          470,
+          23,
+          26
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          536,
+          449,
+          25,
+          31
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "(Actual size of adult 1/16 in./1.5 mm",
+        "bbox": [
+          [
+            2,
+            0
+          ],
+          [
+            610,
+            46
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult",
+        "bbox": [
+          [
+            161,
+            128
+          ],
+          [
+            265,
+            174
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            194,
+            610
+          ],
+          [
+            288,
+            664
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            428,
+            439
+          ],
+          [
+            515,
+            496
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Nymphs",
+        "bbox": [
+          [
+            424,
+            891
+          ],
+          [
+            579,
+            945
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          95,
+          325,
+          89,
+          116
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          488,
+          345,
+          81,
+          87
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          546,
+          635,
+          52,
+          136
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          546,
+          747,
+          4,
+          18
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          97,
+          771,
+          120,
+          102
+        ]
+      }
+    }
+  }
+}

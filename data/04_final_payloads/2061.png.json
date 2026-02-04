@@ -1,0 +1,579 @@
+{
+  "id": "2061.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2061.png_B0",
+        "name": "Hawks",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2061.png_B1",
+        "name": "Owls",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2061.png_B2",
+        "name": "Frogs",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2061.png_B3",
+        "name": "Crickets",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2061.png_B4",
+        "name": "Mice",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2061.png_B5",
+        "name": "Snakes",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2061.png_B6",
+        "name": "Decomposers",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2061.png_B7",
+        "name": "Deer",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2061.png_T8",
+        "name": "Grasses",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2061.png_B0",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2061.png_B1",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2061.png_B2",
+        "target": "2061.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2061.png_B2",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2061.png_B3",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2061.png_B3",
+        "target": "2061.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2061.png_B4",
+        "target": "2061.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2061.png_B4",
+        "target": "2061.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2061.png_B4",
+        "target": "2061.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2061.png_B4",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2061.png_B5",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2061.png_B5",
+        "target": "2061.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2061.png_B6",
+        "target": "2061.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2061.png_B7",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2061.png_T8",
+        "target": "2061.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2061.png_T8",
+        "target": "2061.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2061.png_T8",
+        "target": "2061.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          229,
+          5,
+          86,
+          82
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          307,
+          55,
+          85,
+          74
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          365,
+          145,
+          65,
+          44
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          353,
+          215,
+          61,
+          50
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          229,
+          181,
+          67,
+          62
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          130,
+          63,
+          68,
+          66
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          137,
+          268,
+          206,
+          80
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          80,
+          143,
+          73,
+          131
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Snakes",
+        "bbox": [
+          [
+            130,
+            52
+          ],
+          [
+            190,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Hawks",
+        "bbox": [
+          [
+            251,
+            90
+          ],
+          [
+            309,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Owls",
+        "bbox": [
+          [
+            325,
+            132
+          ],
+          [
+            369,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Frogs",
+        "bbox": [
+          [
+            333,
+            178
+          ],
+          [
+            388,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Crickets",
+        "bbox": [
+          [
+            343,
+            258
+          ],
+          [
+            412,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Mice",
+        "bbox": [
+          [
+            210,
+            225
+          ],
+          [
+            252,
+            245
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Deer",
+        "bbox": [
+          [
+            105,
+            269
+          ],
+          [
+            141,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Trees",
+        "bbox": [
+          [
+            130,
+            312
+          ],
+          [
+            174,
+            328
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Grasses",
+        "bbox": [
+          [
+            270,
+            313
+          ],
+          [
+            340,
+            336
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Decomposers",
+        "bbox": [
+          [
+            168,
+            367
+          ],
+          [
+            284,
+            386
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          24,
+          96,
+          142,
+          301
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          66,
+          252,
+          97,
+          125
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          300,
+          244,
+          52,
+          73
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          263,
+          336,
+          34,
+          35
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          282,
+          272,
+          99,
+          96
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          387,
+          184,
+          16,
+          42
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          363,
+          121,
+          33,
+          35
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          277,
+          32,
+          203,
+          364
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          293,
+          97,
+          160,
+          290
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          294,
+          182,
+          140,
+          192
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          118,
+          287,
+          53,
+          80
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          144,
+          250,
+          39,
+          38
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          172,
+          112,
+          70,
+          81
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          183,
+          41,
+          60,
+          38
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          247,
+          105,
+          16,
+          80
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          270,
+          125,
+          56,
+          68
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          249,
+          236,
+          23,
+          128
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          267,
+          237,
+          30,
+          74
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Hawks la nguon thuc an cho Decomposers. Owls la nguon thuc an cho Decomposers. Frogs la nguon thuc an cho Owls. Frogs la nguon thuc an cho Decomposers. Crickets la nguon thuc an cho Decomposers. Crickets la nguon thuc an cho Frogs. Mice la nguon thuc an cho Snakes. Mice la nguon thuc an cho Hawks. Mice la nguon thuc an cho Owls. Mice la nguon thuc an cho Decomposers. Snakes la nguon thuc an cho Decomposers. Snakes la nguon thuc an cho Hawks. Decomposers la nguon thuc an cho Deer. Deer la nguon thuc an cho Decomposers. Grasses la nguon thuc an cho Crickets. Grasses la nguon thuc an cho Decomposers. Grasses la nguon thuc an cho Mice."
+}

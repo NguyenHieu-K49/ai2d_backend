@@ -1,0 +1,414 @@
+{
+  "id": "795.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "795.png_T0",
+        "name": "Dingo",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "795.png_T1",
+        "name": "Tiger Snake",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "795.png_T2",
+        "name": "Striped Legless Lizard",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "795.png_T3",
+        "name": "plains Wanderer",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "795.png_T4",
+        "name": "Golden Sun Moth",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "795.png_T5",
+        "name": "Eastern Barred Bandicoot",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "795.png_T6",
+        "name": "Ants",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "795.png_T7",
+        "name": "Trees",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "795.png_T8",
+        "name": "Wallaby Grass",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "795.png_T2",
+        "target": "795.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "795.png_T3",
+        "target": "795.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "795.png_T3",
+        "target": "795.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "795.png_T4",
+        "target": "795.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "795.png_T4",
+        "target": "795.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "795.png_T4",
+        "target": "795.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "795.png_T5",
+        "target": "795.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "795.png_T5",
+        "target": "795.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "795.png_T6",
+        "target": "795.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "795.png_T6",
+        "target": "795.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "795.png_T7",
+        "target": "795.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "795.png_T7",
+        "target": "795.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "795.png_T8",
+        "target": "795.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Dingo",
+        "bbox": [
+          [
+            46,
+            9
+          ],
+          [
+            86,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Tiger Snake",
+        "bbox": [
+          [
+            155,
+            10
+          ],
+          [
+            238,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Striped Legless Lizard",
+        "bbox": [
+          [
+            195,
+            86
+          ],
+          [
+            310,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "plains Wanderer",
+        "bbox": [
+          [
+            6,
+            102
+          ],
+          [
+            127,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Golden Sun Moth",
+        "bbox": [
+          [
+            32,
+            198
+          ],
+          [
+            160,
+            214
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Eastern Barred Bandicoot",
+        "bbox": [
+          [
+            202,
+            192
+          ],
+          [
+            311,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Ants",
+        "bbox": [
+          [
+            96,
+            273
+          ],
+          [
+            134,
+            289
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Trees",
+        "bbox": [
+          [
+            11,
+            331
+          ],
+          [
+            58,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Wallaby Grass",
+        "bbox": [
+          [
+            195,
+            333
+          ],
+          [
+            301,
+            355
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          127,
+          217,
+          133,
+          120
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          126,
+          210,
+          84,
+          66
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          79,
+          23,
+          78,
+          79
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          55,
+          25,
+          17,
+          73
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          11,
+          117,
+          22,
+          208
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          163,
+          196,
+          41,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          103,
+          213,
+          17,
+          53
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          45,
+          285,
+          53,
+          50
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          70,
+          119,
+          19,
+          74
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          114,
+          111,
+          107,
+          78
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          224,
+          25,
+          31,
+          65
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          166,
+          29,
+          54,
+          159
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          84,
+          22,
+          115,
+          175
+        ]
+      }
+    }
+  }
+}

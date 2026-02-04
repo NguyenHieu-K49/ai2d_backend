@@ -1,0 +1,273 @@
+{
+  "id": "2232.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2232.png_B0",
+        "name": "white-tailed deer",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2232.png_B1",
+        "name": "Gastropod host",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2232.png_B2",
+        "name": "Free-living L1 larva",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2232.png_T0",
+        "name": "Shedding of L1 larvae with droppings occurs year round. Peak in spring",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2232.png_T2",
+        "name": "Consumption of gastropods while browsing. Infection peak late summer",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2232.png_T3",
+        "name": "L3 larva moults to adult and begins reproduction",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2232.png_T5",
+        "name": "infection by l1larvae by slugs grazing on or near deer droppings. Infection peak early summer",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2232.png_T7",
+        "name": "L1 larva moults to L2 and L3 larva inside slug",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2232.png_B0",
+        "target": "2232.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2232.png_B1",
+        "target": "2232.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2232.png_B2",
+        "target": "2232.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          327,
+          7,
+          206,
+          294
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          510,
+          473,
+          382,
+          66
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          82,
+          409,
+          273,
+          183
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Shedding of L1 larvae with droppings occurs year round. Peak in spring",
+        "bbox": [
+          [
+            59,
+            245
+          ],
+          [
+            265,
+            315
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "white-tailed deer",
+        "bbox": [
+          [
+            333,
+            299
+          ],
+          [
+            518,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Consumption of gastropods while browsing. Infection peak late summer",
+        "bbox": [
+          [
+            658,
+            215
+          ],
+          [
+            861,
+            311
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "L3 larva moults to adult and begins reproduction",
+        "bbox": [
+          [
+            359,
+            351
+          ],
+          [
+            551,
+            403
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Free-living L1 larva",
+        "bbox": [
+          [
+            123,
+            603
+          ],
+          [
+            314,
+            629
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "infection by l1larvae by slugs grazing on or near deer droppings. Infection peak early summer",
+        "bbox": [
+          [
+            361,
+            574
+          ],
+          [
+            559,
+            665
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Gastropod host",
+        "bbox": [
+          [
+            605,
+            555
+          ],
+          [
+            769,
+            575
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "L1 larva moults to L2 and L3 larva inside slug",
+        "bbox": [
+          [
+            687,
+            592
+          ],
+          [
+            886,
+            635
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          317,
+          503,
+          190,
+          50
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          529,
+          236,
+          187,
+          163
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          207,
+          277,
+          107,
+          122
+        ]
+      }
+    }
+  }
+}

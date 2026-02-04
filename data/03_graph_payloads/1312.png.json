@@ -1,0 +1,239 @@
+{
+  "id": "1312.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1312.png_B0",
+        "name": "B0",
+        "type": "Component",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1312.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1312.png_T0",
+        "name": "Energy from sunlight",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1312.png_T1",
+        "name": "Chloroplast",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1312.png_T2",
+        "name": "Oxygen",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1312.png_T3",
+        "name": "Sugars",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1312.png_T4",
+        "name": "Carbon dioxide",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1312.png_T5",
+        "name": "Water",
+        "type": "Component",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1312.png_B0",
+        "target": "1312.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          13,
+          3,
+          87,
+          82
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          83,
+          23,
+          276,
+          348
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Energy from sunlight",
+        "bbox": [
+          [
+            15,
+            80
+          ],
+          [
+            82,
+            134
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Chloroplast",
+        "bbox": [
+          [
+            121,
+            80
+          ],
+          [
+            198,
+            105
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Oxygen",
+        "bbox": [
+          [
+            348,
+            15
+          ],
+          [
+            407,
+            38
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Sugars",
+        "bbox": [
+          [
+            356,
+            123
+          ],
+          [
+            408,
+            152
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Carbon dioxide",
+        "bbox": [
+          [
+            4,
+            182
+          ],
+          [
+            64,
+            221
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Water",
+        "bbox": [
+          [
+            13,
+            320
+          ],
+          [
+            67,
+            340
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          82,
+          76,
+          47,
+          35
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          355,
+          37,
+          48,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          366,
+          153,
+          42,
+          49
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          61,
+          192,
+          31,
+          23
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          64,
+          321,
+          61,
+          22
+        ]
+      }
+    }
+  }
+}

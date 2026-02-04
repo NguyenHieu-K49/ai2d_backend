@@ -1,0 +1,361 @@
+{
+  "id": "844.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "844.png_B0",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "844.png_B1",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "844.png_B2",
+        "name": "larva hatches",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "844.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "844.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "844.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "844.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "844.png_B7",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T3"
+        ]
+      },
+      {
+        "uid": "844.png_T4",
+        "name": "growth of larva",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "844.png_B0",
+        "target": "844.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "844.png_B1",
+        "target": "844.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "844.png_B2",
+        "target": "844.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "844.png_B3",
+        "target": "844.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "844.png_B4",
+        "target": "844.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "844.png_B5",
+        "target": "844.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "844.png_B6",
+        "target": "844.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "844.png_B7",
+        "target": "844.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          135,
+          4,
+          178,
+          138
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          371,
+          144,
+          27,
+          45
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          410,
+          213,
+          40,
+          51
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          364,
+          353,
+          110,
+          24
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          331,
+          449,
+          154,
+          29
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          123,
+          544,
+          212,
+          45
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          22,
+          441,
+          220,
+          47
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          38,
+          155,
+          74,
+          220
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "adult",
+        "bbox": [
+          [
+            317,
+            38
+          ],
+          [
+            395,
+            63
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "egg",
+        "bbox": [
+          [
+            391,
+            135
+          ],
+          [
+            448,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "larva hatches",
+        "bbox": [
+          [
+            430,
+            275
+          ],
+          [
+            516,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "pupa",
+        "bbox": [
+          [
+            0,
+            331
+          ],
+          [
+            60,
+            355
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "growth of larva",
+        "bbox": [
+          [
+            388,
+            508
+          ],
+          [
+            491,
+            557
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          326,
+          479,
+          76,
+          69
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          405,
+          382,
+          21,
+          65
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          407,
+          265,
+          17,
+          80
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          396,
+          186,
+          25,
+          47
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          316,
+          96,
+          67,
+          53
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          90,
+          111,
+          57,
+          60
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          104,
+          493,
+          57,
+          53
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          65,
+          363,
+          25,
+          84
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan adult phat trien thanh egg. Giai doan egg phat trien thanh larva hatches. Giai doan larva hatches phat trien thanh B3. Giai doan B3 phat trien thanh B4. Giai doan B4 phat trien thanh B5. Giai doan B5 phat trien thanh B6. Giai doan B6 phat trien thanh pupa. Giai doan pupa phat trien thanh adult."
+}

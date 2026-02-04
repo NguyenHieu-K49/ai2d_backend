@@ -1,0 +1,1180 @@
+{
+  "id": "276.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "276.png_B0",
+        "name": "Seal",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T8"
+        ]
+      },
+      {
+        "uid": "276.png_B1",
+        "name": "Plankton",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T9"
+        ]
+      },
+      {
+        "uid": "276.png_B10",
+        "name": "Big Lobster",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T14"
+        ]
+      },
+      {
+        "uid": "276.png_B11",
+        "name": "Crab",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T23"
+        ]
+      },
+      {
+        "uid": "276.png_B12",
+        "name": "Sea Snail",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T21"
+        ]
+      },
+      {
+        "uid": "276.png_B13",
+        "name": "Scrawled Cowfish",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T13"
+        ]
+      },
+      {
+        "uid": "276.png_B14",
+        "name": "Sponges",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T20"
+        ]
+      },
+      {
+        "uid": "276.png_B15",
+        "name": "CLAMS ",
+        "type": "Organism",
+        "components": [
+          "B15",
+          "T19"
+        ]
+      },
+      {
+        "uid": "276.png_B16",
+        "name": "Sea Horse",
+        "type": "Organism",
+        "components": [
+          "B16",
+          "T5"
+        ]
+      },
+      {
+        "uid": "276.png_B17",
+        "name": "MYSID SHRIMP",
+        "type": "Organism",
+        "components": [
+          "B17",
+          "T6"
+        ]
+      },
+      {
+        "uid": "276.png_B18",
+        "name": "Lantern Fish",
+        "type": "Organism",
+        "components": [
+          "B18",
+          "T4"
+        ]
+      },
+      {
+        "uid": "276.png_B19",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "B19",
+          "T3"
+        ]
+      },
+      {
+        "uid": "276.png_B2",
+        "name": "Shark",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T10"
+        ]
+      },
+      {
+        "uid": "276.png_B20",
+        "name": "Small Shrimp",
+        "type": "Organism",
+        "components": [
+          "B20",
+          "T2"
+        ]
+      },
+      {
+        "uid": "276.png_B21",
+        "name": "Small Lobster",
+        "type": "Organism",
+        "components": [
+          "B21",
+          "T1"
+        ]
+      },
+      {
+        "uid": "276.png_B22",
+        "name": "Small Octopus",
+        "type": "Organism",
+        "components": [
+          "B22",
+          "T0"
+        ]
+      },
+      {
+        "uid": "276.png_B23",
+        "name": "Octopus Food Web",
+        "type": "Organism",
+        "components": [
+          "B23",
+          "T7"
+        ]
+      },
+      {
+        "uid": "276.png_B3",
+        "name": "Rock Fish",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T11"
+        ]
+      },
+      {
+        "uid": "276.png_B4",
+        "name": "Herring",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T17"
+        ]
+      },
+      {
+        "uid": "276.png_B5",
+        "name": "Flat Fish",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T18"
+        ]
+      },
+      {
+        "uid": "276.png_B6",
+        "name": "Aquatic Plants",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T22"
+        ]
+      },
+      {
+        "uid": "276.png_B7",
+        "name": "Big Shrimp",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T12"
+        ]
+      },
+      {
+        "uid": "276.png_B8",
+        "name": "Moray eel",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T16"
+        ]
+      },
+      {
+        "uid": "276.png_B9",
+        "name": "Mysid Shrimp",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T15"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "276.png_B0",
+        "target": "276.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "276.png_B0",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "276.png_B10",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "276.png_B11",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "276.png_B12",
+        "target": "276.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "276.png_B13",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "276.png_B14",
+        "target": "276.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "276.png_B15",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "276.png_B16",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "276.png_B17",
+        "target": "276.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "276.png_B18",
+        "target": "276.png_B19",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "276.png_B19",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "276.png_B2",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "276.png_B20",
+        "target": "276.png_B19",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "276.png_B21",
+        "target": "276.png_B19",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "276.png_B21",
+        "target": "276.png_B22",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "276.png_B22",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "276.png_B23",
+        "target": "276.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "276.png_B3",
+        "target": "276.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "276.png_B3",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "276.png_B4",
+        "target": "276.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "276.png_B6",
+        "target": "276.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "276.png_B6",
+        "target": "276.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "276.png_B7",
+        "target": "276.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "276.png_B7",
+        "target": "276.png_B23",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "276.png_B9",
+        "target": "276.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          708,
+          77,
+          86,
+          111
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          813,
+          0,
+          42,
+          26
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          862,
+          420,
+          104,
+          126
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          736,
+          483,
+          105,
+          84
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          736,
+          620,
+          47,
+          58
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          597,
+          495,
+          93,
+          32
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          618,
+          648,
+          76,
+          70
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          464,
+          588,
+          98,
+          62
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          365,
+          481,
+          51,
+          95
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          225,
+          650,
+          100,
+          65
+        ]
+      },
+      "B18": {
+        "id": "B18",
+        "bbox": [
+          174,
+          534,
+          100,
+          47
+        ]
+      },
+      "B19": {
+        "id": "B19",
+        "bbox": [
+          253,
+          365,
+          88,
+          97
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          947,
+          12,
+          130,
+          176
+        ]
+      },
+      "B20": {
+        "id": "B20",
+        "bbox": [
+          0,
+          397,
+          86,
+          58
+        ]
+      },
+      "B21": {
+        "id": "B21",
+        "bbox": [
+          72,
+          237,
+          72,
+          97
+        ]
+      },
+      "B22": {
+        "id": "B22",
+        "bbox": [
+          276,
+          130,
+          61,
+          105
+        ]
+      },
+      "B23": {
+        "id": "B23",
+        "bbox": [
+          455,
+          149,
+          177,
+          174
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          1008,
+          228,
+          125,
+          81
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          1057,
+          446,
+          90,
+          46
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          959,
+          525,
+          98,
+          88
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          954,
+          669,
+          96,
+          67
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          815,
+          218,
+          109,
+          77
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          868,
+          323,
+          135,
+          95
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          964,
+          409,
+          95,
+          72
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Small Octopus",
+        "bbox": [
+          [
+            286,
+            242
+          ],
+          [
+            344,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Small Lobster",
+        "bbox": [
+          [
+            88,
+            332
+          ],
+          [
+            125,
+            369
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Shark",
+        "bbox": [
+          [
+            992,
+            186
+          ],
+          [
+            1038,
+            202
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Rock Fish",
+        "bbox": [
+          [
+            1038,
+            313
+          ],
+          [
+            1105,
+            327
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Big Shrimp",
+        "bbox": [
+          [
+            836,
+            286
+          ],
+          [
+            903,
+            311
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Scrawled Cowfish",
+        "bbox": [
+          [
+            622,
+            527
+          ],
+          [
+            676,
+            557
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Big Lobster",
+        "bbox": [
+          [
+            875,
+            534
+          ],
+          [
+            950,
+            564
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Mysid Shrimp",
+        "bbox": [
+          [
+            971,
+            464
+          ],
+          [
+            1047,
+            499
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Moray eel",
+        "bbox": [
+          [
+            903,
+            409
+          ],
+          [
+            966,
+            437
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Herring",
+        "bbox": [
+          [
+            1073,
+            483
+          ],
+          [
+            1131,
+            518
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "Flat Fish",
+        "bbox": [
+          [
+            980,
+            601
+          ],
+          [
+            1036,
+            620
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "CLAMS ",
+        "bbox": [
+          [
+            497,
+            648
+          ],
+          [
+            529,
+            666
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Small Shrimp",
+        "bbox": [
+          [
+            0,
+            453
+          ],
+          [
+            81,
+            474
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "Sponges",
+        "bbox": [
+          [
+            625,
+            748
+          ],
+          [
+            680,
+            763
+          ]
+        ]
+      },
+      {
+        "id": "T21",
+        "content": "Sea Snail",
+        "bbox": [
+          [
+            729,
+            676
+          ],
+          [
+            783,
+            704
+          ]
+        ]
+      },
+      {
+        "id": "T22",
+        "content": "Aquatic Plants",
+        "bbox": [
+          [
+            971,
+            734
+          ],
+          [
+            1057,
+            759
+          ]
+        ]
+      },
+      {
+        "id": "T23",
+        "content": "Crab",
+        "bbox": [
+          [
+            764,
+            564
+          ],
+          [
+            803,
+            590
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Squid",
+        "bbox": [
+          [
+            269,
+            462
+          ],
+          [
+            313,
+            481
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Lantern Fish",
+        "bbox": [
+          [
+            190,
+            574
+          ],
+          [
+            265,
+            597
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sea Horse",
+        "bbox": [
+          [
+            360,
+            583
+          ],
+          [
+            416,
+            615
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "MYSID SHRIMP",
+        "bbox": [
+          [
+            230,
+            715
+          ],
+          [
+            318,
+            738
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Octopus Food Web",
+        "bbox": [
+          [
+            495,
+            320
+          ],
+          [
+            599,
+            351
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Seal",
+        "bbox": [
+          [
+            738,
+            193
+          ],
+          [
+            766,
+            204
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Plankton",
+        "bbox": [
+          [
+            803,
+            30
+          ],
+          [
+            866,
+            56
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          813,
+          567,
+          248,
+          160
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          999,
+          611,
+          20,
+          67
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          295,
+          334,
+          174,
+          54
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          72,
+          425,
+          193,
+          21
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          98,
+          351,
+          169,
+          39
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          125,
+          260,
+          161,
+          53
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          337,
+          197,
+          139,
+          61
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          824,
+          35,
+          58,
+          197
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          794,
+          102,
+          165,
+          51
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          1006,
+          318,
+          76,
+          95
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          996,
+          183,
+          88,
+          77
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          625,
+          202,
+          93,
+          53
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          1091,
+          316,
+          47,
+          144
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          634,
+          255,
+          246,
+          140
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          653,
+          190,
+          304,
+          61
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          662,
+          246,
+          357,
+          51
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          639,
+          351,
+          153,
+          151
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          646,
+          337,
+          278,
+          109
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          641,
+          260,
+          200,
+          81
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          643,
+          553,
+          51,
+          93
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          731,
+          574,
+          42,
+          65
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          499,
+          351,
+          54,
+          234
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          541,
+          337,
+          116,
+          172
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          258,
+          599,
+          121,
+          67
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          216,
+          469,
+          56,
+          79
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          383,
+          327,
+          93,
+          168
+        ]
+      }
+    }
+  }
+}

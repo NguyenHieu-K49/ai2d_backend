@@ -1,0 +1,452 @@
+{
+  "id": "808.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "808.png_T0",
+        "name": "wood mouse",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "808.png_T1",
+        "name": "snail",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "808.png_T2",
+        "name": "grasshopper",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "808.png_T3",
+        "name": "beetle",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "808.png_T4",
+        "name": "owl",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "808.png_T5",
+        "name": "spider",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "808.png_T6",
+        "name": "shrew",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "808.png_T7",
+        "name": "green plant",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "808.png_T0",
+        "target": "808.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "808.png_T1",
+        "target": "808.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "808.png_T1",
+        "target": "808.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "808.png_T2",
+        "target": "808.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "808.png_T2",
+        "target": "808.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "808.png_T2",
+        "target": "808.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "808.png_T3",
+        "target": "808.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "808.png_T3",
+        "target": "808.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "808.png_T3",
+        "target": "808.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "808.png_T5",
+        "target": "808.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "808.png_T5",
+        "target": "808.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "808.png_T5",
+        "target": "808.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "808.png_T6",
+        "target": "808.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "808.png_T7",
+        "target": "808.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "808.png_T7",
+        "target": "808.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "808.png_T7",
+        "target": "808.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "808.png_T7",
+        "target": "808.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "wood mouse",
+        "bbox": [
+          [
+            260,
+            132
+          ],
+          [
+            367,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "snail",
+        "bbox": [
+          [
+            290,
+            242
+          ],
+          [
+            333,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            143,
+            246
+          ],
+          [
+            249,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "beetle",
+        "bbox": [
+          [
+            44,
+            242
+          ],
+          [
+            96,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "owl",
+        "bbox": [
+          [
+            167,
+            20
+          ],
+          [
+            196,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "spider",
+        "bbox": [
+          [
+            159,
+            130
+          ],
+          [
+            210,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "shrew",
+        "bbox": [
+          [
+            45,
+            132
+          ],
+          [
+            94,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "green plant",
+        "bbox": [
+          [
+            141,
+            355
+          ],
+          [
+            237,
+            374
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          237,
+          262,
+          75,
+          104
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          263,
+          20,
+          91
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          177,
+          34,
+          22,
+          97
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          201,
+          29,
+          103,
+          104
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          210,
+          132,
+          53,
+          19
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          177,
+          147,
+          20,
+          93
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          96,
+          132,
+          60,
+          18
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          89,
+          150,
+          208,
+          100
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          197,
+          153,
+          77,
+          88
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          62,
+          264,
+          80,
+          103
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          50,
+          150,
+          22,
+          96
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          75,
+          152,
+          71,
+          98
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          216,
+          149,
+          82,
+          206
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          304,
+          151,
+          21,
+          94
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          80,
+          149,
+          86,
+          97
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          66,
+          37,
+          113,
+          211
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          56,
+          31,
+          111,
+          103
+        ]
+      }
+    }
+  }
+}

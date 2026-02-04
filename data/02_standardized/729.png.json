@@ -1,0 +1,162 @@
+{
+  "id": "729.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          299,
+          226,
+          528,
+          167
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          23,
+          510,
+          520,
+          158
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          317,
+          694,
+          536,
+          302
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          793,
+          281,
+          504,
+          327
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          819,
+          8,
+          140,
+          192
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Download from Dreamstime.com This watermarked comp image is for prev",
+        "bbox": [
+          [
+            0,
+            996
+          ],
+          [
+            307,
+            1074
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "ID 35436227 Lukaves l Dreamstime.com",
+        "bbox": [
+          [
+            1045,
+            998
+          ],
+          [
+            1299,
+            1079
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          250,
+          307,
+          153,
+          187
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          814,
+          161,
+          369,
+          167
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          759,
+          608,
+          200,
+          229
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          442,
+          876,
+          250,
+          55
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          208,
+          653,
+          114,
+          213
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

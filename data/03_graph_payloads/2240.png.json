@@ -1,0 +1,1124 @@
+{
+  "id": "2240.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2240.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2240.png_B1",
+        "name": "Blastula",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T27"
+        ]
+      },
+      {
+        "uid": "2240.png_B2",
+        "name": "Gastrula (section)",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T28"
+        ]
+      },
+      {
+        "uid": "2240.png_B3",
+        "name": "(section)",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2240.png_B4",
+        "name": "Anterior",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2240.png_B5",
+        "name": "Tailbud-stage embryo (lateral view)",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T24"
+        ]
+      },
+      {
+        "uid": "2240.png_B6",
+        "name": "Tailbud-stage embryo (dorsal view with surface removed)",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T23"
+        ]
+      },
+      {
+        "uid": "2240.png_B7",
+        "name": "Ventral",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2240.png_B8",
+        "name": "Vegetal pole",
+        "type": "Stage",
+        "components": [
+          "B8",
+          "T32"
+        ]
+      },
+      {
+        "uid": "2240.png_B9",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B9",
+          "T37"
+        ]
+      },
+      {
+        "uid": "2240.png_T13",
+        "name": "neural folds",
+        "type": "Stage",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2240.png_T17",
+        "name": "brain",
+        "type": "Stage",
+        "components": [
+          "T17"
+        ]
+      },
+      {
+        "uid": "2240.png_T18",
+        "name": "notochord",
+        "type": "Stage",
+        "components": [
+          "T18"
+        ]
+      },
+      {
+        "uid": "2240.png_T19",
+        "name": "spinal cord",
+        "type": "Stage",
+        "components": [
+          "T19"
+        ]
+      },
+      {
+        "uid": "2240.png_T20",
+        "name": "somites",
+        "type": "Stage",
+        "components": [
+          "T20"
+        ]
+      },
+      {
+        "uid": "2240.png_T21",
+        "name": "yolk mass",
+        "type": "Stage",
+        "components": [
+          "T21"
+        ]
+      },
+      {
+        "uid": "2240.png_T29",
+        "name": "blastocoel",
+        "type": "Stage",
+        "components": [
+          "T29"
+        ]
+      },
+      {
+        "uid": "2240.png_T3",
+        "name": "Organogenesis",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2240.png_T30",
+        "name": "blastopore",
+        "type": "Stage",
+        "components": [
+          "T30"
+        ]
+      },
+      {
+        "uid": "2240.png_T31",
+        "name": "Cleavage",
+        "type": "Stage",
+        "components": [
+          "T31"
+        ]
+      },
+      {
+        "uid": "2240.png_T33",
+        "name": "Fertilization",
+        "type": "Stage",
+        "components": [
+          "T33"
+        ]
+      },
+      {
+        "uid": "2240.png_T34",
+        "name": "Metamorphosis",
+        "type": "Stage",
+        "components": [
+          "T34"
+        ]
+      },
+      {
+        "uid": "2240.png_T35",
+        "name": "Gastrulation",
+        "type": "Stage",
+        "components": [
+          "T35"
+        ]
+      },
+      {
+        "uid": "2240.png_T36",
+        "name": "mesoderm",
+        "type": "Stage",
+        "components": [
+          "T36"
+        ]
+      },
+      {
+        "uid": "2240.png_T4",
+        "name": "Neurulation",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2240.png_T7",
+        "name": "ectoderm",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2240.png_T8",
+        "name": "future gut",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2240.png_B0",
+        "target": "2240.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2240.png_B2",
+        "target": "2240.png_T29",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2240.png_B2",
+        "target": "2240.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2240.png_B2",
+        "target": "2240.png_T30",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2240.png_B3",
+        "target": "2240.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2240.png_B3",
+        "target": "2240.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2240.png_B3",
+        "target": "2240.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2240.png_B3",
+        "target": "2240.png_T36",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2240.png_B4",
+        "target": "2240.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2240.png_B6",
+        "target": "2240.png_T21",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2240.png_B6",
+        "target": "2240.png_T20",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2240.png_B6",
+        "target": "2240.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2240.png_B6",
+        "target": "2240.png_T19",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2240.png_B6",
+        "target": "2240.png_T18",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2240.png_B7",
+        "target": "2240.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2240.png_B9",
+        "target": "2240.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2240.png_T3",
+        "target": "2240.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          607,
+          7,
+          180,
+          178
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          918,
+          33,
+          202,
+          200
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1187,
+          278,
+          205,
+          222
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          1210,
+          645,
+          215,
+          223
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          1048,
+          1030,
+          180,
+          218
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          765,
+          1062,
+          110,
+          318
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          548,
+          1058,
+          119,
+          314
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          118,
+          823,
+          474,
+          107
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          330,
+          130,
+          168,
+          177
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          3,
+          383,
+          314,
+          320
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Free-swimming tadpole",
+        "bbox": [
+          [
+            95,
+            753
+          ],
+          [
+            273,
+            823
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Dorsal",
+        "bbox": [
+          [
+            288,
+            795
+          ],
+          [
+            357,
+            828
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Neurula",
+        "bbox": [
+          [
+            1097,
+            958
+          ],
+          [
+            1185,
+            990
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Posterior",
+        "bbox": [
+          [
+            1097,
+            1238
+          ],
+          [
+            1193,
+            1272
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "(dorsal view)",
+        "bbox": [
+          [
+            1065,
+            1282
+          ],
+          [
+            1207,
+            1325
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "neural folds",
+        "bbox": [
+          [
+            1235,
+            1018
+          ],
+          [
+            1303,
+            1082
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Dorsal",
+        "bbox": [
+          [
+            882,
+            1168
+          ],
+          [
+            952,
+            1205
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Ventral",
+        "bbox": [
+          [
+            688,
+            1172
+          ],
+          [
+            767,
+            1203
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Anterior",
+        "bbox": [
+          [
+            570,
+            1037
+          ],
+          [
+            668,
+            1062
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "brain",
+        "bbox": [
+          [
+            438,
+            1075
+          ],
+          [
+            488,
+            1103
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "notochord",
+        "bbox": [
+          [
+            435,
+            1153
+          ],
+          [
+            535,
+            1177
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "spinal cord",
+        "bbox": [
+          [
+            445,
+            1123
+          ],
+          [
+            532,
+            1150
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Ventral",
+        "bbox": [
+          [
+            278,
+            938
+          ],
+          [
+            360,
+            973
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "somites",
+        "bbox": [
+          [
+            435,
+            1205
+          ],
+          [
+            507,
+            1227
+          ]
+        ]
+      },
+      {
+        "id": "T21",
+        "content": "yolk mass",
+        "bbox": [
+          [
+            438,
+            1313
+          ],
+          [
+            523,
+            1342
+          ]
+        ]
+      },
+      {
+        "id": "T22",
+        "content": "Posterior",
+        "bbox": [
+          [
+            567,
+            1363
+          ],
+          [
+            660,
+            1397
+          ]
+        ]
+      },
+      {
+        "id": "T23",
+        "content": "Tailbud-stage embryo (dorsal view with surface removed)",
+        "bbox": [
+          [
+            478,
+            1408
+          ],
+          [
+            713,
+            1498
+          ]
+        ]
+      },
+      {
+        "id": "T24",
+        "content": "Tailbud-stage embryo (lateral view)",
+        "bbox": [
+          [
+            747,
+            1405
+          ],
+          [
+            903,
+            1499
+          ]
+        ]
+      },
+      {
+        "id": "T25",
+        "content": "Sperm",
+        "bbox": [
+          [
+            235,
+            102
+          ],
+          [
+            315,
+            143
+          ]
+        ]
+      },
+      {
+        "id": "T26",
+        "content": "Egg Animal pole",
+        "bbox": [
+          [
+            347,
+            63
+          ],
+          [
+            485,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T27",
+        "content": "Blastula",
+        "bbox": [
+          [
+            967,
+            0
+          ],
+          [
+            1065,
+            35
+          ]
+        ]
+      },
+      {
+        "id": "T28",
+        "content": "Gastrula (section)",
+        "bbox": [
+          [
+            1187,
+            235
+          ],
+          [
+            1372,
+            268
+          ]
+        ]
+      },
+      {
+        "id": "T29",
+        "content": "blastocoel",
+        "bbox": [
+          [
+            1360,
+            272
+          ],
+          [
+            1452,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Organogenesis",
+        "bbox": [
+          [
+            663,
+            937
+          ],
+          [
+            833,
+            973
+          ]
+        ]
+      },
+      {
+        "id": "T30",
+        "content": "blastopore",
+        "bbox": [
+          [
+            1353,
+            480
+          ],
+          [
+            1448,
+            512
+          ]
+        ]
+      },
+      {
+        "id": "T31",
+        "content": "Cleavage",
+        "bbox": [
+          [
+            735,
+            277
+          ],
+          [
+            852,
+            317
+          ]
+        ]
+      },
+      {
+        "id": "T32",
+        "content": "Vegetal pole",
+        "bbox": [
+          [
+            355,
+            305
+          ],
+          [
+            478,
+            340
+          ]
+        ]
+      },
+      {
+        "id": "T33",
+        "content": "Fertilization",
+        "bbox": [
+          [
+            460,
+            478
+          ],
+          [
+            590,
+            508
+          ]
+        ]
+      },
+      {
+        "id": "T34",
+        "content": "Metamorphosis",
+        "bbox": [
+          [
+            452,
+            705
+          ],
+          [
+            623,
+            750
+          ]
+        ]
+      },
+      {
+        "id": "T35",
+        "content": "Gastrulation",
+        "bbox": [
+          [
+            1002,
+            562
+          ],
+          [
+            1138,
+            600
+          ]
+        ]
+      },
+      {
+        "id": "T36",
+        "content": "mesoderm",
+        "bbox": [
+          [
+            1212,
+            608
+          ],
+          [
+            1315,
+            633
+          ]
+        ]
+      },
+      {
+        "id": "T37",
+        "content": "Adult",
+        "bbox": [
+          [
+            68,
+            568
+          ],
+          [
+            137,
+            607
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Neurulation",
+        "bbox": [
+          [
+            918,
+            818
+          ],
+          [
+            1060,
+            855
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "endoderm",
+        "bbox": [
+          [
+            1253,
+            782
+          ],
+          [
+            1342,
+            812
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "(section)",
+        "bbox": [
+          [
+            1277,
+            898
+          ],
+          [
+            1368,
+            932
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "ectoderm",
+        "bbox": [
+          [
+            1182,
+            870
+          ],
+          [
+            1263,
+            897
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "future gut",
+        "bbox": [
+          [
+            1368,
+            868
+          ],
+          [
+            1456,
+            903
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Anterior",
+        "bbox": [
+          [
+            1097,
+            1002
+          ],
+          [
+            1183,
+            1030
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          515,
+          1322,
+          75,
+          16
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          507,
+          1208,
+          85,
+          17
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          1258,
+          278,
+          100,
+          44
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          518,
+          917,
+          402,
+          126
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          933,
+          830,
+          205,
+          188
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          1058,
+          340,
+          150,
+          492
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          585,
+          215,
+          470,
+          137
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          370,
+          363,
+          132,
+          222
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          348,
+          622,
+          114,
+          196
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          487,
+          1082,
+          121,
+          13
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          530,
+          1128,
+          80,
+          12
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          527,
+          1158,
+          78,
+          14
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          1168,
+          1035,
+          67,
+          28
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1217,
+          828,
+          35,
+          47
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1308,
+          728,
+          80,
+          144
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          1267,
+          628,
+          26,
+          64
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          1325,
+          440,
+          40,
+          50
+        ]
+      }
+    }
+  }
+}

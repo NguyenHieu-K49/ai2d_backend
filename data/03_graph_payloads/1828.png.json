@@ -1,0 +1,847 @@
+{
+  "id": "1828.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1828.png_B0",
+        "name": "Maned Geese",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1828.png_B1",
+        "name": "Lizard",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1828.png_B10",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1828.png_B11",
+        "name": "Decayed Material",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1828.png_B12",
+        "name": "Daphnia",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1828.png_B13",
+        "name": "Centripede",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T17"
+        ]
+      },
+      {
+        "uid": "1828.png_B14",
+        "name": "Back Swimmer",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T18"
+        ]
+      },
+      {
+        "uid": "1828.png_B15",
+        "name": "Damselfly",
+        "type": "Organism",
+        "components": [
+          "B15",
+          "T11"
+        ]
+      },
+      {
+        "uid": "1828.png_B2",
+        "name": "Tadpole",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1828.png_B3",
+        "name": "Kookaburra",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T13"
+        ]
+      },
+      {
+        "uid": "1828.png_B4",
+        "name": "Dragonfly",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T14"
+        ]
+      },
+      {
+        "uid": "1828.png_B5",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T15"
+        ]
+      },
+      {
+        "uid": "1828.png_B6",
+        "name": "Ant",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T16"
+        ]
+      },
+      {
+        "uid": "1828.png_B7",
+        "name": "Moth",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T12"
+        ]
+      },
+      {
+        "uid": "1828.png_B8",
+        "name": "Sedge",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T10"
+        ]
+      },
+      {
+        "uid": "1828.png_B9",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T9"
+        ]
+      },
+      {
+        "uid": "1828.png_T0",
+        "name": "Food Web",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1828.png_T6",
+        "name": "A is eaten by B",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1828.png_B11",
+        "target": "1828.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "1828.png_B11",
+        "target": "1828.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1828.png_B11",
+        "target": "1828.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1828.png_B12",
+        "target": "1828.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1828.png_B12",
+        "target": "1828.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1828.png_B13",
+        "target": "1828.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1828.png_B4",
+        "target": "1828.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1828.png_B5",
+        "target": "1828.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1828.png_B6",
+        "target": "1828.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1828.png_B6",
+        "target": "1828.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1828.png_B6",
+        "target": "1828.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1828.png_B7",
+        "target": "1828.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1828.png_B8",
+        "target": "1828.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1828.png_B8",
+        "target": "1828.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1828.png_B9",
+        "target": "1828.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1828.png_B9",
+        "target": "1828.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1828.png_B9",
+        "target": "1828.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          331,
+          34,
+          87,
+          63
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          492,
+          73,
+          74,
+          50
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          472,
+          305,
+          102,
+          57
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          367,
+          382,
+          82,
+          56
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          232,
+          377,
+          72,
+          47
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          94,
+          387,
+          87,
+          63
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          8,
+          313,
+          58,
+          47
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          209,
+          295,
+          91,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          485,
+          179,
+          82,
+          49
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          113,
+          10,
+          81,
+          89
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          14,
+          62,
+          72,
+          61
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          7,
+          164,
+          84,
+          85
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          131,
+          235,
+          40,
+          77
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          178,
+          167,
+          57,
+          43
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          301,
+          165,
+          72,
+          46
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          380,
+          261,
+          67,
+          47
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            214,
+            16
+          ],
+          [
+            315,
+            44
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Maned Geese",
+        "bbox": [
+          [
+            331,
+            100
+          ],
+          [
+            417,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Sedge",
+        "bbox": [
+          [
+            311,
+            215
+          ],
+          [
+            355,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Damselfly",
+        "bbox": [
+          [
+            223,
+            335
+          ],
+          [
+            286,
+            348
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Moth",
+        "bbox": [
+          [
+            184,
+            211
+          ],
+          [
+            232,
+            233
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Kookaburra",
+        "bbox": [
+          [
+            117,
+            100
+          ],
+          [
+            189,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Dragonfly",
+        "bbox": [
+          [
+            19,
+            122
+          ],
+          [
+            80,
+            138
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Frog",
+        "bbox": [
+          [
+            11,
+            253
+          ],
+          [
+            85,
+            271
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Ant",
+        "bbox": [
+          [
+            133,
+            316
+          ],
+          [
+            170,
+            337
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Centripede",
+        "bbox": [
+          [
+            97,
+            450
+          ],
+          [
+            179,
+            469
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "Back Swimmer",
+        "bbox": [
+          [
+            13,
+            359
+          ],
+          [
+            63,
+            384
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Lizard",
+        "bbox": [
+          [
+            498,
+            127
+          ],
+          [
+            560,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            494,
+            230
+          ],
+          [
+            560,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            502,
+            234
+          ],
+          [
+            550,
+            247
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            497,
+            367
+          ],
+          [
+            546,
+            382
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "A is eaten by B",
+        "bbox": [
+          [
+            486,
+            428
+          ],
+          [
+            577,
+            463
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Decayed Material",
+        "bbox": [
+          [
+            371,
+            440
+          ],
+          [
+            440,
+            467
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Daphnia",
+        "bbox": [
+          [
+            241,
+            428
+          ],
+          [
+            294,
+            441
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Algae",
+        "bbox": [
+          [
+            391,
+            309
+          ],
+          [
+            431,
+            325
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          173,
+          128,
+          331,
+          171
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          357,
+          232,
+          42,
+          42
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          79,
+          115,
+          74,
+          81
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          88,
+          184,
+          96,
+          35
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          84,
+          225,
+          59,
+          47
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          121,
+          338,
+          35,
+          53
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          67,
+          343,
+          175,
+          52
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          243,
+          348,
+          28,
+          33
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          180,
+          452,
+          183,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          428,
+          217,
+          65,
+          60
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          428,
+          352,
+          50,
+          45
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          298,
+          395,
+          69,
+          32
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          277,
+          298,
+          105,
+          93
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          338,
+          117,
+          32,
+          48
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          79,
+          106,
+          233,
+          78
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          90,
+          118,
+          76,
+          279
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          36,
+          141,
+          24,
+          25
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "2135.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "A",
+        "bbox": [
+          [
+            30,
+            85
+          ],
+          [
+            54,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "D",
+        "bbox": [
+          [
+            33,
+            141
+          ],
+          [
+            52,
+            162
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "E",
+        "bbox": [
+          [
+            31,
+            215
+          ],
+          [
+            51,
+            235
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "C",
+        "bbox": [
+          [
+            430,
+            86
+          ],
+          [
+            452,
+            109
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "B",
+        "bbox": [
+          [
+            228,
+            27
+          ],
+          [
+            255,
+            46
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          28,
+          160,
+          19,
+          50
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          49,
+          83,
+          375,
+          17
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          49,
+          101,
+          378,
+          125
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          49,
+          25,
+          179,
+          63
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          241,
+          19,
+          173,
+          68
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          32,
+          102,
+          15,
+          34
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T3",
+      "via": "A4"
+    }
+  ],
+  "rst_source": true
+}

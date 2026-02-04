@@ -1,0 +1,454 @@
+{
+  "id": "2199.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          593,
+          10,
+          347,
+          453
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          328,
+          15,
+          215,
+          128
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1033,
+          232,
+          94,
+          98
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          1112,
+          400,
+          93,
+          128
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          888,
+          843,
+          149,
+          204
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          1088,
+          763,
+          99,
+          195
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          952,
+          683,
+          163,
+          89
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          617,
+          777,
+          176,
+          106
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          307,
+          835,
+          176,
+          143
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          275,
+          547,
+          313,
+          198
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Fig. 18.08",
+        "bbox": [
+          [
+            13,
+            12
+          ],
+          [
+            115,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult fluke in lungs",
+        "bbox": [
+          [
+            510,
+            2
+          ],
+          [
+            613,
+            53
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Humans infected by eating uncooked crab",
+        "bbox": [
+          [
+            413,
+            210
+          ],
+          [
+            585,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Freshwater crab",
+        "bbox": [
+          [
+            562,
+            587
+          ],
+          [
+            668,
+            637
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Metacercarla cyst in crab tissue",
+        "bbox": [
+          [
+            315,
+            987
+          ],
+          [
+            475,
+            1027
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Cercaria is shed into water and penetrates crab",
+        "bbox": [
+          [
+            647,
+            900
+          ],
+          [
+            792,
+            960
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Redia",
+        "bbox": [
+          [
+            920,
+            1012
+          ],
+          [
+            973,
+            1033
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Sporocyst",
+        "bbox": [
+          [
+            1152,
+            915
+          ],
+          [
+            1240,
+            938
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Miracidium hatches and penetrates",
+        "bbox": [
+          [
+            995,
+            440
+          ],
+          [
+            1105,
+            527
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Eggs passed in sputum or feces",
+        "bbox": [
+          [
+            1118,
+            217
+          ],
+          [
+            1233,
+            277
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          540,
+          85,
+          192,
+          130
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          915,
+          150,
+          143,
+          103
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          375,
+          287,
+          100,
+          293
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          1097,
+          303,
+          75,
+          105
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          1095,
+          540,
+          88,
+          160
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          1042,
+          745,
+          75,
+          82
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          958,
+          740,
+          75,
+          162
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1018,
+          902,
+          70,
+          50
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          770,
+          763,
+          237,
+          89
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          485,
+          725,
+          152,
+          103
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          343,
+          672,
+          82,
+          150
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B9",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B0",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B8",
+      "via": "A9"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

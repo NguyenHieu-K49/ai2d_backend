@@ -1,0 +1,319 @@
+{
+  "id": "913.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "913.png_T0",
+        "name": "Wedge Tailed Eagle",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "913.png_T1",
+        "name": "Carpet Snake",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "913.png_T2",
+        "name": "Goanna",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "913.png_T3",
+        "name": "Black Flying Fox",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "913.png_T4",
+        "name": "Grey Headed Flying Fox",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "913.png_T5",
+        "name": "Native Tree Leaves",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "913.png_T1",
+        "target": "913.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "913.png_T2",
+        "target": "913.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "913.png_T2",
+        "target": "913.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "913.png_T3",
+        "target": "913.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "913.png_T3",
+        "target": "913.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "913.png_T3",
+        "target": "913.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "913.png_T4",
+        "target": "913.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "913.png_T4",
+        "target": "913.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "913.png_T4",
+        "target": "913.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "913.png_T5",
+        "target": "913.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "913.png_T5",
+        "target": "913.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Wedge Tailed Eagle",
+        "bbox": [
+          [
+            462,
+            36
+          ],
+          [
+            981,
+            108
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Carpet Snake",
+        "bbox": [
+          [
+            183,
+            357
+          ],
+          [
+            540,
+            447
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Goanna",
+        "bbox": [
+          [
+            678,
+            645
+          ],
+          [
+            903,
+            723
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Black Flying Fox",
+        "bbox": [
+          [
+            24,
+            1035
+          ],
+          [
+            462,
+            1122
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Grey Headed Flying Fox",
+        "bbox": [
+          [
+            705,
+            1050
+          ],
+          [
+            1338,
+            1119
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Native Tree Leaves",
+        "bbox": [
+          [
+            429,
+            1422
+          ],
+          [
+            948,
+            1499
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          357,
+          105,
+          213,
+          258
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          414,
+          105,
+          231,
+          936
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          540,
+          432,
+          216,
+          183
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          210,
+          435,
+          99,
+          615
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          762,
+          129,
+          57,
+          489
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          810,
+          123,
+          342,
+          921
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          840,
+          720,
+          135,
+          321
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          792,
+          1122,
+          102,
+          285
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          339,
+          1143,
+          234,
+          267
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          324,
+          717,
+          393,
+          339
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          513,
+          435,
+          315,
+          609
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Carpet Snake la nguon thuc an cho Wedge Tailed Eagle. Goanna la nguon thuc an cho Carpet Snake. Goanna la nguon thuc an cho Wedge Tailed Eagle. Black Flying Fox la nguon thuc an cho Wedge Tailed Eagle. Black Flying Fox la nguon thuc an cho Carpet Snake. Black Flying Fox la nguon thuc an cho Goanna. Grey Headed Flying Fox la nguon thuc an cho Wedge Tailed Eagle. Grey Headed Flying Fox la nguon thuc an cho Goanna. Grey Headed Flying Fox la nguon thuc an cho Carpet Snake. Native Tree Leaves la nguon thuc an cho Grey Headed Flying Fox. Native Tree Leaves la nguon thuc an cho Black Flying Fox."
+}

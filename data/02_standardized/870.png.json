@@ -1,0 +1,343 @@
+{
+  "id": "870.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Export",
+        "bbox": [
+          [
+            0,
+            61
+          ],
+          [
+            76,
+            104
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Heterotrophic prokaryotes",
+        "bbox": [
+          [
+            155,
+            28
+          ],
+          [
+            306,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LOOP",
+        "bbox": [
+          [
+            306,
+            108
+          ],
+          [
+            386,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Cell debris",
+        "bbox": [
+          [
+            438,
+            102
+          ],
+          [
+            562,
+            131
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Viruses",
+        "bbox": [
+          [
+            512,
+            65
+          ],
+          [
+            599,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Grazers",
+        "bbox": [
+          [
+            38,
+            141
+          ],
+          [
+            131,
+            171
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Inorganic nutrients N, P, Fe...",
+        "bbox": [
+          [
+            152,
+            204
+          ],
+          [
+            259,
+            278
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "DISSOLVED ORGANIC MATTER",
+        "bbox": [
+          [
+            363,
+            193
+          ],
+          [
+            477,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Primary producers",
+        "bbox": [
+          [
+            192,
+            382
+          ],
+          [
+            385,
+            415
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          297,
+          0,
+          262,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          480,
+          140,
+          33,
+          40
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          110,
+          182,
+          41,
+          45
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          117,
+          82,
+          63,
+          62
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          26,
+          102,
+          56,
+          50
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          74,
+          174,
+          130,
+          225
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          480,
+          102,
+          97,
+          152
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          405,
+          119,
+          194,
+          286
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          510,
+          143,
+          35,
+          202
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          201,
+          79,
+          171,
+          142
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          185,
+          84,
+          26,
+          110
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          170,
+          158,
+          192,
+          78
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          266,
+          257,
+          109,
+          135
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          175,
+          288,
+          62,
+          86
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T5",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T7",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T7",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T0",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T8",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T5",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T7",
+      "via": "A8"
+    }
+  ],
+  "rst_source": true
+}

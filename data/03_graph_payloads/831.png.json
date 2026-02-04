@@ -1,0 +1,244 @@
+{
+  "id": "831.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "831.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "831.png_B1",
+        "name": "larval stages",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "831.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "831.png_B3",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "831.png_B4",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "831.png_B5",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "831.png_B2",
+        "target": "831.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "831.png_B3",
+        "target": "831.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "831.png_B4",
+        "target": "831.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "831.png_B5",
+        "target": "831.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          366,
+          90,
+          105,
+          36
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          549,
+          48,
+          186,
+          60
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          831,
+          21,
+          339,
+          87
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          1320,
+          384,
+          147,
+          279
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          516,
+          861,
+          570,
+          291
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          42,
+          537,
+          27,
+          48
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "larval stages",
+        "bbox": [
+          [
+            636,
+            171
+          ],
+          [
+            915,
+            237
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "egg",
+        "bbox": [
+          [
+            99,
+            549
+          ],
+          [
+            189,
+            600
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pupa",
+        "bbox": [
+          [
+            1146,
+            543
+          ],
+          [
+            1266,
+            594
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "adult",
+        "bbox": [
+          [
+            687,
+            768
+          ],
+          [
+            810,
+            822
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          1146,
+          141,
+          213,
+          189
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          1191,
+          717,
+          207,
+          204
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          90,
+          717,
+          339,
+          273
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          57,
+          183,
+          231,
+          264
+        ]
+      }
+    }
+  }
+}

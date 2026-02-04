@@ -1,0 +1,260 @@
+{
+  "id": "398.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            133,
+            16
+          ],
+          [
+            186,
+            37
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "A",
+        "bbox": [
+          [
+            392,
+            20
+          ],
+          [
+            409,
+            41
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Man",
+        "bbox": [
+          [
+            454,
+            83
+          ],
+          [
+            487,
+            105
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "B",
+        "bbox": [
+          [
+            452,
+            137
+          ],
+          [
+            466,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Chicken",
+        "bbox": [
+          [
+            261,
+            79
+          ],
+          [
+            324,
+            104
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Frog",
+        "bbox": [
+          [
+            265,
+            138
+          ],
+          [
+            306,
+            159
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            90,
+            145
+          ],
+          [
+            187,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Plant",
+        "bbox": [
+          [
+            16,
+            72
+          ],
+          [
+            61,
+            94
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          310,
+          141,
+          128,
+          14
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          325,
+          96,
+          106,
+          49
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          319,
+          83,
+          129,
+          15
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          319,
+          35,
+          62,
+          46
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          192,
+          18,
+          186,
+          16
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          184,
+          140,
+          78,
+          22
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          154,
+          92,
+          108,
+          57
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          55,
+          80,
+          87,
+          72
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          44,
+          26,
+          88,
+          49
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T6",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T0",
+      "via": "A8"
+    }
+  ],
+  "rst_source": true
+}

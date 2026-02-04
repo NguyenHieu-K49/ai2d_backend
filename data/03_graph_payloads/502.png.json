@@ -1,0 +1,191 @@
+{
+  "id": "502.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "502.png_T0",
+        "name": "1",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "502.png_T1",
+        "name": "Cycle",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "502.png_T2",
+        "name": "4",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "502.png_T3",
+        "name": "3",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "502.png_T4",
+        "name": "2",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "502.png_T0",
+        "target": "502.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "502.png_T2",
+        "target": "502.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "502.png_T3",
+        "target": "502.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "502.png_T4",
+        "target": "502.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "1",
+        "bbox": [
+          [
+            101,
+            18
+          ],
+          [
+            114,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Cycle",
+        "bbox": [
+          [
+            7,
+            16
+          ],
+          [
+            38,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "4",
+        "bbox": [
+          [
+            33,
+            74
+          ],
+          [
+            44,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "3",
+        "bbox": [
+          [
+            105,
+            127
+          ],
+          [
+            117,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "2",
+        "bbox": [
+          [
+            168,
+            80
+          ],
+          [
+            178,
+            93
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          36,
+          18,
+          51,
+          50
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          128,
+          22,
+          55,
+          50
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          130,
+          98,
+          44,
+          40
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          32,
+          94,
+          60,
+          44
+        ]
+      }
+    }
+  }
+}

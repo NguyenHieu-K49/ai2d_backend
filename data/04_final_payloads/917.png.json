@@ -1,0 +1,303 @@
+{
+  "id": "917.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "917.png_T0",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "917.png_T1",
+        "name": "Perch",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "917.png_T2",
+        "name": "Seals",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "917.png_T3",
+        "name": "Orca",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "917.png_T4",
+        "name": "Otters",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "917.png_T5",
+        "name": "Sea Gulls",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "917.png_T6",
+        "name": "Purple Sea Urchins",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "917.png_T7",
+        "name": "Kelp",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "917.png_T0",
+        "target": "917.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "917.png_T1",
+        "target": "917.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "917.png_T2",
+        "target": "917.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "917.png_T4",
+        "target": "917.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "917.png_T6",
+        "target": "917.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "917.png_T6",
+        "target": "917.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "917.png_T7",
+        "target": "917.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            20,
+            230
+          ],
+          [
+            101,
+            247
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Perch",
+        "bbox": [
+          [
+            32,
+            156
+          ],
+          [
+            75,
+            168
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Seals",
+        "bbox": [
+          [
+            40,
+            76
+          ],
+          [
+            75,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Orca",
+        "bbox": [
+          [
+            149,
+            6
+          ],
+          [
+            181,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Otters",
+        "bbox": [
+          [
+            241,
+            82
+          ],
+          [
+            278,
+            97
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sea Gulls",
+        "bbox": [
+          [
+            329,
+            77
+          ],
+          [
+            381,
+            93
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Purple Sea Urchins",
+        "bbox": [
+          [
+            251,
+            148
+          ],
+          [
+            360,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Kelp",
+        "bbox": [
+          [
+            285,
+            223
+          ],
+          [
+            317,
+            236
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          68,
+          28,
+          72,
+          46
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          181,
+          28,
+          81,
+          47
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          48,
+          107,
+          11,
+          45
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          256,
+          101,
+          10,
+          45
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          348,
+          98,
+          12,
+          50
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          302,
+          173,
+          11,
+          46
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          49,
+          176,
+          10,
+          49
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Phytoplankton la nguon thuc an cho Perch. Perch la nguon thuc an cho Seals. Seals la nguon thuc an cho Orca. Otters la nguon thuc an cho Orca. Purple Sea Urchins la nguon thuc an cho Otters. Purple Sea Urchins la nguon thuc an cho Sea Gulls. Kelp la nguon thuc an cho Purple Sea Urchins."
+}

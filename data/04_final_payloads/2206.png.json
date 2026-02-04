@@ -1,0 +1,716 @@
+{
+  "id": "2206.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2206.png_B0",
+        "name": "Frogspawn",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2206.png_B1",
+        "name": "Tadpole",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2206.png_B10",
+        "name": "Plant Dies",
+        "type": "Stage",
+        "components": [
+          "B10",
+          "T12"
+        ]
+      },
+      {
+        "uid": "2206.png_B2",
+        "name": "TADPOLE WITH LEGS",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2206.png_B3",
+        "name": "Young Frog",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2206.png_B4",
+        "name": "Adult Frog",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2206.png_B5",
+        "name": "The Plant Grows",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T11"
+        ]
+      },
+      {
+        "uid": "2206.png_B6",
+        "name": "The Seed Germinates",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2206.png_B7",
+        "name": "The Plant Flowers",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T14"
+        ]
+      },
+      {
+        "uid": "2206.png_B8",
+        "name": "The Flower Produces A Fruit",
+        "type": "Stage",
+        "components": [
+          "B8",
+          "T18"
+        ]
+      },
+      {
+        "uid": "2206.png_B9",
+        "name": "The Fruit Releases Seeds",
+        "type": "Stage",
+        "components": [
+          "B9",
+          "T13"
+        ]
+      },
+      {
+        "uid": "2206.png_T0",
+        "name": "I Can show the life cycle of an animal and a plant.",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2206.png_T1",
+        "name": "BY RONISH",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2206.png_T10",
+        "name": "Plants Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2206.png_T15",
+        "name": "PICCOLLAGE",
+        "type": "Stage",
+        "components": [
+          "T15"
+        ]
+      },
+      {
+        "uid": "2206.png_T16",
+        "name": "Piccollage",
+        "type": "Stage",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "2206.png_T17",
+        "name": "PICCOLLAGE",
+        "type": "Stage",
+        "components": [
+          "T17"
+        ]
+      },
+      {
+        "uid": "2206.png_T2",
+        "name": "Friday 26th September 2014",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2206.png_T5",
+        "name": "Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2206.png_B0",
+        "target": "2206.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2206.png_B1",
+        "target": "2206.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2206.png_B10",
+        "target": "2206.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2206.png_B2",
+        "target": "2206.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2206.png_B3",
+        "target": "2206.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2206.png_B4",
+        "target": "2206.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2206.png_B5",
+        "target": "2206.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2206.png_B6",
+        "target": "2206.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2206.png_B7",
+        "target": "2206.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2206.png_B8",
+        "target": "2206.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2206.png_B9",
+        "target": "2206.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          431,
+          141,
+          80,
+          59
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          518,
+          229,
+          67,
+          50
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          81,
+          191,
+          32,
+          66
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          507,
+          360,
+          78,
+          45
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          358,
+          346,
+          65,
+          47
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          330,
+          235,
+          88,
+          52
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          234,
+          181,
+          56,
+          56
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          167,
+          131,
+          32,
+          41
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          207,
+          278,
+          50,
+          58
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          121,
+          346,
+          49,
+          75
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          41,
+          297,
+          58,
+          54
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "I Can show the life cycle of an animal and a plant.",
+        "bbox": [
+          [
+            180,
+            51
+          ],
+          [
+            417,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "BY RONISH",
+        "bbox": [
+          [
+            338,
+            92
+          ],
+          [
+            447,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Plants Life Cycle",
+        "bbox": [
+          [
+            115,
+            261
+          ],
+          [
+            207,
+            294
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "The Plant Grows",
+        "bbox": [
+          [
+            190,
+            211
+          ],
+          [
+            232,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Plant Dies",
+        "bbox": [
+          [
+            48,
+            215
+          ],
+          [
+            81,
+            243
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "The Fruit Releases Seeds",
+        "bbox": [
+          [
+            88,
+            311
+          ],
+          [
+            127,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "The Plant Flowers",
+        "bbox": [
+          [
+            254,
+            298
+          ],
+          [
+            299,
+            327
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "PICCOLLAGE",
+        "bbox": [
+          [
+            243,
+            425
+          ],
+          [
+            300,
+            439
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Piccollage",
+        "bbox": [
+          [
+            535,
+            426
+          ],
+          [
+            595,
+            446
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "PICCOLLAGE",
+        "bbox": [
+          [
+            614,
+            10
+          ],
+          [
+            633,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "The Flower Produces A Fruit",
+        "bbox": [
+          [
+            163,
+            368
+          ],
+          [
+            215,
+            406
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Friday 26th September 2014",
+        "bbox": [
+          [
+            108,
+            12
+          ],
+          [
+            478,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Frogspawn",
+        "bbox": [
+          [
+            430,
+            131
+          ],
+          [
+            516,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            515,
+            216
+          ],
+          [
+            590,
+            233
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Life Cycle",
+        "bbox": [
+          [
+            434,
+            254
+          ],
+          [
+            507,
+            304
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "TADPOLE WITH LEGS",
+        "bbox": [
+          [
+            511,
+            337
+          ],
+          [
+            581,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Young Frog",
+        "bbox": [
+          [
+            344,
+            329
+          ],
+          [
+            443,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Adult Frog",
+        "bbox": [
+          [
+            334,
+            220
+          ],
+          [
+            420,
+            237
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "The Seed Germinates",
+        "bbox": [
+          [
+            119,
+            140
+          ],
+          [
+            174,
+            163
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          354,
+          167,
+          69,
+          54
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          519,
+          163,
+          49,
+          62
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          66,
+          349,
+          52,
+          49
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          529,
+          284,
+          39,
+          58
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          369,
+          290,
+          29,
+          41
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          432,
+          347,
+          55,
+          37
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          214,
+          336,
+          32,
+          53
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          219,
+          239,
+          19,
+          41
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          188,
+          152,
+          36,
+          55
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          69,
+          153,
+          49,
+          48
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          59,
+          252,
+          19,
+          45
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Frogspawn phat trien thanh Tadpole. Giai doan Tadpole phat trien thanh TADPOLE WITH LEGS. Giai doan Plant Dies phat trien thanh The Seed Germinates. Giai doan TADPOLE WITH LEGS phat trien thanh Young Frog. Giai doan Young Frog phat trien thanh Adult Frog. Giai doan Adult Frog phat trien thanh Frogspawn. Giai doan The Plant Grows phat trien thanh The Plant Flowers. Giai doan The Seed Germinates phat trien thanh The Plant Grows. Giai doan The Plant Flowers phat trien thanh The Flower Produces A Fruit. Giai doan The Flower Produces A Fruit phat trien thanh The Fruit Releases Seeds. Giai doan The Fruit Releases Seeds phat trien thanh Plant Dies."
+}

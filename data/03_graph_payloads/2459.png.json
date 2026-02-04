@@ -1,0 +1,232 @@
+{
+  "id": "2459.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2459.png_B0",
+        "name": "larva",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2459.png_B1",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2459.png_B2",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2459.png_B3",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2459.png_T4",
+        "name": "fig 170 life-cycle of anopheles mosquito",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2459.png_B0",
+        "target": "2459.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2459.png_B1",
+        "target": "2459.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2459.png_B2",
+        "target": "2459.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2459.png_B3",
+        "target": "2459.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          84,
+          2,
+          220,
+          49
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          4,
+          94,
+          58,
+          106
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          292,
+          99,
+          102,
+          111
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          129,
+          213,
+          113,
+          79
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "larva",
+        "bbox": [
+          [
+            156,
+            45
+          ],
+          [
+            202,
+            66
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "pupa",
+        "bbox": [
+          [
+            267,
+            126
+          ],
+          [
+            305,
+            143
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "egg",
+        "bbox": [
+          [
+            49,
+            121
+          ],
+          [
+            79,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "adult",
+        "bbox": [
+          [
+            147,
+            216
+          ],
+          [
+            194,
+            234
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "fig 170 life-cycle of anopheles mosquito",
+        "bbox": [
+          [
+            99,
+            324
+          ],
+          [
+            306,
+            338
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          38,
+          10,
+          59,
+          70
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          38,
+          206,
+          66,
+          64
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          249,
+          206,
+          82,
+          64
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          315,
+          26,
+          49,
+          67
+        ]
+      }
+    }
+  }
+}

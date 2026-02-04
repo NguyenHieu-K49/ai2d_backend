@@ -1,0 +1,85 @@
+{
+  "id": "2479.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2479.png_B0",
+        "name": "HORN FLY",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2479.png_B1",
+        "name": "Mouthparts",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      }
+    ],
+    "edges": []
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          21,
+          13,
+          228,
+          252
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          268,
+          40,
+          139,
+          206
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Mouthparts",
+        "bbox": [
+          [
+            316,
+            226
+          ],
+          [
+            403,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "HORN FLY",
+        "bbox": [
+          [
+            177,
+            273
+          ],
+          [
+            269,
+            294
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  },
+  "description": "So do nay mo ta cac giai doan phat trien."
+}

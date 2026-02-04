@@ -1,0 +1,371 @@
+{
+  "id": "1443.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1443.png_B0",
+        "name": "IV. Adult Butterfly",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1443.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1443.png_B2",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1443.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1443.png_B4",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1443.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1443.png_B6",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1443.png_B7",
+        "name": "B7",
+        "type": "Stage",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "1443.png_B8",
+        "name": "B8",
+        "type": "Stage",
+        "components": [
+          "B8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1443.png_B0",
+        "target": "1443.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1443.png_B1",
+        "target": "1443.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1443.png_B2",
+        "target": "1443.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1443.png_B3",
+        "target": "1443.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1443.png_B4",
+        "target": "1443.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1443.png_B5",
+        "target": "1443.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1443.png_B6",
+        "target": "1443.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1443.png_B7",
+        "target": "1443.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1443.png_B8",
+        "target": "1443.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          21,
+          184,
+          66,
+          57
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          75,
+          73,
+          87,
+          59
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          230,
+          46,
+          34,
+          42
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          338,
+          69,
+          54,
+          68
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          403,
+          183,
+          67,
+          60
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          380,
+          318,
+          75,
+          57
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          287,
+          407,
+          69,
+          49
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          156,
+          399,
+          54,
+          63
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          41,
+          317,
+          73,
+          63
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            233,
+            114
+          ],
+          [
+            284,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Larva",
+        "bbox": [
+          [
+            315,
+            208
+          ],
+          [
+            376,
+            239
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            254,
+            351
+          ],
+          [
+            310,
+            377
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "IV. Adult Butterfly",
+        "bbox": [
+          [
+            107,
+            198
+          ],
+          [
+            213,
+            250
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          294,
+          53,
+          36,
+          27
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          397,
+          130,
+          32,
+          33
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          435,
+          263,
+          19,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          361,
+          385,
+          37,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          221,
+          444,
+          58,
+          16
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          98,
+          386,
+          38,
+          38
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          42,
+          269,
+          22,
+          38
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          61,
+          137,
+          35,
+          39
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          163,
+          59,
+          35,
+          26
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan IV. Adult Butterfly phat trien thanh B1. Giai doan B1 phat trien thanh Egg. Giai doan Egg phat trien thanh B3. Giai doan B3 phat trien thanh Larva. Giai doan Larva phat trien thanh B5. Giai doan B5 phat trien thanh Pupa. Giai doan Pupa phat trien thanh B7. Giai doan B7 phat trien thanh B8. Giai doan B8 phat trien thanh IV. Adult Butterfly."
+}

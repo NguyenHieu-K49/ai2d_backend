@@ -1,0 +1,305 @@
+{
+  "id": "2480.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2480.png_B0",
+        "name": "Pupae",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2480.png_B1",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2480.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2480.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2480.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2480.png_B5",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2480.png_B6",
+        "name": "Larvae  (Maggots)",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2480.png_T2",
+        "name": "Fly",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2480.png_T3",
+        "name": "(10 day life cycle)",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2480.png_B0",
+        "target": "2480.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2480.png_B1",
+        "target": "2480.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2480.png_B5",
+        "target": "2480.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2480.png_B6",
+        "target": "2480.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          3,
+          21,
+          67,
+          47
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          144,
+          5,
+          64,
+          57
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          192,
+          4,
+          103,
+          119
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          207,
+          128,
+          42,
+          42
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          245,
+          169,
+          32,
+          22
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          144,
+          139,
+          50,
+          34
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          1,
+          138,
+          77,
+          41
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            137,
+            10
+          ],
+          [
+            161,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupae",
+        "bbox": [
+          [
+            11,
+            51
+          ],
+          [
+            41,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Fly",
+        "bbox": [
+          [
+            85,
+            84
+          ],
+          [
+            127,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "(10 day life cycle)",
+        "bbox": [
+          [
+            74,
+            107
+          ],
+          [
+            141,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Eggs",
+        "bbox": [
+          [
+            146,
+            173
+          ],
+          [
+            169,
+            186
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Larvae  (Maggots)",
+        "bbox": [
+          [
+            39,
+            173
+          ],
+          [
+            69,
+            190
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          66,
+          7,
+          83,
+          59
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          143,
+          60,
+          49,
+          83
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          62,
+          132,
+          88,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          19,
+          51,
+          54,
+          88
+        ]
+      }
+    }
+  }
+}

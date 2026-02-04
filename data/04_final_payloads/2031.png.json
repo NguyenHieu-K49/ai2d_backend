@@ -1,0 +1,617 @@
+{
+  "id": "2031.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2031.png_B0",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2031.png_B1",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2031.png_B2",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2031.png_B3",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2031.png_B4",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T10"
+        ]
+      },
+      {
+        "uid": "2031.png_B5",
+        "name": "Plant",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2031.png_B6",
+        "name": "Herbivore",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2031.png_B7",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2031.png_B8",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2031.png_B9",
+        "name": "Carnivore",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2031.png_T11",
+        "name": "A marine food chain",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2031.png_T12",
+        "name": "Primary producers",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2031.png_T13",
+        "name": "Primary consumers",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2031.png_T14",
+        "name": "Secondary consumers",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "2031.png_T15",
+        "name": "Tertiary consumers",
+        "type": "Organism",
+        "components": [
+          "T15"
+        ]
+      },
+      {
+        "uid": "2031.png_T16",
+        "name": "Quaternary consumers",
+        "type": "Organism",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "2031.png_T9",
+        "name": "A terrestrial food chain",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2031.png_B1",
+        "target": "2031.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2031.png_B2",
+        "target": "2031.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2031.png_B3",
+        "target": "2031.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2031.png_B4",
+        "target": "2031.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2031.png_B5",
+        "target": "2031.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2031.png_B6",
+        "target": "2031.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2031.png_B7",
+        "target": "2031.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2031.png_B8",
+        "target": "2031.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          302,
+          4,
+          130,
+          113
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          295,
+          156,
+          143,
+          69
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          293,
+          261,
+          147,
+          59
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          299,
+          354,
+          128,
+          85
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          301,
+          456,
+          117,
+          98
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          33,
+          476,
+          82,
+          76
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          21,
+          337,
+          120,
+          103
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          35,
+          244,
+          90,
+          77
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          18,
+          149,
+          109,
+          69
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          10,
+          0,
+          139,
+          128
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            322,
+            120
+          ],
+          [
+            389,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            37,
+            124
+          ],
+          [
+            106,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            311,
+            552
+          ],
+          [
+            412,
+            570
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "A marine food chain",
+        "bbox": [
+          [
+            284,
+            584
+          ],
+          [
+            424,
+            599
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Primary producers",
+        "bbox": [
+          [
+            177,
+            501
+          ],
+          [
+            251,
+            534
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Primary consumers",
+        "bbox": [
+          [
+            178,
+            389
+          ],
+          [
+            257,
+            426
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Secondary consumers",
+        "bbox": [
+          [
+            174,
+            273
+          ],
+          [
+            257,
+            306
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Tertiary consumers",
+        "bbox": [
+          [
+            176,
+            158
+          ],
+          [
+            254,
+            191
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Quaternary consumers",
+        "bbox": [
+          [
+            173,
+            42
+          ],
+          [
+            258,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            37,
+            214
+          ],
+          [
+            104,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            321,
+            209
+          ],
+          [
+            391,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            320,
+            320
+          ],
+          [
+            397,
+            337
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Carnivore",
+        "bbox": [
+          [
+            37,
+            320
+          ],
+          [
+            107,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            316,
+            436
+          ],
+          [
+            408,
+            457
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Herbivore",
+        "bbox": [
+          [
+            35,
+            440
+          ],
+          [
+            106,
+            454
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Plant",
+        "bbox": [
+          [
+            54,
+            550
+          ],
+          [
+            98,
+            570
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "A terrestrial food chain",
+        "bbox": [
+          [
+            0,
+            582
+          ],
+          [
+            157,
+            599
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          63,
+          141,
+          16,
+          19
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          57,
+          227,
+          23,
+          23
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          63,
+          338,
+          17,
+          24
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          60,
+          454,
+          20,
+          26
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          349,
+          455,
+          18,
+          27
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          347,
+          335,
+          19,
+          30
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          348,
+          226,
+          15,
+          29
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          345,
+          132,
+          19,
+          34
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Carnivore la nguon thuc an cho Carnivore. Carnivore la nguon thuc an cho Carnivore. Zooplankton la nguon thuc an cho Carnivore. Phytoplankton la nguon thuc an cho Zooplankton. Plant la nguon thuc an cho Herbivore. Herbivore la nguon thuc an cho Carnivore. Carnivore la nguon thuc an cho Carnivore. Carnivore la nguon thuc an cho Carnivore."
+}

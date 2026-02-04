@@ -1,0 +1,444 @@
+{
+  "id": "2105.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          242,
+          0,
+          122,
+          72
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          165,
+          347,
+          269,
+          94
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          457,
+          254,
+          119,
+          44
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          319,
+          258,
+          120,
+          43
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          175,
+          240,
+          121,
+          66
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          37,
+          252,
+          128,
+          49
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          343,
+          114,
+          115,
+          75
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          145,
+          121,
+          110,
+          61
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "tertiary consumers",
+        "bbox": [
+          [
+            4,
+            47
+          ],
+          [
+            81,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "wolf spider",
+        "bbox": [
+          [
+            264,
+            78
+          ],
+          [
+            328,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "producers",
+        "bbox": [
+          [
+            2,
+            444
+          ],
+          [
+            81,
+            463
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "plants",
+        "bbox": [
+          [
+            281,
+            447
+          ],
+          [
+            328,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "ground beetle",
+        "bbox": [
+          [
+            353,
+            188
+          ],
+          [
+            445,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "beetle larva",
+        "bbox": [
+          [
+            171,
+            189
+          ],
+          [
+            255,
+            211
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "secondary consumers",
+        "bbox": [
+          [
+            7,
+            184
+          ],
+          [
+            80,
+            207
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "woodlouse",
+        "bbox": [
+          [
+            198,
+            310
+          ],
+          [
+            274,
+            328
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "earwig",
+        "bbox": [
+          [
+            350,
+            310
+          ],
+          [
+            400,
+            325
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "millipede",
+        "bbox": [
+          [
+            491,
+            310
+          ],
+          [
+            542,
+            325
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "primary consumers",
+        "bbox": [
+          [
+            7,
+            333
+          ],
+          [
+            78,
+            357
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "snail",
+        "bbox": [
+          [
+            79,
+            305
+          ],
+          [
+            117,
+            326
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          213,
+          92,
+          30,
+          32
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          352,
+          94,
+          33,
+          24
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          390,
+          213,
+          13,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          446,
+          209,
+          93,
+          58
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          435,
+          331,
+          87,
+          56
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          360,
+          328,
+          17,
+          51
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          202,
+          214,
+          22,
+          27
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          85,
+          211,
+          73,
+          46
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          94,
+          337,
+          90,
+          52
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          232,
+          331,
+          14,
+          23
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B4",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B6",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B5"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,321 @@
+{
+  "id": "1892.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1892.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1892.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1892.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1892.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1892.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1892.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1892.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1892.png_B0",
+        "target": "1892.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1892.png_B0",
+        "target": "1892.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1892.png_B1",
+        "target": "1892.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1892.png_B1",
+        "target": "1892.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1892.png_B1",
+        "target": "1892.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1892.png_B2",
+        "target": "1892.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1892.png_B3",
+        "target": "1892.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1892.png_B4",
+        "target": "1892.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1892.png_B4",
+        "target": "1892.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1892.png_B6",
+        "target": "1892.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1892.png_B6",
+        "target": "1892.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1892.png_B6",
+        "target": "1892.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          85,
+          255,
+          78,
+          30
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          183,
+          241,
+          56,
+          40
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          292,
+          239,
+          47,
+          54
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          93,
+          127,
+          70,
+          83
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          226,
+          169,
+          103,
+          35
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          178,
+          20,
+          63,
+          116
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          65,
+          343,
+          327,
+          49
+        ]
+      }
+    },
+    "texts": [],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          237,
+          91,
+          59,
+          72
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          261,
+          281,
+          40,
+          58
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          203,
+          148,
+          20,
+          69
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          276,
+          201,
+          31,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          201,
+          283,
+          14,
+          59
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          120,
+          280,
+          38,
+          57
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          150,
+          82,
+          38,
+          45
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          154,
+          192,
+          105,
+          70
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          228,
+          206,
+          40,
+          43
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          233,
+          120,
+          37,
+          56
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          138,
+          205,
+          55,
+          52
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          143,
+          113,
+          55,
+          144
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B0 la nguon thuc an cho B4. B0 la nguon thuc an cho B5. B1 la nguon thuc an cho B5. B1 la nguon thuc an cho B4. B1 la nguon thuc an cho B3. B2 la nguon thuc an cho B4. B3 la nguon thuc an cho B5. B4 la nguon thuc an cho B5. B4 la nguon thuc an cho B5. B6 la nguon thuc an cho B2. B6 la nguon thuc an cho B1. B6 la nguon thuc an cho B0."
+}

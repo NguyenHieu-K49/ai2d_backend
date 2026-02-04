@@ -1,0 +1,375 @@
+{
+  "id": "2091.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2091.png_T0",
+        "name": "eaten",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2091.png_T1",
+        "name": "die",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2091.png_T10",
+        "name": "DECOMPOSERS bacteria and fungi",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2091.png_T11",
+        "name": "CONSUMERS animals",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2091.png_T2",
+        "name": "Recycling and the role of decomposers",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2091.png_T3",
+        "name": "14",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2091.png_T4",
+        "name": "decay",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2091.png_T5",
+        "name": "SOIL minerals and humus",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2091.png_T6",
+        "name": "Water and salts",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2091.png_T7",
+        "name": "sunlight",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2091.png_T8",
+        "name": "PRODUCERS green plants",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2091.png_T9",
+        "name": "die",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2091.png_T10",
+        "target": "2091.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2091.png_T11",
+        "target": "2091.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2091.png_T5",
+        "target": "2091.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2091.png_T7",
+        "target": "2091.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2091.png_T8",
+        "target": "2091.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2091.png_T8",
+        "target": "2091.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "eaten",
+        "bbox": [
+          [
+            522,
+            397
+          ],
+          [
+            581,
+            434
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "die",
+        "bbox": [
+          [
+            133,
+            412
+          ],
+          [
+            167,
+            442
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "DECOMPOSERS bacteria and fungi",
+        "bbox": [
+          [
+            45,
+            255
+          ],
+          [
+            246,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "CONSUMERS animals",
+        "bbox": [
+          [
+            273,
+            422
+          ],
+          [
+            435,
+            478
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Recycling and the role of decomposers",
+        "bbox": [
+          [
+            73,
+            30
+          ],
+          [
+            641,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "14",
+        "bbox": [
+          [
+            697,
+            3
+          ],
+          [
+            727,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "decay",
+        "bbox": [
+          [
+            118,
+            115
+          ],
+          [
+            175,
+            152
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "SOIL minerals and humus",
+        "bbox": [
+          [
+            265,
+            88
+          ],
+          [
+            409,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Water and salts",
+        "bbox": [
+          [
+            459,
+            94
+          ],
+          [
+            584,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "sunlight",
+        "bbox": [
+          [
+            600,
+            131
+          ],
+          [
+            689,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "PRODUCERS green plants",
+        "bbox": [
+          [
+            517,
+            254
+          ],
+          [
+            680,
+            311
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "die",
+        "bbox": [
+          [
+            348,
+            264
+          ],
+          [
+            374,
+            281
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          278,
+          275,
+          182,
+          24
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          406,
+          109,
+          181,
+          132
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          636,
+          163,
+          24,
+          76
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          82,
+          102,
+          196,
+          145
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          99,
+          329,
+          146,
+          113
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          449,
+          333,
+          146,
+          112
+        ]
+      }
+    }
+  }
+}

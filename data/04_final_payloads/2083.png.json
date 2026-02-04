@@ -1,0 +1,507 @@
+{
+  "id": "2083.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2083.png_B0",
+        "name": "Herbivores",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2083.png_B1",
+        "name": "PRoducers",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2083.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2083.png_B3",
+        "name": "Primary Consumers",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2083.png_B4",
+        "name": "Secondary Consumers",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2083.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2083.png_B6",
+        "name": "Primary Carnivores",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2083.png_T0",
+        "name": "Food Webs",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2083.png_T1",
+        "name": "Tertiary Consumers",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2083.png_T2",
+        "name": "Secondary carnivores",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2083.png_T8",
+        "name": "Arrows point to the animal doing the eating (predator)",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2083.png_T9",
+        "name": "http://www.eelsinc.org/id64.html",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2083.png_B0",
+        "target": "2083.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2083.png_B0",
+        "target": "2083.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2083.png_B1",
+        "target": "2083.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2083.png_B1",
+        "target": "2083.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2083.png_B1",
+        "target": "2083.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2083.png_B2",
+        "target": "2083.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2083.png_B2",
+        "target": "2083.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2083.png_B2",
+        "target": "2083.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2083.png_B3",
+        "target": "2083.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2083.png_B4",
+        "target": "2083.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2083.png_B4",
+        "target": "2083.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2083.png_B6",
+        "target": "2083.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          79,
+          251,
+          80,
+          39
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          56,
+          346,
+          337,
+          49
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          184,
+          235,
+          59,
+          51
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          293,
+          238,
+          45,
+          58
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          220,
+          162,
+          112,
+          46
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          172,
+          16,
+          65,
+          124
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          88,
+          124,
+          79,
+          87
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Webs",
+        "bbox": [
+          [
+            179,
+            9
+          ],
+          [
+            254,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Tertiary Consumers",
+        "bbox": [
+          [
+            347,
+            59
+          ],
+          [
+            425,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Secondary carnivores",
+        "bbox": [
+          [
+            0,
+            60
+          ],
+          [
+            73,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Primary Carnivores",
+        "bbox": [
+          [
+            0,
+            171
+          ],
+          [
+            77,
+            198
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Herbivores",
+        "bbox": [
+          [
+            2,
+            267
+          ],
+          [
+            77,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "PRoducers",
+        "bbox": [
+          [
+            0,
+            357
+          ],
+          [
+            70,
+            376
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Secondary Consumers",
+        "bbox": [
+          [
+            350,
+            172
+          ],
+          [
+            427,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Primary Consumers",
+        "bbox": [
+          [
+            348,
+            258
+          ],
+          [
+            427,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Arrows point to the animal doing the eating (predator)",
+        "bbox": [
+          [
+            206,
+            405
+          ],
+          [
+            391,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "http://www.eelsinc.org/id64.html",
+        "bbox": [
+          [
+            141,
+            433
+          ],
+          [
+            292,
+            447
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          235,
+          87,
+          63,
+          79
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          232,
+          119,
+          38,
+          58
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          261,
+          283,
+          40,
+          54
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          121,
+          281,
+          38,
+          58
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          137,
+          109,
+          68,
+          153
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          227,
+          202,
+          43,
+          48
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          148,
+          189,
+          107,
+          80
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          148,
+          84,
+          40,
+          50
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          202,
+          143,
+          16,
+          75
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          138,
+          204,
+          55,
+          52
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          198,
+          279,
+          24,
+          61
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          276,
+          197,
+          30,
+          48
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Herbivores la nguon thuc an cho B5. Herbivores la nguon thuc an cho Secondary Consumers. PRoducers la nguon thuc an cho Primary Consumers. PRoducers la nguon thuc an cho Herbivores. PRoducers la nguon thuc an cho B2. B2 la nguon thuc an cho Secondary Consumers. B2 la nguon thuc an cho B5. B2 la nguon thuc an cho Primary Carnivores. Primary Consumers la nguon thuc an cho Secondary Consumers. Secondary Consumers la nguon thuc an cho B5. Secondary Consumers la nguon thuc an cho B5. Primary Carnivores la nguon thuc an cho B5."
+}

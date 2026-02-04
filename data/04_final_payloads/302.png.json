@@ -1,0 +1,196 @@
+{
+  "id": "302.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "302.png_B0",
+        "name": "Charred stumps after fire",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "302.png_B1",
+        "name": "Grasses and shrubs",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "302.png_B2",
+        "name": "Young evergreens and shrubs",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "302.png_B3",
+        "name": "Regrown forest",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "302.png_B0",
+        "target": "302.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "302.png_B1",
+        "target": "302.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "302.png_B2",
+        "target": "302.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          8,
+          143,
+          58,
+          87
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          114,
+          200,
+          44,
+          31
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          212,
+          151,
+          74,
+          78
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          321,
+          3,
+          111,
+          226
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Charred stumps after fire",
+        "bbox": [
+          [
+            0,
+            234
+          ],
+          [
+            77,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Grasses and shrubs",
+        "bbox": [
+          [
+            106,
+            236
+          ],
+          [
+            167,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Young evergreens and shrubs",
+        "bbox": [
+          [
+            207,
+            235
+          ],
+          [
+            295,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Regrown forest",
+        "bbox": [
+          [
+            357,
+            234
+          ],
+          [
+            409,
+            261
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          80,
+          147,
+          28,
+          61
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          173,
+          147,
+          29,
+          56
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          298,
+          149,
+          28,
+          55
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Charred stumps after fire la nguon thuc an cho Grasses and shrubs. Grasses and shrubs la nguon thuc an cho Young evergreens and shrubs. Young evergreens and shrubs la nguon thuc an cho Regrown forest."
+}

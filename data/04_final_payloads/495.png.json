@@ -1,0 +1,183 @@
+{
+  "id": "495.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "495.png_B0",
+        "name": "Baleen whale",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "495.png_B1",
+        "name": "Krill",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "495.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "495.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "495.png_B4",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "495.png_B1",
+        "target": "495.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "495.png_B3",
+        "target": "495.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          16,
+          24,
+          686,
+          146
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          332,
+          200,
+          120,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          364,
+          314,
+          35,
+          35
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          372,
+          297,
+          58,
+          27
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          405,
+          285,
+          25,
+          23
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Krill",
+        "bbox": [
+          [
+            453,
+            196
+          ],
+          [
+            501,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Baleen whale",
+        "bbox": [
+          [
+            592,
+            130
+          ],
+          [
+            663,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            453,
+            296
+          ],
+          [
+            585,
+            333
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          381,
+          140,
+          17,
+          58
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          381,
+          226,
+          18,
+          72
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Krill la nguon thuc an cho Baleen whale. B3 la nguon thuc an cho Krill."
+}

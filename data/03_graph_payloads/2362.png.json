@@ -1,0 +1,276 @@
+{
+  "id": "2362.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2362.png_B0",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2362.png_B1",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2362.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2362.png_B3",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2362.png_T2",
+        "name": "Life Cycle of a Rhino Beetle",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2362.png_T5",
+        "name": "education.com Copyright 2011-2012 by Education.com",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2362.png_T6",
+        "name": "More worksheets at www.education.com/worksheets",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2362.png_B0",
+        "target": "2362.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2362.png_B1",
+        "target": "2362.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2362.png_B2",
+        "target": "2362.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2362.png_B3",
+        "target": "2362.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          196,
+          47,
+          146,
+          141
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          115,
+          274,
+          215,
+          124
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          13,
+          253,
+          64,
+          48
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          18,
+          65,
+          135,
+          104
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Larva",
+        "bbox": [
+          [
+            26,
+            52
+          ],
+          [
+            60,
+            67
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa",
+        "bbox": [
+          [
+            285,
+            74
+          ],
+          [
+            309,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Life Cycle of a Rhino Beetle",
+        "bbox": [
+          [
+            122,
+            170
+          ],
+          [
+            236,
+            237
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            14,
+            302
+          ],
+          [
+            42,
+            315
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult",
+        "bbox": [
+          [
+            228,
+            372
+          ],
+          [
+            258,
+            387
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "education.com Copyright 2011-2012 by Education.com",
+        "bbox": [
+          [
+            6,
+            408
+          ],
+          [
+            141,
+            432
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "More worksheets at www.education.com/worksheets",
+        "bbox": [
+          [
+            202,
+            413
+          ],
+          [
+            342,
+            432
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          298,
+          180,
+          36,
+          122
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          129,
+          50,
+          68,
+          26
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          53,
+          302,
+          100,
+          67
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          16,
+          150,
+          25,
+          109
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "id": "2002.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2002.png_B0",
+        "name": "Foxes",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2002.png_B1",
+        "name": "Hawks",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2002.png_B2",
+        "name": "Owls",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2002.png_B3",
+        "name": "Racoons",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2002.png_B4",
+        "name": "Insects",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2002.png_B5",
+        "name": "Oak tree (acorns)",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2002.png_B6",
+        "name": "Mice",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2002.png_B7",
+        "name": "Snakes",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2002.png_B8",
+        "name": "Birds",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2002.png_T0",
+        "name": "Food Web",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2002.png_B0",
+        "target": "2002.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2002.png_B1",
+        "target": "2002.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2002.png_B1",
+        "target": "2002.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2002.png_B1",
+        "target": "2002.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2002.png_B2",
+        "target": "2002.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2002.png_B2",
+        "target": "2002.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2002.png_B2",
+        "target": "2002.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2002.png_B3",
+        "target": "2002.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2002.png_B4",
+        "target": "2002.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2002.png_B5",
+        "target": "2002.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2002.png_B6",
+        "target": "2002.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2002.png_B8",
+        "target": "2002.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          65,
+          76,
+          102,
+          65
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          176,
+          41,
+          109,
+          84
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          322,
+          47,
+          60,
+          89
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          366,
+          158,
+          82,
+          88
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          315,
+          283,
+          88,
+          47
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          196,
+          264,
+          101,
+          140
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          56,
+          288,
+          77,
+          32
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          9,
+          182,
+          90,
+          66
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          199,
+          167,
+          92,
+          75
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            185,
+            11
+          ],
+          [
+            276,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Foxes",
+        "bbox": [
+          [
+            102,
+            139
+          ],
+          [
+            138,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Hawks",
+        "bbox": [
+          [
+            221,
+            124
+          ],
+          [
+            258,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Owls",
+        "bbox": [
+          [
+            389,
+            111
+          ],
+          [
+            419,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Racoons",
+        "bbox": [
+          [
+            387,
+            246
+          ],
+          [
+            439,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Insects",
+        "bbox": [
+          [
+            331,
+            334
+          ],
+          [
+            371,
+            345
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Oak tree (acorns)",
+        "bbox": [
+          [
+            204,
+            401
+          ],
+          [
+            298,
+            417
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Mice",
+        "bbox": [
+          [
+            105,
+            329
+          ],
+          [
+            135,
+            348
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Snakes",
+        "bbox": [
+          [
+            35,
+            253
+          ],
+          [
+            80,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Birds",
+        "bbox": [
+          [
+            226,
+            248
+          ],
+          [
+            258,
+            261
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          125,
+          316,
+          79,
+          61
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          283,
+          319,
+          57,
+          46
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          318,
+          136,
+          36,
+          148
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          250,
+          233,
+          89,
+          57
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          131,
+          218,
+          251,
+          85
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          104,
+          138,
+          46,
+          146
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          119,
+          116,
+          102,
+          165
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          133,
+          132,
+          234,
+          160
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          101,
+          109,
+          116,
+          94
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          257,
+          100,
+          108,
+          96
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          74,
+          244,
+          24,
+          44
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          100,
+          97,
+          231,
+          130
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Foxes la nguon thuc an cho Mice. Hawks la nguon thuc an cho Mice. Hawks la nguon thuc an cho Snakes. Hawks la nguon thuc an cho Racoons. Owls la nguon thuc an cho Insects. Owls la nguon thuc an cho Mice. Owls la nguon thuc an cho Snakes. Racoons la nguon thuc an cho Mice. Insects la nguon thuc an cho Oak tree (acorns). Oak tree (acorns) la nguon thuc an cho Mice. Mice la nguon thuc an cho Snakes. Birds la nguon thuc an cho Insects."
+}

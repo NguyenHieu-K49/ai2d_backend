@@ -1,0 +1,133 @@
+{
+  "id": "404.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "404.png_T0",
+        "name": "Bulb",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "404.png_T1",
+        "name": "Adult plant",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "404.png_T2",
+        "name": "Young plant",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "404.png_T0",
+        "target": "404.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "404.png_T1",
+        "target": "404.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "404.png_T2",
+        "target": "404.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Bulb",
+        "bbox": [
+          [
+            102,
+            14
+          ],
+          [
+            140,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult plant",
+        "bbox": [
+          [
+            26,
+            69
+          ],
+          [
+            109,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Young plant",
+        "bbox": [
+          [
+            133,
+            66
+          ],
+          [
+            225,
+            87
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          49,
+          18,
+          51,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          139,
+          18,
+          56,
+          55
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          76,
+          86,
+          102,
+          31
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Bulb phat trien thanh Young plant. Giai doan Adult plant phat trien thanh Bulb. Giai doan Young plant phat trien thanh Adult plant."
+}

@@ -1,0 +1,422 @@
+{
+  "id": "411.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "411.png_B0",
+        "name": "Loggerhead Turtle ",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "411.png_B1",
+        "name": "Sanderling",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "411.png_B2",
+        "name": "Grackle",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "411.png_B3",
+        "name": "Horseshoe Crab and Eggs",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T8"
+        ]
+      },
+      {
+        "uid": "411.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "411.png_B5",
+        "name": "Razor Clam",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "411.png_B6",
+        "name": "Plankton",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "411.png_B7",
+        "name": "Diamondback Terrapin",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      },
+      {
+        "uid": "411.png_B8",
+        "name": "Striped Bass",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T7"
+        ]
+      },
+      {
+        "uid": "411.png_T0",
+        "name": "MARINE FOOD WEB",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "411.png_B3",
+        "target": "411.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "411.png_B3",
+        "target": "411.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "411.png_B4",
+        "target": "411.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "411.png_B4",
+        "target": "411.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "411.png_B5",
+        "target": "411.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "411.png_B5",
+        "target": "411.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "411.png_B6",
+        "target": "411.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          133,
+          16,
+          107,
+          56
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          307,
+          85,
+          75,
+          42
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          285,
+          167,
+          115,
+          63
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          125,
+          114,
+          94,
+          43
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          214,
+          120,
+          34,
+          34
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          154,
+          210,
+          65,
+          24
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          158,
+          266,
+          61,
+          59
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          11,
+          193,
+          80,
+          44
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          0,
+          111,
+          105,
+          45
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "MARINE FOOD WEB",
+        "bbox": [
+          [
+            134,
+            0
+          ],
+          [
+            245,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Loggerhead Turtle ",
+        "bbox": [
+          [
+            144,
+            73
+          ],
+          [
+            234,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Sanderling",
+        "bbox": [
+          [
+            318,
+            128
+          ],
+          [
+            373,
+            140
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Grackle",
+        "bbox": [
+          [
+            325,
+            227
+          ],
+          [
+            368,
+            239
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Plankton",
+        "bbox": [
+          [
+            166,
+            326
+          ],
+          [
+            213,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Razor Clam",
+        "bbox": [
+          [
+            162,
+            233
+          ],
+          [
+            217,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Diamondback Terrapin",
+        "bbox": [
+          [
+            17,
+            234
+          ],
+          [
+            84,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Striped Bass",
+        "bbox": [
+          [
+            22,
+            157
+          ],
+          [
+            82,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Horseshoe Crab and Eggs",
+        "bbox": [
+          [
+            148,
+            155
+          ],
+          [
+            226,
+            183
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          180,
+          88,
+          13,
+          34
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          250,
+          107,
+          66,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          249,
+          135,
+          53,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          183,
+          184,
+          11,
+          29
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          185,
+          246,
+          8,
+          27
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          103,
+          212,
+          47,
+          12
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          104,
+          128,
+          49,
+          14
+        ]
+      }
+    }
+  }
+}

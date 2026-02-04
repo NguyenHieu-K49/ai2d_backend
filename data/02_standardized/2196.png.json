@@ -1,0 +1,129 @@
+{
+  "id": "2196.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "egg",
+        "bbox": [
+          [
+            3,
+            70
+          ],
+          [
+            36,
+            84
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "larval",
+        "bbox": [
+          [
+            122,
+            6
+          ],
+          [
+            164,
+            44
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pupal stage",
+        "bbox": [
+          [
+            223,
+            67
+          ],
+          [
+            274,
+            105
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "adult",
+        "bbox": [
+          [
+            116,
+            117
+          ],
+          [
+            158,
+            155
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          25,
+          24,
+          87,
+          41
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          30,
+          87,
+          81,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          163,
+          102,
+          73,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          172,
+          21,
+          68,
+          43
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

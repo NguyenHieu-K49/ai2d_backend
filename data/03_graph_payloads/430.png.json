@@ -1,0 +1,176 @@
+{
+  "id": "430.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "430.png_T0",
+        "name": "Adult plant",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "430.png_T1",
+        "name": "Young plant",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "430.png_T2",
+        "name": "Seed",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "430.png_T3",
+        "name": "Fertilisation",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "430.png_T4",
+        "name": "Germination",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "430.png_T0",
+        "target": "430.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "430.png_T1",
+        "target": "430.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "430.png_T2",
+        "target": "430.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult plant",
+        "bbox": [
+          [
+            106,
+            20
+          ],
+          [
+            151,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Young plant",
+        "bbox": [
+          [
+            175,
+            117
+          ],
+          [
+            226,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Seed",
+        "bbox": [
+          [
+            36,
+            119
+          ],
+          [
+            77,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Fertilisation",
+        "bbox": [
+          [
+            168,
+            51
+          ],
+          [
+            249,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Germination",
+        "bbox": [
+          [
+            0,
+            49
+          ],
+          [
+            81,
+            67
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          61,
+          52,
+          36,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          98,
+          126,
+          60,
+          16
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          158,
+          53,
+          36,
+          52
+        ]
+      }
+    }
+  }
+}

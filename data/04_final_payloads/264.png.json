@@ -1,0 +1,765 @@
+{
+  "id": "264.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "264.png_B0",
+        "name": "Wolf",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "264.png_B1",
+        "name": "FOX",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T9"
+        ]
+      },
+      {
+        "uid": "264.png_B10",
+        "name": "Grass",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T6"
+        ]
+      },
+      {
+        "uid": "264.png_B11",
+        "name": "Lynx",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T1"
+        ]
+      },
+      {
+        "uid": "264.png_B12",
+        "name": "Garlic Mustard my organism",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T4"
+        ]
+      },
+      {
+        "uid": "264.png_B13",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T5"
+        ]
+      },
+      {
+        "uid": "264.png_B14",
+        "name": "Fungi",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T12"
+        ]
+      },
+      {
+        "uid": "264.png_B2",
+        "name": "Squirrel",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T13"
+        ]
+      },
+      {
+        "uid": "264.png_B3",
+        "name": "Oak",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T14"
+        ]
+      },
+      {
+        "uid": "264.png_B4",
+        "name": "Butterfly",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T10"
+        ]
+      },
+      {
+        "uid": "264.png_B5",
+        "name": "Flower",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T11"
+        ]
+      },
+      {
+        "uid": "264.png_B6",
+        "name": "FLEA BEETLE",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "264.png_B7",
+        "name": "SPARROW",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T8"
+        ]
+      },
+      {
+        "uid": "264.png_B8",
+        "name": "Swallow",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T2"
+        ]
+      },
+      {
+        "uid": "264.png_B9",
+        "name": "Weevil",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T3"
+        ]
+      },
+      {
+        "uid": "264.png_T15",
+        "name": "Legend: Energy flow from one organism Energy flow from all organisms",
+        "type": "Organism",
+        "components": [
+          "T15"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "264.png_B1",
+        "target": "264.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "264.png_B10",
+        "target": "264.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "264.png_B12",
+        "target": "264.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "264.png_B12",
+        "target": "264.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "264.png_B2",
+        "target": "264.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "264.png_B2",
+        "target": "264.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "264.png_B3",
+        "target": "264.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "264.png_B3",
+        "target": "264.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "264.png_B5",
+        "target": "264.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "264.png_B6",
+        "target": "264.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "264.png_B7",
+        "target": "264.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "264.png_B7",
+        "target": "264.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "264.png_B8",
+        "target": "264.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "264.png_B9",
+        "target": "264.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "264.png_B9",
+        "target": "264.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "264.png_B9",
+        "target": "264.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          225,
+          20,
+          47,
+          41
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          274,
+          121,
+          63,
+          44
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          138,
+          301,
+          91,
+          19
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          102,
+          53,
+          55,
+          53
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          52,
+          268,
+          25,
+          51
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          138,
+          351,
+          33,
+          35
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          328,
+          351,
+          40,
+          31
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          377,
+          198,
+          28,
+          39
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          408,
+          269,
+          73,
+          45
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          263,
+          201,
+          56,
+          32
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          264,
+          266,
+          53,
+          53
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          185,
+          208,
+          31,
+          23
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          156,
+          137,
+          48,
+          35
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          46,
+          123,
+          61,
+          47
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          29,
+          209,
+          33,
+          33
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Wolf",
+        "bbox": [
+          [
+            227,
+            49
+          ],
+          [
+            263,
+            72
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Lynx",
+        "bbox": [
+          [
+            116,
+            108
+          ],
+          [
+            150,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Butterfly",
+        "bbox": [
+          [
+            252,
+            237
+          ],
+          [
+            311,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Flower",
+        "bbox": [
+          [
+            262,
+            318
+          ],
+          [
+            319,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Fungi",
+        "bbox": [
+          [
+            329,
+            383
+          ],
+          [
+            376,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Squirrel",
+        "bbox": [
+          [
+            364,
+            238
+          ],
+          [
+            417,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Oak",
+        "bbox": [
+          [
+            419,
+            317
+          ],
+          [
+            455,
+            338
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Legend: Energy flow from one organism Energy flow from all organisms",
+        "bbox": [
+          [
+            456,
+            13
+          ],
+          [
+            529,
+            114
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Swallow",
+        "bbox": [
+          [
+            47,
+            172
+          ],
+          [
+            100,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Weevil",
+        "bbox": [
+          [
+            26,
+            239
+          ],
+          [
+            74,
+            258
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Garlic Mustard my organism",
+        "bbox": [
+          [
+            15,
+            315
+          ],
+          [
+            112,
+            349
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            132,
+            382
+          ],
+          [
+            197,
+            401
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Grass",
+        "bbox": [
+          [
+            161,
+            318
+          ],
+          [
+            204,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "FLEA BEETLE",
+        "bbox": [
+          [
+            162,
+            237
+          ],
+          [
+            232,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "SPARROW",
+        "bbox": [
+          [
+            152,
+            169
+          ],
+          [
+            204,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "FOX",
+        "bbox": [
+          [
+            289,
+            172
+          ],
+          [
+            319,
+            190
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          87,
+          89,
+          18,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          147,
+          100,
+          39,
+          50
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          405,
+          216,
+          26,
+          53
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          327,
+          148,
+          52,
+          61
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          301,
+          222,
+          21,
+          59
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          199,
+          253,
+          15,
+          49
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          102,
+          326,
+          41,
+          38
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          366,
+          326,
+          39,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          194,
+          164,
+          21,
+          56
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          83,
+          213,
+          86,
+          81
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          60,
+          225,
+          21,
+          49
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          66,
+          160,
+          94,
+          62
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          34,
+          152,
+          23,
+          59
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          203,
+          137,
+          72,
+          30
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          254,
+          58,
+          44,
+          72
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          276,
+          29,
+          124,
+          170
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: FOX la nguon thuc an cho Wolf. Grass la nguon thuc an cho FLEA BEETLE. Garlic Mustard my organism la nguon thuc an cho Bacteria. Garlic Mustard my organism la nguon thuc an cho FLEA BEETLE. Squirrel la nguon thuc an cho FOX. Squirrel la nguon thuc an cho Wolf. Oak la nguon thuc an cho Squirrel. Oak la nguon thuc an cho Fungi. Flower la nguon thuc an cho Butterfly. FLEA BEETLE la nguon thuc an cho SPARROW. SPARROW la nguon thuc an cho Lynx. SPARROW la nguon thuc an cho FOX. Swallow la nguon thuc an cho Lynx. Weevil la nguon thuc an cho Garlic Mustard my organism. Weevil la nguon thuc an cho SPARROW. Weevil la nguon thuc an cho Swallow."
+}

@@ -1,0 +1,296 @@
+{
+  "id": "2334.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2334.png_B0",
+        "name": "Frog spawn",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2334.png_B1",
+        "name": "Frog",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2334.png_B2",
+        "name": "Froglet",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2334.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2334.png_B4",
+        "name": "Tadpole",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2334.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2334.png_T2",
+        "name": "TEH LIFE CYCLE OF FROGS",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2334.png_B0",
+        "target": "2334.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2334.png_B1",
+        "target": "2334.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2334.png_B2",
+        "target": "2334.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2334.png_B3",
+        "target": "2334.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2334.png_B4",
+        "target": "2334.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2334.png_B5",
+        "target": "2334.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          224,
+          11,
+          78,
+          69
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          13,
+          66,
+          149,
+          166
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          53,
+          266,
+          153,
+          112
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          374,
+          196,
+          135,
+          34
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          332,
+          70,
+          113,
+          48
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          276,
+          313,
+          166,
+          80
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Frog spawn",
+        "bbox": [
+          [
+            227,
+            85
+          ],
+          [
+            294,
+            108
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            379,
+            116
+          ],
+          [
+            419,
+            136
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "TEH LIFE CYCLE OF FROGS",
+        "bbox": [
+          [
+            210,
+            177
+          ],
+          [
+            314,
+            215
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Frog",
+        "bbox": [
+          [
+            97,
+            212
+          ],
+          [
+            123,
+            227
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Froglet",
+        "bbox": [
+          [
+            195,
+            329
+          ],
+          [
+            233,
+            347
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          151,
+          40,
+          67,
+          33
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          307,
+          40,
+          68,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          411,
+          102,
+          54,
+          88
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          63,
+          226,
+          48,
+          81
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          196,
+          355,
+          112,
+          26
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          405,
+          244,
+          54,
+          78
+        ]
+      }
+    }
+  }
+}

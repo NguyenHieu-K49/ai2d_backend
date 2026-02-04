@@ -1,0 +1,378 @@
+{
+  "id": "2147.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2147.png_B0",
+        "name": "Eggs & sperm released",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2147.png_B1",
+        "name": "Larvae form",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2147.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2147.png_B3",
+        "name": "Larvae settle on hard surface",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2147.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2147.png_B5",
+        "name": "Larvae mature to polyps",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2147.png_B6",
+        "name": "Polyps elongate & bud off many young jellyfish",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2147.png_B7",
+        "name": "Young jellyfish mature",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2147.png_B8",
+        "name": "B8",
+        "type": "Stage",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2147.png_T6",
+        "name": "Glass Ocean Limited glass-ocean.co.uk",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2147.png_B0",
+        "target": "2147.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2147.png_B1",
+        "target": "2147.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2147.png_B4",
+        "target": "2147.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2147.png_B5",
+        "target": "2147.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2147.png_B6",
+        "target": "2147.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2147.png_B7",
+        "target": "2147.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          469,
+          119,
+          202,
+          165
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          660,
+          285,
+          85,
+          64
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          584,
+          393,
+          57,
+          85
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          513,
+          419,
+          96,
+          117
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          430,
+          390,
+          96,
+          151
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          170,
+          296,
+          197,
+          241
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          113,
+          217,
+          124,
+          72
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          265,
+          115,
+          148,
+          116
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          43,
+          542,
+          41,
+          37
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Young jellyfish mature",
+        "bbox": [
+          [
+            412,
+            105
+          ],
+          [
+            479,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Eggs & sperm released",
+        "bbox": [
+          [
+            690,
+            198
+          ],
+          [
+            756,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Larvae form",
+        "bbox": [
+          [
+            747,
+            321
+          ],
+          [
+            809,
+            337
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larvae settle on hard surface",
+        "bbox": [
+          [
+            619,
+            476
+          ],
+          [
+            688,
+            508
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Larvae mature to polyps",
+        "bbox": [
+          [
+            95,
+            424
+          ],
+          [
+            163,
+            451
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Polyps elongate & bud off many young jellyfish",
+        "bbox": [
+          [
+            94,
+            162
+          ],
+          [
+            171,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Glass Ocean Limited glass-ocean.co.uk",
+        "bbox": [
+          [
+            62,
+            552
+          ],
+          [
+            235,
+            583
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          639,
+          210,
+          72,
+          82
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          629,
+          327,
+          87,
+          117
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          286,
+          461,
+          174,
+          38
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          143,
+          279,
+          88,
+          164
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          193,
+          179,
+          71,
+          58
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          418,
+          138,
+          87,
+          32
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Eggs & sperm released phat trien thanh Larvae form. Giai doan Larvae form phat trien thanh B2. Giai doan B4 phat trien thanh Larvae mature to polyps. Giai doan Larvae mature to polyps phat trien thanh Polyps elongate & bud off many young jellyfish. Giai doan Polyps elongate & bud off many young jellyfish phat trien thanh Young jellyfish mature. Giai doan Young jellyfish mature phat trien thanh Eggs & sperm released."
+}

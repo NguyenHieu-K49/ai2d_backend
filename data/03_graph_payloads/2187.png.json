@@ -1,0 +1,264 @@
+{
+  "id": "2187.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2187.png_B0",
+        "name": "Eggs hatch in 2-3 days",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2187.png_B1",
+        "name": "Larvae go through three stages in 5-10 days before pupating",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2187.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2187.png_B3",
+        "name": "Pupae live from 5-10 days to 6 months in a cocoon",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2187.png_B4",
+        "name": "Adults emerge and live on one host for up to 2 months",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2187.png_T1",
+        "name": "Typical Flea Lifecycle",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2187.png_B0",
+        "target": "2187.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2187.png_B1",
+        "target": "2187.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2187.png_B2",
+        "target": "2187.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2187.png_B3",
+        "target": "2187.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2187.png_B4",
+        "target": "2187.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          281,
+          154,
+          62,
+          33
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          232,
+          266,
+          109,
+          35
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          130,
+          59,
+          118,
+          79
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          105,
+          283,
+          65,
+          36
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          63,
+          162,
+          53,
+          59
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adults emerge and live on one host for up to 2 months",
+        "bbox": [
+          [
+            4,
+            102
+          ],
+          [
+            83,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Typical Flea Lifecycle",
+        "bbox": [
+          [
+            124,
+            176
+          ],
+          [
+            270,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Eggs hatch in 2-3 days",
+        "bbox": [
+          [
+            314,
+            114
+          ],
+          [
+            370,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larvae go through three stages in 5-10 days before pupating",
+        "bbox": [
+          [
+            333,
+            229
+          ],
+          [
+            403,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Pupae live from 5-10 days to 6 months in a cocoon",
+        "bbox": [
+          [
+            12,
+            268
+          ],
+          [
+            83,
+            336
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          231,
+          80,
+          74,
+          67
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          291,
+          179,
+          40,
+          92
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          161,
+          292,
+          131,
+          49
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          71,
+          98,
+          73,
+          73
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          75,
+          223,
+          63,
+          72
+        ]
+      }
+    }
+  }
+}

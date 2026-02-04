@@ -1,0 +1,370 @@
+{
+  "id": "2381.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2381.png_B0",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2381.png_B1",
+        "name": "Caterpillar",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2381.png_B2",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2381.png_B3",
+        "name": "Chrysalis",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2381.png_B4",
+        "name": "Emerging Butterfly",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2381.png_B5",
+        "name": "Adult Butterfly",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2381.png_T4",
+        "name": "Screencast-O-Matic.com",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2381.png_T7",
+        "name": "SchoolTube.com",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2381.png_T8",
+        "name": "Life Cycle of the",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2381.png_B0",
+        "target": "2381.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2381.png_B1",
+        "target": "2381.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2381.png_B2",
+        "target": "2381.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2381.png_B3",
+        "target": "2381.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2381.png_B4",
+        "target": "2381.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2381.png_B5",
+        "target": "2381.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          337,
+          15,
+          90,
+          89
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          480,
+          124,
+          107,
+          81
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          386,
+          255,
+          148,
+          87
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          127,
+          253,
+          73,
+          89
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          16,
+          130,
+          110,
+          68
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          118,
+          18,
+          120,
+          69
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult Butterfly",
+        "bbox": [
+          [
+            140,
+            94
+          ],
+          [
+            227,
+            113
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Egg",
+        "bbox": [
+          [
+            371,
+            109
+          ],
+          [
+            399,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            502,
+            205
+          ],
+          [
+            566,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Emerging Butterfly",
+        "bbox": [
+          [
+            18,
+            204
+          ],
+          [
+            124,
+            219
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Screencast-O-Matic.com",
+        "bbox": [
+          [
+            3,
+            362
+          ],
+          [
+            191,
+            382
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Chrysalis",
+        "bbox": [
+          [
+            136,
+            346
+          ],
+          [
+            188,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Pupa",
+        "bbox": [
+          [
+            446,
+            348
+          ],
+          [
+            480,
+            365
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SchoolTube.com",
+        "bbox": [
+          [
+            536,
+            7
+          ],
+          [
+            638,
+            30
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Life Cycle of the",
+        "bbox": [
+          [
+            231,
+            159
+          ],
+          [
+            320,
+            241
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          63,
+          74,
+          56,
+          54
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          257,
+          44,
+          67,
+          36
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          423,
+          92,
+          53,
+          47
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          475,
+          203,
+          25,
+          49
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          251,
+          287,
+          84,
+          45
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          84,
+          218,
+          52,
+          51
+        ]
+      }
+    }
+  }
+}

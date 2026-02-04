@@ -1,0 +1,752 @@
+{
+  "id": "1863.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1863.png_B0",
+        "name": "Killer whale",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T14"
+        ]
+      },
+      {
+        "uid": "1863.png_B1",
+        "name": "Leopard seal",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1863.png_B10",
+        "name": "Emperor penguin",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1863.png_B11",
+        "name": "Weddell seal",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1863.png_B12",
+        "name": "Blue whale",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1863.png_B2",
+        "name": "Adelie penguin",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T11"
+        ]
+      },
+      {
+        "uid": "1863.png_B3",
+        "name": "Antarctic petrel",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T9"
+        ]
+      },
+      {
+        "uid": "1863.png_B4",
+        "name": "Crabeater seal",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T10"
+        ]
+      },
+      {
+        "uid": "1863.png_B5",
+        "name": "Krill",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1863.png_B6",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1863.png_B7",
+        "name": "Ross seal",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1863.png_B8",
+        "name": "Herring, anchovies, and squids",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1863.png_B9",
+        "name": "Patagonian toothfish",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1863.png_T12",
+        "name": "Carnivore Herbivore Primary producer",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "1863.png_T13",
+        "name": "Antarctic Food Webs",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1863.png_B1",
+        "target": "1863.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1863.png_B10",
+        "target": "1863.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1863.png_B11",
+        "target": "1863.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1863.png_B12",
+        "target": "1863.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1863.png_B2",
+        "target": "1863.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1863.png_B4",
+        "target": "1863.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1863.png_B4",
+        "target": "1863.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "1863.png_B5",
+        "target": "1863.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1863.png_B5",
+        "target": "1863.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "1863.png_B5",
+        "target": "1863.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1863.png_B5",
+        "target": "1863.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1863.png_B5",
+        "target": "1863.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1863.png_B7",
+        "target": "1863.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1863.png_B7",
+        "target": "1863.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1863.png_B8",
+        "target": "1863.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1863.png_B8",
+        "target": "1863.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1863.png_B8",
+        "target": "1863.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1863.png_B8",
+        "target": "1863.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          261,
+          86,
+          101,
+          70
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          420,
+          137,
+          101,
+          32
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          83,
+          170,
+          47,
+          70
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          144,
+          212,
+          82,
+          31
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          120,
+          123,
+          113,
+          36
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          524,
+          207,
+          47,
+          65
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          448,
+          204,
+          62,
+          53
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          369,
+          225,
+          79,
+          33
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          244,
+          284,
+          174,
+          46
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          295,
+          352,
+          64,
+          56
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          255,
+          226,
+          95,
+          27
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          127,
+          279,
+          65,
+          57
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          49,
+          266,
+          72,
+          34
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Blue whale",
+        "bbox": [
+          [
+            147,
+            169
+          ],
+          [
+            204,
+            181
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Emperor penguin",
+        "bbox": [
+          [
+            88,
+            234
+          ],
+          [
+            130,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Crabeater seal",
+        "bbox": [
+          [
+            368,
+            258
+          ],
+          [
+            439,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Adelie penguin",
+        "bbox": [
+          [
+            517,
+            267
+          ],
+          [
+            587,
+            279
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Carnivore Herbivore Primary producer",
+        "bbox": [
+          [
+            504,
+            359
+          ],
+          [
+            583,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Antarctic Food Webs",
+        "bbox": [
+          [
+            28,
+            31
+          ],
+          [
+            316,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Killer whale",
+        "bbox": [
+          [
+            281,
+            149
+          ],
+          [
+            339,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Weddell seal",
+        "bbox": [
+          [
+            153,
+            255
+          ],
+          [
+            214,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Patagonian toothfish",
+        "bbox": [
+          [
+            53,
+            308
+          ],
+          [
+            108,
+            334
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Herring, anchovies, and squids",
+        "bbox": [
+          [
+            133,
+            338
+          ],
+          [
+            186,
+            375
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Krill",
+        "bbox": [
+          [
+            316,
+            329
+          ],
+          [
+            339,
+            340
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Algae",
+        "bbox": [
+          [
+            311,
+            404
+          ],
+          [
+            342,
+            421
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Ross seal",
+        "bbox": [
+          [
+            286,
+            265
+          ],
+          [
+            332,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Leopard seal",
+        "bbox": [
+          [
+            445,
+            172
+          ],
+          [
+            502,
+            187
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Antarctic petrel",
+        "bbox": [
+          [
+            442,
+            252
+          ],
+          [
+            514,
+            265
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          98,
+          295,
+          34,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          115,
+          253,
+          29,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          195,
+          156,
+          83,
+          131
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          299,
+          159,
+          18,
+          55
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          332,
+          244,
+          45,
+          12
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          126,
+          161,
+          306,
+          52
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          217,
+          173,
+          221,
+          55
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          326,
+          175,
+          121,
+          60
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          419,
+          181,
+          44,
+          42
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          419,
+          276,
+          116,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          197,
+          119,
+          67,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          155,
+          267,
+          23,
+          22
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          185,
+          299,
+          51,
+          12
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          180,
+          249,
+          108,
+          48
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          360,
+          122,
+          78,
+          27
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          485,
+          182,
+          54,
+          49
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          385,
+          271,
+          22,
+          22
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          407,
+          259,
+          72,
+          42
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "2129.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2129.png_B0",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2129.png_B1",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2129.png_B2",
+        "name": "Small fishes",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2129.png_B3",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2129.png_B4",
+        "name": "Shark",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2129.png_B0",
+        "target": "2129.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2129.png_B1",
+        "target": "2129.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2129.png_B2",
+        "target": "2129.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2129.png_B3",
+        "target": "2129.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          2,
+          64,
+          37,
+          32
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          58,
+          8,
+          58,
+          58
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          136,
+          10,
+          93,
+          40
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          228,
+          0,
+          89,
+          82
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          307,
+          9,
+          102,
+          95
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Shark",
+        "bbox": [
+          [
+            336,
+            90
+          ],
+          [
+            373,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Squid",
+        "bbox": [
+          [
+            247,
+            80
+          ],
+          [
+            284,
+            93
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Small fishes",
+        "bbox": [
+          [
+            151,
+            49
+          ],
+          [
+            220,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            58,
+            63
+          ],
+          [
+            129,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Algae",
+        "bbox": [
+          [
+            0,
+            95
+          ],
+          [
+            35,
+            107
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          33,
+          50,
+          34,
+          26
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          107,
+          20,
+          33,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          214,
+          22,
+          48,
+          23
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          279,
+          35,
+          43,
+          29
+        ]
+      }
+    }
+  }
+}

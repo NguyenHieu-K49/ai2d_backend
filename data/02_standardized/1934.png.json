@@ -1,0 +1,228 @@
+{
+  "id": "1934.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          14,
+          277,
+          157,
+          186
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          158,
+          138,
+          89,
+          217
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          259,
+          130,
+          125,
+          150
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          371,
+          193,
+          170,
+          155
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          526,
+          308,
+          111,
+          170
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Example of a Food Chain",
+        "bbox": [
+          [
+            77,
+            55
+          ],
+          [
+            561,
+            95
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            44,
+            202
+          ],
+          [
+            144,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Producer",
+        "bbox": [
+          [
+            105,
+            435
+          ],
+          [
+            156,
+            454
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            297,
+            308
+          ],
+          [
+            356,
+            351
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tertiary consumer",
+        "bbox": [
+          [
+            490,
+            164
+          ],
+          [
+            593,
+            185
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Decomposer",
+        "bbox": [
+          [
+            460,
+            435
+          ],
+          [
+            528,
+            455
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          102,
+          279,
+          67,
+          79
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          221,
+          196,
+          60,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          374,
+          198,
+          44,
+          40
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          511,
+          296,
+          43,
+          58
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

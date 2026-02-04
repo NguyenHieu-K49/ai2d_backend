@@ -1,0 +1,378 @@
+{
+  "id": "1969.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1969.png_T0",
+        "name": "Sun",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1969.png_T1",
+        "name": "Producers",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1969.png_T2",
+        "name": "Heat",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1969.png_T3",
+        "name": "Consumers",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1969.png_T4",
+        "name": "Heat",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1969.png_T5",
+        "name": "Decomposrs",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1969.png_T6",
+        "name": "Heat",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1969.png_T7",
+        "name": "Inorganic Nutrient",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1969.png_T0",
+        "target": "1969.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1969.png_T1",
+        "target": "1969.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1969.png_T1",
+        "target": "1969.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1969.png_T1",
+        "target": "1969.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1969.png_T1",
+        "target": "1969.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1969.png_T1",
+        "target": "1969.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1969.png_T3",
+        "target": "1969.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1969.png_T3",
+        "target": "1969.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1969.png_T3",
+        "target": "1969.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1969.png_T5",
+        "target": "1969.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1969.png_T5",
+        "target": "1969.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1969.png_T7",
+        "target": "1969.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Sun",
+        "bbox": [
+          [
+            19,
+            145
+          ],
+          [
+            59,
+            162
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Producers",
+        "bbox": [
+          [
+            163,
+            143
+          ],
+          [
+            262,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Heat",
+        "bbox": [
+          [
+            288,
+            74
+          ],
+          [
+            336,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Consumers",
+        "bbox": [
+          [
+            475,
+            148
+          ],
+          [
+            584,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Heat",
+        "bbox": [
+          [
+            568,
+            76
+          ],
+          [
+            612,
+            96
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Decomposrs",
+        "bbox": [
+          [
+            474,
+            329
+          ],
+          [
+            593,
+            353
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Heat",
+        "bbox": [
+          [
+            446,
+            423
+          ],
+          [
+            491,
+            442
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Inorganic Nutrient",
+        "bbox": [
+          [
+            174,
+            305
+          ],
+          [
+            264,
+            379
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          211,
+          94,
+          81,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          525,
+          99,
+          62,
+          42
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          277,
+          326,
+          200,
+          35
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          81,
+          138,
+          81,
+          35
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          555,
+          177,
+          37,
+          133
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          472,
+          368,
+          83,
+          44
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          199,
+          181,
+          22,
+          116
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          273,
+          128,
+          186,
+          26
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          273,
+          169,
+          218,
+          149
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          278,
+          159,
+          178,
+          17
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          252,
+          175,
+          214,
+          146
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          485,
+          187,
+          32,
+          125
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Sun la nguon thuc an cho Producers. Producers la nguon thuc an cho Heat. Producers la nguon thuc an cho Consumers. Producers la nguon thuc an cho Decomposrs. Producers la nguon thuc an cho Consumers. Producers la nguon thuc an cho Decomposrs. Consumers la nguon thuc an cho Heat. Consumers la nguon thuc an cho Decomposrs. Consumers la nguon thuc an cho Decomposrs. Decomposrs la nguon thuc an cho Inorganic Nutrient. Decomposrs la nguon thuc an cho Heat. Inorganic Nutrient la nguon thuc an cho Producers."
+}

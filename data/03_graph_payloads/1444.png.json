@@ -1,0 +1,148 @@
+{
+  "id": "1444.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1444.png_B0",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1444.png_B1",
+        "name": "butterfly",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1444.png_B2",
+        "name": "caterpillar",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1444.png_B3",
+        "name": "chrysalis",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      }
+    ],
+    "edges": []
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          160,
+          50,
+          34,
+          41
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          10,
+          136,
+          282,
+          188
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          254,
+          13,
+          241,
+          97
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          350,
+          200,
+          140,
+          207
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "caterpillar",
+        "bbox": [
+          [
+            362,
+            114
+          ],
+          [
+            433,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "egg",
+        "bbox": [
+          [
+            120,
+            51
+          ],
+          [
+            153,
+            66
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "butterfly",
+        "bbox": [
+          [
+            74,
+            322
+          ],
+          [
+            132,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "chrysalis",
+        "bbox": [
+          [
+            285,
+            374
+          ],
+          [
+            344,
+            389
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "32.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "32.png_T0",
+        "name": "Raccoons",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "32.png_T1",
+        "name": "Ducks",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "32.png_T2",
+        "name": "Minnows",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "32.png_T3",
+        "name": "Algae and floating plants",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "32.png_T4",
+        "name": "Aquatic crustaceans",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "32.png_T5",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "32.png_T2",
+        "target": "32.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "32.png_T3",
+        "target": "32.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "32.png_T3",
+        "target": "32.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "32.png_T4",
+        "target": "32.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "32.png_T5",
+        "target": "32.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Raccoons",
+        "bbox": [
+          [
+            26,
+            22
+          ],
+          [
+            128,
+            46
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Ducks",
+        "bbox": [
+          [
+            341,
+            28
+          ],
+          [
+            406,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Minnows",
+        "bbox": [
+          [
+            358,
+            80
+          ],
+          [
+            451,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Algae and floating plants",
+        "bbox": [
+          [
+            136,
+            224
+          ],
+          [
+            385,
+            250
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Aquatic crustaceans",
+        "bbox": [
+          [
+            27,
+            148
+          ],
+          [
+            234,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Fish",
+        "bbox": [
+          [
+            78,
+            76
+          ],
+          [
+            122,
+            98
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          129,
+          32,
+          233,
+          67
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          80,
+          42,
+          25,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          105,
+          99,
+          34,
+          51
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          157,
+          169,
+          40,
+          54
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          319,
+          101,
+          80,
+          122
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          378,
+          51,
+          23,
+          32
+        ]
+      }
+    }
+  }
+}

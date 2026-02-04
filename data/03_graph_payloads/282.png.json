@@ -1,0 +1,457 @@
+{
+  "id": "282.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "282.png_B0",
+        "name": "hawk",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "282.png_B1",
+        "name": "snake",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T7"
+        ]
+      },
+      {
+        "uid": "282.png_B2",
+        "name": "FROG",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "282.png_B3",
+        "name": "cattail",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T8"
+        ]
+      },
+      {
+        "uid": "282.png_B4",
+        "name": "cricket",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T9"
+        ]
+      },
+      {
+        "uid": "282.png_B5",
+        "name": "grasshopper",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "282.png_B6",
+        "name": "marsh grass",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T2"
+        ]
+      },
+      {
+        "uid": "282.png_B7",
+        "name": "shrew",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "282.png_T1",
+        "name": "E.M. Collins 2001",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "282.png_T3",
+        "name": "Red Arrows = Energy!",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "282.png_B1",
+        "target": "282.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "282.png_B2",
+        "target": "282.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "282.png_B3",
+        "target": "282.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "282.png_B4",
+        "target": "282.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "282.png_B4",
+        "target": "282.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "282.png_B5",
+        "target": "282.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "282.png_B6",
+        "target": "282.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "282.png_B7",
+        "target": "282.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "282.png_B7",
+        "target": "282.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          36,
+          63,
+          241,
+          198
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          345,
+          76,
+          246,
+          45
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          478,
+          157,
+          125,
+          98
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          575,
+          246,
+          83,
+          221
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          430,
+          348,
+          109,
+          70
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          297,
+          373,
+          84,
+          57
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          151,
+          329,
+          69,
+          133
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          272,
+          208,
+          174,
+          89
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "hawk",
+        "bbox": [
+          [
+            128,
+            256
+          ],
+          [
+            185,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "E.M. Collins 2001",
+        "bbox": [
+          [
+            32,
+            298
+          ],
+          [
+            181,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "marsh grass",
+        "bbox": [
+          [
+            44,
+            418
+          ],
+          [
+            144,
+            444
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Red Arrows = Energy!",
+        "bbox": [
+          [
+            250,
+            486
+          ],
+          [
+            507,
+            526
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            284,
+            431
+          ],
+          [
+            386,
+            456
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "shrew",
+        "bbox": [
+          [
+            344,
+            301
+          ],
+          [
+            402,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "FROG",
+        "bbox": [
+          [
+            606,
+            205
+          ],
+          [
+            648,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "snake",
+        "bbox": [
+          [
+            594,
+            99
+          ],
+          [
+            655,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "cattail",
+        "bbox": [
+          [
+            652,
+            424
+          ],
+          [
+            711,
+            453
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "cricket",
+        "bbox": [
+          [
+            463,
+            416
+          ],
+          [
+            530,
+            446
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          288,
+          74,
+          45,
+          31
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          438,
+          128,
+          48,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          341,
+          122,
+          54,
+          89
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          492,
+          255,
+          47,
+          113
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          224,
+          419,
+          73,
+          40
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          317,
+          293,
+          24,
+          71
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          412,
+          297,
+          61,
+          64
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          281,
+          130,
+          51,
+          81
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          529,
+          422,
+          48,
+          41
+        ]
+      }
+    }
+  }
+}

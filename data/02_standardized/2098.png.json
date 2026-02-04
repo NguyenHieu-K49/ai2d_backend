@@ -1,0 +1,173 @@
+{
+  "id": "2098.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Water snake",
+        "bbox": [
+          [
+            57,
+            10
+          ],
+          [
+            142,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Elodea",
+        "bbox": [
+          [
+            0,
+            73
+          ],
+          [
+            50,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Catfish",
+        "bbox": [
+          [
+            192,
+            71
+          ],
+          [
+            244,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Water flea",
+        "bbox": [
+          [
+            64,
+            165
+          ],
+          [
+            138,
+            183
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Water boatman",
+        "bbox": [
+          [
+            139,
+            195
+          ],
+          [
+            249,
+            216
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          140,
+          7,
+          80,
+          69
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          17,
+          88,
+          68,
+          77
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          86,
+          176,
+          63,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          51,
+          74,
+          136,
+          16
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          132,
+          92,
+          69,
+          81
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          207,
+          95,
+          14,
+          101
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A5"
+    }
+  ],
+  "rst_source": true
+}

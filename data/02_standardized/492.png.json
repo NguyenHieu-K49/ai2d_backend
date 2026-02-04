@@ -1,0 +1,315 @@
+{
+  "id": "492.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          161,
+          6,
+          114,
+          57
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          291,
+          98,
+          71,
+          32
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          181,
+          160,
+          82,
+          46
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          258,
+          275,
+          50,
+          44
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          108,
+          256,
+          80,
+          88
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          22,
+          215,
+          40,
+          46
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          37,
+          85,
+          76,
+          47
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "weasel",
+        "bbox": [
+          [
+            192,
+            66
+          ],
+          [
+            246,
+            83
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "voles",
+        "bbox": [
+          [
+            305,
+            139
+          ],
+          [
+            347,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "small plants",
+        "bbox": [
+          [
+            238,
+            322
+          ],
+          [
+            323,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "moths",
+        "bbox": [
+          [
+            203,
+            209
+          ],
+          [
+            248,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "bluetits",
+        "bbox": [
+          [
+            56,
+            146
+          ],
+          [
+            108,
+            163
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "leaf-eating insects",
+        "bbox": [
+          [
+            6,
+            260
+          ],
+          [
+            79,
+            297
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "oak tree",
+        "bbox": [
+          [
+            116,
+            350
+          ],
+          [
+            179,
+            367
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          120,
+          60,
+          48,
+          33
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          250,
+          69,
+          49,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          255,
+          128,
+          44,
+          32
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          169,
+          232,
+          39,
+          44
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          239,
+          229,
+          31,
+          50
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          66,
+          245,
+          41,
+          28
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          51,
+          173,
+          30,
+          47
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

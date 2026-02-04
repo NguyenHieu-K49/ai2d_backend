@@ -1,0 +1,502 @@
+{
+  "id": "255.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          120,
+          7,
+          157,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          8,
+          46,
+          61,
+          87
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          323,
+          45,
+          72,
+          67
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          17,
+          170,
+          63,
+          38
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          37,
+          253,
+          56,
+          45
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          147,
+          208,
+          69,
+          106
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          113,
+          318,
+          120,
+          21
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          301,
+          243,
+          58,
+          66
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          228,
+          194,
+          46,
+          52
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          267,
+          145,
+          62,
+          52
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          231,
+          107,
+          80,
+          25
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Scorpion",
+        "bbox": [
+          [
+            79,
+            189
+          ],
+          [
+            121,
+            207
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "baboon",
+        "bbox": [
+          [
+            71,
+            102
+          ],
+          [
+            103,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "seed-eating bird",
+        "bbox": [
+          [
+            292,
+            309
+          ],
+          [
+            371,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LEOPARD",
+        "bbox": [
+          [
+            154,
+            90
+          ],
+          [
+            195,
+            110
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "hawk",
+        "bbox": [
+          [
+            296,
+            62
+          ],
+          [
+            325,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "tick bird",
+        "bbox": [
+          [
+            306,
+            159
+          ],
+          [
+            348,
+            175
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "snake",
+        "bbox": [
+          [
+            222,
+            134
+          ],
+          [
+            253,
+            148
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "grass",
+        "bbox": [
+          [
+            156,
+            342
+          ],
+          [
+            190,
+            355
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "locust",
+        "bbox": [
+          [
+            94,
+            271
+          ],
+          [
+            129,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "impala",
+        "bbox": [
+          [
+            148,
+            230
+          ],
+          [
+            179,
+            240
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "tick",
+        "bbox": [
+          [
+            231,
+            198
+          ],
+          [
+            252,
+            212
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          71,
+          48,
+          58,
+          47
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          167,
+          103,
+          12,
+          124
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          48,
+          215,
+          20,
+          46
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          73,
+          293,
+          42,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          35,
+          136,
+          12,
+          42
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          276,
+          82,
+          52,
+          32
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          355,
+          108,
+          21,
+          139
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          232,
+          289,
+          78,
+          44
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          199,
+          271,
+          10,
+          49
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          210,
+          245,
+          38,
+          24
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          251,
+          169,
+          24,
+          36
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          299,
+          127,
+          12,
+          33
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B3",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B10",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B8",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B9",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B10",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B7"
+    }
+  ],
+  "rst_source": true
+}

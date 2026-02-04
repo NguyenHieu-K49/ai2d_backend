@@ -1,0 +1,623 @@
+{
+  "id": "490.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "490.png_T0",
+        "name": "killer whale",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "490.png_T1",
+        "name": "great whales",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "490.png_T10",
+        "name": "Sea urchins",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "490.png_T11",
+        "name": "oceanic fishes",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "490.png_T12",
+        "name": "kelp",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "490.png_T2",
+        "name": "harbour seal",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "490.png_T3",
+        "name": "Steller sea lion",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "490.png_T4",
+        "name": "sea otters",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "490.png_T5",
+        "name": "bald eagle",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "490.png_T6",
+        "name": "gulls",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "490.png_T7",
+        "name": "starfish",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "490.png_T8",
+        "name": "mussels/barnacles",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "490.png_T9",
+        "name": "coastal fishes",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "490.png_T0",
+        "target": "490.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "490.png_T0",
+        "target": "490.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "490.png_T0",
+        "target": "490.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "490.png_T1",
+        "target": "490.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "490.png_T10",
+        "target": "490.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "490.png_T10",
+        "target": "490.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "490.png_T11",
+        "target": "490.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "490.png_T11",
+        "target": "490.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "490.png_T12",
+        "target": "490.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "490.png_T12",
+        "target": "490.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "490.png_T2",
+        "target": "490.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "490.png_T3",
+        "target": "490.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "490.png_T4",
+        "target": "490.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "490.png_T4",
+        "target": "490.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "490.png_T4",
+        "target": "490.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "490.png_T6",
+        "target": "490.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "490.png_T7",
+        "target": "490.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "490.png_T8",
+        "target": "490.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "490.png_T9",
+        "target": "490.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "490.png_T9",
+        "target": "490.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "490.png_T9",
+        "target": "490.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "killer whale",
+        "bbox": [
+          [
+            207,
+            3
+          ],
+          [
+            450,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "great whales",
+        "bbox": [
+          [
+            210,
+            222
+          ],
+          [
+            438,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Sea urchins",
+        "bbox": [
+          [
+            672,
+            630
+          ],
+          [
+            878,
+            717
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "oceanic fishes",
+        "bbox": [
+          [
+            285,
+            612
+          ],
+          [
+            528,
+            683
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "kelp",
+        "bbox": [
+          [
+            696,
+            996
+          ],
+          [
+            837,
+            1064
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "harbour seal",
+        "bbox": [
+          [
+            9,
+            369
+          ],
+          [
+            231,
+            452
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Steller sea lion",
+        "bbox": [
+          [
+            447,
+            372
+          ],
+          [
+            612,
+            486
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "sea otters",
+        "bbox": [
+          [
+            690,
+            264
+          ],
+          [
+            867,
+            342
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "bald eagle",
+        "bbox": [
+          [
+            1082,
+            174
+          ],
+          [
+            1274,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "gulls",
+        "bbox": [
+          [
+            1248,
+            480
+          ],
+          [
+            1370,
+            552
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "starfish",
+        "bbox": [
+          [
+            867,
+            426
+          ],
+          [
+            1022,
+            498
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "mussels/barnacles",
+        "bbox": [
+          [
+            989,
+            585
+          ],
+          [
+            1172,
+            678
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "coastal fishes",
+        "bbox": [
+          [
+            929,
+            735
+          ],
+          [
+            1176,
+            812
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          297,
+          90,
+          54,
+          129
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          417,
+          18,
+          300,
+          243
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          872,
+          803,
+          141,
+          208
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          750,
+          698,
+          51,
+          300
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          743,
+          342,
+          52,
+          266
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          33,
+          66,
+          209,
+          294
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          114,
+          438,
+          813,
+          378
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          195,
+          441,
+          167,
+          161
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          414,
+          462,
+          93,
+          156
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          519,
+          495,
+          410,
+          300
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          417,
+          63,
+          185,
+          299
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          801,
+          354,
+          186,
+          372
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          878,
+          159,
+          195,
+          132
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          1148,
+          219,
+          351,
+          576
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          1172,
+          225,
+          171,
+          267
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          833,
+          302,
+          141,
+          145
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          989,
+          471,
+          63,
+          114
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1178,
+          563,
+          109,
+          73
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1148,
+          572,
+          174,
+          190
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          782,
+          489,
+          402,
+          143
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          803,
+          651,
+          189,
+          330
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: killer whale la nguon thuc an cho sea otters. killer whale la nguon thuc an cho harbour seal. killer whale la nguon thuc an cho Steller sea lion. great whales la nguon thuc an cho killer whale. Sea urchins la nguon thuc an cho kelp. Sea urchins la nguon thuc an cho gulls. oceanic fishes la nguon thuc an cho harbour seal. oceanic fishes la nguon thuc an cho Steller sea lion. kelp la nguon thuc an cho coastal fishes. kelp la nguon thuc an cho mussels/barnacles. harbour seal la nguon thuc an cho coastal fishes. Steller sea lion la nguon thuc an cho coastal fishes. sea otters la nguon thuc an cho Sea urchins. sea otters la nguon thuc an cho bald eagle. sea otters la nguon thuc an cho starfish. gulls la nguon thuc an cho bald eagle. starfish la nguon thuc an cho mussels/barnacles. mussels/barnacles la nguon thuc an cho gulls. coastal fishes la nguon thuc an cho sea otters. coastal fishes la nguon thuc an cho bald eagle. coastal fishes la nguon thuc an cho gulls."
+}

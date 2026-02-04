@@ -1,0 +1,125 @@
+{
+  "id": "1444.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          160,
+          50,
+          34,
+          41
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          10,
+          136,
+          282,
+          188
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          254,
+          13,
+          241,
+          97
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          350,
+          200,
+          140,
+          207
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "caterpillar",
+        "bbox": [
+          [
+            362,
+            114
+          ],
+          [
+            433,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "egg",
+        "bbox": [
+          [
+            120,
+            51
+          ],
+          [
+            153,
+            66
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "butterfly",
+        "bbox": [
+          [
+            74,
+            322
+          ],
+          [
+            132,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "chrysalis",
+        "bbox": [
+          [
+            285,
+            374
+          ],
+          [
+            344,
+            389
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  },
+  "relationships": [
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

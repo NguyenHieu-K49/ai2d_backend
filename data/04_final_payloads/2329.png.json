@@ -1,0 +1,297 @@
+{
+  "id": "2329.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2329.png_B0",
+        "name": "Mature medusa",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2329.png_B1",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2329.png_B2",
+        "name": "Planula",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2329.png_B3",
+        "name": "Hydrotheca",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2329.png_T2",
+        "name": "Gonangium",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2329.png_T4",
+        "name": "Gonad",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2329.png_B0",
+        "target": "2329.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2329.png_B0",
+        "target": "2329.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2329.png_B1",
+        "target": "2329.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2329.png_B2",
+        "target": "2329.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          176,
+          20,
+          159,
+          160
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          275,
+          193,
+          30,
+          28
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          174,
+          255,
+          51,
+          39
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          8,
+          34,
+          143,
+          297
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Mouth",
+        "bbox": [
+          [
+            269,
+            73
+          ],
+          [
+            304,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Polyp",
+        "bbox": [
+          [
+            138,
+            190
+          ],
+          [
+            172,
+            208
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Gonangium",
+        "bbox": [
+          [
+            7,
+            34
+          ],
+          [
+            67,
+            51
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Budding medusa",
+        "bbox": [
+          [
+            123,
+            55
+          ],
+          [
+            167,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Gonad",
+        "bbox": [
+          [
+            145,
+            143
+          ],
+          [
+            184,
+            157
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Mature medusa",
+        "bbox": [
+          [
+            193,
+            180
+          ],
+          [
+            272,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Egg",
+        "bbox": [
+          [
+            295,
+            217
+          ],
+          [
+            321,
+            233
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Planula",
+        "bbox": [
+          [
+            211,
+            281
+          ],
+          [
+            249,
+            298
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Hydrotheca",
+        "bbox": [
+          [
+            10,
+            236
+          ],
+          [
+            73,
+            254
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          76,
+          273,
+          100,
+          16
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          229,
+          218,
+          61,
+          50
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          280,
+          168,
+          18,
+          26
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          70,
+          20,
+          127,
+          44
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Mature medusa phat trien thanh Egg. Giai doan Mature medusa phat trien thanh Hydrotheca. Giai doan Egg phat trien thanh Planula. Giai doan Planula phat trien thanh Hydrotheca."
+}

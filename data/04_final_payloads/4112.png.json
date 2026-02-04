@@ -1,0 +1,341 @@
+{
+  "id": "4112.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4112.png_B0",
+        "name": "cellular respiration in mitochondria",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "4112.png_B1",
+        "name": "photosynthesis in chloroplasts",
+        "type": "Component",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "4112.png_B2",
+        "name": "ATP",
+        "type": "Component",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "4112.png_T0",
+        "name": "CO2 + H2O",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "4112.png_T3",
+        "name": "sugars + O2",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "4112.png_T6",
+        "name": "heat energy",
+        "type": "Component",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "4112.png_T7",
+        "name": "light energy",
+        "type": "Component",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4112.png_B0",
+        "target": "4112.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "4112.png_B0",
+        "target": "4112.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "4112.png_B1",
+        "target": "4112.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "4112.png_T0",
+        "target": "4112.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "4112.png_T3",
+        "target": "4112.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          650,
+          475,
+          212,
+          119
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          651,
+          160,
+          210,
+          131
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          690,
+          627,
+          116,
+          107
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "CO2 + H2O",
+        "bbox": [
+          [
+            435,
+            352
+          ],
+          [
+            614,
+            398
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "cellular respiration in mitochondria",
+        "bbox": [
+          [
+            594,
+            398
+          ],
+          [
+            920,
+            472
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "photosynthesis in chloroplasts",
+        "bbox": [
+          [
+            614,
+            304
+          ],
+          [
+            880,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "sugars + O2",
+        "bbox": [
+          [
+            886,
+            362
+          ],
+          [
+            1085,
+            400
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "ATP powers most cellular work",
+        "bbox": [
+          [
+            491,
+            731
+          ],
+          [
+            1018,
+            766
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "ATP",
+        "bbox": [
+          [
+            722,
+            667
+          ],
+          [
+            782,
+            702
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "heat energy",
+        "bbox": [
+          [
+            558,
+            800
+          ],
+          [
+            683,
+            878
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "light energy",
+        "bbox": [
+          [
+            538,
+            53
+          ],
+          [
+            661,
+            128
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          518,
+          405,
+          122,
+          125
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          864,
+          418,
+          117,
+          116
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          851,
+          234,
+          130,
+          126
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          518,
+          232,
+          124,
+          122
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          717,
+          592,
+          75,
+          56
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          653,
+          16,
+          69,
+          138
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          726,
+          18,
+          61,
+          137
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          784,
+          11,
+          67,
+          144
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          747,
+          770,
+          64,
+          129
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          688,
+          770,
+          66,
+          129
+        ]
+      }
+    }
+  },
+  "description": "So do nay bao gom: cellular respiration in mitochondria, photosynthesis in chloroplasts, ATP, CO2 + H2O, sugars + O2, heat energy, light energy. Cac thanh phan co moi lien he voi nhau."
+}

@@ -1,0 +1,303 @@
+{
+  "id": "532.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "polar bear",
+        "bbox": [
+          [
+            203,
+            8
+          ],
+          [
+            263,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "thick-billed murres",
+        "bbox": [
+          [
+            305,
+            63
+          ],
+          [
+            415,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "walrus",
+        "bbox": [
+          [
+            448,
+            68
+          ],
+          [
+            487,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "arctic tern",
+        "bbox": [
+          [
+            332,
+            108
+          ],
+          [
+            389,
+            123
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "phytoplankton",
+        "bbox": [
+          [
+            191,
+            184
+          ],
+          [
+            272,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "zooplankton",
+        "bbox": [
+          [
+            195,
+            142
+          ],
+          [
+            268,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "arctic cod",
+        "bbox": [
+          [
+            201,
+            108
+          ],
+          [
+            257,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "ringed seal",
+        "bbox": [
+          [
+            113,
+            64
+          ],
+          [
+            182,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "beluga",
+        "bbox": [
+          [
+            21,
+            65
+          ],
+          [
+            61,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "bowhead whale",
+        "bbox": [
+          [
+            0,
+            106
+          ],
+          [
+            90,
+            122
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          266,
+          119,
+          104,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          269,
+          74,
+          195,
+          48
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          251,
+          18,
+          207,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          174,
+          77,
+          50,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          238,
+          76,
+          90,
+          33
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          223,
+          123,
+          12,
+          23
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          219,
+          158,
+          15,
+          29
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          89,
+          117,
+          104,
+          41
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          50,
+          75,
+          157,
+          45
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          137,
+          15,
+          85,
+          56
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T9",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T8",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T0",
+      "via": "A9"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,210 @@
+{
+  "id": "2422.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          8,
+          40,
+          71,
+          87
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          115,
+          19,
+          26,
+          17
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          149,
+          68,
+          80,
+          26
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          92,
+          117,
+          72,
+          56
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          386,
+          19,
+          32,
+          20
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          289,
+          64,
+          85,
+          98
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          440,
+          71,
+          46,
+          81
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Life cycle of a butterfly",
+        "bbox": [
+          [
+            39,
+            169
+          ],
+          [
+            210,
+            202
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Life cycle of a cockroach",
+        "bbox": [
+          [
+            312,
+            175
+          ],
+          [
+            492,
+            206
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          155,
+          95,
+          41,
+          45
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          379,
+          113,
+          57,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          420,
+          32,
+          41,
+          42
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          345,
+          31,
+          41,
+          43
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          54,
+          103,
+          47,
+          42
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          71,
+          18,
+          43,
+          40
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          143,
+          27,
+          37,
+          40
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B6",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

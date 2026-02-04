@@ -1,0 +1,406 @@
+{
+  "id": "909.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "909.png_T0",
+        "name": "Barracuda",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "909.png_T1",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "909.png_T2",
+        "name": "Fish fry",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "909.png_T3",
+        "name": "Silver porgies",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "909.png_T4",
+        "name": "Spotlight parrot fish",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "909.png_T5",
+        "name": "CORAL",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "909.png_T6",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "909.png_T7",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "909.png_T8",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "909.png_T9",
+        "name": "Four eyed Buterfly fish",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "909.png_T1",
+        "target": "909.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "909.png_T2",
+        "target": "909.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "909.png_T2",
+        "target": "909.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "909.png_T3",
+        "target": "909.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "909.png_T4",
+        "target": "909.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "909.png_T6",
+        "target": "909.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "909.png_T6",
+        "target": "909.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "909.png_T7",
+        "target": "909.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "909.png_T8",
+        "target": "909.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "909.png_T8",
+        "target": "909.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "909.png_T9",
+        "target": "909.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Barracuda",
+        "bbox": [
+          [
+            480,
+            30
+          ],
+          [
+            639,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Squid",
+        "bbox": [
+          [
+            1140,
+            24
+          ],
+          [
+            1239,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Fish fry",
+        "bbox": [
+          [
+            1143,
+            240
+          ],
+          [
+            1260,
+            285
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Silver porgies",
+        "bbox": [
+          [
+            825,
+            132
+          ],
+          [
+            942,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Spotlight parrot fish",
+        "bbox": [
+          [
+            318,
+            210
+          ],
+          [
+            492,
+            294
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "CORAL",
+        "bbox": [
+          [
+            507,
+            396
+          ],
+          [
+            651,
+            444
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            843,
+            420
+          ],
+          [
+            1062,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            849,
+            657
+          ],
+          [
+            1074,
+            705
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Algae",
+        "bbox": [
+          [
+            300,
+            714
+          ],
+          [
+            393,
+            753
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Four eyed Buterfly fish",
+        "bbox": [
+          [
+            24,
+            402
+          ],
+          [
+            237,
+            486
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          1203,
+          90,
+          42,
+          138
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          1038,
+          189,
+          78,
+          51
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          441,
+          105,
+          87,
+          96
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          1122,
+          321,
+          66,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          966,
+          480,
+          45,
+          165
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          726,
+          405,
+          105,
+          45
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          354,
+          300,
+          45,
+          396
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          156,
+          501,
+          159,
+          207
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          24,
+          24,
+          447,
+          360
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          675,
+          9,
+          447,
+          48
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          657,
+          75,
+          159,
+          117
+        ]
+      }
+    }
+  }
+}

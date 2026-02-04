@@ -1,0 +1,392 @@
+{
+  "id": "532.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "532.png_T0",
+        "name": "polar bear",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "532.png_T1",
+        "name": "thick-billed murres",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "532.png_T2",
+        "name": "walrus",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "532.png_T3",
+        "name": "arctic tern",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "532.png_T4",
+        "name": "phytoplankton",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "532.png_T5",
+        "name": "zooplankton",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "532.png_T6",
+        "name": "arctic cod",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "532.png_T7",
+        "name": "ringed seal",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "532.png_T8",
+        "name": "beluga",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "532.png_T9",
+        "name": "bowhead whale",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "532.png_T2",
+        "target": "532.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "532.png_T4",
+        "target": "532.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "532.png_T5",
+        "target": "532.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "532.png_T5",
+        "target": "532.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "532.png_T5",
+        "target": "532.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "532.png_T6",
+        "target": "532.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "532.png_T6",
+        "target": "532.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "532.png_T6",
+        "target": "532.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "532.png_T6",
+        "target": "532.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "532.png_T7",
+        "target": "532.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "polar bear",
+        "bbox": [
+          [
+            203,
+            8
+          ],
+          [
+            263,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "thick-billed murres",
+        "bbox": [
+          [
+            305,
+            63
+          ],
+          [
+            415,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "walrus",
+        "bbox": [
+          [
+            448,
+            68
+          ],
+          [
+            487,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "arctic tern",
+        "bbox": [
+          [
+            332,
+            108
+          ],
+          [
+            389,
+            123
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "phytoplankton",
+        "bbox": [
+          [
+            191,
+            184
+          ],
+          [
+            272,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "zooplankton",
+        "bbox": [
+          [
+            195,
+            142
+          ],
+          [
+            268,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "arctic cod",
+        "bbox": [
+          [
+            201,
+            108
+          ],
+          [
+            257,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "ringed seal",
+        "bbox": [
+          [
+            113,
+            64
+          ],
+          [
+            182,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "beluga",
+        "bbox": [
+          [
+            21,
+            65
+          ],
+          [
+            61,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "bowhead whale",
+        "bbox": [
+          [
+            0,
+            106
+          ],
+          [
+            90,
+            122
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          266,
+          119,
+          104,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          269,
+          74,
+          195,
+          48
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          251,
+          18,
+          207,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          174,
+          77,
+          50,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          238,
+          76,
+          90,
+          33
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          223,
+          123,
+          12,
+          23
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          219,
+          158,
+          15,
+          29
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          89,
+          117,
+          104,
+          41
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          50,
+          75,
+          157,
+          45
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          137,
+          15,
+          85,
+          56
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: walrus la nguon thuc an cho polar bear. phytoplankton la nguon thuc an cho zooplankton. zooplankton la nguon thuc an cho arctic tern. zooplankton la nguon thuc an cho arctic cod. zooplankton la nguon thuc an cho bowhead whale. arctic cod la nguon thuc an cho walrus. arctic cod la nguon thuc an cho ringed seal. arctic cod la nguon thuc an cho thick-billed murres. arctic cod la nguon thuc an cho beluga. ringed seal la nguon thuc an cho polar bear."
+}

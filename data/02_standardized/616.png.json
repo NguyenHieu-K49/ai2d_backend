@@ -1,0 +1,290 @@
+{
+  "id": "616.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          36,
+          36,
+          220,
+          64
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          320,
+          35,
+          144,
+          125
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          321,
+          199,
+          149,
+          212
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          164,
+          371,
+          208,
+          153
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          31,
+          218,
+          60,
+          163
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          82,
+          287,
+          112,
+          115
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          141,
+          166,
+          115,
+          67
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          101,
+          143,
+          39,
+          28
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Land preparation",
+        "bbox": [
+          [
+            157,
+            101
+          ],
+          [
+            263,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seedlings or cuttings planted",
+        "bbox": [
+          [
+            346,
+            159
+          ],
+          [
+            449,
+            186
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pruning",
+        "bbox": [
+          [
+            409,
+            302
+          ],
+          [
+            457,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Logs to market",
+        "bbox": [
+          [
+            157,
+            235
+          ],
+          [
+            252,
+            251
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Felling",
+        "bbox": [
+          [
+            68,
+            314
+          ],
+          [
+            116,
+            329
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Thinning",
+        "bbox": [
+          [
+            235,
+            349
+          ],
+          [
+            288,
+            367
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          264,
+          105,
+          51,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          364,
+          181,
+          19,
+          28
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          287,
+          347,
+          48,
+          23
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          178,
+          347,
+          57,
+          21
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          132,
+          110,
+          34,
+          36
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          120,
+          176,
+          42,
+          139
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B5",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B0",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

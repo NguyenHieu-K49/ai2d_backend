@@ -1,0 +1,210 @@
+{
+  "id": "352.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "352.png_B0",
+        "name": "Animal X",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "352.png_B1",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "352.png_B2",
+        "name": "larva",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "352.png_B3",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "352.png_B0",
+        "target": "352.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "352.png_B1",
+        "target": "352.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "352.png_B2",
+        "target": "352.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "352.png_B3",
+        "target": "352.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          153,
+          3,
+          196,
+          113
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          48,
+          83,
+          41,
+          7
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          38,
+          171,
+          145,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          235,
+          149,
+          78,
+          21
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "egg",
+        "bbox": [
+          [
+            23,
+            49
+          ],
+          [
+            55,
+            70
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Animal X",
+        "bbox": [
+          [
+            307,
+            8
+          ],
+          [
+            381,
+            32
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pupa",
+        "bbox": [
+          [
+            298,
+            189
+          ],
+          [
+            339,
+            213
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "larva",
+        "bbox": [
+          [
+            28,
+            209
+          ],
+          [
+            70,
+            228
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          49,
+          93,
+          35,
+          88
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          83,
+          39,
+          91,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          276,
+          87,
+          37,
+          61
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          128,
+          184,
+          144,
+          37
+        ]
+      }
+    }
+  }
+}

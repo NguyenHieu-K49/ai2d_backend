@@ -1,0 +1,129 @@
+{
+  "id": "442.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            98,
+            9
+          ],
+          [
+            131,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa",
+        "bbox": [
+          [
+            97,
+            129
+          ],
+          [
+            136,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Larva",
+        "bbox": [
+          [
+            227,
+            68
+          ],
+          [
+            276,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Adult butterfly",
+        "bbox": [
+          [
+            9,
+            56
+          ],
+          [
+            72,
+            88
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          35,
+          17,
+          65,
+          47
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          131,
+          16,
+          100,
+          53
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          14,
+          79,
+          83,
+          62
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          157,
+          81,
+          76,
+          54
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,298 @@
+{
+  "id": "2242.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2242.png_B0",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2242.png_B1",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2242.png_B2",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2242.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2242.png_T0",
+        "name": "The egg of the red admiral is laid towards the top or on new growth of nettles",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2242.png_T2",
+        "name": "Five to seven days after being laid, a young first instar caterpillar hatches, creates a leaf shelter, and feeds on fresh nettle leaves.",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2242.png_T5",
+        "name": "The butterfly develops inside the pupa for roughly 7-10 days before emerging into an adult butterfly.",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2242.png_T7",
+        "name": "The larva feeds and progresses through five molts called instars before it is ready to create a pupa.",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2242.png_B0",
+        "target": "2242.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2242.png_B2",
+        "target": "2242.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2242.png_T0",
+        "target": "2242.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2242.png_T7",
+        "target": "2242.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          291,
+          10,
+          157,
+          159
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          602,
+          265,
+          164,
+          164
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          284,
+          570,
+          159,
+          165
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          26,
+          284,
+          181,
+          137
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "The egg of the red admiral is laid towards the top or on new growth of nettles",
+        "bbox": [
+          [
+            32,
+            185
+          ],
+          [
+            271,
+            247
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Egg",
+        "bbox": [
+          [
+            332,
+            185
+          ],
+          [
+            406,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Five to seven days after being laid, a young first instar caterpillar hatches, creates a leaf shelter, and feeds on fresh nettle leaves.",
+        "bbox": [
+          [
+            483,
+            168
+          ],
+          [
+            780,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Adult",
+        "bbox": [
+          [
+            212,
+            334
+          ],
+          [
+            310,
+            375
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Larva",
+        "bbox": [
+          [
+            501,
+            336
+          ],
+          [
+            597,
+            374
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "The butterfly develops inside the pupa for roughly 7-10 days before emerging into an adult butterfly.",
+        "bbox": [
+          [
+            25,
+            452
+          ],
+          [
+            282,
+            539
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Pupa",
+        "bbox": [
+          [
+            319,
+            529
+          ],
+          [
+            411,
+            566
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "The larva feeds and progresses through five molts called instars before it is ready to create a pupa.",
+        "bbox": [
+          [
+            475,
+            458
+          ],
+          [
+            783,
+            523
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          106,
+          36,
+          111,
+          106
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          106,
+          551,
+          124,
+          121
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          500,
+          559,
+          120,
+          120
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          531,
+          37,
+          116,
+          109
+        ]
+      }
+    }
+  }
+}

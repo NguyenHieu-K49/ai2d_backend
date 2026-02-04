@@ -1,0 +1,339 @@
+{
+  "id": "2089.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2089.png_B0",
+        "name": "sea ice phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2089.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2089.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2089.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2089.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2089.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2089.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2089.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "2089.png_T0",
+        "name": "phytoplanktonic.wordpress.com",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2089.png_B0",
+        "target": "2089.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2089.png_B0",
+        "target": "2089.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2089.png_B0",
+        "target": "2089.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2089.png_B0",
+        "target": "2089.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2089.png_B2",
+        "target": "2089.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2089.png_B2",
+        "target": "2089.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2089.png_B3",
+        "target": "2089.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2089.png_B7",
+        "target": "2089.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2089.png_B7",
+        "target": "2089.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          274,
+          103,
+          119,
+          67
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          24,
+          194,
+          104,
+          94
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          64,
+          262,
+          70,
+          91
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          169,
+          314,
+          186,
+          88
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          427,
+          174,
+          184,
+          95
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          169,
+          454,
+          220,
+          198
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          407,
+          286,
+          102,
+          62
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          426,
+          325,
+          94,
+          57
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "phytoplanktonic.wordpress.com",
+        "bbox": [
+          [
+            242,
+            597
+          ],
+          [
+            467,
+            622
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "sea ice phytoplankton",
+        "bbox": [
+          [
+            243,
+            17
+          ],
+          [
+            395,
+            34
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          316,
+          38,
+          35,
+          62
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          375,
+          125,
+          57,
+          63
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          341,
+          154,
+          95,
+          148
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          144,
+          150,
+          111,
+          81
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          279,
+          178,
+          47,
+          134
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          126,
+          293,
+          65,
+          68
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          86,
+          360,
+          116,
+          138
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          285,
+          407,
+          38,
+          54
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          381,
+          349,
+          41,
+          37
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          386,
+          384,
+          83,
+          90
+        ]
+      }
+    }
+  }
+}

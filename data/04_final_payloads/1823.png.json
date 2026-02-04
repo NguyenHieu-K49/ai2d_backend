@@ -1,0 +1,355 @@
+{
+  "id": "1823.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1823.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1823.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1823.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1823.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1823.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1823.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1823.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "1823.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "1823.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1823.png_B1",
+        "target": "1823.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1823.png_B1",
+        "target": "1823.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1823.png_B3",
+        "target": "1823.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1823.png_B4",
+        "target": "1823.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1823.png_B4",
+        "target": "1823.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1823.png_B5",
+        "target": "1823.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1823.png_B5",
+        "target": "1823.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1823.png_B5",
+        "target": "1823.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1823.png_B6",
+        "target": "1823.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1823.png_B7",
+        "target": "1823.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1823.png_B7",
+        "target": "1823.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1823.png_B8",
+        "target": "1823.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          439,
+          0,
+          403,
+          306
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          350,
+          268,
+          283,
+          199
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          84,
+          28,
+          273,
+          378
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          12,
+          420,
+          311,
+          383
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          248,
+          751,
+          229,
+          133
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          398,
+          502,
+          105,
+          217
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          582,
+          761,
+          99,
+          85
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          669,
+          552,
+          157,
+          109
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          652,
+          420,
+          231,
+          97
+        ]
+      }
+    },
+    "texts": [],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          81,
+          351,
+          90,
+          217
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          238,
+          678,
+          72,
+          71
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          528,
+          294,
+          52,
+          62
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          292,
+          346,
+          84,
+          59
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          264,
+          410,
+          153,
+          162
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          378,
+          462,
+          59,
+          93
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          391,
+          708,
+          72,
+          86
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          499,
+          300,
+          160,
+          363
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          627,
+          662,
+          85,
+          110
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          522,
+          462,
+          206,
+          146
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          724,
+          511,
+          67,
+          77
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          671,
+          297,
+          101,
+          134
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B1 la nguon thuc an cho B0. B1 la nguon thuc an cho B2. B3 la nguon thuc an cho B2. B4 la nguon thuc an cho B3. B4 la nguon thuc an cho B5. B5 la nguon thuc an cho B2. B5 la nguon thuc an cho B1. B5 la nguon thuc an cho B0. B6 la nguon thuc an cho B7. B7 la nguon thuc an cho B1. B7 la nguon thuc an cho B8. B8 la nguon thuc an cho B0."
+}

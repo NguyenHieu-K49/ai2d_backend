@@ -1,0 +1,210 @@
+{
+  "id": "2318.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2318.png_B0",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2318.png_B1",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2318.png_B2",
+        "name": "Egg Phase",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2318.png_B3",
+        "name": "Larvae",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2318.png_B0",
+        "target": "2318.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2318.png_B1",
+        "target": "2318.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2318.png_B2",
+        "target": "2318.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2318.png_B3",
+        "target": "2318.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          95,
+          0,
+          94,
+          63
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          7,
+          90,
+          78,
+          48
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          204,
+          88,
+          78,
+          44
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          95,
+          158,
+          90,
+          63
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            127,
+            67
+          ],
+          [
+            157,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Egg Phase",
+        "bbox": [
+          [
+            220,
+            137
+          ],
+          [
+            270,
+            151
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Larvae",
+        "bbox": [
+          [
+            120,
+            222
+          ],
+          [
+            152,
+            235
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Pupa",
+        "bbox": [
+          [
+            27,
+            139
+          ],
+          [
+            56,
+            153
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          30,
+          160,
+          58,
+          48
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          32,
+          32,
+          55,
+          54
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          191,
+          28,
+          55,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          187,
+          158,
+          57,
+          53
+        ]
+      }
+    }
+  }
+}

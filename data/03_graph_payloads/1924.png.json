@@ -1,0 +1,245 @@
+{
+  "id": "1924.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1924.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1924.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1924.png_T0",
+        "name": "Matter",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1924.png_T1",
+        "name": "Heat",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1924.png_T2",
+        "name": "Heat",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1924.png_B0",
+        "target": "1924.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1924.png_B0",
+        "target": "1924.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1924.png_B0",
+        "target": "1924.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1924.png_T1",
+        "target": "1924.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          86,
+          165,
+          66,
+          75
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          257,
+          0,
+          266,
+          248
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Matter",
+        "bbox": [
+          [
+            31,
+            111
+          ],
+          [
+            69,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Heat",
+        "bbox": [
+          [
+            1,
+            135
+          ],
+          [
+            29,
+            152
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Heat",
+        "bbox": [
+          [
+            178,
+            137
+          ],
+          [
+            205,
+            151
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          0,
+          109,
+          31,
+          20
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          0,
+          152,
+          23,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          176,
+          197,
+          68,
+          20
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          6,
+          175,
+          60,
+          22
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          0,
+          205,
+          24,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          5,
+          198,
+          64,
+          18
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          168,
+          151,
+          30,
+          40
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          166,
+          175,
+          75,
+          22
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          490,
+          148,
+          35,
+          44
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          493,
+          202,
+          32,
+          40
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          169,
+          201,
+          28,
+          43
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "840.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "840.png_B0",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "840.png_B1",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "840.png_B2",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "840.png_B3",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "840.png_T4",
+        "name": "Mosquito Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "840.png_B0",
+        "target": "840.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "840.png_B1",
+        "target": "840.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "840.png_B2",
+        "target": "840.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "840.png_B3",
+        "target": "840.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          62,
+          19,
+          85,
+          74
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          126,
+          83,
+          68,
+          46
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          55,
+          121,
+          88,
+          90
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          3,
+          80,
+          56,
+          43
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Larva",
+        "bbox": [
+          [
+            86,
+            8
+          ],
+          [
+            130,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa",
+        "bbox": [
+          [
+            149,
+            66
+          ],
+          [
+            184,
+            82
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            81,
+            112
+          ],
+          [
+            118,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Egg",
+        "bbox": [
+          [
+            15,
+            68
+          ],
+          [
+            47,
+            83
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Mosquito Life Cycle",
+        "bbox": [
+          [
+            22,
+            207
+          ],
+          [
+            187,
+            225
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          27,
+          13,
+          48,
+          53
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          148,
+          23,
+          30,
+          45
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          127,
+          122,
+          53,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          26,
+          119,
+          48,
+          55
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Larva phat trien thanh Pupa. Giai doan Pupa phat trien thanh Adult. Giai doan Adult phat trien thanh Egg. Giai doan Egg phat trien thanh Larva."
+}

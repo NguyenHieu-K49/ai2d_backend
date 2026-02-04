@@ -1,0 +1,279 @@
+{
+  "id": "2146.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2146.png_B0",
+        "name": "Adult Shark",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2146.png_B1",
+        "name": "Youth Shark",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2146.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2146.png_B3",
+        "name": "Newborn",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2146.png_B4",
+        "name": "Ovoviviparity",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2146.png_T1",
+        "name": "Shark life cycle",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2146.png_B0",
+        "target": "2146.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2146.png_B1",
+        "target": "2146.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2146.png_B2",
+        "target": "2146.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2146.png_B3",
+        "target": "2146.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2146.png_B4",
+        "target": "2146.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          92,
+          28,
+          104,
+          40
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          36,
+          88,
+          79,
+          32
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          185,
+          89,
+          61,
+          38
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          74,
+          169,
+          73,
+          27
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          176,
+          169,
+          52,
+          20
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult Shark",
+        "bbox": [
+          [
+            163,
+            25
+          ],
+          [
+            206,
+            37
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Shark life cycle",
+        "bbox": [
+          [
+            92,
+            2
+          ],
+          [
+            210,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Eggs",
+        "bbox": [
+          [
+            248,
+            94
+          ],
+          [
+            272,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Ovoviviparity",
+        "bbox": [
+          [
+            210,
+            187
+          ],
+          [
+            261,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Newborn",
+        "bbox": [
+          [
+            70,
+            199
+          ],
+          [
+            108,
+            212
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Youth Shark",
+        "bbox": [
+          [
+            22,
+            124
+          ],
+          [
+            73,
+            139
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          86,
+          65,
+          26,
+          29
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          184,
+          65,
+          36,
+          32
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          206,
+          127,
+          17,
+          43
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          72,
+          122,
+          25,
+          49
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          131,
+          187,
+          52,
+          19
+        ]
+      }
+    }
+  }
+}

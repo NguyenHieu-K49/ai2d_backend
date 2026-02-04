@@ -1,0 +1,458 @@
+{
+  "id": "1796.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1796.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1796.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1796.png_B2",
+        "name": "Desert",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1796.png_B3",
+        "name": "Weathering, Erosion",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T10"
+        ]
+      },
+      {
+        "uid": "1796.png_B4",
+        "name": "Tectonic activity, Volcanism",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1796.png_T0",
+        "name": "Desert Ecology",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1796.png_T1",
+        "name": "Plants, Animals, People",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1796.png_T2",
+        "name": "Biotic",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1796.png_T3",
+        "name": "Temperature, Nutrients, Topography, Water",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1796.png_T5",
+        "name": "Endogenic Processes",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1796.png_T6",
+        "name": "Regional Climate",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1796.png_T7",
+        "name": "Abiotic",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "1796.png_T9",
+        "name": "Exogenic Processes",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1796.png_B1",
+        "target": "1796.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1796.png_B2",
+        "target": "1796.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1796.png_B3",
+        "target": "1796.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1796.png_B3",
+        "target": "1796.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1796.png_B3",
+        "target": "1796.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1796.png_B4",
+        "target": "1796.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1796.png_B4",
+        "target": "1796.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1796.png_T2",
+        "target": "1796.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          428,
+          178,
+          95,
+          59
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          385,
+          278,
+          165,
+          62
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          327,
+          378,
+          287,
+          74
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          163,
+          517,
+          271,
+          70
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          517,
+          523,
+          249,
+          64
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Desert Ecology",
+        "bbox": [
+          [
+            399,
+            108
+          ],
+          [
+            570,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Plants, Animals, People",
+        "bbox": [
+          [
+            534,
+            195
+          ],
+          [
+            741,
+            219
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Weathering, Erosion",
+        "bbox": [
+          [
+            23,
+            525
+          ],
+          [
+            135,
+            571
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Biotic",
+        "bbox": [
+          [
+            447,
+            197
+          ],
+          [
+            497,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Temperature, Nutrients, Topography, Water",
+        "bbox": [
+          [
+            642,
+            287
+          ],
+          [
+            858,
+            334
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tectonic activity, Volcanism",
+        "bbox": [
+          [
+            781,
+            531
+          ],
+          [
+            928,
+            581
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Endogenic Processes",
+        "bbox": [
+          [
+            546,
+            543
+          ],
+          [
+            732,
+            565
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Regional Climate",
+        "bbox": [
+          [
+            390,
+            406
+          ],
+          [
+            545,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Abiotic",
+        "bbox": [
+          [
+            434,
+            299
+          ],
+          [
+            501,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Desert",
+        "bbox": [
+          [
+            249,
+            417
+          ],
+          [
+            311,
+            431
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Exogenic Processes",
+        "bbox": [
+          [
+            213,
+            543
+          ],
+          [
+            385,
+            565
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          398,
+          150,
+          80,
+          65
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          468,
+          237,
+          21,
+          42
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          363,
+          251,
+          112,
+          66
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          547,
+          300,
+          170,
+          219
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          604,
+          449,
+          53,
+          68
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          432,
+          543,
+          84,
+          19
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          261,
+          449,
+          68,
+          69
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          460,
+          338,
+          19,
+          49
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          210,
+          306,
+          173,
+          215
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B1 la nguon thuc an cho B0. Desert la nguon thuc an cho B1. Weathering, Erosion la nguon thuc an cho Tectonic activity, Volcanism. Weathering, Erosion la nguon thuc an cho Desert. Weathering, Erosion la nguon thuc an cho B1. Tectonic activity, Volcanism la nguon thuc an cho B1. Tectonic activity, Volcanism la nguon thuc an cho Desert. Biotic la nguon thuc an cho Desert Ecology."
+}

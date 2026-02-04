@@ -1,0 +1,286 @@
+{
+  "id": "2501.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2501.png_B0",
+        "name": "Parasite invades intestinal tissue",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2501.png_B1",
+        "name": "Infected bird",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2501.png_B2",
+        "name": "birds sheds noninfective oocysts (eggs)with feces into the environment",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2501.png_B3",
+        "name": "Oocysts sporulate within 48 hours and become infective",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2501.png_B4",
+        "name": "Susceptible bird ingests infective oocysts while feeding/drinking",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2501.png_T0",
+        "name": "Direct life cycle of Eimeria infection in birds",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2501.png_T3",
+        "name": "Use \"Go Back\" on your Browser to return to previous page",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2501.png_B1",
+        "target": "2501.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2501.png_B2",
+        "target": "2501.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2501.png_B3",
+        "target": "2501.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2501.png_B4",
+        "target": "2501.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          63,
+          87,
+          165,
+          137
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          264,
+          51,
+          173,
+          86
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          461,
+          209,
+          68,
+          57
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          345,
+          331,
+          93,
+          88
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          53,
+          327,
+          194,
+          59
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Direct life cycle of Eimeria infection in birds",
+        "bbox": [
+          [
+            0,
+            447
+          ],
+          [
+            266,
+            471
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Susceptible bird ingests infective oocysts while feeding/drinking",
+        "bbox": [
+          [
+            77,
+            386
+          ],
+          [
+            199,
+            438
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Parasite invades intestinal tissue",
+        "bbox": [
+          [
+            81,
+            243
+          ],
+          [
+            250,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Use \"Go Back\" on your Browser to return to previous page",
+        "bbox": [
+          [
+            132,
+            2
+          ],
+          [
+            449,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Infected bird",
+        "bbox": [
+          [
+            306,
+            48
+          ],
+          [
+            381,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "birds sheds noninfective oocysts (eggs)with feces into the environment",
+        "bbox": [
+          [
+            326,
+            213
+          ],
+          [
+            467,
+            256
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Oocysts sporulate within 48 hours and become infective",
+        "bbox": [
+          [
+            420,
+            382
+          ],
+          [
+            521,
+            426
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          445,
+          140,
+          53,
+          60
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          456,
+          280,
+          40,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          263,
+          378,
+          70,
+          25
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          104,
+          255,
+          31,
+          66
+        ]
+      }
+    }
+  }
+}

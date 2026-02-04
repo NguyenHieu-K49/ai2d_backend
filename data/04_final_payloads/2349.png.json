@@ -1,0 +1,133 @@
+{
+  "id": "2349.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2349.png_T0",
+        "name": "seed",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2349.png_T1",
+        "name": "seedling",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2349.png_T2",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2349.png_T0",
+        "target": "2349.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2349.png_T1",
+        "target": "2349.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2349.png_T2",
+        "target": "2349.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "seed",
+        "bbox": [
+          [
+            12,
+            53
+          ],
+          [
+            79,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "seedling",
+        "bbox": [
+          [
+            285,
+            50
+          ],
+          [
+            378,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "adult",
+        "bbox": [
+          [
+            116,
+            168
+          ],
+          [
+            184,
+            232
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          86,
+          21,
+          184,
+          40
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          209,
+          98,
+          91,
+          103
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          41,
+          90,
+          69,
+          109
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan seed phat trien thanh seedling. Giai doan seedling phat trien thanh adult. Giai doan adult phat trien thanh seed."
+}

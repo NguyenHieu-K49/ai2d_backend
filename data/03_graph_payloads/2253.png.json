@@ -1,0 +1,169 @@
+{
+  "id": "2253.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2253.png_T0",
+        "name": "egg",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2253.png_T1",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2253.png_T2",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2253.png_T3",
+        "name": "larva",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2253.png_T0",
+        "target": "2253.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2253.png_T1",
+        "target": "2253.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2253.png_T2",
+        "target": "2253.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2253.png_T3",
+        "target": "2253.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "egg",
+        "bbox": [
+          [
+            250,
+            37
+          ],
+          [
+            288,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "adult",
+        "bbox": [
+          [
+            65,
+            130
+          ],
+          [
+            110,
+            153
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "pupa",
+        "bbox": [
+          [
+            244,
+            230
+          ],
+          [
+            291,
+            247
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "larva",
+        "bbox": [
+          [
+            428,
+            126
+          ],
+          [
+            479,
+            154
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          64,
+          42,
+          110,
+          55
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          53,
+          195,
+          108,
+          54
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          378,
+          198,
+          106,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          363,
+          45,
+          108,
+          50
+        ]
+      }
+    }
+  }
+}

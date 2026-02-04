@@ -1,0 +1,181 @@
+{
+  "id": "32.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Raccoons",
+        "bbox": [
+          [
+            26,
+            22
+          ],
+          [
+            128,
+            46
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Ducks",
+        "bbox": [
+          [
+            341,
+            28
+          ],
+          [
+            406,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Minnows",
+        "bbox": [
+          [
+            358,
+            80
+          ],
+          [
+            451,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Algae and floating plants",
+        "bbox": [
+          [
+            136,
+            224
+          ],
+          [
+            385,
+            250
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Aquatic crustaceans",
+        "bbox": [
+          [
+            27,
+            148
+          ],
+          [
+            234,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Fish",
+        "bbox": [
+          [
+            78,
+            76
+          ],
+          [
+            122,
+            98
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          129,
+          32,
+          233,
+          67
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          80,
+          42,
+          25,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          105,
+          99,
+          34,
+          51
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          157,
+          169,
+          40,
+          54
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          319,
+          101,
+          80,
+          122
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          378,
+          51,
+          23,
+          32
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T0",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

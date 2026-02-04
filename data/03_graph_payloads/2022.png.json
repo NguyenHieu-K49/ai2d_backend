@@ -1,0 +1,611 @@
+{
+  "id": "2022.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2022.png_B0",
+        "name": "fish eating fish",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2022.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2022.png_B10",
+        "name": "B10",
+        "type": "Organism",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "2022.png_B11",
+        "name": "B11",
+        "type": "Organism",
+        "components": [
+          "B11"
+        ]
+      },
+      {
+        "uid": "2022.png_B12",
+        "name": "Nutrients",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2022.png_B13",
+        "name": "B13",
+        "type": "Organism",
+        "components": [
+          "B13"
+        ]
+      },
+      {
+        "uid": "2022.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2022.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2022.png_B4",
+        "name": "prey fish",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2022.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2022.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2022.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "2022.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2022.png_B9",
+        "name": "B9",
+        "type": "Organism",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "2022.png_T0",
+        "name": "Danish lake in balance",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2022.png_T1",
+        "name": "Degraded Danish lake",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2022.png_T2",
+        "name": "Warm lake",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2022.png_T5",
+        "name": "water flea",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2022.png_B0",
+        "target": "2022.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2022.png_B1",
+        "target": "2022.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2022.png_B2",
+        "target": "2022.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2022.png_B3",
+        "target": "2022.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2022.png_B4",
+        "target": "2022.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2022.png_B5",
+        "target": "2022.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2022.png_B6",
+        "target": "2022.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2022.png_B7",
+        "target": "2022.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2022.png_B9",
+        "target": "2022.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2022.png_B9",
+        "target": "2022.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          11,
+          34,
+          130,
+          68
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          234,
+          72,
+          64,
+          18
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          418,
+          274,
+          88,
+          56
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          354,
+          292,
+          39,
+          20
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          240,
+          287,
+          78,
+          37
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          53,
+          295,
+          24,
+          17
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          392,
+          73,
+          61,
+          16
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          29,
+          140,
+          68,
+          39
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          209,
+          137,
+          111,
+          62
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          380,
+          159,
+          92,
+          44
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          7,
+          203,
+          104,
+          52
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          232,
+          228,
+          23,
+          33
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          282,
+          231,
+          25,
+          29
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          405,
+          235,
+          22,
+          24
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Danish lake in balance",
+        "bbox": [
+          [
+            5,
+            11
+          ],
+          [
+            164,
+            30
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Degraded Danish lake",
+        "bbox": [
+          [
+            190,
+            8
+          ],
+          [
+            346,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Warm lake",
+        "bbox": [
+          [
+            383,
+            11
+          ],
+          [
+            464,
+            27
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "fish eating fish",
+        "bbox": [
+          [
+            143,
+            77
+          ],
+          [
+            226,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "prey fish",
+        "bbox": [
+          [
+            144,
+            171
+          ],
+          [
+            215,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "water flea",
+        "bbox": [
+          [
+            144,
+            245
+          ],
+          [
+            220,
+            262
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "algae",
+        "bbox": [
+          [
+            145,
+            318
+          ],
+          [
+            187,
+            337
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Nutrients",
+        "bbox": [
+          [
+            219,
+            354
+          ],
+          [
+            297,
+            372
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          48,
+          98,
+          22,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          56,
+          173,
+          13,
+          32
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          54,
+          314,
+          20,
+          27
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          244,
+          325,
+          22,
+          29
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          273,
+          322,
+          22,
+          28
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          362,
+          318,
+          23,
+          32
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          447,
+          330,
+          19,
+          27
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          463,
+          329,
+          18,
+          25
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          54,
+          250,
+          18,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          250,
+          101,
+          20,
+          30
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          252,
+          195,
+          22,
+          36
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          259,
+          247,
+          14,
+          34
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          415,
+          105,
+          13,
+          40
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          411,
+          200,
+          36,
+          36
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          379,
+          248,
+          38,
+          43
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          429,
+          247,
+          32,
+          32
+        ]
+      }
+    }
+  }
+}

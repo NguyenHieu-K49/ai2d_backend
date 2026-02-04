@@ -1,0 +1,205 @@
+{
+  "id": "2238.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          98,
+          385,
+          99,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          0,
+          201,
+          137,
+          69
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          147,
+          4,
+          232,
+          120
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          343,
+          257,
+          75,
+          47
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            221,
+            84
+          ],
+          [
+            277,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Nymph",
+        "bbox": [
+          [
+            68,
+            267
+          ],
+          [
+            131,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Eggs",
+        "bbox": [
+          [
+            325,
+            155
+          ],
+          [
+            371,
+            179
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Nymph",
+        "bbox": [
+          [
+            277,
+            268
+          ],
+          [
+            346,
+            292
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Nymph",
+        "bbox": [
+          [
+            101,
+            445
+          ],
+          [
+            189,
+            470
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          28,
+          253,
+          73,
+          160
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          53,
+          60,
+          114,
+          155
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          368,
+          89,
+          41,
+          168
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          202,
+          306,
+          156,
+          126
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

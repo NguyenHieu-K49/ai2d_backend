@@ -1,0 +1,790 @@
+{
+  "id": "516.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "516.png_B0",
+        "name": "Hawks",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "516.png_B1",
+        "name": "Mountain lions",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "516.png_B10",
+        "name": "GRASSHOPPERS",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T9"
+        ]
+      },
+      {
+        "uid": "516.png_B11",
+        "name": "Snakes",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T0"
+        ]
+      },
+      {
+        "uid": "516.png_B12",
+        "name": "Flower seeds",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T10"
+        ]
+      },
+      {
+        "uid": "516.png_B13",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T13"
+        ]
+      },
+      {
+        "uid": "516.png_B14",
+        "name": "Insect-eating birds",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T3"
+        ]
+      },
+      {
+        "uid": "516.png_B2",
+        "name": "Trees",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T14"
+        ]
+      },
+      {
+        "uid": "516.png_B3",
+        "name": "Mushrooms",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T12"
+        ]
+      },
+      {
+        "uid": "516.png_B4",
+        "name": "Grasses",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T11"
+        ]
+      },
+      {
+        "uid": "516.png_B5",
+        "name": "Rabbits",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "516.png_B6",
+        "name": "Mice",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "516.png_B7",
+        "name": "Seed-eating birds",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      },
+      {
+        "uid": "516.png_B8",
+        "name": "Deer",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T7"
+        ]
+      },
+      {
+        "uid": "516.png_B9",
+        "name": "Bark beetles",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "516.png_B10",
+        "target": "516.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "516.png_B10",
+        "target": "516.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "516.png_B11",
+        "target": "516.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "516.png_B2",
+        "target": "516.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "516.png_B2",
+        "target": "516.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "516.png_B2",
+        "target": "516.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "516.png_B5",
+        "target": "516.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "516.png_B5",
+        "target": "516.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "516.png_B6",
+        "target": "516.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "516.png_B7",
+        "target": "516.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "516.png_B8",
+        "target": "516.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "516.png_B9",
+        "target": "516.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "516.png_B9",
+        "target": "516.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "516.png_B9",
+        "target": "516.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "516.png_B9",
+        "target": "516.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          197,
+          24,
+          134,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          349,
+          19,
+          122,
+          58
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          111,
+          239,
+          116,
+          57
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          21,
+          33,
+          94,
+          61
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          277,
+          314,
+          44,
+          27
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          280,
+          382,
+          29,
+          24
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          84,
+          58,
+          96,
+          78
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          361,
+          304,
+          110,
+          102
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          149,
+          326,
+          86,
+          83
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          23,
+          347,
+          122,
+          63
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          62,
+          168,
+          71,
+          59
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          182,
+          175,
+          59,
+          46
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          234,
+          119,
+          79,
+          63
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          364,
+          122,
+          79,
+          136
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          301,
+          214,
+          66,
+          46
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Snakes",
+        "bbox": [
+          [
+            37,
+            8
+          ],
+          [
+            97,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Hawks",
+        "bbox": [
+          [
+            262,
+            4
+          ],
+          [
+            317,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Flower seeds",
+        "bbox": [
+          [
+            249,
+            338
+          ],
+          [
+            357,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Grasses",
+        "bbox": [
+          [
+            38,
+            407
+          ],
+          [
+            107,
+            429
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Mushrooms",
+        "bbox": [
+          [
+            154,
+            410
+          ],
+          [
+            244,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            271,
+            408
+          ],
+          [
+            339,
+            429
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Trees",
+        "bbox": [
+          [
+            399,
+            410
+          ],
+          [
+            447,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Mountain lions",
+        "bbox": [
+          [
+            371,
+            84
+          ],
+          [
+            447,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Insect-eating birds",
+        "bbox": [
+          [
+            159,
+            106
+          ],
+          [
+            215,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Rabbits",
+        "bbox": [
+          [
+            38,
+            162
+          ],
+          [
+            100,
+            183
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Mice",
+        "bbox": [
+          [
+            177,
+            210
+          ],
+          [
+            216,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Seed-eating birds",
+        "bbox": [
+          [
+            256,
+            183
+          ],
+          [
+            308,
+            236
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Deer",
+        "bbox": [
+          [
+            416,
+            256
+          ],
+          [
+            457,
+            280
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Bark beetles",
+        "bbox": [
+          [
+            259,
+            257
+          ],
+          [
+            318,
+            296
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "GRASSHOPPERS",
+        "bbox": [
+          [
+            109,
+            291
+          ],
+          [
+            219,
+            312
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          96,
+          6,
+          158,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          297,
+          26,
+          41,
+          147
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          68,
+          240,
+          18,
+          22
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          81,
+          262,
+          27,
+          19
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          27,
+          203,
+          152,
+          142
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          207,
+          224,
+          67,
+          106
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          317,
+          367,
+          60,
+          34
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          328,
+          261,
+          49,
+          73
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          361,
+          231,
+          23,
+          81
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          447,
+          107,
+          27,
+          101
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          72,
+          108,
+          79,
+          71
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          142,
+          220,
+          9,
+          21
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          136,
+          77,
+          194,
+          118
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          139,
+          192,
+          12,
+          23
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          141,
+          129,
+          25,
+          42
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          340,
+          71,
+          20,
+          22
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          191,
+          83,
+          75,
+          25
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          273,
+          94,
+          24,
+          9
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          300,
+          105,
+          28,
+          26
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          320,
+          135,
+          16,
+          85
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          50,
+          95,
+          22,
+          62
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          19,
+          100,
+          43,
+          138
+        ]
+      }
+    }
+  }
+}

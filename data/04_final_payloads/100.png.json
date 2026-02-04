@@ -1,0 +1,164 @@
+{
+  "id": "100.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "100.png_B0",
+        "name": "NYMPH",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "100.png_B1",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "100.png_B2",
+        "name": "Dragonfly",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "100.png_B0",
+        "target": "100.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "100.png_B1",
+        "target": "100.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "100.png_B2",
+        "target": "100.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          286,
+          8,
+          56,
+          86
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          13,
+          67,
+          57,
+          21
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          115,
+          232,
+          121,
+          85
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            18,
+            100
+          ],
+          [
+            58,
+            127
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "NYMPH",
+        "bbox": [
+          [
+            264,
+            98
+          ],
+          [
+            354,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Dragonfly",
+        "bbox": [
+          [
+            119,
+            333
+          ],
+          [
+            225,
+            362
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          119,
+          31,
+          114,
+          63
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          7,
+          167,
+          112,
+          143
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          265,
+          170,
+          90,
+          142
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan NYMPH phat trien thanh Dragonfly. Giai doan Egg phat trien thanh NYMPH. Giai doan Dragonfly phat trien thanh Egg."
+}

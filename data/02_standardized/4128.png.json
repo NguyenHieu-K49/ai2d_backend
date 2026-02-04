@@ -1,0 +1,147 @@
+{
+  "id": "4128.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          124,
+          141,
+          229,
+          358
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          446,
+          45,
+          140,
+          151
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food-related Needs of Plants",
+        "bbox": [
+          [
+            166,
+            0
+          ],
+          [
+            473,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Chlorophyll",
+        "bbox": [
+          [
+            105,
+            146
+          ],
+          [
+            195,
+            168
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Light",
+        "bbox": [
+          [
+            378,
+            177
+          ],
+          [
+            430,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Carbon Dioxide",
+        "bbox": [
+          [
+            404,
+            280
+          ],
+          [
+            525,
+            304
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Salts and Water",
+        "bbox": [
+          [
+            0,
+            386
+          ],
+          [
+            123,
+            406
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          138,
+          389,
+          30,
+          11
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          144,
+          165,
+          22,
+          54
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          429,
+          142,
+          36,
+          33
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "B0",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

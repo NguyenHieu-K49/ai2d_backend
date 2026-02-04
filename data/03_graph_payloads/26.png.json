@@ -1,0 +1,1006 @@
+{
+  "id": "26.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "26.png_B0",
+        "name": "Humans",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "26.png_B1",
+        "name": "Birds",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T19"
+        ]
+      },
+      {
+        "uid": "26.png_B10",
+        "name": "Sun",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T20"
+        ]
+      },
+      {
+        "uid": "26.png_B2",
+        "name": "Larger Fish",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T18"
+        ]
+      },
+      {
+        "uid": "26.png_B3",
+        "name": "Crabs",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T10"
+        ]
+      },
+      {
+        "uid": "26.png_B4",
+        "name": "Worms",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T9"
+        ]
+      },
+      {
+        "uid": "26.png_B5",
+        "name": "Fish and Prawns",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "26.png_B6",
+        "name": "Oysters",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T1"
+        ]
+      },
+      {
+        "uid": "26.png_B7",
+        "name": "ANIMALS",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T3"
+        ]
+      },
+      {
+        "uid": "26.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "26.png_B9",
+        "name": "Molluscs",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T15"
+        ]
+      },
+      {
+        "uid": "26.png_T11",
+        "name": "Smaller leaf particles",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "26.png_T12",
+        "name": "Detritus",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "26.png_T13",
+        "name": "Dissolved organic substances",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "26.png_T14",
+        "name": "Absorbed by sediment",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "26.png_T16",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "T16"
+        ]
+      },
+      {
+        "uid": "26.png_T17",
+        "name": "Plants: seagrasses and fringing vegetation",
+        "type": "Organism",
+        "components": [
+          "T17"
+        ]
+      },
+      {
+        "uid": "26.png_T2",
+        "name": "Phytoplankton",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "26.png_T4",
+        "name": "Washed to estuary",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "26.png_T6",
+        "name": "BACTERIA",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "26.png_T7",
+        "name": "Amphipods Isopods",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "26.png_T8",
+        "name": "Faecal pellets",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "26.png_B10",
+        "target": "26.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "26.png_B10",
+        "target": "26.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "26.png_B2",
+        "target": "26.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "26.png_B3",
+        "target": "26.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "26.png_B4",
+        "target": "26.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      },
+      {
+        "source": "26.png_B4",
+        "target": "26.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A27"
+      },
+      {
+        "source": "26.png_B4",
+        "target": "26.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A28"
+      },
+      {
+        "source": "26.png_B4",
+        "target": "26.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A29"
+      },
+      {
+        "source": "26.png_B5",
+        "target": "26.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "26.png_B5",
+        "target": "26.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "26.png_B5",
+        "target": "26.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "26.png_B6",
+        "target": "26.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "26.png_B7",
+        "target": "26.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "26.png_B9",
+        "target": "26.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "26.png_T12",
+        "target": "26.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "26.png_T12",
+        "target": "26.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A33"
+      },
+      {
+        "source": "26.png_T14",
+        "target": "26.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "26.png_T14",
+        "target": "26.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A30"
+      },
+      {
+        "source": "26.png_T14",
+        "target": "26.png_T16",
+        "relation": "LINKED_TO",
+        "via": "A32"
+      },
+      {
+        "source": "26.png_T14",
+        "target": "26.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A34"
+      },
+      {
+        "source": "26.png_T16",
+        "target": "26.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "26.png_T16",
+        "target": "26.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "26.png_T17",
+        "target": "26.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "26.png_T2",
+        "target": "26.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "26.png_T4",
+        "target": "26.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "26.png_T4",
+        "target": "26.png_T17",
+        "relation": "LINKED_TO",
+        "via": "A31"
+      },
+      {
+        "source": "26.png_T7",
+        "target": "26.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          274,
+          5,
+          44,
+          59
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          402,
+          58,
+          60,
+          43
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          260,
+          384,
+          62,
+          63
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          261,
+          97,
+          62,
+          35
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          282,
+          231,
+          58,
+          21
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          228,
+          207,
+          38,
+          36
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          151,
+          166,
+          55,
+          18
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          128,
+          94,
+          21,
+          23
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          84,
+          187,
+          48,
+          26
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          182,
+          211,
+          28,
+          27
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          423,
+          256,
+          38,
+          70
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Humans",
+        "bbox": [
+          [
+            227,
+            37
+          ],
+          [
+            282,
+            63
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Oysters",
+        "bbox": [
+          [
+            87,
+            86
+          ],
+          [
+            139,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Crabs",
+        "bbox": [
+          [
+            285,
+            244
+          ],
+          [
+            326,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Smaller leaf particles",
+        "bbox": [
+          [
+            292,
+            279
+          ],
+          [
+            358,
+            307
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Detritus",
+        "bbox": [
+          [
+            224,
+            287
+          ],
+          [
+            272,
+            309
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Dissolved organic substances",
+        "bbox": [
+          [
+            126,
+            275
+          ],
+          [
+            190,
+            325
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Absorbed by sediment",
+        "bbox": [
+          [
+            18,
+            275
+          ],
+          [
+            88,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Molluscs",
+        "bbox": [
+          [
+            400,
+            274
+          ],
+          [
+            450,
+            294
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Algae",
+        "bbox": [
+          [
+            298,
+            344
+          ],
+          [
+            336,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Plants: seagrasses and fringing vegetation",
+        "bbox": [
+          [
+            112,
+            353
+          ],
+          [
+            228,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "Larger Fish",
+        "bbox": [
+          [
+            223,
+            118
+          ],
+          [
+            286,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T19",
+        "content": "Birds",
+        "bbox": [
+          [
+            389,
+            72
+          ],
+          [
+            436,
+            98
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            18,
+            152
+          ],
+          [
+            95,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T20",
+        "content": "Sun",
+        "bbox": [
+          [
+            273,
+            406
+          ],
+          [
+            307,
+            428
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "ANIMALS",
+        "bbox": [
+          [
+            86,
+            207
+          ],
+          [
+            138,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Washed to estuary",
+        "bbox": [
+          [
+            10,
+            220
+          ],
+          [
+            70,
+            253
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Fish and Prawns",
+        "bbox": [
+          [
+            172,
+            177
+          ],
+          [
+            249,
+            196
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "BACTERIA",
+        "bbox": [
+          [
+            307,
+            166
+          ],
+          [
+            348,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Amphipods Isopods",
+        "bbox": [
+          [
+            354,
+            224
+          ],
+          [
+            416,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Faecal pellets",
+        "bbox": [
+          [
+            266,
+            197
+          ],
+          [
+            310,
+            226
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Worms",
+        "bbox": [
+          [
+            201,
+            212
+          ],
+          [
+            244,
+            236
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          118,
+          46,
+          109,
+          45
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          48,
+          106,
+          54,
+          50
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          326,
+          97,
+          78,
+          136
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          182,
+          312,
+          56,
+          47
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          252,
+          312,
+          51,
+          32
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          265,
+          264,
+          27,
+          25
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          33,
+          176,
+          19,
+          50
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          63,
+          219,
+          123,
+          65
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          135,
+          195,
+          51,
+          27
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          167,
+          62,
+          78,
+          106
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          232,
+          143,
+          23,
+          33
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          254,
+          61,
+          13,
+          61
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          253,
+          87,
+          133,
+          99
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          221,
+          194,
+          8,
+          21
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          239,
+          169,
+          60,
+          45
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          252,
+          181,
+          65,
+          41
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          251,
+          223,
+          35,
+          15
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          83,
+          295,
+          137,
+          11
+        ]
+      },
+      "A31": {
+        "id": "A31",
+        "bbox": [
+          36,
+          251,
+          83,
+          128
+        ]
+      },
+      "A32": {
+        "id": "A32",
+        "bbox": [
+          86,
+          300,
+          202,
+          59
+        ]
+      },
+      "A33": {
+        "id": "A33",
+        "bbox": [
+          272,
+          246,
+          99,
+          60
+        ]
+      },
+      "A34": {
+        "id": "A34",
+        "bbox": [
+          84,
+          251,
+          193,
+          43
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          232,
+          374,
+          39,
+          33
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          297,
+          366,
+          25,
+          32
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          342,
+          295,
+          80,
+          63
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          423,
+          96,
+          19,
+          176
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          378,
+          97,
+          40,
+          125
+        ]
+      }
+    }
+  }
+}

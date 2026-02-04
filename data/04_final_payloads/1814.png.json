@@ -1,0 +1,288 @@
+{
+  "id": "1814.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1814.png_B0",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1814.png_B1",
+        "name": "Herbivore/Consumer",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1814.png_B2",
+        "name": "Omnivore/Consumer",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1814.png_B3",
+        "name": "Carnivore/Consumer",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1814.png_B0",
+        "target": "1814.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1814.png_B1",
+        "target": "1814.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1814.png_B2",
+        "target": "1814.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          64,
+          39,
+          155,
+          117
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          297,
+          88,
+          89,
+          29
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          500,
+          59,
+          63,
+          84
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          684,
+          61,
+          69,
+          76
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Plant",
+        "bbox": [
+          [
+            109,
+            172
+          ],
+          [
+            168,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Producer",
+        "bbox": [
+          [
+            103,
+            233
+          ],
+          [
+            183,
+            257
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Insect",
+        "bbox": [
+          [
+            303,
+            123
+          ],
+          [
+            381,
+            146
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Herbivore/Consumer",
+        "bbox": [
+          [
+            295,
+            187
+          ],
+          [
+            396,
+            229
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Mouse",
+        "bbox": [
+          [
+            496,
+            150
+          ],
+          [
+            568,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Omnivore/Consumer",
+        "bbox": [
+          [
+            483,
+            209
+          ],
+          [
+            577,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Owl",
+        "bbox": [
+          [
+            693,
+            147
+          ],
+          [
+            740,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Carnivore/Consumer",
+        "bbox": [
+          [
+            666,
+            207
+          ],
+          [
+            760,
+            251
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          703,
+          173,
+          19,
+          30
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          524,
+          176,
+          19,
+          29
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          337,
+          148,
+          17,
+          32
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          134,
+          199,
+          16,
+          21
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          215,
+          109,
+          89,
+          18
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          381,
+          109,
+          111,
+          18
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          565,
+          106,
+          126,
+          30
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Producer la nguon thuc an cho Herbivore/Consumer. Herbivore/Consumer la nguon thuc an cho Omnivore/Consumer. Omnivore/Consumer la nguon thuc an cho Carnivore/Consumer."
+}

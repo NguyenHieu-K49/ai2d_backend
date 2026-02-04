@@ -1,0 +1,373 @@
+{
+  "id": "2427.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2427.png_B0",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2427.png_B1",
+        "name": "Pupal Stage",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2427.png_B2",
+        "name": "Fourth Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2427.png_B3",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2427.png_B4",
+        "name": "First Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2427.png_B5",
+        "name": "Second Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2427.png_B6",
+        "name": "Third Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2427.png_T3",
+        "name": "Mosquito Life Cycle (Generalized)",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2427.png_B0",
+        "target": "2427.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2427.png_B1",
+        "target": "2427.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2427.png_B2",
+        "target": "2427.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2427.png_B3",
+        "target": "2427.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2427.png_B4",
+        "target": "2427.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2427.png_B5",
+        "target": "2427.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2427.png_B6",
+        "target": "2427.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          9,
+          63,
+          176,
+          102
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          14,
+          241,
+          87,
+          80
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          134,
+          366,
+          128,
+          123
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          237,
+          17,
+          44,
+          24
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          360,
+          53,
+          41,
+          41
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          424,
+          187,
+          55,
+          61
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          340,
+          327,
+          89,
+          88
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Eggs",
+        "bbox": [
+          [
+            244,
+            43
+          ],
+          [
+            276,
+            59
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "First Larval Stage",
+        "bbox": [
+          [
+            350,
+            94
+          ],
+          [
+            441,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            79,
+            161
+          ],
+          [
+            109,
+            175
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Mosquito Life Cycle (Generalized)",
+        "bbox": [
+          [
+            162,
+            209
+          ],
+          [
+            353,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Second Larval Stage",
+        "bbox": [
+          [
+            406,
+            253
+          ],
+          [
+            515,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Pupal Stage",
+        "bbox": [
+          [
+            20,
+            322
+          ],
+          [
+            90,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fourth Larval Stage",
+        "bbox": [
+          [
+            128,
+            457
+          ],
+          [
+            228,
+            477
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Third Larval Stage",
+        "bbox": [
+          [
+            363,
+            419
+          ],
+          [
+            455,
+            433
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          406,
+          262,
+          62,
+          116
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          249,
+          381,
+          153,
+          76
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          66,
+          338,
+          65,
+          65
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          41,
+          159,
+          27,
+          83
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          125,
+          21,
+          91,
+          56
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          283,
+          22,
+          78,
+          39
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          407,
+          99,
+          63,
+          123
+        ]
+      }
+    }
+  }
+}

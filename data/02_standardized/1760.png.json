@@ -1,0 +1,231 @@
+{
+  "id": "1760.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Water flea",
+        "bbox": [
+          [
+            279,
+            107
+          ],
+          [
+            347,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Dragonfly nymph",
+        "bbox": [
+          [
+            102,
+            105
+          ],
+          [
+            214,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Elodea",
+        "bbox": [
+          [
+            77,
+            165
+          ],
+          [
+            124,
+            181
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Tilapia",
+        "bbox": [
+          [
+            251,
+            158
+          ],
+          [
+            299,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            7,
+            57
+          ],
+          [
+            63,
+            73
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Algae",
+        "bbox": [
+          [
+            143,
+            13
+          ],
+          [
+            185,
+            32
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Guppy",
+        "bbox": [
+          [
+            283,
+            25
+          ],
+          [
+            331,
+            46
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          45,
+          18,
+          96,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          167,
+          29,
+          131,
+          82
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          189,
+          17,
+          93,
+          25
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          46,
+          67,
+          90,
+          42
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          28,
+          78,
+          48,
+          88
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          216,
+          110,
+          59,
+          13
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          136,
+          162,
+          110,
+          16
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          279,
+          124,
+          22,
+          36
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T4",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A2"
+    }
+  ],
+  "rst_source": true
+}

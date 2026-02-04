@@ -1,0 +1,172 @@
+{
+  "id": "2255.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          90,
+          6,
+          72,
+          84
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          183,
+          42,
+          14,
+          52
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          188,
+          110,
+          27,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          27,
+          90,
+          56,
+          67
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          109,
+          165,
+          36,
+          46
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg",
+        "bbox": [
+          [
+            199,
+            58
+          ],
+          [
+            218,
+            71
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Nymphs",
+        "bbox": [
+          [
+            107,
+            151
+          ],
+          [
+            155,
+            167
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          154,
+          41,
+          28,
+          20
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          193,
+          79,
+          16,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          165,
+          152,
+          34,
+          34
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          61,
+          156,
+          34,
+          33
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          57,
+          46,
+          31,
+          34
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B4",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

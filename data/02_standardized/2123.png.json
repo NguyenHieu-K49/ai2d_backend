@@ -1,0 +1,628 @@
+{
+  "id": "2123.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Northern brown Bandicoot",
+        "bbox": [
+          [
+            722,
+            237
+          ],
+          [
+            811,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Termites",
+        "bbox": [
+          [
+            639,
+            235
+          ],
+          [
+            692,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Green Plum",
+        "bbox": [
+          [
+            516,
+            405
+          ],
+          [
+            579,
+            422
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Cooktown ironwood",
+        "bbox": [
+          [
+            641,
+            406
+          ],
+          [
+            748,
+            421
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Dingoes",
+        "bbox": [
+          [
+            201,
+            28
+          ],
+          [
+            246,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Saltwater Crocodile",
+        "bbox": [
+          [
+            407,
+            29
+          ],
+          [
+            460,
+            58
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Gould's Goanna",
+        "bbox": [
+          [
+            601,
+            27
+          ],
+          [
+            645,
+            56
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Blue winged Kookaburra",
+        "bbox": [
+          [
+            517,
+            233
+          ],
+          [
+            585,
+            267
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Red tailed black cockatoo",
+        "bbox": [
+          [
+            398,
+            233
+          ],
+          [
+            487,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Frill necked Lizard",
+        "bbox": [
+          [
+            280,
+            234
+          ],
+          [
+            351,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Northern Tart Bat",
+        "bbox": [
+          [
+            141,
+            234
+          ],
+          [
+            226,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Black-footed tree rats",
+        "bbox": [
+          [
+            22,
+            233
+          ],
+          [
+            89,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Pandanus Plant",
+        "bbox": [
+          [
+            56,
+            405
+          ],
+          [
+            145,
+            422
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Darwin Woollybutt",
+        "bbox": [
+          [
+            223,
+            406
+          ],
+          [
+            333,
+            420
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Spear Grass",
+        "bbox": [
+          [
+            379,
+            409
+          ],
+          [
+            447,
+            425
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          323,
+          53,
+          95,
+          184
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          22,
+          240,
+          64,
+          166
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          91,
+          239,
+          77,
+          168
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          692,
+          259,
+          65,
+          153
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          529,
+          250,
+          213,
+          161
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          542,
+          53,
+          73,
+          192
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          67,
+          31,
+          345,
+          206
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          524,
+          251,
+          46,
+          153
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          439,
+          47,
+          166,
+          199
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          397,
+          253,
+          146,
+          167
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          183,
+          39,
+          47,
+          198
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          75,
+          237,
+          327,
+          184
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          267,
+          241,
+          385,
+          173
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          234,
+          36,
+          79,
+          203
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          463,
+          44,
+          304,
+          212
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          406,
+          57,
+          20,
+          178
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          549,
+          247,
+          111,
+          157
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          640,
+          55,
+          94,
+          191
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          47,
+          36,
+          161,
+          198
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          263,
+          240,
+          271,
+          171
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          82,
+          261,
+          10,
+          142
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          631,
+          53,
+          33,
+          184
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          424,
+          244,
+          318,
+          163
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          449,
+          54,
+          126,
+          194
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          238,
+          253,
+          66,
+          155
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          194,
+          34,
+          413,
+          209
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          114,
+          242,
+          169,
+          175
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T11",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T10",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T13",
+      "via": "A21"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T14",
+      "via": "A24"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T9",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T8",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T10",
+      "via": "A23"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T14",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T2",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T5",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T4",
+      "via": "A20"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T6",
+      "via": "A25"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T6",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T3",
+      "via": "A22"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T2",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T3",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T9",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T8",
+      "via": "A26"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T8",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T7",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T7",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T9",
+      "via": "A19"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A3"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,567 @@
+{
+  "id": "2330.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          14,
+          120,
+          258,
+          346
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          243,
+          258,
+          103,
+          199
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          334,
+          142,
+          190,
+          99
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          530,
+          130,
+          189,
+          108
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          360,
+          344,
+          36,
+          126
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          445,
+          380,
+          36,
+          83
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          528,
+          402,
+          104,
+          57
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          653,
+          362,
+          45,
+          44
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          678,
+          315,
+          12,
+          20
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          649,
+          273,
+          16,
+          22
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          591,
+          250,
+          17,
+          20
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          522,
+          217,
+          16,
+          15
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Obelia Life Cycle (Hydrozoan)",
+        "bbox": [
+          [
+            44,
+            26
+          ],
+          [
+            655,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "reproductive polyp",
+        "bbox": [
+          [
+            185,
+            83
+          ],
+          [
+            343,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "branching",
+        "bbox": [
+          [
+            250,
+            481
+          ],
+          [
+            329,
+            506
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "one branch from a mature colony",
+        "bbox": [
+          [
+            50,
+            434
+          ],
+          [
+            147,
+            514
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "2001 Brooks/cole - Thomson Learning",
+        "bbox": [
+          [
+            10,
+            235
+          ],
+          [
+            33,
+            412
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "female medusa",
+        "bbox": [
+          [
+            372,
+            113
+          ],
+          [
+            492,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "male medusa",
+        "bbox": [
+          [
+            573,
+            112
+          ],
+          [
+            685,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "feeding polyp",
+        "bbox": [
+          [
+            61,
+            289
+          ],
+          [
+            132,
+            333
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "ovum",
+        "bbox": [
+          [
+            489,
+            234
+          ],
+          [
+            538,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "sperm",
+        "bbox": [
+          [
+            576,
+            227
+          ],
+          [
+            626,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "zygote",
+        "bbox": [
+          [
+            576,
+            290
+          ],
+          [
+            631,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "planula",
+        "bbox": [
+          [
+            564,
+            462
+          ],
+          [
+            630,
+            487
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "polyp forming",
+        "bbox": [
+          [
+            343,
+            474
+          ],
+          [
+            424,
+            514
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          226,
+          99,
+          17,
+          104
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          273,
+          158,
+          93,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          482,
+          432,
+          46,
+          21
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          395,
+          424,
+          50,
+          22
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          306,
+          403,
+          55,
+          28
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          204,
+          338,
+          49,
+          53
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          97,
+          215,
+          10,
+          80
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          435,
+          163,
+          84,
+          71
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          560,
+          165,
+          89,
+          73
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          538,
+          230,
+          50,
+          35
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          593,
+          266,
+          13,
+          29
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          611,
+          250,
+          36,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          660,
+          286,
+          26,
+          34
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          682,
+          331,
+          10,
+          27
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          630,
+          395,
+          30,
+          29
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B10",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B9",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B9",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B6",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B7",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B8",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,221 @@
+{
+  "id": "2098.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2098.png_T0",
+        "name": "Water snake",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2098.png_T1",
+        "name": "Elodea",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2098.png_T2",
+        "name": "Catfish",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2098.png_T3",
+        "name": "Water flea",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2098.png_T4",
+        "name": "Water boatman",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2098.png_T1",
+        "target": "2098.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2098.png_T1",
+        "target": "2098.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2098.png_T2",
+        "target": "2098.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2098.png_T3",
+        "target": "2098.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2098.png_T3",
+        "target": "2098.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2098.png_T4",
+        "target": "2098.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Water snake",
+        "bbox": [
+          [
+            57,
+            10
+          ],
+          [
+            142,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Elodea",
+        "bbox": [
+          [
+            0,
+            73
+          ],
+          [
+            50,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Catfish",
+        "bbox": [
+          [
+            192,
+            71
+          ],
+          [
+            244,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Water flea",
+        "bbox": [
+          [
+            64,
+            165
+          ],
+          [
+            138,
+            183
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Water boatman",
+        "bbox": [
+          [
+            139,
+            195
+          ],
+          [
+            249,
+            216
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          140,
+          7,
+          80,
+          69
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          17,
+          88,
+          68,
+          77
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          86,
+          176,
+          63,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          51,
+          74,
+          136,
+          16
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          132,
+          92,
+          69,
+          81
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          207,
+          95,
+          14,
+          101
+        ]
+      }
+    }
+  }
+}

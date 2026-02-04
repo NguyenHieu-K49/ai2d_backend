@@ -1,0 +1,455 @@
+{
+  "id": "2377.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2377.png_B0",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2377.png_B1",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2377.png_B2",
+        "name": "Chrysalls",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2377.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2377.png_T0",
+        "name": "The Monarch Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2377.png_T1",
+        "name": "4-5 days",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2377.png_T10",
+        "name": "12-16 days",
+        "type": "Stage",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2377.png_T11",
+        "name": "Claire BURGENSIS Ecole des Mines de Saint-Etienne",
+        "type": "Stage",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2377.png_T4",
+        "name": "Monarchs lay eggs when they encounter milkweed",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2377.png_T5",
+        "name": "1-30 days",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2377.png_T7",
+        "name": "Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2377.png_T8",
+        "name": "14+ days",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2377.png_B0",
+        "target": "2377.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2377.png_B0",
+        "target": "2377.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2377.png_B0",
+        "target": "2377.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2377.png_B1",
+        "target": "2377.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2377.png_B1",
+        "target": "2377.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2377.png_B2",
+        "target": "2377.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2377.png_B2",
+        "target": "2377.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2377.png_B3",
+        "target": "2377.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          188,
+          110,
+          108,
+          102
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          493,
+          133,
+          145,
+          109
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          486,
+          368,
+          88,
+          118
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          182,
+          372,
+          164,
+          108
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "The Monarch Life Cycle",
+        "bbox": [
+          [
+            114,
+            44
+          ],
+          [
+            590,
+            100
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "4-5 days",
+        "bbox": [
+          [
+            354,
+            153
+          ],
+          [
+            427,
+            174
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "12-16 days",
+        "bbox": [
+          [
+            390,
+            433
+          ],
+          [
+            463,
+            449
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Claire BURGENSIS Ecole des Mines de Saint-Etienne",
+        "bbox": [
+          [
+            498,
+            500
+          ],
+          [
+            709,
+            536
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Larva",
+        "bbox": [
+          [
+            447,
+            203
+          ],
+          [
+            492,
+            227
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Egg",
+        "bbox": [
+          [
+            301,
+            193
+          ],
+          [
+            332,
+            210
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Monarchs lay eggs when they encounter milkweed",
+        "bbox": [
+          [
+            245,
+            282
+          ],
+          [
+            294,
+            342
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "1-30 days",
+        "bbox": [
+          [
+            245,
+            247
+          ],
+          [
+            289,
+            278
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Adult",
+        "bbox": [
+          [
+            311,
+            350
+          ],
+          [
+            352,
+            371
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Life Cycle",
+        "bbox": [
+          [
+            333,
+            278
+          ],
+          [
+            458,
+            315
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "14+ days",
+        "bbox": [
+          [
+            514,
+            282
+          ],
+          [
+            549,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Chrysalls",
+        "bbox": [
+          [
+            420,
+            376
+          ],
+          [
+            486,
+            399
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          291,
+          120,
+          276,
+          20
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          326,
+          153,
+          145,
+          41
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          485,
+          245,
+          43,
+          125
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          550,
+          238,
+          15,
+          133
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          351,
+          405,
+          129,
+          44
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          218,
+          207,
+          21,
+          167
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          210,
+          200,
+          8,
+          8
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          279,
+          208,
+          44,
+          136
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          220,
+          472,
+          275,
+          20
+        ]
+      }
+    }
+  }
+}

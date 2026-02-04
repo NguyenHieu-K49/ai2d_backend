@@ -1,0 +1,232 @@
+{
+  "id": "2411.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2411.png_B0",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2411.png_B1",
+        "name": "Larvae",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2411.png_B2",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2411.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2411.png_T1",
+        "name": "Complete metamorphosis",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2411.png_B0",
+        "target": "2411.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2411.png_B1",
+        "target": "2411.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2411.png_B2",
+        "target": "2411.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2411.png_B3",
+        "target": "2411.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          311,
+          162,
+          47,
+          98
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          71,
+          6,
+          256,
+          154
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          34,
+          204,
+          46,
+          27
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          153,
+          266,
+          90,
+          104
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Larvae",
+        "bbox": [
+          [
+            101,
+            17
+          ],
+          [
+            164,
+            44
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Complete metamorphosis",
+        "bbox": [
+          [
+            128,
+            183
+          ],
+          [
+            264,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            340,
+            272
+          ],
+          [
+            380,
+            293
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Egg",
+        "bbox": [
+          [
+            12,
+            232
+          ],
+          [
+            44,
+            253
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult",
+        "bbox": [
+          [
+            177,
+            375
+          ],
+          [
+            224,
+            396
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          41,
+          44,
+          160,
+          169
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          304,
+          106,
+          38,
+          55
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          46,
+          225,
+          111,
+          122
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          244,
+          254,
+          89,
+          89
+        ]
+      }
+    }
+  }
+}

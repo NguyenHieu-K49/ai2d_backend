@@ -1,0 +1,498 @@
+{
+  "id": "1897.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1897.png_B0",
+        "name": "zooplankton",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1897.png_B1",
+        "name": "phytoplankton",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T9"
+        ]
+      },
+      {
+        "uid": "1897.png_B2",
+        "name": "Snappe",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1897.png_B3",
+        "name": "large shark",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1897.png_B4",
+        "name": "Snapper Fish",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1897.png_B5",
+        "name": "mackeral",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1897.png_B6",
+        "name": "small fish",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1897.png_B7",
+        "name": "fisherman",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1897.png_B8",
+        "name": "decomposers",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1897.png_T0",
+        "name": "Food Web",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1897.png_B0",
+        "target": "1897.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1897.png_B0",
+        "target": "1897.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1897.png_B1",
+        "target": "1897.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1897.png_B2",
+        "target": "1897.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1897.png_B2",
+        "target": "1897.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1897.png_B4",
+        "target": "1897.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1897.png_B4",
+        "target": "1897.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1897.png_B5",
+        "target": "1897.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1897.png_B5",
+        "target": "1897.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1897.png_B6",
+        "target": "1897.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1897.png_B6",
+        "target": "1897.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          335,
+          187,
+          129,
+          69
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          506,
+          179,
+          79,
+          69
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          441,
+          287,
+          147,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          304,
+          357,
+          282,
+          97
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          90,
+          327,
+          198,
+          79
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          53,
+          249,
+          108,
+          74
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          202,
+          194,
+          111,
+          76
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          28,
+          102,
+          165,
+          97
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          26,
+          403,
+          138,
+          71
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            179,
+            28
+          ],
+          [
+            463,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "fisherman",
+        "bbox": [
+          [
+            105,
+            111
+          ],
+          [
+            177,
+            131
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "small fish",
+        "bbox": [
+          [
+            237,
+            269
+          ],
+          [
+            309,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "mackeral",
+        "bbox": [
+          [
+            116,
+            291
+          ],
+          [
+            183,
+            308
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Snapper Fish",
+        "bbox": [
+          [
+            165,
+            391
+          ],
+          [
+            256,
+            408
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "decomposers",
+        "bbox": [
+          [
+            154,
+            447
+          ],
+          [
+            251,
+            467
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "large shark",
+        "bbox": [
+          [
+            425,
+            434
+          ],
+          [
+            504,
+            454
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Snappe",
+        "bbox": [
+          [
+            505,
+            368
+          ],
+          [
+            560,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "zooplankton",
+        "bbox": [
+          [
+            397,
+            194
+          ],
+          [
+            485,
+            207
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "phytoplankton",
+        "bbox": [
+          [
+            507,
+            180
+          ],
+          [
+            604,
+            198
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          250,
+          368,
+          61,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          68,
+          197,
+          44,
+          94
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          81,
+          300,
+          33,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          187,
+          159,
+          258,
+          147
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          412,
+          251,
+          31,
+          38
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          294,
+          217,
+          65,
+          26
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          184,
+          177,
+          49,
+          29
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          446,
+          221,
+          83,
+          25
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          398,
+          331,
+          42,
+          48
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          152,
+          184,
+          58,
+          180
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          150,
+          230,
+          104,
+          36
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: zooplankton la nguon thuc an cho Snappe. zooplankton la nguon thuc an cho small fish. phytoplankton la nguon thuc an cho zooplankton. Snappe la nguon thuc an cho fisherman. Snappe la nguon thuc an cho large shark. Snapper Fish la nguon thuc an cho large shark. Snapper Fish la nguon thuc an cho fisherman. mackeral la nguon thuc an cho fisherman. mackeral la nguon thuc an cho Snapper Fish. small fish la nguon thuc an cho fisherman. small fish la nguon thuc an cho mackeral."
+}

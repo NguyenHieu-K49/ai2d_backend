@@ -1,0 +1,100 @@
+{
+  "id": "404.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Bulb",
+        "bbox": [
+          [
+            102,
+            14
+          ],
+          [
+            140,
+            33
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult plant",
+        "bbox": [
+          [
+            26,
+            69
+          ],
+          [
+            109,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Young plant",
+        "bbox": [
+          [
+            133,
+            66
+          ],
+          [
+            225,
+            87
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          49,
+          18,
+          51,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          139,
+          18,
+          56,
+          55
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          76,
+          86,
+          102,
+          31
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A2"
+    }
+  ],
+  "rst_source": true
+}

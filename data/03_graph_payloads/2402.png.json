@@ -1,0 +1,191 @@
+{
+  "id": "2402.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2402.png_T0",
+        "name": "A",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2402.png_T1",
+        "name": "D",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2402.png_T2",
+        "name": "C",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2402.png_T3",
+        "name": "fertilisation",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2402.png_T4",
+        "name": "B",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2402.png_T0",
+        "target": "2402.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2402.png_T1",
+        "target": "2402.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2402.png_T2",
+        "target": "2402.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2402.png_T4",
+        "target": "2402.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "A",
+        "bbox": [
+          [
+            205,
+            19
+          ],
+          [
+            227,
+            41
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "D",
+        "bbox": [
+          [
+            30,
+            85
+          ],
+          [
+            51,
+            108
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "C",
+        "bbox": [
+          [
+            208,
+            158
+          ],
+          [
+            229,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "fertilisation",
+        "bbox": [
+          [
+            336,
+            148
+          ],
+          [
+            449,
+            173
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "B",
+        "bbox": [
+          [
+            396,
+            89
+          ],
+          [
+            415,
+            115
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          249,
+          18,
+          168,
+          55
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          251,
+          118,
+          163,
+          71
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          32,
+          124,
+          150,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          42,
+          15,
+          152,
+          58
+        ]
+      }
+    }
+  }
+}

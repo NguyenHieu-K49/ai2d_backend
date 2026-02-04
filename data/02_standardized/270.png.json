@@ -1,0 +1,416 @@
+{
+  "id": "270.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          225,
+          0,
+          80,
+          56
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          383,
+          210,
+          73,
+          67
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          444,
+          450,
+          83,
+          68
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          300,
+          444,
+          79,
+          50
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          154,
+          404,
+          62,
+          78
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          0,
+          445,
+          83,
+          55
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          120,
+          614,
+          71,
+          78
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          355,
+          608,
+          40,
+          78
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          62,
+          247,
+          44,
+          64
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Gum Tree Eucalyptus Producer",
+        "bbox": [
+          [
+            337,
+            691
+          ],
+          [
+            417,
+            739
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Baobab Producer",
+        "bbox": [
+          [
+            126,
+            697
+          ],
+          [
+            182,
+            735
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Giraffe Primary Consumer",
+        "bbox": [
+          [
+            152,
+            488
+          ],
+          [
+            217,
+            540
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Zebra Primary Consumer",
+        "bbox": [
+          [
+            9,
+            509
+          ],
+          [
+            77,
+            561
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Cheetah Secondary Consumer",
+        "bbox": [
+          [
+            40,
+            318
+          ],
+          [
+            111,
+            367
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Hyena Secondary Consumer",
+        "bbox": [
+          [
+            390,
+            280
+          ],
+          [
+            454,
+            336
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Lion Tertiary Consumer",
+        "bbox": [
+          [
+            235,
+            61
+          ],
+          [
+            300,
+            114
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Rhino Primary Consumer",
+        "bbox": [
+          [
+            309,
+            500
+          ],
+          [
+            371,
+            550
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Elephant Primary Consumer",
+        "bbox": [
+          [
+            456,
+            524
+          ],
+          [
+            527,
+            574
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          72,
+          105,
+          162,
+          151
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          305,
+          96,
+          117,
+          113
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          456,
+          339,
+          35,
+          115
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          334,
+          340,
+          56,
+          113
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          328,
+          535,
+          51,
+          76
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          379,
+          565,
+          71,
+          46
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          34,
+          359,
+          52,
+          94
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          112,
+          362,
+          77,
+          45
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          83,
+          493,
+          72,
+          118
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          152,
+          528,
+          39,
+          83
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B8",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B8",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B4",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B2",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

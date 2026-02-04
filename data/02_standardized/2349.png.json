@@ -1,0 +1,100 @@
+{
+  "id": "2349.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "seed",
+        "bbox": [
+          [
+            12,
+            53
+          ],
+          [
+            79,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "seedling",
+        "bbox": [
+          [
+            285,
+            50
+          ],
+          [
+            378,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "adult",
+        "bbox": [
+          [
+            116,
+            168
+          ],
+          [
+            184,
+            232
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          86,
+          21,
+          184,
+          40
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          209,
+          98,
+          91,
+          103
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          41,
+          90,
+          69,
+          109
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A2"
+    }
+  ],
+  "rst_source": true
+}

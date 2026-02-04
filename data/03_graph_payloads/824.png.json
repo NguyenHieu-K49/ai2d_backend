@@ -1,0 +1,373 @@
+{
+  "id": "824.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "824.png_B0",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "824.png_B1",
+        "name": "First Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "824.png_B2",
+        "name": "Second Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "824.png_B3",
+        "name": "Third Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "824.png_B4",
+        "name": "Fourth Larval STage",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T6"
+        ]
+      },
+      {
+        "uid": "824.png_B5",
+        "name": "Pupal Stage",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "824.png_B6",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "824.png_T7",
+        "name": "Note: Each larval stage is larger than the previous one. Molting occurs between each larval and pupal stage. Larval and pupal stages are aquatic.",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "824.png_B0",
+        "target": "824.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "824.png_B1",
+        "target": "824.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "824.png_B2",
+        "target": "824.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "824.png_B3",
+        "target": "824.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "824.png_B4",
+        "target": "824.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "824.png_B5",
+        "target": "824.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "824.png_B6",
+        "target": "824.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          287,
+          22,
+          94,
+          33
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          481,
+          69,
+          58,
+          56
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          557,
+          250,
+          92,
+          91
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          445,
+          436,
+          139,
+          128
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          176,
+          490,
+          181,
+          168
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          15,
+          313,
+          119,
+          120
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          13,
+          85,
+          236,
+          135
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Eggs",
+        "bbox": [
+          [
+            317,
+            61
+          ],
+          [
+            377,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "First Larval Stage",
+        "bbox": [
+          [
+            454,
+            125
+          ],
+          [
+            597,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Second Larval Stage",
+        "bbox": [
+          [
+            547,
+            343
+          ],
+          [
+            699,
+            365
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Third Larval Stage",
+        "bbox": [
+          [
+            489,
+            564
+          ],
+          [
+            617,
+            587
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Pupal Stage",
+        "bbox": [
+          [
+            27,
+            433
+          ],
+          [
+            119,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Adult",
+        "bbox": [
+          [
+            101,
+            216
+          ],
+          [
+            153,
+            240
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fourth Larval STage",
+        "bbox": [
+          [
+            168,
+            614
+          ],
+          [
+            310,
+            642
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Note: Each larval stage is larger than the previous one. Molting occurs between each larval and pupal stage. Larval and pupal stages are aquatic.",
+        "bbox": [
+          [
+            10,
+            673
+          ],
+          [
+            699,
+            722
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          173,
+          33,
+          122,
+          70
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          387,
+          36,
+          96,
+          43
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          553,
+          143,
+          73,
+          138
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          547,
+          362,
+          83,
+          146
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          340,
+          515,
+          196,
+          93
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          91,
+          456,
+          79,
+          76
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          52,
+          214,
+          45,
+          103
+        ]
+      }
+    }
+  }
+}

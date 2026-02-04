@@ -1,0 +1,246 @@
+{
+  "id": "432.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Hawk",
+        "bbox": [
+          [
+            134,
+            0
+          ],
+          [
+            168,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fox",
+        "bbox": [
+          [
+            200,
+            50
+          ],
+          [
+            221,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            193,
+            216
+          ],
+          [
+            227,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Grass plants",
+        "bbox": [
+          [
+            110,
+            269
+          ],
+          [
+            200,
+            283
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            40,
+            214
+          ],
+          [
+            116,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Praying mantis",
+        "bbox": [
+          [
+            0,
+            158
+          ],
+          [
+            85,
+            176
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Sparrow",
+        "bbox": [
+          [
+            98,
+            107
+          ],
+          [
+            144,
+            121
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          120,
+          14,
+          32,
+          92
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          203,
+          68,
+          19,
+          146
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          128,
+          68,
+          68,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          44,
+          123,
+          61,
+          37
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          34,
+          176,
+          36,
+          38
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          76,
+          120,
+          44,
+          96
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          165,
+          228,
+          30,
+          40
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          90,
+          230,
+          48,
+          38
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          152,
+          13,
+          59,
+          200
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T1",
+      "via": "A2"
+    }
+  ],
+  "rst_source": true
+}

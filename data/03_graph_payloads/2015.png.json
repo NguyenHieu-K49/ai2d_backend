@@ -1,0 +1,228 @@
+{
+  "id": "2015.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2015.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2015.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2015.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2015.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2015.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2015.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2015.png_B0",
+        "target": "2015.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2015.png_B1",
+        "target": "2015.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2015.png_B1",
+        "target": "2015.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2015.png_B2",
+        "target": "2015.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2015.png_B2",
+        "target": "2015.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2015.png_B3",
+        "target": "2015.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2015.png_B5",
+        "target": "2015.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          154,
+          20,
+          80,
+          62
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          276,
+          97,
+          55,
+          83
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          249,
+          243,
+          83,
+          52
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          141,
+          158,
+          82,
+          58
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          17,
+          92,
+          84,
+          77
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          49,
+          239,
+          82,
+          60
+        ]
+      }
+    },
+    "texts": [],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          96,
+          53,
+          64,
+          41
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          231,
+          55,
+          55,
+          55
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          97,
+          120,
+          180,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          49,
+          184,
+          52,
+          64
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          129,
+          261,
+          125,
+          37
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          282,
+          191,
+          29,
+          56
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          217,
+          187,
+          40,
+          65
+        ]
+      }
+    }
+  }
+}

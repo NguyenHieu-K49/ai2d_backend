@@ -1,0 +1,218 @@
+{
+  "id": "1837.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1837.png_B0",
+        "name": "Energy",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1837.png_B1",
+        "name": "Producer",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1837.png_B2",
+        "name": "Consumer",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1837.png_B3",
+        "name": "Consumer",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1837.png_T0",
+        "name": "Virtual Ecosystem Food Chain",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1837.png_B0",
+        "target": "1837.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1837.png_B1",
+        "target": "1837.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1837.png_B2",
+        "target": "1837.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          8,
+          151,
+          60,
+          58
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          123,
+          145,
+          45,
+          54
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          220,
+          140,
+          70,
+          60
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          327,
+          88,
+          147,
+          124
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Virtual Ecosystem Food Chain",
+        "bbox": [
+          [
+            131,
+            53
+          ],
+          [
+            339,
+            73
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Energy",
+        "bbox": [
+          [
+            14,
+            217
+          ],
+          [
+            63,
+            235
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Producer",
+        "bbox": [
+          [
+            109,
+            216
+          ],
+          [
+            176,
+            236
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Consumer",
+        "bbox": [
+          [
+            219,
+            213
+          ],
+          [
+            291,
+            235
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Consumer",
+        "bbox": [
+          [
+            355,
+            213
+          ],
+          [
+            433,
+            236
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          75,
+          164,
+          44,
+          25
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          172,
+          165,
+          42,
+          25
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          299,
+          161,
+          43,
+          31
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Energy la nguon thuc an cho Producer. Producer la nguon thuc an cho Consumer. Consumer la nguon thuc an cho Consumer."
+}

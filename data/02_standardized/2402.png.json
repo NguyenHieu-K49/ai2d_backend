@@ -1,0 +1,143 @@
+{
+  "id": "2402.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "A",
+        "bbox": [
+          [
+            205,
+            19
+          ],
+          [
+            227,
+            41
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "D",
+        "bbox": [
+          [
+            30,
+            85
+          ],
+          [
+            51,
+            108
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "C",
+        "bbox": [
+          [
+            208,
+            158
+          ],
+          [
+            229,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "fertilisation",
+        "bbox": [
+          [
+            336,
+            148
+          ],
+          [
+            449,
+            173
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "B",
+        "bbox": [
+          [
+            396,
+            89
+          ],
+          [
+            415,
+            115
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          249,
+          18,
+          168,
+          55
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          251,
+          118,
+          163,
+          71
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          32,
+          124,
+          150,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          42,
+          15,
+          152,
+          58
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

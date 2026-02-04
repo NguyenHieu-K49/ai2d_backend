@@ -1,0 +1,391 @@
+{
+  "id": "1789.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1789.png_T0",
+        "name": "Toothed Whale",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1789.png_T1",
+        "name": "Squid",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1789.png_T2",
+        "name": "Ringed Seal",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1789.png_T3",
+        "name": "Pelagic fish",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1789.png_T4",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1789.png_T5",
+        "name": "Polar Bear",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1789.png_T6",
+        "name": "Zooplankton",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1789.png_T7",
+        "name": "Ringed Seal",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "1789.png_T8",
+        "name": "Brittle Star",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "1789.png_T9",
+        "name": "Arctic Cod",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1789.png_T0",
+        "target": "1789.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1789.png_T0",
+        "target": "1789.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1789.png_T0",
+        "target": "1789.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1789.png_T1",
+        "target": "1789.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1789.png_T2",
+        "target": "1789.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1789.png_T3",
+        "target": "1789.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1789.png_T5",
+        "target": "1789.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1789.png_T7",
+        "target": "1789.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1789.png_T8",
+        "target": "1789.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1789.png_T9",
+        "target": "1789.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Toothed Whale",
+        "bbox": [
+          [
+            0,
+            0
+          ],
+          [
+            124,
+            22
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Squid",
+        "bbox": [
+          [
+            223,
+            0
+          ],
+          [
+            276,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Ringed Seal",
+        "bbox": [
+          [
+            29,
+            95
+          ],
+          [
+            130,
+            119
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Pelagic fish",
+        "bbox": [
+          [
+            152,
+            88
+          ],
+          [
+            247,
+            112
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            153,
+            197
+          ],
+          [
+            253,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Polar Bear",
+        "bbox": [
+          [
+            17,
+            251
+          ],
+          [
+            108,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            133,
+            283
+          ],
+          [
+            238,
+            310
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Ringed Seal",
+        "bbox": [
+          [
+            65,
+            323
+          ],
+          [
+            162,
+            344
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Brittle Star",
+        "bbox": [
+          [
+            198,
+            345
+          ],
+          [
+            285,
+            371
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Arctic Cod",
+        "bbox": [
+          [
+            126,
+            397
+          ],
+          [
+            211,
+            413
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          49,
+          14,
+          39,
+          89
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          134,
+          1,
+          83,
+          16
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          213,
+          15,
+          56,
+          80
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          88,
+          23,
+          91,
+          73
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          191,
+          109,
+          23,
+          91
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          59,
+          264,
+          46,
+          64
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          185,
+          311,
+          53,
+          45
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          94,
+          336,
+          65,
+          64
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          202,
+          363,
+          38,
+          39
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          125,
+          94,
+          32,
+          20
+        ]
+      }
+    }
+  }
+}

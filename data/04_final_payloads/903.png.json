@@ -1,0 +1,258 @@
+{
+  "id": "903.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "903.png_B0",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "903.png_B1",
+        "name": "Mouse",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "903.png_B2",
+        "name": "Grasses",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T0"
+        ]
+      },
+      {
+        "uid": "903.png_B3",
+        "name": "Bird",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "903.png_B4",
+        "name": "Grasshopper",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "903.png_B1",
+        "target": "903.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "903.png_B2",
+        "target": "903.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "903.png_B2",
+        "target": "903.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "903.png_B4",
+        "target": "903.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "903.png_B4",
+        "target": "903.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          306,
+          3,
+          195,
+          119
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          151,
+          83,
+          106,
+          54
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          6,
+          129,
+          103,
+          185
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          402,
+          190,
+          81,
+          111
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          229,
+          230,
+          59,
+          40
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Grasses",
+        "bbox": [
+          [
+            39,
+            328
+          ],
+          [
+            87,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Mouse",
+        "bbox": [
+          [
+            160,
+            136
+          ],
+          [
+            209,
+            155
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            224,
+            275
+          ],
+          [
+            303,
+            292
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Bird",
+        "bbox": [
+          [
+            427,
+            309
+          ],
+          [
+            461,
+            329
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Snake",
+        "bbox": [
+          [
+            371,
+            132
+          ],
+          [
+            414,
+            150
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          222,
+          72,
+          84,
+          29
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          292,
+          228,
+          130,
+          28
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          88,
+          132,
+          73,
+          68
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          88,
+          235,
+          137,
+          24
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          208,
+          132,
+          46,
+          106
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Mouse la nguon thuc an cho Snake. Grasses la nguon thuc an cho Mouse. Grasses la nguon thuc an cho Grasshopper. Grasshopper la nguon thuc an cho Bird. Grasshopper la nguon thuc an cho Mouse."
+}

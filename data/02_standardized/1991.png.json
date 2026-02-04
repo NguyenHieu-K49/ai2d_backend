@@ -1,0 +1,277 @@
+{
+  "id": "1991.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Birds,",
+        "bbox": [
+          [
+            15,
+            0
+          ],
+          [
+            45,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fish",
+        "bbox": [
+          [
+            94,
+            43
+          ],
+          [
+            120,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Crayfish",
+        "bbox": [
+          [
+            6,
+            87
+          ],
+          [
+            52,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Worms",
+        "bbox": [
+          [
+            90,
+            90
+          ],
+          [
+            128,
+            104
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Algae",
+        "bbox": [
+          [
+            47,
+            135
+          ],
+          [
+            79,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            99,
+            180
+          ],
+          [
+            142,
+            194
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          22,
+          15,
+          13,
+          76
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          31,
+          13,
+          76,
+          76
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          38,
+          0,
+          108,
+          208
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          115,
+          39,
+          24,
+          139
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          37,
+          5,
+          64,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          44,
+          44,
+          55,
+          50
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          104,
+          58,
+          12,
+          30
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          96,
+          111,
+          16,
+          70
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          71,
+          95,
+          24,
+          42
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          22,
+          103,
+          35,
+          35
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          67,
+          145,
+          31,
+          36
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          0,
+          91,
+          99,
+          104
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T5",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T5",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T5",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T3",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T2",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A8"
+    }
+  ],
+  "rst_source": true
+}

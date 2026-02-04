@@ -1,0 +1,260 @@
+{
+  "id": "245.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "245.png_B0",
+        "name": "polar bear",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "245.png_B1",
+        "name": "ringed seal",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "245.png_B2",
+        "name": "arctic cod",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "245.png_B3",
+        "name": "shrimp",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "245.png_B4",
+        "name": "algae",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "245.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "245.png_B1",
+        "target": "245.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "245.png_B2",
+        "target": "245.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "245.png_B3",
+        "target": "245.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "245.png_B4",
+        "target": "245.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          58,
+          0,
+          76,
+          134
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          3,
+          157,
+          162,
+          58
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          7,
+          244,
+          150,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          39,
+          342,
+          122,
+          61
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          66,
+          430,
+          50,
+          36
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          165,
+          43,
+          130,
+          426
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "polar bear",
+        "bbox": [
+          [
+            14,
+            115
+          ],
+          [
+            71,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "ringed seal",
+        "bbox": [
+          [
+            13,
+            216
+          ],
+          [
+            72,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "arctic cod",
+        "bbox": [
+          [
+            10,
+            306
+          ],
+          [
+            67,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "shrimp",
+        "bbox": [
+          [
+            11,
+            394
+          ],
+          [
+            50,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "algae",
+        "bbox": [
+          [
+            10,
+            448
+          ],
+          [
+            47,
+            469
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          84,
+          399,
+          27,
+          25
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          84,
+          317,
+          20,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          84,
+          217,
+          27,
+          28
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          82,
+          135,
+          26,
+          27
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: ringed seal la nguon thuc an cho polar bear. arctic cod la nguon thuc an cho ringed seal. shrimp la nguon thuc an cho arctic cod. algae la nguon thuc an cho shrimp."
+}

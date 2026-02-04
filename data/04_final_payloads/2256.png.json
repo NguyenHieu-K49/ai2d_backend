@@ -1,0 +1,233 @@
+{
+  "id": "2256.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2256.png_B0",
+        "name": "Egg",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2256.png_B1",
+        "name": "Caterpillar",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2256.png_B2",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2256.png_B3",
+        "name": "Butterfly",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2256.png_T0",
+        "name": "life cycle of butterfly",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2256.png_B0",
+        "target": "2256.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2256.png_B1",
+        "target": "2256.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2256.png_B2",
+        "target": "2256.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2256.png_B3",
+        "target": "2256.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          33,
+          78,
+          238,
+          141
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          440,
+          70,
+          265,
+          145
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          477,
+          297,
+          220,
+          172
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          12,
+          287,
+          401,
+          252
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "life cycle of butterfly",
+        "bbox": [
+          [
+            132,
+            25
+          ],
+          [
+            592,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            449,
+            80
+          ],
+          [
+            553,
+            102
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            621,
+            304
+          ],
+          [
+            676,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Butterfly",
+        "bbox": [
+          [
+            42,
+            250
+          ],
+          [
+            129,
+            271
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Egg",
+        "bbox": [
+          [
+            193,
+            80
+          ],
+          [
+            233,
+            100
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          176,
+          233,
+          64,
+          105
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          286,
+          133,
+          144,
+          68
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          626,
+          191,
+          66,
+          105
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          381,
+          419,
+          144,
+          72
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Egg phat trien thanh Caterpillar. Giai doan Caterpillar phat trien thanh Pupa. Giai doan Pupa phat trien thanh Butterfly. Giai doan Butterfly phat trien thanh Egg."
+}

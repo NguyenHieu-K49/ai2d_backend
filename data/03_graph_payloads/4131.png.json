@@ -1,0 +1,318 @@
+{
+  "id": "4131.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4131.png_B0",
+        "name": "Glucose produced",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "4131.png_B1",
+        "name": "Sun",
+        "type": "Component",
+        "components": [
+          "B1",
+          "T7"
+        ]
+      },
+      {
+        "uid": "4131.png_T0",
+        "name": "Water and minerals from the roots enter the leaf through the xylem vessels",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "4131.png_T1",
+        "name": "Carbon Dioxide enters the leaf through the stomata which are holes on the undersurface of the leaf.",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "4131.png_T2",
+        "name": "Carbon Dioxide",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "4131.png_T4",
+        "name": "Photosynthesis",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "4131.png_T5",
+        "name": "Oxygen",
+        "type": "Component",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "4131.png_T6",
+        "name": "Light",
+        "type": "Component",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "4131.png_T8",
+        "name": "Chlorophyll is the green pigment in the leaf",
+        "type": "Component",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4131.png_B0",
+        "target": "4131.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "4131.png_B1",
+        "target": "4131.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "4131.png_T0",
+        "target": "4131.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "4131.png_T5",
+        "target": "4131.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          100,
+          39,
+          230,
+          171
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          4,
+          1,
+          151,
+          159
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Water and minerals from the roots enter the leaf through the xylem vessels",
+        "bbox": [
+          [
+            19,
+            222
+          ],
+          [
+            147,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Carbon Dioxide enters the leaf through the stomata which are holes on the undersurface of the leaf.",
+        "bbox": [
+          [
+            195,
+            218
+          ],
+          [
+            341,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Carbon Dioxide",
+        "bbox": [
+          [
+            227,
+            198
+          ],
+          [
+            339,
+            211
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Glucose produced",
+        "bbox": [
+          [
+            225,
+            115
+          ],
+          [
+            308,
+            136
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Photosynthesis",
+        "bbox": [
+          [
+            221,
+            1
+          ],
+          [
+            340,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Oxygen",
+        "bbox": [
+          [
+            137,
+            38
+          ],
+          [
+            192,
+            56
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Light",
+        "bbox": [
+          [
+            120,
+            87
+          ],
+          [
+            158,
+            100
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Sun",
+        "bbox": [
+          [
+            53,
+            55
+          ],
+          [
+            87,
+            72
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Chlorophyll is the green pigment in the leaf",
+        "bbox": [
+          [
+            25,
+            161
+          ],
+          [
+            103,
+            193
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          168,
+          54,
+          20,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          147,
+          16,
+          17,
+          26
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          167,
+          15,
+          28,
+          28
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          98,
+          86,
+          57,
+          31
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          69,
+          203,
+          33,
+          25
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          266,
+          182,
+          12,
+          17
+        ]
+      }
+    }
+  }
+}

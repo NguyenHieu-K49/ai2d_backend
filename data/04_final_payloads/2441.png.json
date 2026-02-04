@@ -1,0 +1,316 @@
+{
+  "id": "2441.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2441.png_B0",
+        "name": "ADULT",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2441.png_B1",
+        "name": "PUPA",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2441.png_B2",
+        "name": "J. ARVA",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2441.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2441.png_B4",
+        "name": "EGGS",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2441.png_T0",
+        "name": "8 - 10 Days",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2441.png_T1",
+        "name": "4-6 Days",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2441.png_T5",
+        "name": "4-6 Days",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2441.png_T7",
+        "name": "12-14 Days",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2441.png_B0",
+        "target": "2441.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2441.png_B1",
+        "target": "2441.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2441.png_B2",
+        "target": "2441.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2441.png_B4",
+        "target": "2441.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          84,
+          10,
+          190,
+          189
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          30,
+          235,
+          144,
+          47
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          171,
+          306,
+          164,
+          24
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          173,
+          324,
+          2,
+          6
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          310,
+          179,
+          55,
+          62
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "8 - 10 Days",
+        "bbox": [
+          [
+            300,
+            131
+          ],
+          [
+            376,
+            157
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "4-6 Days",
+        "bbox": [
+          [
+            10,
+            164
+          ],
+          [
+            70,
+            185
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "ADULT",
+        "bbox": [
+          [
+            148,
+            171
+          ],
+          [
+            196,
+            191
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "EGGS",
+        "bbox": [
+          [
+            277,
+            206
+          ],
+          [
+            306,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PUPA",
+        "bbox": [
+          [
+            114,
+            269
+          ],
+          [
+            145,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "4-6 Days",
+        "bbox": [
+          [
+            329,
+            261
+          ],
+          [
+            394,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "J. ARVA",
+        "bbox": [
+          [
+            206,
+            331
+          ],
+          [
+            248,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "12-14 Days",
+        "bbox": [
+          [
+            132,
+            365
+          ],
+          [
+            202,
+            384
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          275,
+          121,
+          49,
+          63
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          312,
+          235,
+          29,
+          70
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          58,
+          127,
+          54,
+          104
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          72,
+          275,
+          219,
+          102
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan ADULT phat trien thanh EGGS. Giai doan PUPA phat trien thanh ADULT. Giai doan J. ARVA phat trien thanh PUPA. Giai doan EGGS phat trien thanh J. ARVA."
+}

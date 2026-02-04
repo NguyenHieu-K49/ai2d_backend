@@ -1,0 +1,371 @@
+{
+  "id": "2139.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2139.png_B0",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2139.png_B1",
+        "name": "Adult fly",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2139.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2139.png_B3",
+        "name": "1st larval stage",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2139.png_B4",
+        "name": "2nd larval stage",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2139.png_B5",
+        "name": "3rd larval stage",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2139.png_T0",
+        "name": "How HouseFlies Work",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2139.png_T1",
+        "name": "2008 HowStuffWorks",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2139.png_T5",
+        "name": "Life Cycle",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2139.png_B0",
+        "target": "2139.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2139.png_B1",
+        "target": "2139.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2139.png_B2",
+        "target": "2139.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2139.png_B3",
+        "target": "2139.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2139.png_B4",
+        "target": "2139.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2139.png_B5",
+        "target": "2139.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          12,
+          91,
+          72,
+          123
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          144,
+          29,
+          125,
+          147
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          312,
+          135,
+          69,
+          57
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          312,
+          278,
+          71,
+          35
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          159,
+          354,
+          101,
+          43
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          6,
+          282,
+          137,
+          43
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "How HouseFlies Work",
+        "bbox": [
+          [
+            9,
+            3
+          ],
+          [
+            195,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "2008 HowStuffWorks",
+        "bbox": [
+          [
+            291,
+            10
+          ],
+          [
+            399,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            68,
+            179
+          ],
+          [
+            99,
+            192
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Adult fly",
+        "bbox": [
+          [
+            180,
+            173
+          ],
+          [
+            224,
+            187
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Eggs",
+        "bbox": [
+          [
+            290,
+            174
+          ],
+          [
+            318,
+            191
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Life Cycle",
+        "bbox": [
+          [
+            160,
+            222
+          ],
+          [
+            248,
+            242
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "3rd larval stage",
+        "bbox": [
+          [
+            81,
+            268
+          ],
+          [
+            134,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "1st larval stage",
+        "bbox": [
+          [
+            262,
+            260
+          ],
+          [
+            321,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "2nd larval stage",
+        "bbox": [
+          [
+            179,
+            329
+          ],
+          [
+            240,
+            358
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          271,
+          308,
+          72,
+          64
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          73,
+          324,
+          89,
+          67
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          12,
+          213,
+          52,
+          71
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          80,
+          39,
+          92,
+          65
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          239,
+          42,
+          111,
+          92
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          334,
+          202,
+          41,
+          85
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Pupa phat trien thanh Adult fly. Giai doan Adult fly phat trien thanh Eggs. Giai doan Eggs phat trien thanh 1st larval stage. Giai doan 1st larval stage phat trien thanh 2nd larval stage. Giai doan 2nd larval stage phat trien thanh 3rd larval stage. Giai doan 3rd larval stage phat trien thanh Pupa."
+}

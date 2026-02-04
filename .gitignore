@@ -1,7 +1,15 @@
+# --- PYTHON SYSTEM ---
 .venv/
 venv/
 __pycache__/
-.env
-.idea/
 *.pyc
-data/
+.idea/
+.vscode/
+
+# --- BAO MAT ---
+.env
+
+# --- DATA ---
+
+data/ai2d/
+data/ai2d_rst/

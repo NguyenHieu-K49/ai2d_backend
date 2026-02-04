@@ -1,0 +1,211 @@
+{
+  "id": "2269.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2269.png_B0",
+        "name": "Adult ( Imago )",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2269.png_B1",
+        "name": "Egg ( ovum )",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2269.png_B2",
+        "name": "Caterpillar ( larva )",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2269.png_B3",
+        "name": "Pupa ( chrysalis )",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2269.png_B0",
+        "target": "2269.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2269.png_B1",
+        "target": "2269.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2269.png_B2",
+        "target": "2269.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2269.png_B3",
+        "target": "2269.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          347,
+          33,
+          426,
+          378
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          586,
+          355,
+          367,
+          332
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          341,
+          628,
+          384,
+          322
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          81,
+          349,
+          484,
+          317
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult ( Imago )",
+        "bbox": [
+          [
+            365,
+            297
+          ],
+          [
+            495,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa ( chrysalis )",
+        "bbox": [
+          [
+            163,
+            375
+          ],
+          [
+            311,
+            402
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Egg ( ovum )",
+        "bbox": [
+          [
+            719,
+            620
+          ],
+          [
+            828,
+            649
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Caterpillar ( larva )",
+        "bbox": [
+          [
+            399,
+            670
+          ],
+          [
+            565,
+            701
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          240,
+          685,
+          100,
+          113
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          226,
+          246,
+          115,
+          103
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          704,
+          279,
+          73,
+          69
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          672,
+          679,
+          123,
+          107
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Adult ( Imago ) phat trien thanh Egg ( ovum ). Giai doan Egg ( ovum ) phat trien thanh Caterpillar ( larva ). Giai doan Caterpillar ( larva ) phat trien thanh Pupa ( chrysalis ). Giai doan Pupa ( chrysalis ) phat trien thanh Adult ( Imago )."
+}

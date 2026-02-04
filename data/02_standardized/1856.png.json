@@ -1,0 +1,257 @@
+{
+  "id": "1856.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          49,
+          0,
+          84,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          193,
+          113,
+          82,
+          63
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          230,
+          248,
+          81,
+          59
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          201,
+          400,
+          82,
+          62
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          10,
+          247,
+          77,
+          67
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          3,
+          124,
+          93,
+          81
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "plant",
+        "bbox": [
+          [
+            74,
+            83
+          ],
+          [
+            110,
+            99
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "ant",
+        "bbox": [
+          [
+            37,
+            204
+          ],
+          [
+            57,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "lizard",
+        "bbox": [
+          [
+            32,
+            319
+          ],
+          [
+            63,
+            336
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "poison dart",
+        "bbox": [
+          [
+            205,
+            180
+          ],
+          [
+            264,
+            198
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "leimadopis epinephlos",
+        "bbox": [
+          [
+            239,
+            312
+          ],
+          [
+            302,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "the goliath bird eating spader",
+        "bbox": [
+          [
+            203,
+            467
+          ],
+          [
+            281,
+            496
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          29,
+          208,
+          31,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          27,
+          93,
+          70,
+          43
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          93,
+          87,
+          112,
+          74
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          227,
+          182,
+          52,
+          68
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          234,
+          335,
+          40,
+          74
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,528 @@
+{
+  "id": "2231.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2231.png_B0",
+        "name": "Stand replacement fire",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2231.png_B1",
+        "name": "beetle outbreak",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T12"
+        ]
+      },
+      {
+        "uid": "2231.png_B2",
+        "name": "beetle outbreak",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2231.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2231.png_T0",
+        "name": "CWD",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2231.png_T1",
+        "name": "thining",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2231.png_T10",
+        "name": "maturing",
+        "type": "Stage",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2231.png_T11",
+        "name": "Closed-canopy even-aged stand",
+        "type": "Stage",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2231.png_T13",
+        "name": "tree mortality",
+        "type": "Stage",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "2231.png_T2",
+        "name": "Residual overstory and regeneration",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2231.png_T3",
+        "name": "growth release",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2231.png_T4",
+        "name": "Mixed multi-story stand",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2231.png_T7",
+        "name": "stand initiation",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2231.png_T8",
+        "name": "fire supression",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2231.png_T9",
+        "name": "Open-canopy even-aged stand",
+        "type": "Stage",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2231.png_B0",
+        "target": "2231.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2231.png_B1",
+        "target": "2231.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2231.png_B2",
+        "target": "2231.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2231.png_B3",
+        "target": "2231.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2231.png_T11",
+        "target": "2231.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2231.png_T13",
+        "target": "2231.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2231.png_T13",
+        "target": "2231.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2231.png_T2",
+        "target": "2231.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2231.png_T4",
+        "target": "2231.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2231.png_T9",
+        "target": "2231.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          236,
+          22,
+          60,
+          89
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          348,
+          350,
+          32,
+          43
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          163,
+          155,
+          24,
+          25
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          61,
+          10,
+          110,
+          124
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "CWD",
+        "bbox": [
+          [
+            237,
+            494
+          ],
+          [
+            275,
+            513
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "thining",
+        "bbox": [
+          [
+            108,
+            401
+          ],
+          [
+            146,
+            434
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "maturing",
+        "bbox": [
+          [
+            432,
+            220
+          ],
+          [
+            452,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Closed-canopy even-aged stand",
+        "bbox": [
+          [
+            384,
+            287
+          ],
+          [
+            511,
+            323
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "beetle outbreak",
+        "bbox": [
+          [
+            372,
+            376
+          ],
+          [
+            424,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "tree mortality",
+        "bbox": [
+          [
+            198,
+            423
+          ],
+          [
+            276,
+            462
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Residual overstory and regeneration",
+        "bbox": [
+          [
+            24,
+            330
+          ],
+          [
+            162,
+            366
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "growth release",
+        "bbox": [
+          [
+            46,
+            211
+          ],
+          [
+            64,
+            297
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Mixed multi-story stand",
+        "bbox": [
+          [
+            50,
+            149
+          ],
+          [
+            144,
+            187
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "beetle outbreak",
+        "bbox": [
+          [
+            149,
+            126
+          ],
+          [
+            201,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Stand replacement fire",
+        "bbox": [
+          [
+            215,
+            103
+          ],
+          [
+            337,
+            142
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "stand initiation",
+        "bbox": [
+          [
+            324,
+            78
+          ],
+          [
+            391,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "fire supression",
+        "bbox": [
+          [
+            134,
+            79
+          ],
+          [
+            195,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Open-canopy even-aged stand",
+        "bbox": [
+          [
+            361,
+            175
+          ],
+          [
+            487,
+            205
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          239,
+          461,
+          19,
+          36
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          107,
+          126,
+          44,
+          21
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          111,
+          79,
+          128,
+          56
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          308,
+          87,
+          100,
+          78
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          419,
+          206,
+          22,
+          89
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          60,
+          182,
+          33,
+          139
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          396,
+          323,
+          31,
+          47
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          96,
+          368,
+          94,
+          74
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          280,
+          402,
+          87,
+          49
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          183,
+          155,
+          102,
+          270
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Stand replacement fire phat trien thanh Open-canopy even-aged stand. Giai doan beetle outbreak phat trien thanh tree mortality. Giai doan beetle outbreak phat trien thanh tree mortality. Giai doan B3 phat trien thanh Stand replacement fire. Giai doan Closed-canopy even-aged stand phat trien thanh beetle outbreak. Giai doan tree mortality phat trien thanh CWD. Giai doan tree mortality phat trien thanh Residual overstory and regeneration. Giai doan Residual overstory and regeneration phat trien thanh Mixed multi-story stand. Giai doan Mixed multi-story stand phat trien thanh beetle outbreak. Giai doan Open-canopy even-aged stand phat trien thanh Closed-canopy even-aged stand."
+}

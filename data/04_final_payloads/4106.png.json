@@ -1,0 +1,367 @@
+{
+  "id": "4106.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4106.png_B0",
+        "name": "Light Energy",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "4106.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "4106.png_T1",
+        "name": "Oxygen",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "4106.png_T2",
+        "name": "Glucose",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "4106.png_T4",
+        "name": "Carbon Dioxide",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "4106.png_T5",
+        "name": "Minerals",
+        "type": "Component",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "4106.png_T6",
+        "name": "Root",
+        "type": "Component",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "4106.png_T7",
+        "name": "Water",
+        "type": "Component",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "4106.png_T8",
+        "name": "Biology",
+        "type": "Component",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "4106.png_T9",
+        "name": "Photosynthesis in Plant",
+        "type": "Component",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4106.png_B1",
+        "target": "4106.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "4106.png_B1",
+        "target": "4106.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "4106.png_T4",
+        "target": "4106.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "4106.png_T4",
+        "target": "4106.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "4106.png_T5",
+        "target": "4106.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "4106.png_T6",
+        "target": "4106.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "4106.png_T7",
+        "target": "4106.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          1,
+          0,
+          100,
+          88
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          117,
+          40,
+          170,
+          280
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Sunlight",
+        "bbox": [
+          [
+            99,
+            44
+          ],
+          [
+            163,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Oxygen",
+        "bbox": [
+          [
+            270,
+            62
+          ],
+          [
+            330,
+            84
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Glucose",
+        "bbox": [
+          [
+            304,
+            108
+          ],
+          [
+            361,
+            131
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Light Energy",
+        "bbox": [
+          [
+            33,
+            73
+          ],
+          [
+            107,
+            103
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Carbon Dioxide",
+        "bbox": [
+          [
+            40,
+            115
+          ],
+          [
+            94,
+            156
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Minerals",
+        "bbox": [
+          [
+            252,
+            266
+          ],
+          [
+            313,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Root",
+        "bbox": [
+          [
+            91,
+            251
+          ],
+          [
+            129,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Water",
+        "bbox": [
+          [
+            72,
+            301
+          ],
+          [
+            113,
+            322
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Biology",
+        "bbox": [
+          [
+            37,
+            374
+          ],
+          [
+            103,
+            396
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Photosynthesis in Plant",
+        "bbox": [
+          [
+            170,
+            372
+          ],
+          [
+            399,
+            399
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          211,
+          76,
+          70,
+          43
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          238,
+          126,
+          75,
+          43
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          90,
+          131,
+          59,
+          20
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          80,
+          150,
+          62,
+          36
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          89,
+          299,
+          97,
+          30
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          246,
+          281,
+          65,
+          16
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          123,
+          241,
+          73,
+          27
+        ]
+      }
+    }
+  },
+  "description": "So do nay bao gom: Light Energy, B1, Oxygen, Glucose, Carbon Dioxide, Minerals, Root, Water, Biology, Photosynthesis in Plant. Cac thanh phan co moi lien he voi nhau."
+}

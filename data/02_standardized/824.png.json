@@ -1,0 +1,329 @@
+{
+  "id": "824.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          287,
+          22,
+          94,
+          33
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          481,
+          69,
+          58,
+          56
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          557,
+          250,
+          92,
+          91
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          445,
+          436,
+          139,
+          128
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          176,
+          490,
+          181,
+          168
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          15,
+          313,
+          119,
+          120
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          13,
+          85,
+          236,
+          135
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Eggs",
+        "bbox": [
+          [
+            317,
+            61
+          ],
+          [
+            377,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "First Larval Stage",
+        "bbox": [
+          [
+            454,
+            125
+          ],
+          [
+            597,
+            149
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Second Larval Stage",
+        "bbox": [
+          [
+            547,
+            343
+          ],
+          [
+            699,
+            365
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Third Larval Stage",
+        "bbox": [
+          [
+            489,
+            564
+          ],
+          [
+            617,
+            587
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Pupal Stage",
+        "bbox": [
+          [
+            27,
+            433
+          ],
+          [
+            119,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Adult",
+        "bbox": [
+          [
+            101,
+            216
+          ],
+          [
+            153,
+            240
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fourth Larval STage",
+        "bbox": [
+          [
+            168,
+            614
+          ],
+          [
+            310,
+            642
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Note: Each larval stage is larger than the previous one. Molting occurs between each larval and pupal stage. Larval and pupal stages are aquatic.",
+        "bbox": [
+          [
+            10,
+            673
+          ],
+          [
+            699,
+            722
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          173,
+          33,
+          122,
+          70
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          387,
+          36,
+          96,
+          43
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          553,
+          143,
+          73,
+          138
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          547,
+          362,
+          83,
+          146
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          340,
+          515,
+          196,
+          93
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          91,
+          456,
+          79,
+          76
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          52,
+          214,
+          45,
+          103
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

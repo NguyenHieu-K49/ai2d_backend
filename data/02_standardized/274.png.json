@@ -1,0 +1,660 @@
+{
+  "id": "274.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          114,
+          142,
+          81,
+          64
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          176,
+          59,
+          117,
+          56
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          240,
+          259,
+          64,
+          64
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          79,
+          271,
+          71,
+          53
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          377,
+          45,
+          92,
+          69
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          574,
+          55,
+          68,
+          56
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          652,
+          167,
+          87,
+          42
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          689,
+          260,
+          50,
+          63
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          546,
+          282,
+          77,
+          48
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          446,
+          140,
+          104,
+          94
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          385,
+          268,
+          72,
+          58
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          313,
+          132,
+          56,
+          83
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Trophic level",
+        "bbox": [
+          [
+            6,
+            22
+          ],
+          [
+            104,
+            50
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Secondary consumers",
+        "bbox": [
+          [
+            12,
+            69
+          ],
+          [
+            98,
+            109
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Primary producers",
+        "bbox": [
+          [
+            12,
+            291
+          ],
+          [
+            86,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Pine",
+        "bbox": [
+          [
+            101,
+            320
+          ],
+          [
+            143,
+            343
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Maple",
+        "bbox": [
+          [
+            245,
+            320
+          ],
+          [
+            299,
+            348
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Balsam Fir",
+        "bbox": [
+          [
+            387,
+            321
+          ],
+          [
+            463,
+            352
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Aspen, white birch",
+        "bbox": [
+          [
+            513,
+            334
+          ],
+          [
+            638,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Aquatic plants",
+        "bbox": [
+          [
+            656,
+            329
+          ],
+          [
+            748,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "55.7 Food Web of Isle Royale Nation Park. This food web includes only large vertebrates and the plants on which they depend. Even with these restrictions, the web is complex. The arrows show who eats whom.",
+        "bbox": [
+          [
+            9,
+            355
+          ],
+          [
+            422,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Red fox",
+        "bbox": [
+          [
+            201,
+            104
+          ],
+          [
+            262,
+            128
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Gray wolf",
+        "bbox": [
+          [
+            391,
+            100
+          ],
+          [
+            468,
+            128
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Raven (detritivore)",
+        "bbox": [
+          [
+            588,
+            100
+          ],
+          [
+            680,
+            147
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Beaver",
+        "bbox": [
+          [
+            662,
+            204
+          ],
+          [
+            723,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Moose",
+        "bbox": [
+          [
+            485,
+            229
+          ],
+          [
+            542,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SNOWSHOE HARE",
+        "bbox": [
+          [
+            304,
+            204
+          ],
+          [
+            382,
+            238
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Red squirrel",
+        "bbox": [
+          [
+            108,
+            201
+          ],
+          [
+            195,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Primary consumers",
+        "bbox": [
+          [
+            6,
+            175
+          ],
+          [
+            94,
+            215
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          457,
+          94,
+          199,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          532,
+          94,
+          63,
+          85
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          355,
+          118,
+          52,
+          55
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          284,
+          226,
+          39,
+          56
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          245,
+          115,
+          65,
+          63
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          171,
+          118,
+          43,
+          50
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          115,
+          220,
+          39,
+          70
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          134,
+          214,
+          176,
+          96
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          694,
+          217,
+          29,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          595,
+          206,
+          67,
+          85
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          546,
+          207,
+          141,
+          86
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          533,
+          231,
+          41,
+          54
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          371,
+          206,
+          171,
+          96
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          438,
+          226,
+          55,
+          69
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          301,
+          207,
+          184,
+          94
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          443,
+          120,
+          32,
+          33
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B11",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B9",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B9",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B7",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B7",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B8",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B10",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B10",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B11",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B9",
+      "to": "B6",
+      "via": "A6"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T14",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T15",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

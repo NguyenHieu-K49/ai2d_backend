@@ -1,0 +1,300 @@
+{
+  "id": "2364.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          131,
+          39,
+          172,
+          120
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          367,
+          137,
+          23,
+          16
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          387,
+          221,
+          30,
+          27
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          338,
+          292,
+          61,
+          61
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          169,
+          322,
+          117,
+          110
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          16,
+          195,
+          122,
+          132
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult",
+        "bbox": [
+          [
+            102,
+            40
+          ],
+          [
+            137,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Life cycle of rhino beetle",
+        "bbox": [
+          [
+            323,
+            24
+          ],
+          [
+            464,
+            42
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Egg",
+        "bbox": [
+          [
+            392,
+            134
+          ],
+          [
+            418,
+            152
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "First instar",
+        "bbox": [
+          [
+            397,
+            255
+          ],
+          [
+            458,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Secound instar",
+        "bbox": [
+          [
+            358,
+            371
+          ],
+          [
+            448,
+            386
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "#53580612",
+        "bbox": [
+          [
+            430,
+            436
+          ],
+          [
+            499,
+            449
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Third instar",
+        "bbox": [
+          [
+            291,
+            426
+          ],
+          [
+            359,
+            442
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Pupa",
+        "bbox": [
+          [
+            25,
+            347
+          ],
+          [
+            64,
+            361
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          322,
+          86,
+          63,
+          59
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          379,
+          157,
+          35,
+          64
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          368,
+          253,
+          30,
+          34
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          296,
+          346,
+          36,
+          32
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          112,
+          348,
+          45,
+          35
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          27,
+          95,
+          103,
+          102
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B0",
+      "via": "A5"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B5"
+    }
+  ],
+  "rst_source": true
+}

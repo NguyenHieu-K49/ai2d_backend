@@ -1,0 +1,430 @@
+{
+  "id": "474.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "474.png_T0",
+        "name": "H",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "474.png_T1",
+        "name": "I",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "474.png_T2",
+        "name": "G",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "474.png_T3",
+        "name": "F",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "474.png_T4",
+        "name": "C",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "474.png_T5",
+        "name": "D",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "474.png_T6",
+        "name": "E",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "474.png_T7",
+        "name": "A",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "474.png_T8",
+        "name": "B",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "474.png_T0",
+        "target": "474.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "474.png_T2",
+        "target": "474.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "474.png_T2",
+        "target": "474.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "474.png_T3",
+        "target": "474.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "474.png_T4",
+        "target": "474.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "474.png_T4",
+        "target": "474.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "474.png_T4",
+        "target": "474.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "474.png_T5",
+        "target": "474.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "474.png_T5",
+        "target": "474.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "474.png_T7",
+        "target": "474.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "474.png_T7",
+        "target": "474.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "474.png_T7",
+        "target": "474.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "474.png_T8",
+        "target": "474.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "474.png_T8",
+        "target": "474.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "H",
+        "bbox": [
+          [
+            222,
+            8
+          ],
+          [
+            254,
+            40
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "I",
+        "bbox": [
+          [
+            434,
+            15
+          ],
+          [
+            458,
+            45
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "G",
+        "bbox": [
+          [
+            325,
+            120
+          ],
+          [
+            358,
+            154
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "F",
+        "bbox": [
+          [
+            114,
+            116
+          ],
+          [
+            140,
+            151
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "C",
+        "bbox": [
+          [
+            11,
+            228
+          ],
+          [
+            51,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "D",
+        "bbox": [
+          [
+            219,
+            230
+          ],
+          [
+            253,
+            263
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "E",
+        "bbox": [
+          [
+            422,
+            232
+          ],
+          [
+            452,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "A",
+        "bbox": [
+          [
+            115,
+            345
+          ],
+          [
+            143,
+            377
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "B",
+        "bbox": [
+          [
+            325,
+            343
+          ],
+          [
+            352,
+            379
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          257,
+          13,
+          176,
+          29
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          141,
+          41,
+          88,
+          87
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          39,
+          197,
+          386,
+          58
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          43,
+          141,
+          287,
+          104
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          243,
+          43,
+          91,
+          85
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          356,
+          41,
+          85,
+          88
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          30,
+          144,
+          88,
+          87
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          32,
+          266,
+          88,
+          84
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          138,
+          264,
+          89,
+          90
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          140,
+          259,
+          286,
+          104
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          349,
+          270,
+          91,
+          86
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          241,
+          266,
+          87,
+          88
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          134,
+          146,
+          89,
+          86
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          256,
+          235,
+          169,
+          24
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: H la nguon thuc an cho I. G la nguon thuc an cho H. G la nguon thuc an cho I. F la nguon thuc an cho H. C la nguon thuc an cho E. C la nguon thuc an cho G. C la nguon thuc an cho F. D la nguon thuc an cho F. D la nguon thuc an cho E. A la nguon thuc an cho C. A la nguon thuc an cho D. A la nguon thuc an cho E. B la nguon thuc an cho E. B la nguon thuc an cho D."
+}

@@ -1,0 +1,258 @@
+{
+  "id": "453.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "453.png_T0",
+        "name": "Clouds",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "453.png_T1",
+        "name": "Water vapour",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "453.png_T2",
+        "name": "B",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "453.png_T3",
+        "name": "c",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "453.png_T4",
+        "name": "Rain",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "453.png_T5",
+        "name": "D",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "453.png_T6",
+        "name": "Water on Earth",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "453.png_T7",
+        "name": "A",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "453.png_T0",
+        "target": "453.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "453.png_T1",
+        "target": "453.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "453.png_T4",
+        "target": "453.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "453.png_T6",
+        "target": "453.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Clouds",
+        "bbox": [
+          [
+            125,
+            7
+          ],
+          [
+            181,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Water vapour",
+        "bbox": [
+          [
+            12,
+            77
+          ],
+          [
+            77,
+            114
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "B",
+        "bbox": [
+          [
+            28,
+            18
+          ],
+          [
+            50,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "c",
+        "bbox": [
+          [
+            257,
+            15
+          ],
+          [
+            286,
+            35
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Rain",
+        "bbox": [
+          [
+            249,
+            75
+          ],
+          [
+            297,
+            96
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "D",
+        "bbox": [
+          [
+            259,
+            151
+          ],
+          [
+            283,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Water on Earth",
+        "bbox": [
+          [
+            128,
+            150
+          ],
+          [
+            200,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "A",
+        "bbox": [
+          [
+            38,
+            153
+          ],
+          [
+            65,
+            171
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          36,
+          10,
+          85,
+          64
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          192,
+          10,
+          87,
+          67
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          43,
+          117,
+          80,
+          52
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          201,
+          104,
+          74,
+          65
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Clouds phat trien thanh Rain. Giai doan Water vapour phat trien thanh Clouds. Giai doan Rain phat trien thanh Water on Earth. Giai doan Water on Earth phat trien thanh Water vapour."
+}

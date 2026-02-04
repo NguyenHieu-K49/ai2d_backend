@@ -1,0 +1,648 @@
+{
+  "id": "2330.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2330.png_B0",
+        "name": "feeding polyp",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2330.png_B1",
+        "name": "branching",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T10"
+        ]
+      },
+      {
+        "uid": "2330.png_B10",
+        "name": "female medusa",
+        "type": "Stage",
+        "components": [
+          "B10",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2330.png_B11",
+        "name": "male medusa",
+        "type": "Stage",
+        "components": [
+          "B11",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2330.png_B2",
+        "name": "polyp forming",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T9"
+        ]
+      },
+      {
+        "uid": "2330.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2330.png_B4",
+        "name": "planula",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2330.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2330.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2330.png_B7",
+        "name": "B7",
+        "type": "Stage",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "2330.png_B8",
+        "name": "zygote",
+        "type": "Stage",
+        "components": [
+          "B8",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2330.png_B9",
+        "name": "ovum",
+        "type": "Stage",
+        "components": [
+          "B9",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2330.png_T0",
+        "name": "Obelia Life Cycle (Hydrozoan)",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2330.png_T12",
+        "name": "2001 Brooks/cole - Thomson Learning",
+        "type": "Stage",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "2330.png_T6",
+        "name": "sperm",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2330.png_B0",
+        "target": "2330.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2330.png_B1",
+        "target": "2330.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2330.png_B10",
+        "target": "2330.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2330.png_B11",
+        "target": "2330.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2330.png_B2",
+        "target": "2330.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2330.png_B3",
+        "target": "2330.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2330.png_B4",
+        "target": "2330.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2330.png_B5",
+        "target": "2330.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2330.png_B6",
+        "target": "2330.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2330.png_B7",
+        "target": "2330.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2330.png_B8",
+        "target": "2330.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2330.png_B9",
+        "target": "2330.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          14,
+          120,
+          258,
+          346
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          243,
+          258,
+          103,
+          199
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          334,
+          142,
+          190,
+          99
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          530,
+          130,
+          189,
+          108
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          360,
+          344,
+          36,
+          126
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          445,
+          380,
+          36,
+          83
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          528,
+          402,
+          104,
+          57
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          653,
+          362,
+          45,
+          44
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          678,
+          315,
+          12,
+          20
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          649,
+          273,
+          16,
+          22
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          591,
+          250,
+          17,
+          20
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          522,
+          217,
+          16,
+          15
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Obelia Life Cycle (Hydrozoan)",
+        "bbox": [
+          [
+            44,
+            26
+          ],
+          [
+            655,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "reproductive polyp",
+        "bbox": [
+          [
+            185,
+            83
+          ],
+          [
+            343,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "branching",
+        "bbox": [
+          [
+            250,
+            481
+          ],
+          [
+            329,
+            506
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "one branch from a mature colony",
+        "bbox": [
+          [
+            50,
+            434
+          ],
+          [
+            147,
+            514
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "2001 Brooks/cole - Thomson Learning",
+        "bbox": [
+          [
+            10,
+            235
+          ],
+          [
+            33,
+            412
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "female medusa",
+        "bbox": [
+          [
+            372,
+            113
+          ],
+          [
+            492,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "male medusa",
+        "bbox": [
+          [
+            573,
+            112
+          ],
+          [
+            685,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "feeding polyp",
+        "bbox": [
+          [
+            61,
+            289
+          ],
+          [
+            132,
+            333
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "ovum",
+        "bbox": [
+          [
+            489,
+            234
+          ],
+          [
+            538,
+            254
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "sperm",
+        "bbox": [
+          [
+            576,
+            227
+          ],
+          [
+            626,
+            248
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "zygote",
+        "bbox": [
+          [
+            576,
+            290
+          ],
+          [
+            631,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "planula",
+        "bbox": [
+          [
+            564,
+            462
+          ],
+          [
+            630,
+            487
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "polyp forming",
+        "bbox": [
+          [
+            343,
+            474
+          ],
+          [
+            424,
+            514
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          226,
+          99,
+          17,
+          104
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          273,
+          158,
+          93,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          482,
+          432,
+          46,
+          21
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          395,
+          424,
+          50,
+          22
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          306,
+          403,
+          55,
+          28
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          204,
+          338,
+          49,
+          53
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          97,
+          215,
+          10,
+          80
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          435,
+          163,
+          84,
+          71
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          560,
+          165,
+          89,
+          73
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          538,
+          230,
+          50,
+          35
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          593,
+          266,
+          13,
+          29
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          611,
+          250,
+          36,
+          30
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          660,
+          286,
+          26,
+          34
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          682,
+          331,
+          10,
+          27
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          630,
+          395,
+          30,
+          29
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan feeding polyp phat trien thanh female medusa. Giai doan branching phat trien thanh feeding polyp. Giai doan female medusa phat trien thanh ovum. Giai doan male medusa phat trien thanh ovum. Giai doan polyp forming phat trien thanh branching. Giai doan B3 phat trien thanh polyp forming. Giai doan planula phat trien thanh B3. Giai doan B5 phat trien thanh planula. Giai doan B6 phat trien thanh B5. Giai doan B7 phat trien thanh B6. Giai doan zygote phat trien thanh B7. Giai doan ovum phat trien thanh zygote."
+}

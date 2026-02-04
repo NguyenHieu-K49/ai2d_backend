@@ -1,0 +1,128 @@
+{
+  "id": "430.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult plant",
+        "bbox": [
+          [
+            106,
+            20
+          ],
+          [
+            151,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Young plant",
+        "bbox": [
+          [
+            175,
+            117
+          ],
+          [
+            226,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Seed",
+        "bbox": [
+          [
+            36,
+            119
+          ],
+          [
+            77,
+            139
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Fertilisation",
+        "bbox": [
+          [
+            168,
+            51
+          ],
+          [
+            249,
+            69
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Germination",
+        "bbox": [
+          [
+            0,
+            49
+          ],
+          [
+            81,
+            67
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          61,
+          52,
+          36,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          98,
+          126,
+          60,
+          16
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          158,
+          53,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

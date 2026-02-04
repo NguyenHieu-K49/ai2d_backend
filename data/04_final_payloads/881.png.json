@@ -1,0 +1,170 @@
+{
+  "id": "881.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "881.png_T0",
+        "name": "Chicken",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "881.png_T1",
+        "name": "Earthworm",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "881.png_T2",
+        "name": "Plant",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "881.png_T3",
+        "name": "Fox",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "881.png_T0",
+        "target": "881.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "881.png_T1",
+        "target": "881.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "881.png_T2",
+        "target": "881.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "881.png_T2",
+        "target": "881.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Chicken",
+        "bbox": [
+          [
+            344,
+            61
+          ],
+          [
+            408,
+            81
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Earthworm",
+        "bbox": [
+          [
+            284,
+            252
+          ],
+          [
+            372,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Plant",
+        "bbox": [
+          [
+            139,
+            164
+          ],
+          [
+            186,
+            183
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Fox",
+        "bbox": [
+          [
+            91,
+            73
+          ],
+          [
+            123,
+            92
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          165,
+          74,
+          192,
+          95
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          123,
+          64,
+          224,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          328,
+          83,
+          46,
+          170
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          179,
+          168,
+          119,
+          84
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Chicken la nguon thuc an cho Fox. Earthworm la nguon thuc an cho Chicken. Plant la nguon thuc an cho Chicken. Plant la nguon thuc an cho Earthworm."
+}

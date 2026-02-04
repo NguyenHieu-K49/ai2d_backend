@@ -1,0 +1,327 @@
+{
+  "id": "30.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "30.png_B0",
+        "name": "Northern Elephant Seals",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "30.png_B1",
+        "name": "Horn Sharks",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "30.png_B2",
+        "name": "Sea Urchins",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "30.png_B3",
+        "name": "Sea Otters",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "30.png_B4",
+        "name": "Kelp Crab",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "30.png_B5",
+        "name": "Kelp",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "30.png_T0",
+        "name": "KELP FOREST FOOD WEB",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "30.png_B1",
+        "target": "30.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "30.png_B2",
+        "target": "30.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "30.png_B2",
+        "target": "30.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "30.png_B4",
+        "target": "30.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "30.png_B5",
+        "target": "30.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "30.png_B5",
+        "target": "30.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          1,
+          9,
+          125,
+          64
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          19,
+          103,
+          122,
+          49
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          115,
+          168,
+          49,
+          38
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          163,
+          100,
+          107,
+          44
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          274,
+          135,
+          61,
+          54
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          223,
+          181,
+          48,
+          74
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "KELP FOREST FOOD WEB",
+        "bbox": [
+          [
+            88,
+            0
+          ],
+          [
+            243,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Northern Elephant Seals",
+        "bbox": [
+          [
+            2,
+            73
+          ],
+          [
+            129,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Horn Sharks",
+        "bbox": [
+          [
+            29,
+            146
+          ],
+          [
+            98,
+            159
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Sea Otters",
+        "bbox": [
+          [
+            166,
+            146
+          ],
+          [
+            225,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Kelp Crab",
+        "bbox": [
+          [
+            274,
+            187
+          ],
+          [
+            333,
+            207
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Sea Urchins",
+        "bbox": [
+          [
+            104,
+            206
+          ],
+          [
+            176,
+            222
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Kelp",
+        "bbox": [
+          [
+            196,
+            227
+          ],
+          [
+            228,
+            243
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          269,
+          205,
+          32,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          259,
+          128,
+          27,
+          28
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          46,
+          92,
+          14,
+          23
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          79,
+          157,
+          32,
+          20
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          160,
+          157,
+          31,
+          21
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          171,
+          203,
+          31,
+          25
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Horn Sharks la nguon thuc an cho Northern Elephant Seals. Sea Urchins la nguon thuc an cho Horn Sharks. Sea Urchins la nguon thuc an cho Sea Otters. Kelp Crab la nguon thuc an cho Sea Otters. Kelp la nguon thuc an cho Kelp Crab. Kelp la nguon thuc an cho Sea Urchins."
+}

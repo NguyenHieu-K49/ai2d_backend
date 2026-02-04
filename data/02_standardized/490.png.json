@@ -1,0 +1,510 @@
+{
+  "id": "490.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "killer whale",
+        "bbox": [
+          [
+            207,
+            3
+          ],
+          [
+            450,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "great whales",
+        "bbox": [
+          [
+            210,
+            222
+          ],
+          [
+            438,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Sea urchins",
+        "bbox": [
+          [
+            672,
+            630
+          ],
+          [
+            878,
+            717
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "oceanic fishes",
+        "bbox": [
+          [
+            285,
+            612
+          ],
+          [
+            528,
+            683
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "kelp",
+        "bbox": [
+          [
+            696,
+            996
+          ],
+          [
+            837,
+            1064
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "harbour seal",
+        "bbox": [
+          [
+            9,
+            369
+          ],
+          [
+            231,
+            452
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Steller sea lion",
+        "bbox": [
+          [
+            447,
+            372
+          ],
+          [
+            612,
+            486
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "sea otters",
+        "bbox": [
+          [
+            690,
+            264
+          ],
+          [
+            867,
+            342
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "bald eagle",
+        "bbox": [
+          [
+            1082,
+            174
+          ],
+          [
+            1274,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "gulls",
+        "bbox": [
+          [
+            1248,
+            480
+          ],
+          [
+            1370,
+            552
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "starfish",
+        "bbox": [
+          [
+            867,
+            426
+          ],
+          [
+            1022,
+            498
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "mussels/barnacles",
+        "bbox": [
+          [
+            989,
+            585
+          ],
+          [
+            1172,
+            678
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "coastal fishes",
+        "bbox": [
+          [
+            929,
+            735
+          ],
+          [
+            1176,
+            812
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          297,
+          90,
+          54,
+          129
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          417,
+          18,
+          300,
+          243
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          872,
+          803,
+          141,
+          208
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          750,
+          698,
+          51,
+          300
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          743,
+          342,
+          52,
+          266
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          33,
+          66,
+          209,
+          294
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          114,
+          438,
+          813,
+          378
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          195,
+          441,
+          167,
+          161
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          414,
+          462,
+          93,
+          156
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          519,
+          495,
+          410,
+          300
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          417,
+          63,
+          185,
+          299
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          801,
+          354,
+          186,
+          372
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          878,
+          159,
+          195,
+          132
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          1148,
+          219,
+          351,
+          576
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          1172,
+          225,
+          171,
+          267
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          833,
+          302,
+          141,
+          145
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          989,
+          471,
+          63,
+          114
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1178,
+          563,
+          109,
+          73
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1148,
+          572,
+          174,
+          190
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          782,
+          489,
+          402,
+          143
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          803,
+          651,
+          189,
+          330
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T12",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T6",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "T2",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "T3",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T9",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T8",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T9",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T9",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T10",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T5",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T8",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T4",
+      "via": "A19"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T5",
+      "via": "A20"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T6",
+      "via": "A7"
+    }
+  ],
+  "rst_source": true
+}

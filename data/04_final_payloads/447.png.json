@@ -1,0 +1,754 @@
+{
+  "id": "447.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "447.png_B0",
+        "name": "Corn",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "447.png_B1",
+        "name": "Mouse",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "447.png_B10",
+        "name": "Wolf",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T12"
+        ]
+      },
+      {
+        "uid": "447.png_B11",
+        "name": "Tree",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T5"
+        ]
+      },
+      {
+        "uid": "447.png_B12",
+        "name": "Deer",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T6"
+        ]
+      },
+      {
+        "uid": "447.png_B2",
+        "name": "Shrew",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "447.png_B3",
+        "name": "Hawk",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T11"
+        ]
+      },
+      {
+        "uid": "447.png_B4",
+        "name": "Carrots",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "447.png_B5",
+        "name": "Rabbit",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T9"
+        ]
+      },
+      {
+        "uid": "447.png_B6",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T10"
+        ]
+      },
+      {
+        "uid": "447.png_B7",
+        "name": "Flowering shrub",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T4"
+        ]
+      },
+      {
+        "uid": "447.png_B8",
+        "name": "Grasshopper",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T8"
+        ]
+      },
+      {
+        "uid": "447.png_B9",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "447.png_B0",
+        "target": "447.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "447.png_B1",
+        "target": "447.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "447.png_B1",
+        "target": "447.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "447.png_B11",
+        "target": "447.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "447.png_B12",
+        "target": "447.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "447.png_B2",
+        "target": "447.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "447.png_B2",
+        "target": "447.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "447.png_B4",
+        "target": "447.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "447.png_B4",
+        "target": "447.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "447.png_B4",
+        "target": "447.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "447.png_B5",
+        "target": "447.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "447.png_B5",
+        "target": "447.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "447.png_B5",
+        "target": "447.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "447.png_B6",
+        "target": "447.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "447.png_B7",
+        "target": "447.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "447.png_B7",
+        "target": "447.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "447.png_B7",
+        "target": "447.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "447.png_B7",
+        "target": "447.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "447.png_B8",
+        "target": "447.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "447.png_B8",
+        "target": "447.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "447.png_B9",
+        "target": "447.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          82,
+          71,
+          118,
+          98
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          285,
+          153,
+          139,
+          58
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          698,
+          347,
+          135,
+          186
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          116,
+          493,
+          160,
+          185
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          318,
+          493,
+          153,
+          156
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          480,
+          193,
+          145,
+          58
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          665,
+          202,
+          160,
+          89
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          127,
+          196,
+          104,
+          131
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          304,
+          262,
+          141,
+          94
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          516,
+          269,
+          100,
+          106
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          122,
+          353,
+          138,
+          85
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          300,
+          360,
+          164,
+          98
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          487,
+          409,
+          147,
+          140
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Corn",
+        "bbox": [
+          [
+            115,
+            173
+          ],
+          [
+            185,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Shrew",
+        "bbox": [
+          [
+            442,
+            156
+          ],
+          [
+            536,
+            195
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Snake",
+        "bbox": [
+          [
+            596,
+            329
+          ],
+          [
+            691,
+            367
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Hawk",
+        "bbox": [
+          [
+            718,
+            282
+          ],
+          [
+            800,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Wolf",
+        "bbox": [
+          [
+            729,
+            529
+          ],
+          [
+            802,
+            567
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Mouse",
+        "bbox": [
+          [
+            325,
+            209
+          ],
+          [
+            427,
+            253
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Carrots",
+        "bbox": [
+          [
+            120,
+            325
+          ],
+          [
+            233,
+            358
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Flowering shrub",
+        "bbox": [
+          [
+            58,
+            431
+          ],
+          [
+            209,
+            493
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Tree",
+        "bbox": [
+          [
+            169,
+            676
+          ],
+          [
+            235,
+            714
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Deer",
+        "bbox": [
+          [
+            342,
+            654
+          ],
+          [
+            418,
+            691
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Frog",
+        "bbox": [
+          [
+            465,
+            529
+          ],
+          [
+            536,
+            580
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            305,
+            447
+          ],
+          [
+            473,
+            494
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            300,
+            340
+          ],
+          [
+            413,
+            384
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          260,
+          553,
+          58,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          180,
+          435,
+          147,
+          123
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          429,
+          504,
+          264,
+          90
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          222,
+          195,
+          100,
+          63
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          198,
+          105,
+          149,
+          53
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          409,
+          202,
+          104,
+          107
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          407,
+          155,
+          275,
+          58
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          622,
+          215,
+          52,
+          12
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          604,
+          231,
+          160,
+          176
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          391,
+          247,
+          309,
+          37
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          431,
+          322,
+          89,
+          29
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          602,
+          260,
+          102,
+          65
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          215,
+          275,
+          125,
+          276
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          574,
+          276,
+          155,
+          149
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          245,
+          405,
+          64,
+          13
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          435,
+          420,
+          58,
+          25
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          429,
+          244,
+          95,
+          138
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          249,
+          322,
+          86,
+          54
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          220,
+          202,
+          113,
+          149
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          222,
+          267,
+          93,
+          29
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          416,
+          336,
+          277,
+          104
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Corn la nguon thuc an cho Mouse. Mouse la nguon thuc an cho Snake. Mouse la nguon thuc an cho Hawk. Tree la nguon thuc an cho Deer. Deer la nguon thuc an cho Wolf. Shrew la nguon thuc an cho Hawk. Shrew la nguon thuc an cho Wolf. Carrots la nguon thuc an cho Mouse. Carrots la nguon thuc an cho Deer. Carrots la nguon thuc an cho Rabbit. Rabbit la nguon thuc an cho Hawk. Rabbit la nguon thuc an cho Snake. Rabbit la nguon thuc an cho Wolf. Snake la nguon thuc an cho Hawk. Flowering shrub la nguon thuc an cho Deer. Flowering shrub la nguon thuc an cho Grasshopper. Flowering shrub la nguon thuc an cho Rabbit. Flowering shrub la nguon thuc an cho Mouse. Grasshopper la nguon thuc an cho Frog. Grasshopper la nguon thuc an cho Shrew. Frog la nguon thuc an cho Hawk."
+}

@@ -1,0 +1,212 @@
+{
+  "id": "4128.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4128.png_B0",
+        "name": "B0",
+        "type": "Component",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "4128.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "4128.png_T0",
+        "name": "Food-related Needs of Plants",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "4128.png_T1",
+        "name": "Chlorophyll",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "4128.png_T2",
+        "name": "Light",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "4128.png_T3",
+        "name": "Carbon Dioxide",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "4128.png_T4",
+        "name": "Salts and Water",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4128.png_T1",
+        "target": "4128.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "4128.png_T2",
+        "target": "4128.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "4128.png_T4",
+        "target": "4128.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          124,
+          141,
+          229,
+          358
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          446,
+          45,
+          140,
+          151
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food-related Needs of Plants",
+        "bbox": [
+          [
+            166,
+            0
+          ],
+          [
+            473,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Chlorophyll",
+        "bbox": [
+          [
+            105,
+            146
+          ],
+          [
+            195,
+            168
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Light",
+        "bbox": [
+          [
+            378,
+            177
+          ],
+          [
+            430,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Carbon Dioxide",
+        "bbox": [
+          [
+            404,
+            280
+          ],
+          [
+            525,
+            304
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Salts and Water",
+        "bbox": [
+          [
+            0,
+            386
+          ],
+          [
+            123,
+            406
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          138,
+          389,
+          30,
+          11
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          144,
+          165,
+          22,
+          54
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          429,
+          142,
+          36,
+          33
+        ]
+      }
+    }
+  },
+  "description": "So do nay bao gom: B0, B1, Food-related Needs of Plants, Chlorophyll, Light, Carbon Dioxide, Salts and Water. Cac thanh phan co moi lien he voi nhau."
+}

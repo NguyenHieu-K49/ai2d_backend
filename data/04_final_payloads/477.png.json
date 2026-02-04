@@ -1,0 +1,384 @@
+{
+  "id": "477.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "477.png_T0",
+        "name": "eagle",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "477.png_T1",
+        "name": "alligator",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "477.png_T10",
+        "name": "Elizabeth Morales",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "477.png_T2",
+        "name": "fish",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "477.png_T3",
+        "name": "crayfish",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "477.png_T4",
+        "name": "snail",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "477.png_T5",
+        "name": "algae",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "477.png_T6",
+        "name": "lichen",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "477.png_T7",
+        "name": "slug",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "477.png_T8",
+        "name": "toad",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "477.png_T9",
+        "name": "snake",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "477.png_T2",
+        "target": "477.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "477.png_T3",
+        "target": "477.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "477.png_T4",
+        "target": "477.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "477.png_T5",
+        "target": "477.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "477.png_T6",
+        "target": "477.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "477.png_T7",
+        "target": "477.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "477.png_T8",
+        "target": "477.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "477.png_T9",
+        "target": "477.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "eagle",
+        "bbox": [
+          [
+            19,
+            6
+          ],
+          [
+            65,
+            27
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "alligator",
+        "bbox": [
+          [
+            187,
+            7
+          ],
+          [
+            256,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Elizabeth Morales",
+        "bbox": [
+          [
+            166,
+            368
+          ],
+          [
+            263,
+            386
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "fish",
+        "bbox": [
+          [
+            204,
+            90
+          ],
+          [
+            238,
+            110
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "crayfish",
+        "bbox": [
+          [
+            190,
+            174
+          ],
+          [
+            252,
+            194
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "snail",
+        "bbox": [
+          [
+            199,
+            257
+          ],
+          [
+            244,
+            274
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "algae",
+        "bbox": [
+          [
+            199,
+            342
+          ],
+          [
+            244,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "lichen",
+        "bbox": [
+          [
+            15,
+            338
+          ],
+          [
+            69,
+            359
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "slug",
+        "bbox": [
+          [
+            24,
+            258
+          ],
+          [
+            62,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "toad",
+        "bbox": [
+          [
+            23,
+            173
+          ],
+          [
+            64,
+            192
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "snake",
+        "bbox": [
+          [
+            17,
+            92
+          ],
+          [
+            67,
+            108
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          31,
+          28,
+          18,
+          56
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          212,
+          33,
+          18,
+          51
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          30,
+          114,
+          22,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          213,
+          116,
+          19,
+          51
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          34,
+          201,
+          18,
+          46
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          213,
+          197,
+          15,
+          53
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          214,
+          285,
+          16,
+          46
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          32,
+          281,
+          21,
+          49
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: fish la nguon thuc an cho alligator. crayfish la nguon thuc an cho fish. snail la nguon thuc an cho crayfish. algae la nguon thuc an cho snail. lichen la nguon thuc an cho slug. slug la nguon thuc an cho toad. toad la nguon thuc an cho snake. snake la nguon thuc an cho eagle."
+}

@@ -1,0 +1,441 @@
+{
+  "id": "1825.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1825.png_B0",
+        "name": "SNAKE",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1825.png_B1",
+        "name": "MOUSE",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1825.png_B2",
+        "name": "GRASS",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1825.png_B3",
+        "name": "GRASSHOPPER",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1825.png_B4",
+        "name": "LIZARD",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1825.png_B5",
+        "name": "Hawk",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1825.png_B6",
+        "name": "RABBIT",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1825.png_T0",
+        "name": "GRASSLAND FOOD WEB",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1825.png_T8",
+        "name": "A Food Web in a Grassland Ecosystem With FIve Possible Food Chains",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1825.png_B0",
+        "target": "1825.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1825.png_B1",
+        "target": "1825.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1825.png_B1",
+        "target": "1825.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1825.png_B2",
+        "target": "1825.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1825.png_B2",
+        "target": "1825.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1825.png_B2",
+        "target": "1825.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1825.png_B3",
+        "target": "1825.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1825.png_B3",
+        "target": "1825.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1825.png_B4",
+        "target": "1825.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1825.png_B6",
+        "target": "1825.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          268,
+          320,
+          152,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          104,
+          253,
+          71,
+          91
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1,
+          126,
+          134,
+          124
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          62,
+          71,
+          163,
+          81
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          306,
+          0,
+          101,
+          127
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          519,
+          97,
+          118,
+          196
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          268,
+          146,
+          145,
+          121
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "GRASSLAND FOOD WEB",
+        "bbox": [
+          [
+            0,
+            12
+          ],
+          [
+            258,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "GRASSHOPPER",
+        "bbox": [
+          [
+            115,
+            154
+          ],
+          [
+            223,
+            176
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LIZARD",
+        "bbox": [
+          [
+            301,
+            119
+          ],
+          [
+            349,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Hawk",
+        "bbox": [
+          [
+            557,
+            297
+          ],
+          [
+            604,
+            322
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "RABBIT",
+        "bbox": [
+          [
+            308,
+            276
+          ],
+          [
+            364,
+            298
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "GRASS",
+        "bbox": [
+          [
+            49,
+            256
+          ],
+          [
+            95,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "MOUSE",
+        "bbox": [
+          [
+            110,
+            357
+          ],
+          [
+            170,
+            379
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SNAKE",
+        "bbox": [
+          [
+            318,
+            415
+          ],
+          [
+            374,
+            434
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "A Food Web in a Grassland Ecosystem With FIve Possible Food Chains",
+        "bbox": [
+          [
+            59,
+            456
+          ],
+          [
+            612,
+            477
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          159,
+          32,
+          147,
+          62
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          377,
+          25,
+          149,
+          101
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          220,
+          119,
+          297,
+          42
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          140,
+          217,
+          128,
+          17
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          62,
+          112,
+          61,
+          43
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          44,
+          274,
+          60,
+          46
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          170,
+          248,
+          366,
+          77
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          408,
+          212,
+          123,
+          22
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          416,
+          277,
+          129,
+          121
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          160,
+          336,
+          120,
+          66
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: SNAKE la nguon thuc an cho Hawk. MOUSE la nguon thuc an cho Hawk. MOUSE la nguon thuc an cho SNAKE. GRASS la nguon thuc an cho RABBIT. GRASS la nguon thuc an cho GRASSHOPPER. GRASS la nguon thuc an cho MOUSE. GRASSHOPPER la nguon thuc an cho LIZARD. GRASSHOPPER la nguon thuc an cho Hawk. LIZARD la nguon thuc an cho Hawk. RABBIT la nguon thuc an cho Hawk."
+}

@@ -1,0 +1,324 @@
+{
+  "id": "4120.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "4120.png_B0",
+        "name": "B0",
+        "type": "Component",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "4120.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "4120.png_T0",
+        "name": "water",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "4120.png_T1",
+        "name": "PLANTS ARE IN ACTION FOR PHOTOSYNTHESIS",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "4120.png_T2",
+        "name": "Basic Photosynthesis",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "4120.png_T3",
+        "name": "Oxygen",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "4120.png_T4",
+        "name": "LIGHT ENERGY",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "4120.png_T5",
+        "name": "carbon dioxide",
+        "type": "Component",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "4120.png_B1",
+        "target": "4120.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "4120.png_B1",
+        "target": "4120.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "4120.png_B1",
+        "target": "4120.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "4120.png_T0",
+        "target": "4120.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "4120.png_T4",
+        "target": "4120.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "4120.png_T4",
+        "target": "4120.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "4120.png_T4",
+        "target": "4120.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "4120.png_T5",
+        "target": "4120.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "4120.png_T5",
+        "target": "4120.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          86,
+          123,
+          76
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          157,
+          123,
+          437,
+          349
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "water",
+        "bbox": [
+          [
+            24,
+            431
+          ],
+          [
+            122,
+            458
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "PLANTS ARE IN ACTION FOR PHOTOSYNTHESIS",
+        "bbox": [
+          [
+            3,
+            27
+          ],
+          [
+            632,
+            59
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Basic Photosynthesis",
+        "bbox": [
+          [
+            296,
+            93
+          ],
+          [
+            624,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Oxygen",
+        "bbox": [
+          [
+            516,
+            194
+          ],
+          [
+            609,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "LIGHT ENERGY",
+        "bbox": [
+          [
+            34,
+            138
+          ],
+          [
+            151,
+            209
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "carbon dioxide",
+        "bbox": [
+          [
+            54,
+            303
+          ],
+          [
+            225,
+            326
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          73,
+          219,
+          57,
+          76
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          109,
+          194,
+          75,
+          77
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          148,
+          193,
+          81,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          39,
+          329,
+          255,
+          41
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          51,
+          314,
+          205,
+          31
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          475,
+          220,
+          65,
+          67
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          506,
+          213,
+          69,
+          84
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          529,
+          237,
+          76,
+          79
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          53,
+          436,
+          155,
+          41
+        ]
+      }
+    }
+  },
+  "description": "So do nay bao gom: B0, B1, water, PLANTS ARE IN ACTION FOR PHOTOSYNTHESIS, Basic Photosynthesis, Oxygen, LIGHT ENERGY, carbon dioxide. Cac thanh phan co moi lien he voi nhau."
+}

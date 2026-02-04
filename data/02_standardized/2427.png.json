@@ -1,0 +1,329 @@
+{
+  "id": "2427.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          9,
+          63,
+          176,
+          102
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          14,
+          241,
+          87,
+          80
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          134,
+          366,
+          128,
+          123
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          237,
+          17,
+          44,
+          24
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          360,
+          53,
+          41,
+          41
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          424,
+          187,
+          55,
+          61
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          340,
+          327,
+          89,
+          88
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Eggs",
+        "bbox": [
+          [
+            244,
+            43
+          ],
+          [
+            276,
+            59
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "First Larval Stage",
+        "bbox": [
+          [
+            350,
+            94
+          ],
+          [
+            441,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            79,
+            161
+          ],
+          [
+            109,
+            175
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Mosquito Life Cycle (Generalized)",
+        "bbox": [
+          [
+            162,
+            209
+          ],
+          [
+            353,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Second Larval Stage",
+        "bbox": [
+          [
+            406,
+            253
+          ],
+          [
+            515,
+            272
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Pupal Stage",
+        "bbox": [
+          [
+            20,
+            322
+          ],
+          [
+            90,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fourth Larval Stage",
+        "bbox": [
+          [
+            128,
+            457
+          ],
+          [
+            228,
+            477
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Third Larval Stage",
+        "bbox": [
+          [
+            363,
+            419
+          ],
+          [
+            455,
+            433
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          406,
+          262,
+          62,
+          116
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          249,
+          381,
+          153,
+          76
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          66,
+          338,
+          65,
+          65
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          41,
+          159,
+          27,
+          83
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          125,
+          21,
+          91,
+          56
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          283,
+          22,
+          78,
+          39
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          407,
+          99,
+          63,
+          123
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B6"
+    }
+  ],
+  "rst_source": true
+}

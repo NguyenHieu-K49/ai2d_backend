@@ -1,0 +1,229 @@
+{
+  "id": "2432.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2432.png_B0",
+        "name": "adult emerges through abdomen",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2432.png_B1",
+        "name": "females lay eggs in aphids",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2432.png_B2",
+        "name": "Aphid swells into a mummy",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2432.png_T0",
+        "name": "@ 21 C (70 F)",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2432.png_T2",
+        "name": "10 weeks",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2432.png_T4",
+        "name": "1 week",
+        "type": "Stage",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2432.png_B0",
+        "target": "2432.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2432.png_B1",
+        "target": "2432.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2432.png_B2",
+        "target": "2432.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          175,
+          134,
+          61,
+          91
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          4,
+          152,
+          132,
+          64
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          104,
+          28,
+          64,
+          76
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "@ 21 C (70 F)",
+        "bbox": [
+          [
+            36,
+            237
+          ],
+          [
+            133,
+            260
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Aphid swells into a mummy",
+        "bbox": [
+          [
+            109,
+            6
+          ],
+          [
+            184,
+            31
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "10 weeks",
+        "bbox": [
+          [
+            28,
+            61
+          ],
+          [
+            74,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "females lay eggs in aphids",
+        "bbox": [
+          [
+            47,
+            154
+          ],
+          [
+            120,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "1 week",
+        "bbox": [
+          [
+            199,
+            78
+          ],
+          [
+            232,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "adult emerges through abdomen",
+        "bbox": [
+          [
+            196,
+            223
+          ],
+          [
+            238,
+            263
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          37,
+          56,
+          77,
+          99
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          64,
+          206,
+          128,
+          34
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          143,
+          55,
+          84,
+          98
+        ]
+      }
+    }
+  }
+}

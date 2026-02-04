@@ -1,0 +1,445 @@
+{
+  "id": "1897.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          335,
+          187,
+          129,
+          69
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          506,
+          179,
+          79,
+          69
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          441,
+          287,
+          147,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          304,
+          357,
+          282,
+          97
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          90,
+          327,
+          198,
+          79
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          53,
+          249,
+          108,
+          74
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          202,
+          194,
+          111,
+          76
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          28,
+          102,
+          165,
+          97
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          26,
+          403,
+          138,
+          71
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            179,
+            28
+          ],
+          [
+            463,
+            80
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "fisherman",
+        "bbox": [
+          [
+            105,
+            111
+          ],
+          [
+            177,
+            131
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "small fish",
+        "bbox": [
+          [
+            237,
+            269
+          ],
+          [
+            309,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "mackeral",
+        "bbox": [
+          [
+            116,
+            291
+          ],
+          [
+            183,
+            308
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Snapper Fish",
+        "bbox": [
+          [
+            165,
+            391
+          ],
+          [
+            256,
+            408
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "decomposers",
+        "bbox": [
+          [
+            154,
+            447
+          ],
+          [
+            251,
+            467
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "large shark",
+        "bbox": [
+          [
+            425,
+            434
+          ],
+          [
+            504,
+            454
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Snappe",
+        "bbox": [
+          [
+            505,
+            368
+          ],
+          [
+            560,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "zooplankton",
+        "bbox": [
+          [
+            397,
+            194
+          ],
+          [
+            485,
+            207
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "phytoplankton",
+        "bbox": [
+          [
+            507,
+            180
+          ],
+          [
+            604,
+            198
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          250,
+          368,
+          61,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          68,
+          197,
+          44,
+          94
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          81,
+          300,
+          33,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          187,
+          159,
+          258,
+          147
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          412,
+          251,
+          31,
+          38
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          294,
+          217,
+          65,
+          26
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          184,
+          177,
+          49,
+          29
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          446,
+          221,
+          83,
+          25
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          398,
+          331,
+          42,
+          48
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          152,
+          184,
+          58,
+          180
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          150,
+          230,
+          104,
+          36
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B6",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B7",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B7",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B7",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A9"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

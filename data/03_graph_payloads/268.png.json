@@ -1,0 +1,588 @@
+{
+  "id": "268.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "268.png_B0",
+        "name": "Hawks Tertiary Consumer",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T6"
+        ]
+      },
+      {
+        "uid": "268.png_B1",
+        "name": "Great Horned Owl Tertiary Consumer",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "268.png_B10",
+        "name": "Trees Primary Producer",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T9"
+        ]
+      },
+      {
+        "uid": "268.png_B11",
+        "name": "Mice Primary COnsumer",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T8"
+        ]
+      },
+      {
+        "uid": "268.png_B12",
+        "name": "Weasel Secondary Consumer",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T7"
+        ]
+      },
+      {
+        "uid": "268.png_B2",
+        "name": "Arctic Fox Tertiary Consumer",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T0"
+        ]
+      },
+      {
+        "uid": "268.png_B3",
+        "name": "Skunks Secondary Consumer",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      },
+      {
+        "uid": "268.png_B4",
+        "name": "Wolverine Secondary Consumer",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "268.png_B5",
+        "name": "Insects Primary Consumer",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T2"
+        ]
+      },
+      {
+        "uid": "268.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "268.png_B7",
+        "name": "Deer Primary Consumer",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T5"
+        ]
+      },
+      {
+        "uid": "268.png_B8",
+        "name": "Berries Primary Producer",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T11"
+        ]
+      },
+      {
+        "uid": "268.png_B9",
+        "name": "Grass Primary Producer",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T10"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "268.png_B10",
+        "target": "268.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "268.png_B11",
+        "target": "268.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "268.png_B12",
+        "target": "268.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "268.png_B3",
+        "target": "268.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "268.png_B4",
+        "target": "268.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "268.png_B5",
+        "target": "268.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "268.png_B7",
+        "target": "268.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "268.png_B8",
+        "target": "268.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "268.png_B8",
+        "target": "268.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "268.png_B9",
+        "target": "268.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "268.png_B9",
+        "target": "268.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          352,
+          7,
+          82,
+          76
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          210,
+          1,
+          63,
+          80
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          389,
+          514,
+          67,
+          100
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          378,
+          374,
+          81,
+          39
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          364,
+          174,
+          82,
+          52
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          12,
+          25,
+          84,
+          66
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          12,
+          193,
+          77,
+          28
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          178,
+          193,
+          83,
+          31
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          9,
+          368,
+          76,
+          49
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          11,
+          393,
+          8,
+          11
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          200,
+          314,
+          64,
+          103
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          7,
+          530,
+          84,
+          59
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          190,
+          535,
+          83,
+          56
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Arctic Fox Tertiary Consumer",
+        "bbox": [
+          [
+            25,
+            92
+          ],
+          [
+            83,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Skunks Secondary Consumer",
+        "bbox": [
+          [
+            25,
+            232
+          ],
+          [
+            83,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Grass Primary Producer",
+        "bbox": [
+          [
+            202,
+            597
+          ],
+          [
+            264,
+            647
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Berries Primary Producer",
+        "bbox": [
+          [
+            23,
+            594
+          ],
+          [
+            76,
+            643
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Insects Primary Consumer",
+        "bbox": [
+          [
+            16,
+            420
+          ],
+          [
+            76,
+            470
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Great Horned Owl Tertiary Consumer",
+        "bbox": [
+          [
+            206,
+            85
+          ],
+          [
+            278,
+            151
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Wolverine Secondary Consumer",
+        "bbox": [
+          [
+            189,
+            226
+          ],
+          [
+            250,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Deer Primary Consumer",
+        "bbox": [
+          [
+            206,
+            420
+          ],
+          [
+            257,
+            469
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Hawks Tertiary Consumer",
+        "bbox": [
+          [
+            370,
+            88
+          ],
+          [
+            424,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Weasel Secondary Consumer",
+        "bbox": [
+          [
+            376,
+            228
+          ],
+          [
+            437,
+            280
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Mice Primary COnsumer",
+        "bbox": [
+          [
+            388,
+            414
+          ],
+          [
+            450,
+            470
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Trees Primary Producer",
+        "bbox": [
+          [
+            396,
+            622
+          ],
+          [
+            448,
+            665
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          88,
+          81,
+          142,
+          121
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          47,
+          141,
+          181,
+          56
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          390,
+          129,
+          23,
+          48
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          37,
+          273,
+          28,
+          100
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          213,
+          272,
+          25,
+          45
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          39,
+          462,
+          24,
+          71
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          51,
+          468,
+          155,
+          66
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          222,
+          466,
+          20,
+          73
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          233,
+          460,
+          161,
+          79
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          258,
+          462,
+          172,
+          61
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          393,
+          272,
+          36,
+          106
+        ]
+      }
+    }
+  }
+}

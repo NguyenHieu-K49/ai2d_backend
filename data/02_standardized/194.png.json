@@ -1,0 +1,374 @@
+{
+  "id": "194.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          205,
+          2,
+          64,
+          75
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          347,
+          66,
+          72,
+          117
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          181,
+          205,
+          97,
+          50
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          180,
+          96,
+          98,
+          76
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          46,
+          51,
+          101,
+          47
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          3,
+          84,
+          83,
+          71
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          71,
+          160,
+          42,
+          56
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Grass",
+        "bbox": [
+          [
+            30,
+            159
+          ],
+          [
+            64,
+            175
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            73,
+            96
+          ],
+          [
+            146,
+            111
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LIZARD",
+        "bbox": [
+          [
+            194,
+            75
+          ],
+          [
+            231,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Rabbit",
+        "bbox": [
+          [
+            202,
+            175
+          ],
+          [
+            241,
+            188
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Mouse",
+        "bbox": [
+          [
+            72,
+            226
+          ],
+          [
+            113,
+            240
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Snake",
+        "bbox": [
+          [
+            208,
+            261
+          ],
+          [
+            247,
+            276
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Hawk",
+        "bbox": [
+          [
+            367,
+            188
+          ],
+          [
+            402,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "A Food Web in a Grassland Ecosystem With Five Possible Food Chains",
+        "bbox": [
+          [
+            39,
+            288
+          ],
+          [
+            407,
+            302
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          102,
+          20,
+          104,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          245,
+          13,
+          105,
+          66
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          147,
+          77,
+          196,
+          25
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          39,
+          73,
+          45,
+          25
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          88,
+          137,
+          90,
+          10
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          270,
+          137,
+          83,
+          13
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          25,
+          175,
+          48,
+          24
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          112,
+          156,
+          248,
+          52
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          102,
+          213,
+          87,
+          42
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          273,
+          174,
+          91,
+          77
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B2",
+      "via": "A8"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

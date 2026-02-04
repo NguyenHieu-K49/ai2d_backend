@@ -1,0 +1,762 @@
+{
+  "id": "1993.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1993.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1993.png_B1",
+        "name": "NEMATODES Root-feeders",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T7"
+        ]
+      },
+      {
+        "uid": "1993.png_B10",
+        "name": "EARTHWORMS",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1993.png_B11",
+        "name": "FUNGI Mychorrhizal fungi Saprophytic fungi",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T6"
+        ]
+      },
+      {
+        "uid": "1993.png_B12",
+        "name": "PLANTS Shoots and roots",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1993.png_B13",
+        "name": "Organic Matter Waste, residue and metabolites from plants, animals and microbes",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1993.png_B2",
+        "name": "ARTHROPODS Shredders",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T8"
+        ]
+      },
+      {
+        "uid": "1993.png_B3",
+        "name": "BIRDS",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T9"
+        ]
+      },
+      {
+        "uid": "1993.png_B4",
+        "name": "ARTHROPODS Predators",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T10"
+        ]
+      },
+      {
+        "uid": "1993.png_B5",
+        "name": "NEMATODES Predators",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T11"
+        ]
+      },
+      {
+        "uid": "1993.png_B6",
+        "name": "ANIMALS",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T12"
+        ]
+      },
+      {
+        "uid": "1993.png_B7",
+        "name": "PROTOZOA Amoebae, flagellates and ciliates",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T13"
+        ]
+      },
+      {
+        "uid": "1993.png_B8",
+        "name": "BACTERIA",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T1"
+        ]
+      },
+      {
+        "uid": "1993.png_B9",
+        "name": "NEMATODES Fungal-and bacterial-feeders",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1993.png_T0",
+        "name": "Figure 6: Soil food web (modified from Soil Food Web, Inc. www.soilfoodweb.com",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1993.png_B1",
+        "target": "1993.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1993.png_B10",
+        "target": "1993.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1993.png_B11",
+        "target": "1993.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1993.png_B11",
+        "target": "1993.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "1993.png_B11",
+        "target": "1993.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1993.png_B12",
+        "target": "1993.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1993.png_B12",
+        "target": "1993.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1993.png_B12",
+        "target": "1993.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1993.png_B12",
+        "target": "1993.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1993.png_B13",
+        "target": "1993.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1993.png_B13",
+        "target": "1993.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1993.png_B2",
+        "target": "1993.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "1993.png_B4",
+        "target": "1993.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "1993.png_B4",
+        "target": "1993.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1993.png_B5",
+        "target": "1993.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1993.png_B7",
+        "target": "1993.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1993.png_B8",
+        "target": "1993.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "1993.png_B8",
+        "target": "1993.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1993.png_B8",
+        "target": "1993.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          5,
+          0,
+          82,
+          93
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          117,
+          47,
+          56,
+          31
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          110,
+          255,
+          68,
+          42
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          169,
+          145,
+          62,
+          59
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          5,
+          118,
+          88,
+          111
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          9,
+          280,
+          78,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          259,
+          55,
+          74,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          442,
+          66,
+          110,
+          97
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          319,
+          135,
+          65,
+          62
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          401,
+          223,
+          47,
+          32
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          464,
+          300,
+          83,
+          56
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          273,
+          283,
+          56,
+          47
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          185,
+          329,
+          48,
+          46
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          231,
+          222,
+          49,
+          37
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Figure 6: Soil food web (modified from Soil Food Web, Inc. www.soilfoodweb.com",
+        "bbox": [
+          [
+            6,
+            394
+          ],
+          [
+            399,
+            413
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "BACTERIA",
+        "bbox": [
+          [
+            231,
+            365
+          ],
+          [
+            280,
+            380
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "ARTHROPODS Predators",
+        "bbox": [
+          [
+            376,
+            170
+          ],
+          [
+            446,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "NEMATODES Predators",
+        "bbox": [
+          [
+            425,
+            242
+          ],
+          [
+            495,
+            268
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "ANIMALS",
+        "bbox": [
+          [
+            449,
+            344
+          ],
+          [
+            496,
+            360
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "PROTOZOA Amoebae, flagellates and ciliates",
+        "bbox": [
+          [
+            330,
+            287
+          ],
+          [
+            434,
+            332
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Organic Matter Waste, residue and metabolites from plants, animals and microbes",
+        "bbox": [
+          [
+            6,
+            319
+          ],
+          [
+            121,
+            365
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "PLANTS Shoots and roots",
+        "bbox": [
+          [
+            24,
+            229
+          ],
+          [
+            87,
+            267
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "EARTHWORMS",
+        "bbox": [
+          [
+            115,
+            293
+          ],
+          [
+            188,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "NEMATODES Fungal-and bacterial-feeders",
+        "bbox": [
+          [
+            195,
+            240
+          ],
+          [
+            285,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "FUNGI Mychorrhizal fungi Saprophytic fungi",
+        "bbox": [
+          [
+            209,
+            149
+          ],
+          [
+            305,
+            186
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "NEMATODES Root-feeders",
+        "bbox": [
+          [
+            113,
+            75
+          ],
+          [
+            184,
+            101
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "ARTHROPODS Shredders",
+        "bbox": [
+          [
+            304,
+            75
+          ],
+          [
+            376,
+            100
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "BIRDS",
+        "bbox": [
+          [
+            417,
+            106
+          ],
+          [
+            453,
+            119
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          92,
+          322,
+          93,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          7,
+          213,
+          30,
+          73
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          170,
+          97,
+          27,
+          45
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          176,
+          51,
+          87,
+          34
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          80,
+          95,
+          63,
+          112
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          84,
+          174,
+          87,
+          42
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          362,
+          191,
+          43,
+          51
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          369,
+          133,
+          80,
+          38
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          309,
+          98,
+          30,
+          52
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          201,
+          78,
+          74,
+          72
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          212,
+          81,
+          112,
+          282
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          77,
+          223,
+          45,
+          48
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          71,
+          190,
+          101,
+          101
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          187,
+          159,
+          302,
+          150
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          386,
+          257,
+          39,
+          42
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          431,
+          179,
+          98,
+          121
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          221,
+          326,
+          64,
+          37
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          209,
+          275,
+          29,
+          55
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          200,
+          195,
+          33,
+          47
+        ]
+      }
+    }
+  }
+}

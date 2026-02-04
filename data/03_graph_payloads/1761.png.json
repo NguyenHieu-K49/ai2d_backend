@@ -1,0 +1,503 @@
+{
+  "id": "1761.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1761.png_T0",
+        "name": "snake",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1761.png_T1",
+        "name": "Toad",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1761.png_T10",
+        "name": "weaverbird",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "1761.png_T2",
+        "name": "garter snake",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1761.png_T3",
+        "name": "hawk",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1761.png_T4",
+        "name": "preying mantis",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1761.png_T5",
+        "name": "spider",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1761.png_T6",
+        "name": "grasshopper",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1761.png_T7",
+        "name": "rabbit",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "1761.png_T8",
+        "name": "grass",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "1761.png_T9",
+        "name": "mouse",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1761.png_T0",
+        "target": "1761.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1761.png_T1",
+        "target": "1761.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1761.png_T1",
+        "target": "1761.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1761.png_T10",
+        "target": "1761.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1761.png_T2",
+        "target": "1761.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1761.png_T4",
+        "target": "1761.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1761.png_T4",
+        "target": "1761.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "1761.png_T5",
+        "target": "1761.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1761.png_T6",
+        "target": "1761.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1761.png_T6",
+        "target": "1761.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1761.png_T6",
+        "target": "1761.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1761.png_T6",
+        "target": "1761.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1761.png_T6",
+        "target": "1761.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1761.png_T8",
+        "target": "1761.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1761.png_T8",
+        "target": "1761.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "1761.png_T8",
+        "target": "1761.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "snake",
+        "bbox": [
+          [
+            98,
+            28
+          ],
+          [
+            139,
+            41
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Toad",
+        "bbox": [
+          [
+            150,
+            112
+          ],
+          [
+            189,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "weaverbird",
+        "bbox": [
+          [
+            398,
+            286
+          ],
+          [
+            480,
+            302
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "garter snake",
+        "bbox": [
+          [
+            295,
+            72
+          ],
+          [
+            383,
+            85
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "hawk",
+        "bbox": [
+          [
+            376,
+            27
+          ],
+          [
+            419,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "preying mantis",
+        "bbox": [
+          [
+            398,
+            199
+          ],
+          [
+            501,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "spider",
+        "bbox": [
+          [
+            246,
+            159
+          ],
+          [
+            289,
+            173
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "grasshopper",
+        "bbox": [
+          [
+            102,
+            202
+          ],
+          [
+            190,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "rabbit",
+        "bbox": [
+          [
+            35,
+            157
+          ],
+          [
+            84,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "grass",
+        "bbox": [
+          [
+            34,
+            331
+          ],
+          [
+            80,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "mouse",
+        "bbox": [
+          [
+            218,
+            285
+          ],
+          [
+            263,
+            302
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          416,
+          47,
+          162,
+          271
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          134,
+          48,
+          227,
+          16
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          162,
+          167,
+          92,
+          37
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          184,
+          202,
+          216,
+          95
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          141,
+          213,
+          85,
+          77
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          45,
+          162,
+          16,
+          173
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          57,
+          205,
+          79,
+          134
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          73,
+          289,
+          153,
+          61
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          107,
+          51,
+          53,
+          88
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          359,
+          50,
+          34,
+          47
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          162,
+          52,
+          214,
+          78
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          127,
+          126,
+          43,
+          76
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          140,
+          85,
+          183,
+          111
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          187,
+          119,
+          267,
+          82
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          409,
+          219,
+          50,
+          65
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          236,
+          173,
+          36,
+          111
+        ]
+      }
+    }
+  }
+}

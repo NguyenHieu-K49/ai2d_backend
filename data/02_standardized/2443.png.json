@@ -1,0 +1,256 @@
+{
+  "id": "2443.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          344,
+          236,
+          117,
+          87
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          116,
+          366,
+          234,
+          76
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          22,
+          249,
+          191,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          166,
+          10,
+          168,
+          218
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "The Fungus Gnat life cyle is approximately 28 days",
+        "bbox": [
+          [
+            17,
+            20
+          ],
+          [
+            152,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "3-6 DAYS",
+        "bbox": [
+          [
+            14,
+            158
+          ],
+          [
+            83,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "ADULT",
+        "bbox": [
+          [
+            178,
+            186
+          ],
+          [
+            209,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "7-10 DAYS",
+        "bbox": [
+          [
+            379,
+            154
+          ],
+          [
+            451,
+            179
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "EGGS",
+        "bbox": [
+          [
+            325,
+            233
+          ],
+          [
+            363,
+            249
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "4-6 DAYS",
+        "bbox": [
+          [
+            395,
+            361
+          ],
+          [
+            464,
+            387
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "LARVAE",
+        "bbox": [
+          [
+            225,
+            363
+          ],
+          [
+            261,
+            378
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "PUPA",
+        "bbox": [
+          [
+            127,
+            332
+          ],
+          [
+            156,
+            345
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "12-14 DAYS",
+        "bbox": [
+          [
+            17,
+            355
+          ],
+          [
+            89,
+            381
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          81,
+          142,
+          81,
+          94
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          75,
+          314,
+          56,
+          87
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          343,
+          310,
+          62,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          317,
+          142,
+          81,
+          89
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

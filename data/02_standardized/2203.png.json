@@ -1,0 +1,285 @@
+{
+  "id": "2203.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          16,
+          27,
+          461,
+          205
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          317,
+          291,
+          54,
+          40
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          264,
+          395,
+          178,
+          119
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          32,
+          363,
+          185,
+          159
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Dead tree",
+        "bbox": [
+          [
+            138,
+            64
+          ],
+          [
+            192,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Gap regeneration cycle 500-700 years",
+        "bbox": [
+          [
+            160,
+            317
+          ],
+          [
+            296,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Gap created by the fall of a large, dead tree is filled by tree ferns.",
+        "bbox": [
+          [
+            379,
+            286
+          ],
+          [
+            472,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Kamahi grows and suppresses the ferns. Seeding conifers grow beneath the kamahi.",
+        "bbox": [
+          [
+            272,
+            521
+          ],
+          [
+            434,
+            556
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Rapid growth of conifers to fill the gap and complete the cycle.",
+        "bbox": [
+          [
+            40,
+            519
+          ],
+          [
+            209,
+            552
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "3",
+        "bbox": [
+          [
+            174,
+            437
+          ],
+          [
+            191,
+            452
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "2",
+        "bbox": [
+          [
+            350,
+            389
+          ],
+          [
+            361,
+            402
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "1",
+        "bbox": [
+          [
+            352,
+            276
+          ],
+          [
+            368,
+            293
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Tawa",
+        "bbox": [
+          [
+            432,
+            38
+          ],
+          [
+            464,
+            53
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Kamahi",
+        "bbox": [
+          [
+            434,
+            22
+          ],
+          [
+            476,
+            38
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          183,
+          69,
+          28,
+          58
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          89,
+          219,
+          58,
+          148
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          169,
+          445,
+          130,
+          37
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          337,
+          333,
+          23,
+          65
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          263,
+          207,
+          85,
+          88
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

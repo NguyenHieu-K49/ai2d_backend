@@ -1,0 +1,449 @@
+{
+  "id": "2086.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          528,
+          102,
+          240,
+          165
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          253,
+          133,
+          231,
+          149
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          542,
+          302,
+          155,
+          182
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          305,
+          351,
+          277,
+          128
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          383,
+          601,
+          109,
+          95
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          530,
+          570,
+          140,
+          121
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          517,
+          771,
+          148,
+          154
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          340,
+          777,
+          170,
+          158
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Trophic level",
+        "bbox": [
+          [
+            86,
+            2
+          ],
+          [
+            200,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Terrestrial food chain",
+        "bbox": [
+          [
+            323,
+            0
+          ],
+          [
+            484,
+            65
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Phyto-plankton",
+        "bbox": [
+          [
+            663,
+            800
+          ],
+          [
+            789,
+            863
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Zoo- plankton",
+        "bbox": [
+          [
+            657,
+            595
+          ],
+          [
+            785,
+            663
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Fish",
+        "bbox": [
+          [
+            660,
+            381
+          ],
+          [
+            727,
+            407
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Pelican",
+        "bbox": [
+          [
+            660,
+            100
+          ],
+          [
+            764,
+            128
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Aquatic food chain",
+        "bbox": [
+          [
+            569,
+            2
+          ],
+          [
+            719,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Tertiary consumer (secondary)",
+        "bbox": [
+          [
+            92,
+            156
+          ],
+          [
+            233,
+            284
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Heterotrophs",
+        "bbox": [
+          [
+            0,
+            320
+          ],
+          [
+            32,
+            492
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Secondary consumer (carnivore)",
+        "bbox": [
+          [
+            94,
+            364
+          ],
+          [
+            235,
+            477
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Primary consumer (herbivore)",
+        "bbox": [
+          [
+            86,
+            583
+          ],
+          [
+            233,
+            687
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Primary producer (autotroph)",
+        "bbox": [
+          [
+            87,
+            804
+          ],
+          [
+            235,
+            905
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Plant",
+        "bbox": [
+          [
+            273,
+            822
+          ],
+          [
+            345,
+            852
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            275,
+            605
+          ],
+          [
+            414,
+            640
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Lizard",
+        "bbox": [
+          [
+            271,
+            416
+          ],
+          [
+            363,
+            443
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Snake",
+        "bbox": [
+          [
+            273,
+            99
+          ],
+          [
+            361,
+            128
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          582,
+          474,
+          67,
+          83
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          587,
+          698,
+          50,
+          77
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          399,
+          693,
+          63,
+          84
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          26,
+          78,
+          59,
+          661
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          582,
+          249,
+          62,
+          89
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          402,
+          251,
+          59,
+          90
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          401,
+          467,
+          60,
+          89
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B0",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B2",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B4",
+      "via": "A2"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

@@ -1,0 +1,394 @@
+{
+  "id": "2210.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2210.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2210.png_B1",
+        "name": "zoospores infect leaves",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2210.png_B2",
+        "name": "lesions and fungus develop on leaves",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2210.png_B3",
+        "name": "seedlings produced by infected tubers become diseased",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2210.png_B4",
+        "name": "sporangia, formed on diseased seedlings and leaves,are dispersed to healthy leaves",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2210.png_B5",
+        "name": "zoospores are produced and released from sporangia ",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2210.png_T1",
+        "name": "zoospores infect tubers",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2210.png_T3",
+        "name": "POTATO LATE BLIGHT",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2210.png_B0",
+        "target": "2210.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2210.png_B0",
+        "target": "2210.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2210.png_B1",
+        "target": "2210.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2210.png_B1",
+        "target": "2210.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2210.png_B2",
+        "target": "2210.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2210.png_B3",
+        "target": "2210.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2210.png_B4",
+        "target": "2210.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2210.png_B5",
+        "target": "2210.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2210.png_B5",
+        "target": "2210.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2210.png_T1",
+        "target": "2210.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          122,
+          224,
+          121,
+          139
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          247,
+          172,
+          104,
+          44
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          97,
+          162,
+          47,
+          63
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          40,
+          177,
+          53,
+          98
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          102,
+          49,
+          52,
+          48
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          231,
+          42,
+          92,
+          68
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "zoospores infect leaves",
+        "bbox": [
+          [
+            242,
+            209
+          ],
+          [
+            361,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "zoospores infect tubers",
+        "bbox": [
+          [
+            266,
+            278
+          ],
+          [
+            337,
+            306
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "lesions and fungus develop on leaves",
+        "bbox": [
+          [
+            130,
+            170
+          ],
+          [
+            234,
+            204
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "POTATO LATE BLIGHT",
+        "bbox": [
+          [
+            152,
+            90
+          ],
+          [
+            239,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "seedlings produced by infected tubers become diseased",
+        "bbox": [
+          [
+            14,
+            266
+          ],
+          [
+            126,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "sporangia, formed on diseased seedlings and leaves,are dispersed to healthy leaves",
+        "bbox": [
+          [
+            51,
+            1
+          ],
+          [
+            208,
+            47
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "zoospores are produced and released from sporangia ",
+        "bbox": [
+          [
+            271,
+            22
+          ],
+          [
+            393,
+            67
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          149,
+          48,
+          82,
+          20
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          54,
+          86,
+          52,
+          73
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          105,
+          102,
+          24,
+          56
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          258,
+          108,
+          30,
+          60
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          292,
+          109,
+          37,
+          58
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          311,
+          232,
+          22,
+          45
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          239,
+          226,
+          32,
+          34
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          114,
+          221,
+          38,
+          37
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          96,
+          313,
+          57,
+          32
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          230,
+          312,
+          59,
+          36
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan B0 phat trien thanh lesions and fungus develop on leaves. Giai doan B0 phat trien thanh seedlings produced by infected tubers become diseased. Giai doan zoospores infect leaves phat trien thanh zoospores infect tubers. Giai doan zoospores infect leaves phat trien thanh B0. Giai doan lesions and fungus develop on leaves phat trien thanh sporangia, formed on diseased seedlings and leaves,are dispersed to healthy leaves. Giai doan seedlings produced by infected tubers become diseased phat trien thanh sporangia, formed on diseased seedlings and leaves,are dispersed to healthy leaves. Giai doan sporangia, formed on diseased seedlings and leaves,are dispersed to healthy leaves phat trien thanh zoospores are produced and released from sporangia . Giai doan zoospores are produced and released from sporangia  phat trien thanh zoospores infect leaves. Giai doan zoospores are produced and released from sporangia  phat trien thanh zoospores infect leaves. Giai doan zoospores infect tubers phat trien thanh B0."
+}

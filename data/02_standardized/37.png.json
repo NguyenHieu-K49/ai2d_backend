@@ -1,0 +1,243 @@
+{
+  "id": "37.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          74,
+          5,
+          65,
+          46
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          1,
+          163,
+          65,
+          61
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          156,
+          243,
+          67,
+          59
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          297,
+          151,
+          60,
+          60
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          254,
+          6,
+          63,
+          76
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            62,
+            56
+          ],
+          [
+            132,
+            72
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa or chrysalis",
+        "bbox": [
+          [
+            310,
+            27
+          ],
+          [
+            366,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Life Cycle of A Butterfly",
+        "bbox": [
+          [
+            129,
+            106
+          ],
+          [
+            222,
+            147
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            7,
+            228
+          ],
+          [
+            42,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Butterfly",
+        "bbox": [
+          [
+            159,
+            306
+          ],
+          [
+            218,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Adult emerging from chrysalis",
+        "bbox": [
+          [
+            325,
+            213
+          ],
+          [
+            417,
+            243
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          9,
+          31,
+          69,
+          135
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          138,
+          1,
+          118,
+          21
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          315,
+          62,
+          33,
+          91
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          228,
+          210,
+          93,
+          62
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          57,
+          226,
+          95,
+          49
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A2"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

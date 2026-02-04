@@ -1,0 +1,691 @@
+{
+  "id": "479.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "479.png_T0",
+        "name": "SALMON",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "479.png_T1",
+        "name": "FLATFISH",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "479.png_T10",
+        "name": "BLUE",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "479.png_T11",
+        "name": "SHARK",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "479.png_T2",
+        "name": "SQUID",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "479.png_T3",
+        "name": "(MIDSHIPMAN)",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "479.png_T4",
+        "name": "KRILL",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "479.png_T5",
+        "name": "(CROAKER)",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "479.png_T6",
+        "name": "HAKE",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "479.png_T7",
+        "name": "ANCHOVY",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "479.png_T8",
+        "name": "ROCKFISH",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "479.png_T9",
+        "name": "(MEGALOPS)",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "479.png_T0",
+        "target": "479.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "479.png_T0",
+        "target": "479.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "479.png_T0",
+        "target": "479.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "479.png_T0",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "479.png_T0",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "479.png_T1",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A24"
+      },
+      {
+        "source": "479.png_T1",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A21"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A22"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A25"
+      },
+      {
+        "source": "479.png_T11",
+        "target": "479.png_T8",
+        "relation": "LINKED_TO",
+        "via": "A26"
+      },
+      {
+        "source": "479.png_T2",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "479.png_T2",
+        "target": "479.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "479.png_T3",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "479.png_T3",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A23"
+      },
+      {
+        "source": "479.png_T5",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "479.png_T6",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "479.png_T7",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "479.png_T7",
+        "target": "479.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "479.png_T8",
+        "target": "479.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "479.png_T8",
+        "target": "479.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "479.png_T8",
+        "target": "479.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SALMON",
+        "bbox": [
+          [
+            404,
+            31
+          ],
+          [
+            518,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "FLATFISH",
+        "bbox": [
+          [
+            541,
+            131
+          ],
+          [
+            680,
+            161
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "BLUE",
+        "bbox": [
+          [
+            373,
+            475
+          ],
+          [
+            450,
+            504
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "SHARK",
+        "bbox": [
+          [
+            361,
+            507
+          ],
+          [
+            459,
+            536
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SQUID",
+        "bbox": [
+          [
+            605,
+            258
+          ],
+          [
+            693,
+            281
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "(MIDSHIPMAN)",
+        "bbox": [
+          [
+            550,
+            404
+          ],
+          [
+            722,
+            433
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "KRILL",
+        "bbox": [
+          [
+            366,
+            260
+          ],
+          [
+            456,
+            289
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "(CROAKER)",
+        "bbox": [
+          [
+            407,
+            359
+          ],
+          [
+            539,
+            392
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "HAKE",
+        "bbox": [
+          [
+            266,
+            356
+          ],
+          [
+            355,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "ANCHOVY",
+        "bbox": [
+          [
+            88,
+            264
+          ],
+          [
+            227,
+            296
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "ROCKFISH",
+        "bbox": [
+          [
+            163,
+            83
+          ],
+          [
+            303,
+            114
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "(MEGALOPS)",
+        "bbox": [
+          [
+            88,
+            413
+          ],
+          [
+            238,
+            441
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          272,
+          32,
+          126,
+          36
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          203,
+          60,
+          226,
+          184
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          230,
+          264,
+          109,
+          14
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          473,
+          266,
+          111,
+          18
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          149,
+          315,
+          51,
+          77
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          617,
+          307,
+          22,
+          68
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          484,
+          444,
+          92,
+          58
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          233,
+          433,
+          110,
+          78
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          318,
+          402,
+          60,
+          76
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          433,
+          412,
+          42,
+          60
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          507,
+          284,
+          78,
+          69
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          384,
+          309,
+          31,
+          166
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          210,
+          69,
+          226,
+          332
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          323,
+          292,
+          35,
+          46
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          459,
+          298,
+          149,
+          186
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          190,
+          310,
+          168,
+          183
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          453,
+          289,
+          138,
+          98
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          611,
+          178,
+          19,
+          60
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          481,
+          166,
+          275,
+          355
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          9,
+          100,
+          330,
+          421
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          392,
+          71,
+          57,
+          170
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          436,
+          149,
+          108,
+          97
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          447,
+          71,
+          132,
+          201
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          144,
+          124,
+          74,
+          114
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          293,
+          101,
+          69,
+          151
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          303,
+          80,
+          304,
+          164
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          218,
+          187,
+          376,
+          71
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: SALMON la nguon thuc an cho ROCKFISH. SALMON la nguon thuc an cho ANCHOVY. SALMON la nguon thuc an cho (MEGALOPS). SALMON la nguon thuc an cho KRILL. SALMON la nguon thuc an cho SQUID. FLATFISH la nguon thuc an cho SQUID. FLATFISH la nguon thuc an cho KRILL. SHARK la nguon thuc an cho (MIDSHIPMAN). SHARK la nguon thuc an cho (MEGALOPS). SHARK la nguon thuc an cho HAKE. SHARK la nguon thuc an cho (CROAKER). SHARK la nguon thuc an cho KRILL. SHARK la nguon thuc an cho SQUID. SHARK la nguon thuc an cho ANCHOVY. SHARK la nguon thuc an cho FLATFISH. SHARK la nguon thuc an cho ROCKFISH. SQUID la nguon thuc an cho KRILL. SQUID la nguon thuc an cho ANCHOVY. (MIDSHIPMAN) la nguon thuc an cho SQUID. (MIDSHIPMAN) la nguon thuc an cho KRILL. (CROAKER) la nguon thuc an cho SQUID. HAKE la nguon thuc an cho KRILL. ANCHOVY la nguon thuc an cho KRILL. ANCHOVY la nguon thuc an cho (MEGALOPS). ROCKFISH la nguon thuc an cho ANCHOVY. ROCKFISH la nguon thuc an cho KRILL. ROCKFISH la nguon thuc an cho SQUID."
+}

@@ -1,0 +1,815 @@
+{
+  "id": "2339.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2339.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2339.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2339.png_B10",
+        "name": "B10",
+        "type": "Stage",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "2339.png_B11",
+        "name": "B11",
+        "type": "Stage",
+        "components": [
+          "B11"
+        ]
+      },
+      {
+        "uid": "2339.png_B12",
+        "name": "Frustule Larva",
+        "type": "Stage",
+        "components": [
+          "B12",
+          "T10"
+        ]
+      },
+      {
+        "uid": "2339.png_B13",
+        "name": "B13",
+        "type": "Stage",
+        "components": [
+          "B13"
+        ]
+      },
+      {
+        "uid": "2339.png_B14",
+        "name": "B14",
+        "type": "Stage",
+        "components": [
+          "B14"
+        ]
+      },
+      {
+        "uid": "2339.png_B15",
+        "name": "B15",
+        "type": "Stage",
+        "components": [
+          "B15"
+        ]
+      },
+      {
+        "uid": "2339.png_B16",
+        "name": "Polyp",
+        "type": "Stage",
+        "components": [
+          "B16",
+          "T8"
+        ]
+      },
+      {
+        "uid": "2339.png_B17",
+        "name": "Colony",
+        "type": "Stage",
+        "components": [
+          "B17",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2339.png_B2",
+        "name": "Immature Medusa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2339.png_B3",
+        "name": "Mature Medusa",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2339.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2339.png_B5",
+        "name": "fertilized Egg",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2339.png_B6",
+        "name": "Blastula",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2339.png_B7",
+        "name": "Planula Larva",
+        "type": "Stage",
+        "components": [
+          "B7",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2339.png_B8",
+        "name": "B8",
+        "type": "Stage",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "2339.png_B9",
+        "name": "B9",
+        "type": "Stage",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "2339.png_T5",
+        "name": "Medusa / Bud",
+        "type": "Stage",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2339.png_T7",
+        "name": "Polyp Bud",
+        "type": "Stage",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2339.png_T9",
+        "name": "Frustule / Bud",
+        "type": "Stage",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2339.png_B0",
+        "target": "2339.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2339.png_B1",
+        "target": "2339.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2339.png_B10",
+        "target": "2339.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2339.png_B11",
+        "target": "2339.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "2339.png_B12",
+        "target": "2339.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "2339.png_B13",
+        "target": "2339.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2339.png_B14",
+        "target": "2339.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2339.png_B15",
+        "target": "2339.png_B17",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2339.png_B16",
+        "target": "2339.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2339.png_B16",
+        "target": "2339.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2339.png_B17",
+        "target": "2339.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2339.png_B2",
+        "target": "2339.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2339.png_B3",
+        "target": "2339.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2339.png_B6",
+        "target": "2339.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2339.png_B6",
+        "target": "2339.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2339.png_B7",
+        "target": "2339.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2339.png_B8",
+        "target": "2339.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2339.png_B9",
+        "target": "2339.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2339.png_T5",
+        "target": "2339.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      },
+      {
+        "source": "2339.png_T9",
+        "target": "2339.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          411,
+          145,
+          131
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          19,
+          239,
+          169,
+          137
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          587,
+          835,
+          36,
+          74
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          592,
+          1007,
+          31,
+          67
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          407,
+          1124,
+          76,
+          29
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          285,
+          1002,
+          61,
+          126
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          240,
+          843,
+          54,
+          125
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          262,
+          667,
+          77,
+          137
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          417,
+          758,
+          51,
+          126
+        ]
+      },
+      "B17": {
+        "id": "B17",
+        "bbox": [
+          86,
+          591,
+          149,
+          136
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          198,
+          136,
+          70,
+          72
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          284,
+          35,
+          363,
+          183
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          712,
+          213,
+          19,
+          21
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          713,
+          211,
+          22,
+          27
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          787,
+          321,
+          34,
+          35
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          800,
+          466,
+          67,
+          32
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          757,
+          587,
+          38,
+          63
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          638,
+          681,
+          35,
+          77
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Mature Medusa",
+        "bbox": [
+          [
+            387,
+            0
+          ],
+          [
+            546,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Immature Medusa",
+        "bbox": [
+          [
+            101,
+            122
+          ],
+          [
+            204,
+            175
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Frustule Larva",
+        "bbox": [
+          [
+            372,
+            1093
+          ],
+          [
+            521,
+            1125
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "fertilized Egg",
+        "bbox": [
+          [
+            732,
+            194
+          ],
+          [
+            875,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Blastula",
+        "bbox": [
+          [
+            819,
+            302
+          ],
+          [
+            911,
+            338
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Planula Larva",
+        "bbox": [
+          [
+            853,
+            444
+          ],
+          [
+            931,
+            514
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Medusa / Bud",
+        "bbox": [
+          [
+            140,
+            452
+          ],
+          [
+            216,
+            498
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Colony",
+        "bbox": [
+          [
+            5,
+            663
+          ],
+          [
+            101,
+            700
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Polyp Bud",
+        "bbox": [
+          [
+            319,
+            688
+          ],
+          [
+            387,
+            740
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Polyp",
+        "bbox": [
+          [
+            459,
+            732
+          ],
+          [
+            527,
+            762
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Frustule / Bud",
+        "bbox": [
+          [
+            306,
+            886
+          ],
+          [
+            385,
+            931
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          261,
+          132,
+          72,
+          47
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          596,
+          140,
+          125,
+          90
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          59,
+          546,
+          53,
+          58
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          62,
+          370,
+          33,
+          108
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          148,
+          198,
+          58,
+          58
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          297,
+          809,
+          97,
+          80
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          286,
+          906,
+          29,
+          24
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          253,
+          983,
+          35,
+          51
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          339,
+          1103,
+          75,
+          52
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          486,
+          1073,
+          111,
+          82
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          599,
+          917,
+          43,
+          85
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          139,
+          479,
+          23,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          723,
+          234,
+          87,
+          92
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          796,
+          356,
+          48,
+          95
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          776,
+          516,
+          65,
+          97
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          668,
+          654,
+          95,
+          92
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          475,
+          751,
+          148,
+          71
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          486,
+          807,
+          100,
+          73
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          320,
+          791,
+          76,
+          23
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          194,
+          719,
+          73,
+          61
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan B0 phat trien thanh B1. Giai doan B1 phat trien thanh Immature Medusa. Giai doan B10 phat trien thanh Polyp. Giai doan B11 phat trien thanh B10. Giai doan Frustule Larva phat trien thanh B11. Giai doan B13 phat trien thanh Frustule Larva. Giai doan B14 phat trien thanh B13. Giai doan B15 phat trien thanh Colony. Giai doan Polyp phat trien thanh B14. Giai doan Polyp phat trien thanh B15. Giai doan Colony phat trien thanh B0. Giai doan Immature Medusa phat trien thanh Mature Medusa. Giai doan Mature Medusa phat trien thanh fertilized Egg. Giai doan Blastula phat trien thanh fertilized Egg. Giai doan Blastula phat trien thanh Planula Larva. Giai doan Planula Larva phat trien thanh B8. Giai doan B8 phat trien thanh B9. Giai doan B9 phat trien thanh Polyp. Giai doan Medusa / Bud phat trien thanh B0. Giai doan Frustule / Bud phat trien thanh B14."
+}

@@ -1,0 +1,279 @@
+{
+  "id": "37.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "37.png_B0",
+        "name": "Caterpillar",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "37.png_B1",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "37.png_B2",
+        "name": "Butterfly",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "37.png_B3",
+        "name": "Adult emerging from chrysalis",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "37.png_B4",
+        "name": "Pupa or chrysalis",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "37.png_T2",
+        "name": "Life Cycle of A Butterfly",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "37.png_B0",
+        "target": "37.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "37.png_B1",
+        "target": "37.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "37.png_B2",
+        "target": "37.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "37.png_B3",
+        "target": "37.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "37.png_B4",
+        "target": "37.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          74,
+          5,
+          65,
+          46
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          1,
+          163,
+          65,
+          61
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          156,
+          243,
+          67,
+          59
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          297,
+          151,
+          60,
+          60
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          254,
+          6,
+          63,
+          76
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Caterpillar",
+        "bbox": [
+          [
+            62,
+            56
+          ],
+          [
+            132,
+            72
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Pupa or chrysalis",
+        "bbox": [
+          [
+            310,
+            27
+          ],
+          [
+            366,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Life Cycle of A Butterfly",
+        "bbox": [
+          [
+            129,
+            106
+          ],
+          [
+            222,
+            147
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            7,
+            228
+          ],
+          [
+            42,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Butterfly",
+        "bbox": [
+          [
+            159,
+            306
+          ],
+          [
+            218,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Adult emerging from chrysalis",
+        "bbox": [
+          [
+            325,
+            213
+          ],
+          [
+            417,
+            243
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          9,
+          31,
+          69,
+          135
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          138,
+          1,
+          118,
+          21
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          315,
+          62,
+          33,
+          91
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          228,
+          210,
+          93,
+          62
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          57,
+          226,
+          95,
+          49
+        ]
+      }
+    }
+  }
+}

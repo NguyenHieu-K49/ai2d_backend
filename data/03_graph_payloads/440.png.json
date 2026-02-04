@@ -1,0 +1,295 @@
+{
+  "id": "440.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "440.png_T0",
+        "name": "water plant",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "440.png_T1",
+        "name": "shrimp",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "440.png_T2",
+        "name": "snakehead",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "440.png_T3",
+        "name": "kingfisher",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "440.png_T4",
+        "name": "fish",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "440.png_T5",
+        "name": "tadpole",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "440.png_T6",
+        "name": "dragonfly nymph",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "440.png_T0",
+        "target": "440.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "440.png_T0",
+        "target": "440.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "440.png_T0",
+        "target": "440.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "440.png_T1",
+        "target": "440.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "440.png_T4",
+        "target": "440.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "440.png_T4",
+        "target": "440.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "440.png_T5",
+        "target": "440.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "440.png_T6",
+        "target": "440.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "water plant",
+        "bbox": [
+          [
+            0,
+            62
+          ],
+          [
+            83,
+            90
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "shrimp",
+        "bbox": [
+          [
+            131,
+            69
+          ],
+          [
+            180,
+            88
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "snakehead",
+        "bbox": [
+          [
+            274,
+            66
+          ],
+          [
+            349,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "kingfisher",
+        "bbox": [
+          [
+            280,
+            10
+          ],
+          [
+            349,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "fish",
+        "bbox": [
+          [
+            137,
+            13
+          ],
+          [
+            174,
+            36
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "tadpole",
+        "bbox": [
+          [
+            125,
+            112
+          ],
+          [
+            179,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "dragonfly nymph",
+        "bbox": [
+          [
+            225,
+            119
+          ],
+          [
+            338,
+            135
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          53,
+          28,
+          88,
+          45
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          152,
+          23,
+          116,
+          55
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          166,
+          17,
+          118,
+          13
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          282,
+          77,
+          23,
+          45
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          73,
+          74,
+          60,
+          11
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          61,
+          82,
+          69,
+          46
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          173,
+          74,
+          94,
+          9
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          175,
+          119,
+          52,
+          10
+        ]
+      }
+    }
+  }
+}

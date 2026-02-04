@@ -1,0 +1,242 @@
+{
+  "id": "2501.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          63,
+          87,
+          165,
+          137
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          264,
+          51,
+          173,
+          86
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          461,
+          209,
+          68,
+          57
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          345,
+          331,
+          93,
+          88
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          53,
+          327,
+          194,
+          59
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Direct life cycle of Eimeria infection in birds",
+        "bbox": [
+          [
+            0,
+            447
+          ],
+          [
+            266,
+            471
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Susceptible bird ingests infective oocysts while feeding/drinking",
+        "bbox": [
+          [
+            77,
+            386
+          ],
+          [
+            199,
+            438
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Parasite invades intestinal tissue",
+        "bbox": [
+          [
+            81,
+            243
+          ],
+          [
+            250,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Use \"Go Back\" on your Browser to return to previous page",
+        "bbox": [
+          [
+            132,
+            2
+          ],
+          [
+            449,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Infected bird",
+        "bbox": [
+          [
+            306,
+            48
+          ],
+          [
+            381,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "birds sheds noninfective oocysts (eggs)with feces into the environment",
+        "bbox": [
+          [
+            326,
+            213
+          ],
+          [
+            467,
+            256
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Oocysts sporulate within 48 hours and become infective",
+        "bbox": [
+          [
+            420,
+            382
+          ],
+          [
+            521,
+            426
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          445,
+          140,
+          53,
+          60
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          456,
+          280,
+          40,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          263,
+          378,
+          70,
+          25
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          104,
+          255,
+          31,
+          66
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

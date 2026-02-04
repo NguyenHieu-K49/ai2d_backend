@@ -1,0 +1,289 @@
+{
+  "id": "1856.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1856.png_B0",
+        "name": "plant",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1856.png_B1",
+        "name": "poison dart",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "1856.png_B2",
+        "name": "leimadopis epinephlos",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1856.png_B3",
+        "name": "the goliath bird eating spader",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1856.png_B4",
+        "name": "lizard",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      },
+      {
+        "uid": "1856.png_B5",
+        "name": "ant",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1856.png_B0",
+        "target": "1856.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1856.png_B0",
+        "target": "1856.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1856.png_B1",
+        "target": "1856.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1856.png_B2",
+        "target": "1856.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1856.png_B5",
+        "target": "1856.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          49,
+          0,
+          84,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          193,
+          113,
+          82,
+          63
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          230,
+          248,
+          81,
+          59
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          201,
+          400,
+          82,
+          62
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          10,
+          247,
+          77,
+          67
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          3,
+          124,
+          93,
+          81
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "plant",
+        "bbox": [
+          [
+            74,
+            83
+          ],
+          [
+            110,
+            99
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "ant",
+        "bbox": [
+          [
+            37,
+            204
+          ],
+          [
+            57,
+            217
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "lizard",
+        "bbox": [
+          [
+            32,
+            319
+          ],
+          [
+            63,
+            336
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "poison dart",
+        "bbox": [
+          [
+            205,
+            180
+          ],
+          [
+            264,
+            198
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "leimadopis epinephlos",
+        "bbox": [
+          [
+            239,
+            312
+          ],
+          [
+            302,
+            346
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "the goliath bird eating spader",
+        "bbox": [
+          [
+            203,
+            467
+          ],
+          [
+            281,
+            496
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          29,
+          208,
+          31,
+          42
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          27,
+          93,
+          70,
+          43
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          93,
+          87,
+          112,
+          74
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          227,
+          182,
+          52,
+          68
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          234,
+          335,
+          40,
+          74
+        ]
+      }
+    }
+  }
+}

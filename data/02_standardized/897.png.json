@@ -1,0 +1,320 @@
+{
+  "id": "897.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SEAWEED",
+        "bbox": [
+          [
+            112,
+            341
+          ],
+          [
+            202,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "SMALL FISH",
+        "bbox": [
+          [
+            226,
+            262
+          ],
+          [
+            334,
+            281
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SHRIMP",
+        "bbox": [
+          [
+            20,
+            261
+          ],
+          [
+            90,
+            281
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "LARGE FISH",
+        "bbox": [
+          [
+            123,
+            207
+          ],
+          [
+            190,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PENGUINS",
+        "bbox": [
+          [
+            9,
+            165
+          ],
+          [
+            103,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "SEALS",
+        "bbox": [
+          [
+            128,
+            98
+          ],
+          [
+            186,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "DOLPHINS",
+        "bbox": [
+          [
+            259,
+            107
+          ],
+          [
+            353,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "KILLER WHALES",
+        "bbox": [
+          [
+            86,
+            10
+          ],
+          [
+            230,
+            31
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          48,
+          29,
+          44,
+          129
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          77,
+          118,
+          51,
+          42
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          143,
+          237,
+          32,
+          99
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          86,
+          283,
+          48,
+          54
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          42,
+          187,
+          26,
+          66
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          147,
+          28,
+          22,
+          60
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          226,
+          32,
+          63,
+          67
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          295,
+          124,
+          26,
+          130
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          191,
+          31,
+          95,
+          222
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          186,
+          120,
+          71,
+          133
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          141,
+          120,
+          28,
+          78
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          188,
+          242,
+          35,
+          25
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          177,
+          279,
+          49,
+          59
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T3",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T6",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T7",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T4",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T7",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T7",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A3"
+    }
+  ],
+  "rst_source": true
+}

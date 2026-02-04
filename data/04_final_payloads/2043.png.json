@@ -1,0 +1,376 @@
+{
+  "id": "2043.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2043.png_T0",
+        "name": "Recycling and the role of decomposers",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2043.png_T1",
+        "name": "14",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2043.png_T10",
+        "name": "die",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2043.png_T11",
+        "name": "Consumers animals",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2043.png_T2",
+        "name": "Sunlight",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2043.png_T3",
+        "name": "water and salts",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2043.png_T4",
+        "name": "PRODUCERS green plants",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2043.png_T5",
+        "name": "eaten",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2043.png_T6",
+        "name": "die",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2043.png_T7",
+        "name": "SOIL minerals and humus",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2043.png_T8",
+        "name": "decay",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2043.png_T9",
+        "name": "Decomposers bacteria and fungi",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2043.png_T11",
+        "target": "2043.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2043.png_T2",
+        "target": "2043.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2043.png_T4",
+        "target": "2043.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2043.png_T4",
+        "target": "2043.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2043.png_T7",
+        "target": "2043.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2043.png_T9",
+        "target": "2043.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Recycling and the role of decomposers",
+        "bbox": [
+          [
+            57,
+            19
+          ],
+          [
+            564,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "14",
+        "bbox": [
+          [
+            605,
+            3
+          ],
+          [
+            637,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "die",
+        "bbox": [
+          [
+            110,
+            354
+          ],
+          [
+            154,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Consumers animals",
+        "bbox": [
+          [
+            237,
+            361
+          ],
+          [
+            381,
+            423
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Sunlight",
+        "bbox": [
+          [
+            523,
+            108
+          ],
+          [
+            607,
+            134
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "water and salts",
+        "bbox": [
+          [
+            393,
+            76
+          ],
+          [
+            513,
+            160
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PRODUCERS green plants",
+        "bbox": [
+          [
+            451,
+            219
+          ],
+          [
+            598,
+            279
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "eaten",
+        "bbox": [
+          [
+            456,
+            343
+          ],
+          [
+            514,
+            383
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "die",
+        "bbox": [
+          [
+            300,
+            229
+          ],
+          [
+            330,
+            245
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SOIL minerals and humus",
+        "bbox": [
+          [
+            229,
+            82
+          ],
+          [
+            362,
+            157
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "decay",
+        "bbox": [
+          [
+            101,
+            95
+          ],
+          [
+            164,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Decomposers bacteria and fungi",
+        "bbox": [
+          [
+            40,
+            226
+          ],
+          [
+            217,
+            276
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          70,
+          86,
+          173,
+          130
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          85,
+          288,
+          131,
+          100
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          242,
+          239,
+          163,
+          22
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          353,
+          94,
+          166,
+          120
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          555,
+          141,
+          24,
+          72
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          393,
+          289,
+          129,
+          100
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Consumers animals la nguon thuc an cho Decomposers bacteria and fungi. Sunlight la nguon thuc an cho PRODUCERS green plants. PRODUCERS green plants la nguon thuc an cho Decomposers bacteria and fungi. PRODUCERS green plants la nguon thuc an cho Consumers animals. SOIL minerals and humus la nguon thuc an cho PRODUCERS green plants. Decomposers bacteria and fungi la nguon thuc an cho SOIL minerals and humus."
+}

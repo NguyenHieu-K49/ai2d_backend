@@ -1,0 +1,460 @@
+{
+  "id": "198.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "198.png_B0",
+        "name": "Striped Bass",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T8"
+        ]
+      },
+      {
+        "uid": "198.png_B1",
+        "name": "Blue Crab",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "198.png_B2",
+        "name": "Clam",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "198.png_B3",
+        "name": "Widgeon Grass",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "198.png_B4",
+        "name": "Dinoflagellates",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "198.png_B5",
+        "name": "Copepods",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "198.png_B6",
+        "name": "Menhaden",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      },
+      {
+        "uid": "198.png_B7",
+        "name": "Croaker",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T7"
+        ]
+      },
+      {
+        "uid": "198.png_T0",
+        "name": "ESTUARY ECOSYSTEM",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "198.png_B2",
+        "target": "198.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "198.png_B3",
+        "target": "198.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "198.png_B3",
+        "target": "198.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "198.png_B4",
+        "target": "198.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "198.png_B4",
+        "target": "198.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "198.png_B5",
+        "target": "198.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "198.png_B5",
+        "target": "198.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "198.png_B5",
+        "target": "198.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "198.png_B6",
+        "target": "198.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "198.png_B7",
+        "target": "198.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          58,
+          42,
+          115,
+          39
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          282,
+          15,
+          80,
+          66
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          304,
+          169,
+          31,
+          23
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          297,
+          277,
+          44,
+          83
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          93,
+          333,
+          49,
+          49
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          98,
+          230,
+          42,
+          44
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          144,
+          168,
+          85,
+          34
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          2,
+          133,
+          83,
+          38
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "ESTUARY ECOSYSTEM",
+        "bbox": [
+          [
+            114,
+            0
+          ],
+          [
+            254,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Blue Crab",
+        "bbox": [
+          [
+            286,
+            83
+          ],
+          [
+            354,
+            97
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Clam",
+        "bbox": [
+          [
+            298,
+            201
+          ],
+          [
+            344,
+            211
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Widgeon Grass",
+        "bbox": [
+          [
+            277,
+            361
+          ],
+          [
+            367,
+            378
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Dinoflagellates",
+        "bbox": [
+          [
+            67,
+            383
+          ],
+          [
+            165,
+            397
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Copepods",
+        "bbox": [
+          [
+            77,
+            279
+          ],
+          [
+            159,
+            291
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Menhaden",
+        "bbox": [
+          [
+            151,
+            205
+          ],
+          [
+            218,
+            221
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Croaker",
+        "bbox": [
+          [
+            10,
+            172
+          ],
+          [
+            66,
+            188
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Striped Bass",
+        "bbox": [
+          [
+            79,
+            83
+          ],
+          [
+            152,
+            101
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          35,
+          184,
+          61,
+          66
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          30,
+          77,
+          50,
+          56
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          338,
+          96,
+          35,
+          205
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          106,
+          92,
+          23,
+          134
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          140,
+          218,
+          40,
+          32
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          153,
+          76,
+          43,
+          99
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          112,
+          291,
+          15,
+          38
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          114,
+          327,
+          5,
+          4
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          141,
+          195,
+          164,
+          161
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          308,
+          99,
+          20,
+          66
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          308,
+          211,
+          25,
+          64
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Clam la nguon thuc an cho Blue Crab. Widgeon Grass la nguon thuc an cho Blue Crab. Widgeon Grass la nguon thuc an cho Clam. Dinoflagellates la nguon thuc an cho Copepods. Dinoflagellates la nguon thuc an cho Clam. Copepods la nguon thuc an cho Croaker. Copepods la nguon thuc an cho Striped Bass. Copepods la nguon thuc an cho Menhaden. Menhaden la nguon thuc an cho Striped Bass. Croaker la nguon thuc an cho Striped Bass."
+}

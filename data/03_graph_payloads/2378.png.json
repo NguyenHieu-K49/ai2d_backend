@@ -1,0 +1,161 @@
+{
+  "id": "2378.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2378.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "2378.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2378.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2378.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2378.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "2378.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "2378.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2378.png_T0",
+        "name": "LIFE CYCLE OF THE MONARCH BUTTERFLY",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": []
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          279,
+          10,
+          229,
+          124
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          535,
+          68,
+          154,
+          99
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          383,
+          407,
+          272,
+          139
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          500,
+          246,
+          209,
+          103
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          155,
+          398,
+          180,
+          160
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          31,
+          203,
+          258,
+          152
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          92,
+          66,
+          141,
+          103
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "LIFE CYCLE OF THE MONARCH BUTTERFLY",
+        "bbox": [
+          [
+            76,
+            586
+          ],
+          [
+            682,
+            616
+          ]
+        ]
+      }
+    ],
+    "arrows": {}
+  }
+}

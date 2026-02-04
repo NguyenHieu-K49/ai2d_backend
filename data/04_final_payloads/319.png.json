@@ -1,0 +1,427 @@
+{
+  "id": "319.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "319.png_B0",
+        "name": "SHARK",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "319.png_B1",
+        "name": "OTTER",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "319.png_B10",
+        "name": "CRAB",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T1"
+        ]
+      },
+      {
+        "uid": "319.png_B2",
+        "name": "SMALL FISH",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "319.png_B3",
+        "name": "ZOO PLANKTON",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T5"
+        ]
+      },
+      {
+        "uid": "319.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "319.png_B5",
+        "name": "PHYTOPLANKTON",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T6"
+        ]
+      },
+      {
+        "uid": "319.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "319.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "319.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "319.png_B9",
+        "name": "SHARK",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T2"
+        ]
+      },
+      {
+        "uid": "319.png_T7",
+        "name": "SUN",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "319.png_B0",
+        "target": "319.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "319.png_B1",
+        "target": "319.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "319.png_B2",
+        "target": "319.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "319.png_B3",
+        "target": "319.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "319.png_B5",
+        "target": "319.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "319.png_T7",
+        "target": "319.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          14,
+          48,
+          153,
+          80
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          172,
+          8,
+          143,
+          69
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          5,
+          188,
+          95,
+          67
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          354,
+          124,
+          89,
+          29
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          337,
+          241,
+          39,
+          26
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          307,
+          257,
+          41,
+          24
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          244,
+          272,
+          47,
+          16
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          220,
+          253,
+          14,
+          11
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          239,
+          258,
+          12,
+          11
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          255,
+          244,
+          24,
+          16
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          100,
+          179,
+          96,
+          77
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SHARK",
+        "bbox": [
+          [
+            78,
+            80
+          ],
+          [
+            120,
+            102
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "CRAB",
+        "bbox": [
+          [
+            42,
+            216
+          ],
+          [
+            76,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SHARK",
+        "bbox": [
+          [
+            110,
+            215
+          ],
+          [
+            153,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "OTTER",
+        "bbox": [
+          [
+            221,
+            36
+          ],
+          [
+            262,
+            53
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "SMALL FISH",
+        "bbox": [
+          [
+            379,
+            92
+          ],
+          [
+            415,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "ZOO PLANKTON",
+        "bbox": [
+          [
+            298,
+            223
+          ],
+          [
+            385,
+            238
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "PHYTOPLANKTON",
+        "bbox": [
+          [
+            220,
+            305
+          ],
+          [
+            304,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SUN",
+        "bbox": [
+          [
+            244,
+            130
+          ],
+          [
+            267,
+            144
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          67,
+          121,
+          12,
+          62
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          126,
+          29,
+          67,
+          37
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          317,
+          55,
+          53,
+          50
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          260,
+          164,
+          22,
+          67
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          362,
+          157,
+          28,
+          60
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          300,
+          288,
+          40,
+          33
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: SHARK la nguon thuc an cho CRAB. OTTER la nguon thuc an cho SHARK. SMALL FISH la nguon thuc an cho OTTER. ZOO PLANKTON la nguon thuc an cho SMALL FISH. PHYTOPLANKTON la nguon thuc an cho B4. SUN la nguon thuc an cho B8."
+}

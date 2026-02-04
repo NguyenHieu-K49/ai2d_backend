@@ -1,0 +1,207 @@
+{
+  "id": "1320.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1320.png_B0",
+        "name": "PHOTOSYNTHESIS",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "1320.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1320.png_T0",
+        "name": "SUNLIGHT",
+        "type": "Component",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1320.png_T1",
+        "name": "CARBON DIOXIDE",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1320.png_T2",
+        "name": "WATER",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1320.png_T3",
+        "name": "GLUCOSE",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1320.png_B1",
+        "target": "1320.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1320.png_T1",
+        "target": "1320.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          80,
+          111,
+          163,
+          109
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          19,
+          15,
+          60,
+          58
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SUNLIGHT",
+        "bbox": [
+          [
+            87,
+            74
+          ],
+          [
+            141,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "CARBON DIOXIDE",
+        "bbox": [
+          [
+            185,
+            62
+          ],
+          [
+            233,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "WATER",
+        "bbox": [
+          [
+            229,
+            118
+          ],
+          [
+            274,
+            134
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "GLUCOSE",
+        "bbox": [
+          [
+            217,
+            167
+          ],
+          [
+            284,
+            184
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PHOTOSYNTHESIS",
+        "bbox": [
+          [
+            100,
+            163
+          ],
+          [
+            195,
+            176
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          57,
+          71,
+          52,
+          51
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          83,
+          32,
+          44
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          215,
+          128,
+          60,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          221,
+          153,
+          58,
+          20
+        ]
+      }
+    }
+  }
+}

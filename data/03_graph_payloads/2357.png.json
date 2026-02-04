@@ -1,0 +1,132 @@
+{
+  "id": "2357.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2357.png_T0",
+        "name": "Seed",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2357.png_T1",
+        "name": "Seedling",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2357.png_T2",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2357.png_T0",
+        "target": "2357.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2357.png_T1",
+        "target": "2357.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2357.png_T2",
+        "target": "2357.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Seed",
+        "bbox": [
+          [
+            199,
+            19
+          ],
+          [
+            263,
+            39
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Seedling",
+        "bbox": [
+          [
+            53,
+            111
+          ],
+          [
+            164,
+            136
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            335,
+            111
+          ],
+          [
+            400,
+            134
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          87,
+          29,
+          96,
+          52
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          279,
+          26,
+          99,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          122,
+          141,
+          232,
+          44
+        ]
+      }
+    }
+  }
+}

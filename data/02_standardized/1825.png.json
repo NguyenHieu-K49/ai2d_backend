@@ -1,0 +1,388 @@
+{
+  "id": "1825.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          268,
+          320,
+          152,
+          85
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          104,
+          253,
+          71,
+          91
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1,
+          126,
+          134,
+          124
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          62,
+          71,
+          163,
+          81
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          306,
+          0,
+          101,
+          127
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          519,
+          97,
+          118,
+          196
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          268,
+          146,
+          145,
+          121
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "GRASSLAND FOOD WEB",
+        "bbox": [
+          [
+            0,
+            12
+          ],
+          [
+            258,
+            94
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "GRASSHOPPER",
+        "bbox": [
+          [
+            115,
+            154
+          ],
+          [
+            223,
+            176
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LIZARD",
+        "bbox": [
+          [
+            301,
+            119
+          ],
+          [
+            349,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Hawk",
+        "bbox": [
+          [
+            557,
+            297
+          ],
+          [
+            604,
+            322
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "RABBIT",
+        "bbox": [
+          [
+            308,
+            276
+          ],
+          [
+            364,
+            298
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "GRASS",
+        "bbox": [
+          [
+            49,
+            256
+          ],
+          [
+            95,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "MOUSE",
+        "bbox": [
+          [
+            110,
+            357
+          ],
+          [
+            170,
+            379
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SNAKE",
+        "bbox": [
+          [
+            318,
+            415
+          ],
+          [
+            374,
+            434
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "A Food Web in a Grassland Ecosystem With FIve Possible Food Chains",
+        "bbox": [
+          [
+            59,
+            456
+          ],
+          [
+            612,
+            477
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          159,
+          32,
+          147,
+          62
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          377,
+          25,
+          149,
+          101
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          220,
+          119,
+          297,
+          42
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          140,
+          217,
+          128,
+          17
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          62,
+          112,
+          61,
+          43
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          44,
+          274,
+          60,
+          46
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          170,
+          248,
+          366,
+          77
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          408,
+          212,
+          123,
+          22
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          416,
+          277,
+          129,
+          121
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          160,
+          336,
+          120,
+          66
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A7"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

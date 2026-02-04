@@ -1,0 +1,203 @@
+{
+  "id": "900.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "D",
+        "bbox": [
+          [
+            363,
+            3
+          ],
+          [
+            399,
+            38
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "E",
+        "bbox": [
+          [
+            663,
+            196
+          ],
+          [
+            684,
+            234
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "B",
+        "bbox": [
+          [
+            367,
+            337
+          ],
+          [
+            396,
+            376
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "C",
+        "bbox": [
+          [
+            75,
+            123
+          ],
+          [
+            110,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "A",
+        "bbox": [
+          [
+            0,
+            271
+          ],
+          [
+            30,
+            304
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          112,
+          19,
+          258,
+          119
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          0,
+          149,
+          82,
+          122
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          103,
+          148,
+          263,
+          196
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          27,
+          34,
+          346,
+          230
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          370,
+          38,
+          26,
+          292
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          399,
+          19,
+          272,
+          171
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          44,
+          214,
+          614,
+          74
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          33,
+          293,
+          325,
+          67
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T4",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T4",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A1"
+    }
+  ],
+  "rst_source": true
+}

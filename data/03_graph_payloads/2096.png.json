@@ -1,0 +1,707 @@
+{
+  "id": "2096.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2096.png_B0",
+        "name": "pill bug",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2096.png_B1",
+        "name": "spider",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2096.png_B2",
+        "name": "toad",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2096.png_B3",
+        "name": "snake",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2096.png_B4",
+        "name": "lynx",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2096.png_B5",
+        "name": "wolf",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2096.png_B6",
+        "name": "mtn. lion",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2096.png_B7",
+        "name": "deer",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T12"
+        ]
+      },
+      {
+        "uid": "2096.png_B8",
+        "name": "rabbit",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T13"
+        ]
+      },
+      {
+        "uid": "2096.png_B9",
+        "name": "mouse",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T14"
+        ]
+      },
+      {
+        "uid": "2096.png_T10",
+        "name": "grass flowers ground foliage",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "2096.png_T11",
+        "name": "large leaves bushes shrubs",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "2096.png_T7",
+        "name": "detritus",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "2096.png_T8",
+        "name": "\"land\" surface tile",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "2096.png_T9",
+        "name": "nuts roots small seeds",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2096.png_B0",
+        "target": "2096.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2096.png_B0",
+        "target": "2096.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2096.png_B2",
+        "target": "2096.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2096.png_B4",
+        "target": "2096.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "2096.png_B5",
+        "target": "2096.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "2096.png_B7",
+        "target": "2096.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "2096.png_B7",
+        "target": "2096.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "2096.png_B8",
+        "target": "2096.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "2096.png_B9",
+        "target": "2096.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "2096.png_T10",
+        "target": "2096.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "2096.png_T11",
+        "target": "2096.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "2096.png_T7",
+        "target": "2096.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2096.png_T8",
+        "target": "2096.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2096.png_T8",
+        "target": "2096.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2096.png_T8",
+        "target": "2096.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2096.png_T8",
+        "target": "2096.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2096.png_T9",
+        "target": "2096.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          270,
+          73,
+          74,
+          83
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          405,
+          0,
+          96,
+          78
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          409,
+          104,
+          83,
+          82
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          435,
+          240,
+          83,
+          65
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          437,
+          349,
+          60,
+          86
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          438,
+          473,
+          67,
+          86
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          617,
+          409,
+          63,
+          92
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          268,
+          391,
+          83,
+          53
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          264,
+          287,
+          87,
+          66
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          274,
+          197,
+          79,
+          57
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "pill bug",
+        "bbox": [
+          [
+            270,
+            153
+          ],
+          [
+            322,
+            169
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "spider",
+        "bbox": [
+          [
+            403,
+            76
+          ],
+          [
+            447,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "grass flowers ground foliage",
+        "bbox": [
+          [
+            126,
+            292
+          ],
+          [
+            223,
+            341
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "large leaves bushes shrubs",
+        "bbox": [
+          [
+            126,
+            387
+          ],
+          [
+            212,
+            438
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "deer",
+        "bbox": [
+          [
+            269,
+            448
+          ],
+          [
+            301,
+            459
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "rabbit",
+        "bbox": [
+          [
+            266,
+            352
+          ],
+          [
+            306,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "mouse",
+        "bbox": [
+          [
+            274,
+            252
+          ],
+          [
+            320,
+            264
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "toad",
+        "bbox": [
+          [
+            406,
+            188
+          ],
+          [
+            441,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "snake",
+        "bbox": [
+          [
+            430,
+            302
+          ],
+          [
+            471,
+            319
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "lynx",
+        "bbox": [
+          [
+            436,
+            436
+          ],
+          [
+            468,
+            449
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "wolf",
+        "bbox": [
+          [
+            437,
+            561
+          ],
+          [
+            467,
+            573
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "mtn. lion",
+        "bbox": [
+          [
+            618,
+            505
+          ],
+          [
+            675,
+            518
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "detritus",
+        "bbox": [
+          [
+            125,
+            106
+          ],
+          [
+            182,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "\"land\" surface tile",
+        "bbox": [
+          [
+            9,
+            240
+          ],
+          [
+            57,
+            299
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "nuts roots small seeds",
+        "bbox": [
+          [
+            126,
+            205
+          ],
+          [
+            207,
+            247
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          202,
+          100,
+          75,
+          28
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          324,
+          36,
+          87,
+          85
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          212,
+          399,
+          58,
+          35
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          352,
+          371,
+          85,
+          54
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          346,
+          270,
+          92,
+          65
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          346,
+          212,
+          95,
+          75
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          353,
+          413,
+          88,
+          116
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          502,
+          453,
+          119,
+          79
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          495,
+          382,
+          129,
+          90
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          317,
+          100,
+          92,
+          54
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          439,
+          182,
+          56,
+          67
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          214,
+          204,
+          63,
+          36
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          59,
+          130,
+          80,
+          131
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          60,
+          216,
+          68,
+          60
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          63,
+          264,
+          60,
+          54
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          56,
+          281,
+          74,
+          139
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          226,
+          301,
+          42,
+          33
+        ]
+      }
+    }
+  }
+}

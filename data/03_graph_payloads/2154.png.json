@@ -1,0 +1,328 @@
+{
+  "id": "2154.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2154.png_B0",
+        "name": "Tiny jellyfish separate from mature polyp",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2154.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "2154.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2154.png_B3",
+        "name": "Young polyp",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2154.png_B4",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2154.png_B5",
+        "name": "Adult medusa",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2154.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "2154.png_T1",
+        "name": "Polyp matures",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2154.png_B0",
+        "target": "2154.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2154.png_B1",
+        "target": "2154.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2154.png_B2",
+        "target": "2154.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2154.png_B3",
+        "target": "2154.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2154.png_B4",
+        "target": "2154.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2154.png_B5",
+        "target": "2154.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2154.png_B6",
+        "target": "2154.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          8,
+          125,
+          71,
+          110
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          127,
+          135,
+          48,
+          94
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          229,
+          150,
+          49,
+          81
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          347,
+          186,
+          26,
+          40
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          335,
+          69,
+          27,
+          44
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          203,
+          6,
+          64,
+          57
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          79,
+          18,
+          34,
+          59
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Tiny jellyfish separate from mature polyp",
+        "bbox": [
+          [
+            0,
+            236
+          ],
+          [
+            143,
+            266
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Polyp matures",
+        "bbox": [
+          [
+            164,
+            242
+          ],
+          [
+            261,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Young polyp",
+        "bbox": [
+          [
+            340,
+            229
+          ],
+          [
+            388,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larva",
+        "bbox": [
+          [
+            353,
+            107
+          ],
+          [
+            394,
+            124
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult medusa",
+        "bbox": [
+          [
+            263,
+            11
+          ],
+          [
+            362,
+            26
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          348,
+          135,
+          25,
+          43
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          275,
+          188,
+          63,
+          29
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          170,
+          195,
+          58,
+          26
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          59,
+          199,
+          60,
+          26
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          38,
+          54,
+          43,
+          60
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          127,
+          28,
+          61,
+          25
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          283,
+          51,
+          47,
+          35
+        ]
+      }
+    }
+  }
+}

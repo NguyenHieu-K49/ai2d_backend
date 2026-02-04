@@ -1,0 +1,357 @@
+{
+  "id": "1796.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          428,
+          178,
+          95,
+          59
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          385,
+          278,
+          165,
+          62
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          327,
+          378,
+          287,
+          74
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          163,
+          517,
+          271,
+          70
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          517,
+          523,
+          249,
+          64
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Desert Ecology",
+        "bbox": [
+          [
+            399,
+            108
+          ],
+          [
+            570,
+            137
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Plants, Animals, People",
+        "bbox": [
+          [
+            534,
+            195
+          ],
+          [
+            741,
+            219
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Weathering, Erosion",
+        "bbox": [
+          [
+            23,
+            525
+          ],
+          [
+            135,
+            571
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Biotic",
+        "bbox": [
+          [
+            447,
+            197
+          ],
+          [
+            497,
+            218
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Temperature, Nutrients, Topography, Water",
+        "bbox": [
+          [
+            642,
+            287
+          ],
+          [
+            858,
+            334
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tectonic activity, Volcanism",
+        "bbox": [
+          [
+            781,
+            531
+          ],
+          [
+            928,
+            581
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Endogenic Processes",
+        "bbox": [
+          [
+            546,
+            543
+          ],
+          [
+            732,
+            565
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Regional Climate",
+        "bbox": [
+          [
+            390,
+            406
+          ],
+          [
+            545,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Abiotic",
+        "bbox": [
+          [
+            434,
+            299
+          ],
+          [
+            501,
+            320
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Desert",
+        "bbox": [
+          [
+            249,
+            417
+          ],
+          [
+            311,
+            431
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Exogenic Processes",
+        "bbox": [
+          [
+            213,
+            543
+          ],
+          [
+            385,
+            565
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          398,
+          150,
+          80,
+          65
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          468,
+          237,
+          21,
+          42
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          363,
+          251,
+          112,
+          66
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          547,
+          300,
+          170,
+          219
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          604,
+          449,
+          53,
+          68
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          432,
+          543,
+          84,
+          19
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          261,
+          449,
+          68,
+          69
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          460,
+          338,
+          19,
+          49
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          210,
+          306,
+          173,
+          215
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B1",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B2",
+      "via": "A4"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B3"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B2"
+    }
+  ],
+  "rst_source": true
+}

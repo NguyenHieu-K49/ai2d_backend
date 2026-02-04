@@ -1,0 +1,200 @@
+{
+  "id": "608.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          245,
+          100,
+          165,
+          57
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          435,
+          214,
+          167,
+          99
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          279,
+          348,
+          118,
+          93
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          26,
+          188,
+          230,
+          157
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Life cycle of mosquito",
+        "bbox": [
+          [
+            128,
+            40
+          ],
+          [
+            522,
+            89
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Egg",
+        "bbox": [
+          [
+            301,
+            180
+          ],
+          [
+            355,
+            216
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Adult",
+        "bbox": [
+          [
+            78,
+            360
+          ],
+          [
+            147,
+            403
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "PUPA ",
+        "bbox": [
+          [
+            359,
+            439
+          ],
+          [
+            416,
+            467
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Larva",
+        "bbox": [
+          [
+            504,
+            300
+          ],
+          [
+            584,
+            330
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          180,
+          139,
+          66,
+          54
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          434,
+          131,
+          56,
+          67
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          427,
+          333,
+          68,
+          51
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          188,
+          328,
+          56,
+          70
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B1"
+    }
+  ],
+  "rst_source": true
+}

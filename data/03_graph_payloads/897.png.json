@@ -1,0 +1,392 @@
+{
+  "id": "897.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "897.png_T0",
+        "name": "SEAWEED",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "897.png_T1",
+        "name": "SMALL FISH",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "897.png_T2",
+        "name": "SHRIMP",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "897.png_T3",
+        "name": "LARGE FISH",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "897.png_T4",
+        "name": "PENGUINS",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "897.png_T5",
+        "name": "SEALS",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "897.png_T6",
+        "name": "DOLPHINS",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "897.png_T7",
+        "name": "KILLER WHALES",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "897.png_T0",
+        "target": "897.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "897.png_T0",
+        "target": "897.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "897.png_T0",
+        "target": "897.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "897.png_T1",
+        "target": "897.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "897.png_T1",
+        "target": "897.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "897.png_T1",
+        "target": "897.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "897.png_T1",
+        "target": "897.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "897.png_T2",
+        "target": "897.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "897.png_T3",
+        "target": "897.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "897.png_T4",
+        "target": "897.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "897.png_T4",
+        "target": "897.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "897.png_T5",
+        "target": "897.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "897.png_T6",
+        "target": "897.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SEAWEED",
+        "bbox": [
+          [
+            112,
+            341
+          ],
+          [
+            202,
+            363
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "SMALL FISH",
+        "bbox": [
+          [
+            226,
+            262
+          ],
+          [
+            334,
+            281
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "SHRIMP",
+        "bbox": [
+          [
+            20,
+            261
+          ],
+          [
+            90,
+            281
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "LARGE FISH",
+        "bbox": [
+          [
+            123,
+            207
+          ],
+          [
+            190,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PENGUINS",
+        "bbox": [
+          [
+            9,
+            165
+          ],
+          [
+            103,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "SEALS",
+        "bbox": [
+          [
+            128,
+            98
+          ],
+          [
+            186,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "DOLPHINS",
+        "bbox": [
+          [
+            259,
+            107
+          ],
+          [
+            353,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "KILLER WHALES",
+        "bbox": [
+          [
+            86,
+            10
+          ],
+          [
+            230,
+            31
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          48,
+          29,
+          44,
+          129
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          77,
+          118,
+          51,
+          42
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          143,
+          237,
+          32,
+          99
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          86,
+          283,
+          48,
+          54
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          42,
+          187,
+          26,
+          66
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          147,
+          28,
+          22,
+          60
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          226,
+          32,
+          63,
+          67
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          295,
+          124,
+          26,
+          130
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          191,
+          31,
+          95,
+          222
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          186,
+          120,
+          71,
+          133
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          141,
+          120,
+          28,
+          78
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          188,
+          242,
+          35,
+          25
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          177,
+          279,
+          49,
+          59
+        ]
+      }
+    }
+  }
+}

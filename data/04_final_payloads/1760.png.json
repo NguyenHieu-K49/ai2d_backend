@@ -1,0 +1,296 @@
+{
+  "id": "1760.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1760.png_T0",
+        "name": "Water flea",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1760.png_T1",
+        "name": "Dragonfly nymph",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1760.png_T2",
+        "name": "Elodea",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1760.png_T3",
+        "name": "Tilapia",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1760.png_T4",
+        "name": "Tadpole",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1760.png_T5",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "1760.png_T6",
+        "name": "Guppy",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1760.png_T0",
+        "target": "1760.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1760.png_T0",
+        "target": "1760.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1760.png_T2",
+        "target": "1760.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1760.png_T2",
+        "target": "1760.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1760.png_T4",
+        "target": "1760.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1760.png_T5",
+        "target": "1760.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1760.png_T5",
+        "target": "1760.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1760.png_T5",
+        "target": "1760.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Water flea",
+        "bbox": [
+          [
+            279,
+            107
+          ],
+          [
+            347,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Dragonfly nymph",
+        "bbox": [
+          [
+            102,
+            105
+          ],
+          [
+            214,
+            122
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Elodea",
+        "bbox": [
+          [
+            77,
+            165
+          ],
+          [
+            124,
+            181
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Tilapia",
+        "bbox": [
+          [
+            251,
+            158
+          ],
+          [
+            299,
+            177
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Tadpole",
+        "bbox": [
+          [
+            7,
+            57
+          ],
+          [
+            63,
+            73
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Algae",
+        "bbox": [
+          [
+            143,
+            13
+          ],
+          [
+            185,
+            32
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Guppy",
+        "bbox": [
+          [
+            283,
+            25
+          ],
+          [
+            331,
+            46
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          45,
+          18,
+          96,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          167,
+          29,
+          131,
+          82
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          189,
+          17,
+          93,
+          25
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          46,
+          67,
+          90,
+          42
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          28,
+          78,
+          48,
+          88
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          216,
+          110,
+          59,
+          13
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          136,
+          162,
+          110,
+          16
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          279,
+          124,
+          22,
+          36
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Water flea la nguon thuc an cho Dragonfly nymph. Water flea la nguon thuc an cho Tilapia. Elodea la nguon thuc an cho Tadpole. Elodea la nguon thuc an cho Tilapia. Tadpole la nguon thuc an cho Dragonfly nymph. Algae la nguon thuc an cho Tadpole. Algae la nguon thuc an cho Water flea. Algae la nguon thuc an cho Guppy."
+}

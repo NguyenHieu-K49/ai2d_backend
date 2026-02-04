@@ -1,0 +1,682 @@
+{
+  "id": "476.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "476.png_T0",
+        "name": "SUN",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "476.png_T1",
+        "name": "GRASSES",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "476.png_T10",
+        "name": "ARCTIC FOXES",
+        "type": "Organism",
+        "components": [
+          "T10"
+        ]
+      },
+      {
+        "uid": "476.png_T11",
+        "name": "BROWN BEARS",
+        "type": "Organism",
+        "components": [
+          "T11"
+        ]
+      },
+      {
+        "uid": "476.png_T12",
+        "name": "POLAR BEARS",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      },
+      {
+        "uid": "476.png_T13",
+        "name": "KITTIWAKES",
+        "type": "Organism",
+        "components": [
+          "T13"
+        ]
+      },
+      {
+        "uid": "476.png_T14",
+        "name": "SNOW OWL",
+        "type": "Organism",
+        "components": [
+          "T14"
+        ]
+      },
+      {
+        "uid": "476.png_T15",
+        "name": "ARCTIC WOLVES",
+        "type": "Organism",
+        "components": [
+          "T15"
+        ]
+      },
+      {
+        "uid": "476.png_T2",
+        "name": "LIVERWORTS",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "476.png_T3",
+        "name": "PIKAS",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "476.png_T4",
+        "name": "MUSK OX",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "476.png_T5",
+        "name": "CARIBOU",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "476.png_T6",
+        "name": "LICHENS",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "476.png_T7",
+        "name": "MOSS",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      },
+      {
+        "uid": "476.png_T8",
+        "name": "ARCTIC HARES",
+        "type": "Organism",
+        "components": [
+          "T8"
+        ]
+      },
+      {
+        "uid": "476.png_T9",
+        "name": "LEMMINGS",
+        "type": "Organism",
+        "components": [
+          "T9"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "476.png_T0",
+        "target": "476.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "476.png_T0",
+        "target": "476.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "476.png_T0",
+        "target": "476.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "476.png_T0",
+        "target": "476.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "476.png_T1",
+        "target": "476.png_T9",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "476.png_T1",
+        "target": "476.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "476.png_T1",
+        "target": "476.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "476.png_T1",
+        "target": "476.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "476.png_T1",
+        "target": "476.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "476.png_T10",
+        "target": "476.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "476.png_T10",
+        "target": "476.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "476.png_T10",
+        "target": "476.png_T13",
+        "relation": "LINKED_TO",
+        "via": "A20"
+      },
+      {
+        "source": "476.png_T2",
+        "target": "476.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "476.png_T3",
+        "target": "476.png_T10",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "476.png_T3",
+        "target": "476.png_T11",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "476.png_T4",
+        "target": "476.png_T15",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "476.png_T5",
+        "target": "476.png_T15",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "476.png_T7",
+        "target": "476.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "476.png_T8",
+        "target": "476.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A18"
+      },
+      {
+        "source": "476.png_T8",
+        "target": "476.png_T14",
+        "relation": "LINKED_TO",
+        "via": "A19"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "SUN",
+        "bbox": [
+          [
+            538,
+            13
+          ],
+          [
+            621,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "GRASSES",
+        "bbox": [
+          [
+            645,
+            208
+          ],
+          [
+            796,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "ARCTIC FOXES",
+        "bbox": [
+          [
+            276,
+            497
+          ],
+          [
+            510,
+            538
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "BROWN BEARS",
+        "bbox": [
+          [
+            653,
+            494
+          ],
+          [
+            892,
+            538
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "POLAR BEARS",
+        "bbox": [
+          [
+            450,
+            642
+          ],
+          [
+            681,
+            689
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "KITTIWAKES",
+        "bbox": [
+          [
+            798,
+            653
+          ],
+          [
+            1006,
+            694
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "SNOW OWL",
+        "bbox": [
+          [
+            1076,
+            650
+          ],
+          [
+            1279,
+            694
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "ARCTIC WOLVES",
+        "bbox": [
+          [
+            16,
+            640
+          ],
+          [
+            286,
+            681
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "LIVERWORTS",
+        "bbox": [
+          [
+            863,
+            200
+          ],
+          [
+            1084,
+            255
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "PIKAS",
+        "bbox": [
+          [
+            1040,
+            346
+          ],
+          [
+            1152,
+            400
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "MUSK OX",
+        "bbox": [
+          [
+            793,
+            343
+          ],
+          [
+            949,
+            403
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "CARIBOU",
+        "bbox": [
+          [
+            541,
+            346
+          ],
+          [
+            705,
+            398
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "LICHENS",
+        "bbox": [
+          [
+            442,
+            203
+          ],
+          [
+            590,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "MOSS",
+        "bbox": [
+          [
+            247,
+            208
+          ],
+          [
+            361,
+            252
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "ARCTIC HARES",
+        "bbox": [
+          [
+            29,
+            346
+          ],
+          [
+            265,
+            398
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "LEMMINGS",
+        "bbox": [
+          [
+            289,
+            348
+          ],
+          [
+            481,
+            395
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          328,
+          49,
+          236,
+          162
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          523,
+          62,
+          59,
+          143
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          403,
+          247,
+          281,
+          112
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          699,
+          276,
+          76,
+          195
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          406,
+          390,
+          660,
+          120
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          780,
+          393,
+          281,
+          114
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          187,
+          385,
+          427,
+          257
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          270,
+          385,
+          604,
+          294
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          377,
+          549,
+          179,
+          91
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          452,
+          546,
+          403,
+          109
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          94,
+          403,
+          1047,
+          250
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          195,
+          374,
+          1009,
+          286
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          593,
+          57,
+          145,
+          146
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          429,
+          491,
+          416,
+          143
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          621,
+          44,
+          357,
+          151
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          174,
+          265,
+          317,
+          91
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          325,
+          255,
+          281,
+          101
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          611,
+          242,
+          114,
+          114
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          720,
+          257,
+          133,
+          94
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          733,
+          250,
+          323,
+          111
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          975,
+          250,
+          109,
+          88
+        ]
+      }
+    }
+  }
+}

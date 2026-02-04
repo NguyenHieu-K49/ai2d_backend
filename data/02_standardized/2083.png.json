@@ -1,0 +1,422 @@
+{
+  "id": "2083.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          79,
+          251,
+          80,
+          39
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          56,
+          346,
+          337,
+          49
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          184,
+          235,
+          59,
+          51
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          293,
+          238,
+          45,
+          58
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          220,
+          162,
+          112,
+          46
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          172,
+          16,
+          65,
+          124
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          88,
+          124,
+          79,
+          87
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Webs",
+        "bbox": [
+          [
+            179,
+            9
+          ],
+          [
+            254,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Tertiary Consumers",
+        "bbox": [
+          [
+            347,
+            59
+          ],
+          [
+            425,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Secondary carnivores",
+        "bbox": [
+          [
+            0,
+            60
+          ],
+          [
+            73,
+            87
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Primary Carnivores",
+        "bbox": [
+          [
+            0,
+            171
+          ],
+          [
+            77,
+            198
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Herbivores",
+        "bbox": [
+          [
+            2,
+            267
+          ],
+          [
+            77,
+            287
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "PRoducers",
+        "bbox": [
+          [
+            0,
+            357
+          ],
+          [
+            70,
+            376
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Secondary Consumers",
+        "bbox": [
+          [
+            350,
+            172
+          ],
+          [
+            427,
+            199
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Primary Consumers",
+        "bbox": [
+          [
+            348,
+            258
+          ],
+          [
+            427,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Arrows point to the animal doing the eating (predator)",
+        "bbox": [
+          [
+            206,
+            405
+          ],
+          [
+            391,
+            430
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "http://www.eelsinc.org/id64.html",
+        "bbox": [
+          [
+            141,
+            433
+          ],
+          [
+            292,
+            447
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          235,
+          87,
+          63,
+          79
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          232,
+          119,
+          38,
+          58
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          261,
+          283,
+          40,
+          54
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          121,
+          281,
+          38,
+          58
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          137,
+          109,
+          68,
+          153
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          227,
+          202,
+          43,
+          48
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          148,
+          189,
+          107,
+          80
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          148,
+          84,
+          40,
+          50
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          202,
+          143,
+          16,
+          75
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          138,
+          204,
+          55,
+          52
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          198,
+          279,
+          24,
+          61
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          276,
+          197,
+          30,
+          48
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B5",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B4",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B3",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B6",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B4",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B5",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B6",
+      "to": "B5",
+      "via": "A5"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

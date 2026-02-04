@@ -1,0 +1,577 @@
+{
+  "id": "504.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "504.png_B0",
+        "name": "Owl",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T2"
+        ]
+      },
+      {
+        "uid": "504.png_B1",
+        "name": "Frog",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "504.png_B2",
+        "name": "Cricket",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "504.png_B3",
+        "name": "Mouse",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T8"
+        ]
+      },
+      {
+        "uid": "504.png_B4",
+        "name": "Trees",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T7"
+        ]
+      },
+      {
+        "uid": "504.png_B5",
+        "name": "Hawk",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T1"
+        ]
+      },
+      {
+        "uid": "504.png_B6",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T0"
+        ]
+      },
+      {
+        "uid": "504.png_B7",
+        "name": "Deer",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T9"
+        ]
+      },
+      {
+        "uid": "504.png_T5",
+        "name": "Grass",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "504.png_T6",
+        "name": "Decomposers",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "504.png_B0",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "504.png_B1",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "504.png_B1",
+        "target": "504.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "504.png_B2",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "504.png_B2",
+        "target": "504.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "504.png_B3",
+        "target": "504.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "504.png_B3",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "504.png_B3",
+        "target": "504.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "504.png_B3",
+        "target": "504.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "504.png_B4",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "504.png_B4",
+        "target": "504.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "504.png_B5",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "504.png_B6",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "504.png_B6",
+        "target": "504.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "504.png_B7",
+        "target": "504.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "504.png_T5",
+        "target": "504.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "504.png_T5",
+        "target": "504.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          401,
+          64,
+          53,
+          87
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          441,
+          171,
+          64,
+          61
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          423,
+          257,
+          56,
+          38
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          263,
+          152,
+          48,
+          38
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          198,
+          237,
+          75,
+          55
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          263,
+          6,
+          100,
+          73
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          141,
+          43,
+          79,
+          48
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          48,
+          120,
+          115,
+          131
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Snake",
+        "bbox": [
+          [
+            152,
+            16
+          ],
+          [
+            203,
+            42
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Hawk",
+        "bbox": [
+          [
+            311,
+            69
+          ],
+          [
+            363,
+            97
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Owl",
+        "bbox": [
+          [
+            394,
+            130
+          ],
+          [
+            444,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Frog",
+        "bbox": [
+          [
+            427,
+            202
+          ],
+          [
+            464,
+            228
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Cricket",
+        "bbox": [
+          [
+            418,
+            239
+          ],
+          [
+            474,
+            261
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Grass",
+        "bbox": [
+          [
+            278,
+            272
+          ],
+          [
+            334,
+            286
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Decomposers",
+        "bbox": [
+          [
+            203,
+            306
+          ],
+          [
+            287,
+            331
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Trees",
+        "bbox": [
+          [
+            200,
+            218
+          ],
+          [
+            244,
+            238
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Mouse",
+        "bbox": [
+          [
+            248,
+            185
+          ],
+          [
+            309,
+            202
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Deer",
+        "bbox": [
+          [
+            88,
+            248
+          ],
+          [
+            132,
+            266
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          25,
+          60,
+          179,
+          269
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          203,
+          29,
+          60,
+          19
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          203,
+          84,
+          78,
+          76
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          312,
+          263,
+          118,
+          17
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          282,
+          199,
+          29,
+          73
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          186,
+          248,
+          32,
+          66
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          142,
+          190,
+          68,
+          59
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          105,
+          265,
+          100,
+          54
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          263,
+          204,
+          22,
+          116
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          266,
+          18,
+          291,
+          335
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          281,
+          73,
+          265,
+          268
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          291,
+          197,
+          222,
+          133
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          454,
+          126,
+          34,
+          49
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          284,
+          287,
+          151,
+          34
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          466,
+          227,
+          14,
+          36
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          306,
+          106,
+          98,
+          59
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          291,
+          49,
+          19,
+          106
+        ]
+      }
+    }
+  }
+}

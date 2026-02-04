@@ -1,0 +1,686 @@
+{
+  "id": "1993.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          5,
+          0,
+          82,
+          93
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          117,
+          47,
+          56,
+          31
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          110,
+          255,
+          68,
+          42
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          169,
+          145,
+          62,
+          59
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          5,
+          118,
+          88,
+          111
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          9,
+          280,
+          78,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          259,
+          55,
+          74,
+          32
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          442,
+          66,
+          110,
+          97
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          319,
+          135,
+          65,
+          62
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          401,
+          223,
+          47,
+          32
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          464,
+          300,
+          83,
+          56
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          273,
+          283,
+          56,
+          47
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          185,
+          329,
+          48,
+          46
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          231,
+          222,
+          49,
+          37
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Figure 6: Soil food web (modified from Soil Food Web, Inc. www.soilfoodweb.com",
+        "bbox": [
+          [
+            6,
+            394
+          ],
+          [
+            399,
+            413
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "BACTERIA",
+        "bbox": [
+          [
+            231,
+            365
+          ],
+          [
+            280,
+            380
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "ARTHROPODS Predators",
+        "bbox": [
+          [
+            376,
+            170
+          ],
+          [
+            446,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "NEMATODES Predators",
+        "bbox": [
+          [
+            425,
+            242
+          ],
+          [
+            495,
+            268
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "ANIMALS",
+        "bbox": [
+          [
+            449,
+            344
+          ],
+          [
+            496,
+            360
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "PROTOZOA Amoebae, flagellates and ciliates",
+        "bbox": [
+          [
+            330,
+            287
+          ],
+          [
+            434,
+            332
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Organic Matter Waste, residue and metabolites from plants, animals and microbes",
+        "bbox": [
+          [
+            6,
+            319
+          ],
+          [
+            121,
+            365
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "PLANTS Shoots and roots",
+        "bbox": [
+          [
+            24,
+            229
+          ],
+          [
+            87,
+            267
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "EARTHWORMS",
+        "bbox": [
+          [
+            115,
+            293
+          ],
+          [
+            188,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "NEMATODES Fungal-and bacterial-feeders",
+        "bbox": [
+          [
+            195,
+            240
+          ],
+          [
+            285,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "FUNGI Mychorrhizal fungi Saprophytic fungi",
+        "bbox": [
+          [
+            209,
+            149
+          ],
+          [
+            305,
+            186
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "NEMATODES Root-feeders",
+        "bbox": [
+          [
+            113,
+            75
+          ],
+          [
+            184,
+            101
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "ARTHROPODS Shredders",
+        "bbox": [
+          [
+            304,
+            75
+          ],
+          [
+            376,
+            100
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "BIRDS",
+        "bbox": [
+          [
+            417,
+            106
+          ],
+          [
+            453,
+            119
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          92,
+          322,
+          93,
+          39
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          7,
+          213,
+          30,
+          73
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          170,
+          97,
+          27,
+          45
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          176,
+          51,
+          87,
+          34
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          80,
+          95,
+          63,
+          112
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          84,
+          174,
+          87,
+          42
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          362,
+          191,
+          43,
+          51
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          369,
+          133,
+          80,
+          38
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          309,
+          98,
+          30,
+          52
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          201,
+          78,
+          74,
+          72
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          212,
+          81,
+          112,
+          282
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          77,
+          223,
+          45,
+          48
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          71,
+          190,
+          101,
+          101
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          187,
+          159,
+          302,
+          150
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          386,
+          257,
+          39,
+          42
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          431,
+          179,
+          98,
+          121
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          221,
+          326,
+          64,
+          37
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          209,
+          275,
+          29,
+          55
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          200,
+          195,
+          33,
+          47
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B2",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B1",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B2",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B9",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B13",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B1",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B11",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B10",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B8",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B13",
+      "to": "B11",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B4",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B2",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B7",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B9",
+      "via": "A8"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T12",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T13",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B13"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B12"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

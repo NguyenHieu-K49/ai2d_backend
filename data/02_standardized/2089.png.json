@@ -1,0 +1,269 @@
+{
+  "id": "2089.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          274,
+          103,
+          119,
+          67
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          24,
+          194,
+          104,
+          94
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          64,
+          262,
+          70,
+          91
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          169,
+          314,
+          186,
+          88
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          427,
+          174,
+          184,
+          95
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          169,
+          454,
+          220,
+          198
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          407,
+          286,
+          102,
+          62
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          426,
+          325,
+          94,
+          57
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "phytoplanktonic.wordpress.com",
+        "bbox": [
+          [
+            242,
+            597
+          ],
+          [
+            467,
+            622
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "sea ice phytoplankton",
+        "bbox": [
+          [
+            243,
+            17
+          ],
+          [
+            395,
+            34
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          316,
+          38,
+          35,
+          62
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          375,
+          125,
+          57,
+          63
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          341,
+          154,
+          95,
+          148
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          144,
+          150,
+          111,
+          81
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          279,
+          178,
+          47,
+          134
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          126,
+          293,
+          65,
+          68
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          86,
+          360,
+          116,
+          138
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          285,
+          407,
+          38,
+          54
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          381,
+          349,
+          41,
+          37
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          386,
+          384,
+          83,
+          90
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B6",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B1",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "B3",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B5",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B5",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B3",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B5",
+      "via": "A9"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B0"
+    }
+  ],
+  "rst_source": true
+}

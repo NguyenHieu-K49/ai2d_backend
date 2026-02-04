@@ -1,0 +1,185 @@
+{
+  "id": "453.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Clouds",
+        "bbox": [
+          [
+            125,
+            7
+          ],
+          [
+            181,
+            28
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Water vapour",
+        "bbox": [
+          [
+            12,
+            77
+          ],
+          [
+            77,
+            114
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "B",
+        "bbox": [
+          [
+            28,
+            18
+          ],
+          [
+            50,
+            34
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "c",
+        "bbox": [
+          [
+            257,
+            15
+          ],
+          [
+            286,
+            35
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Rain",
+        "bbox": [
+          [
+            249,
+            75
+          ],
+          [
+            297,
+            96
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "D",
+        "bbox": [
+          [
+            259,
+            151
+          ],
+          [
+            283,
+            172
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Water on Earth",
+        "bbox": [
+          [
+            128,
+            150
+          ],
+          [
+            200,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "A",
+        "bbox": [
+          [
+            38,
+            153
+          ],
+          [
+            65,
+            171
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          36,
+          10,
+          85,
+          64
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          192,
+          10,
+          87,
+          67
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          43,
+          117,
+          80,
+          52
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          201,
+          104,
+          74,
+          65
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T4",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T6",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T1",
+      "via": "A2"
+    }
+  ],
+  "rst_source": true
+}

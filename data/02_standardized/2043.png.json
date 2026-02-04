@@ -1,0 +1,271 @@
+{
+  "id": "2043.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Recycling and the role of decomposers",
+        "bbox": [
+          [
+            57,
+            19
+          ],
+          [
+            564,
+            64
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "14",
+        "bbox": [
+          [
+            605,
+            3
+          ],
+          [
+            637,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "die",
+        "bbox": [
+          [
+            110,
+            354
+          ],
+          [
+            154,
+            390
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Consumers animals",
+        "bbox": [
+          [
+            237,
+            361
+          ],
+          [
+            381,
+            423
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Sunlight",
+        "bbox": [
+          [
+            523,
+            108
+          ],
+          [
+            607,
+            134
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "water and salts",
+        "bbox": [
+          [
+            393,
+            76
+          ],
+          [
+            513,
+            160
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "PRODUCERS green plants",
+        "bbox": [
+          [
+            451,
+            219
+          ],
+          [
+            598,
+            279
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "eaten",
+        "bbox": [
+          [
+            456,
+            343
+          ],
+          [
+            514,
+            383
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "die",
+        "bbox": [
+          [
+            300,
+            229
+          ],
+          [
+            330,
+            245
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "SOIL minerals and humus",
+        "bbox": [
+          [
+            229,
+            82
+          ],
+          [
+            362,
+            157
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "decay",
+        "bbox": [
+          [
+            101,
+            95
+          ],
+          [
+            164,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Decomposers bacteria and fungi",
+        "bbox": [
+          [
+            40,
+            226
+          ],
+          [
+            217,
+            276
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          70,
+          86,
+          173,
+          130
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          85,
+          288,
+          131,
+          100
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          242,
+          239,
+          163,
+          22
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          353,
+          94,
+          166,
+          120
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          555,
+          141,
+          24,
+          72
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          393,
+          289,
+          129,
+          100
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "T9",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T4",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T9",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T11",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T4",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T7",
+      "via": "A0"
+    }
+  ],
+  "rst_source": true
+}

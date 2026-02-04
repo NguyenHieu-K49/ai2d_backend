@@ -1,0 +1,223 @@
+{
+  "id": "245.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          58,
+          0,
+          76,
+          134
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          3,
+          157,
+          162,
+          58
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          7,
+          244,
+          150,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          39,
+          342,
+          122,
+          61
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          66,
+          430,
+          50,
+          36
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          165,
+          43,
+          130,
+          426
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "polar bear",
+        "bbox": [
+          [
+            14,
+            115
+          ],
+          [
+            71,
+            130
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "ringed seal",
+        "bbox": [
+          [
+            13,
+            216
+          ],
+          [
+            72,
+            232
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "arctic cod",
+        "bbox": [
+          [
+            10,
+            306
+          ],
+          [
+            67,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "shrimp",
+        "bbox": [
+          [
+            11,
+            394
+          ],
+          [
+            50,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "algae",
+        "bbox": [
+          [
+            10,
+            448
+          ],
+          [
+            47,
+            469
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          84,
+          399,
+          27,
+          25
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          84,
+          317,
+          20,
+          22
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          84,
+          217,
+          27,
+          28
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          82,
+          135,
+          26,
+          27
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B3",
+      "to": "B2",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B3",
+      "via": "A0"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B3"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B4"
+    }
+  ],
+  "rst_source": true
+}

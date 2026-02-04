@@ -1,0 +1,333 @@
+{
+  "id": "2099.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2099.png_T0",
+        "name": "grass",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2099.png_T1",
+        "name": "rabbit",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "2099.png_T2",
+        "name": "rat",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2099.png_T3",
+        "name": "snake",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "2099.png_T4",
+        "name": "fruit tree",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "2099.png_T5",
+        "name": "caterpillar",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      },
+      {
+        "uid": "2099.png_T6",
+        "name": "small bird",
+        "type": "Organism",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "2099.png_T7",
+        "name": "hawk",
+        "type": "Organism",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2099.png_T0",
+        "target": "2099.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2099.png_T1",
+        "target": "2099.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2099.png_T2",
+        "target": "2099.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2099.png_T2",
+        "target": "2099.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2099.png_T3",
+        "target": "2099.png_T7",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2099.png_T3",
+        "target": "2099.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2099.png_T4",
+        "target": "2099.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "2099.png_T5",
+        "target": "2099.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "2099.png_T7",
+        "target": "2099.png_T6",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "grass",
+        "bbox": [
+          [
+            35,
+            44
+          ],
+          [
+            81,
+            62
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "rabbit",
+        "bbox": [
+          [
+            130,
+            43
+          ],
+          [
+            178,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "rat",
+        "bbox": [
+          [
+            245,
+            11
+          ],
+          [
+            269,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "snake",
+        "bbox": [
+          [
+            228,
+            44
+          ],
+          [
+            273,
+            62
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "fruit tree",
+        "bbox": [
+          [
+            10,
+            122
+          ],
+          [
+            71,
+            140
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "caterpillar",
+        "bbox": [
+          [
+            105,
+            121
+          ],
+          [
+            179,
+            138
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "small bird",
+        "bbox": [
+          [
+            222,
+            123
+          ],
+          [
+            295,
+            138
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "hawk",
+        "bbox": [
+          [
+            316,
+            95
+          ],
+          [
+            358,
+            112
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          82,
+          44,
+          51,
+          13
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          45,
+          49,
+          15
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          264,
+          15,
+          78,
+          82
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          247,
+          25,
+          12,
+          24
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          262,
+          61,
+          57,
+          44
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          244,
+          63,
+          10,
+          52
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          289,
+          108,
+          33,
+          29
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          177,
+          120,
+          45,
+          16
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          75,
+          123,
+          30,
+          13
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: grass la nguon thuc an cho rabbit. rabbit la nguon thuc an cho snake. rat la nguon thuc an cho hawk. rat la nguon thuc an cho snake. snake la nguon thuc an cho hawk. snake la nguon thuc an cho small bird. fruit tree la nguon thuc an cho caterpillar. caterpillar la nguon thuc an cho small bird. hawk la nguon thuc an cho small bird."
+}

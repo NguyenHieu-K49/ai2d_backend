@@ -1,0 +1,836 @@
+{
+  "id": "493.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "493.png_B0",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T6"
+        ]
+      },
+      {
+        "uid": "493.png_B1",
+        "name": "Eagle",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "493.png_B10",
+        "name": "Hawk",
+        "type": "Organism",
+        "components": [
+          "B10",
+          "T11"
+        ]
+      },
+      {
+        "uid": "493.png_B11",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "B11",
+          "T13"
+        ]
+      },
+      {
+        "uid": "493.png_B12",
+        "name": "Small Fish",
+        "type": "Organism",
+        "components": [
+          "B12",
+          "T14"
+        ]
+      },
+      {
+        "uid": "493.png_B13",
+        "name": "Large Fish",
+        "type": "Organism",
+        "components": [
+          "B13",
+          "T15"
+        ]
+      },
+      {
+        "uid": "493.png_B14",
+        "name": "SEA LION",
+        "type": "Organism",
+        "components": [
+          "B14",
+          "T16"
+        ]
+      },
+      {
+        "uid": "493.png_B15",
+        "name": "Shark",
+        "type": "Organism",
+        "components": [
+          "B15",
+          "T17"
+        ]
+      },
+      {
+        "uid": "493.png_B16",
+        "name": "BACTERIA",
+        "type": "Organism",
+        "components": [
+          "B16",
+          "T18"
+        ]
+      },
+      {
+        "uid": "493.png_B2",
+        "name": "Big Fish",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T4"
+        ]
+      },
+      {
+        "uid": "493.png_B3",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T3"
+        ]
+      },
+      {
+        "uid": "493.png_B4",
+        "name": "Insects",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T2"
+        ]
+      },
+      {
+        "uid": "493.png_B5",
+        "name": "Green Plants",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T1"
+        ]
+      },
+      {
+        "uid": "493.png_B6",
+        "name": "Plants",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T7"
+        ]
+      },
+      {
+        "uid": "493.png_B7",
+        "name": "Grasshopper",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T8"
+        ]
+      },
+      {
+        "uid": "493.png_B8",
+        "name": "Toad",
+        "type": "Organism",
+        "components": [
+          "B8",
+          "T9"
+        ]
+      },
+      {
+        "uid": "493.png_B9",
+        "name": "Snake",
+        "type": "Organism",
+        "components": [
+          "B9",
+          "T10"
+        ]
+      },
+      {
+        "uid": "493.png_T0",
+        "name": "FOOD CHAINS",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "493.png_T12",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "T12"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "493.png_B1",
+        "target": "493.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "493.png_B10",
+        "target": "493.png_T12",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "493.png_B11",
+        "target": "493.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "493.png_B12",
+        "target": "493.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "493.png_B13",
+        "target": "493.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      },
+      {
+        "source": "493.png_B14",
+        "target": "493.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "493.png_B15",
+        "target": "493.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "493.png_B2",
+        "target": "493.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "493.png_B3",
+        "target": "493.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "493.png_B4",
+        "target": "493.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "493.png_B5",
+        "target": "493.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "493.png_B6",
+        "target": "493.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "493.png_B7",
+        "target": "493.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "493.png_B8",
+        "target": "493.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "493.png_B9",
+        "target": "493.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          117,
+          351,
+          43,
+          47
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          87,
+          231,
+          91,
+          91
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          268,
+          266,
+          135,
+          63
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          376,
+          47,
+          87,
+          61
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          483,
+          68,
+          50,
+          29
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          467,
+          120,
+          96,
+          42
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          477,
+          182,
+          75,
+          76
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          472,
+          281,
+          101,
+          45
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          490,
+          354,
+          43,
+          38
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          94,
+          183,
+          94,
+          43
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          114,
+          132,
+          47,
+          23
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          100,
+          60,
+          75,
+          44
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          7,
+          47,
+          74,
+          65
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          206,
+          36,
+          71,
+          99
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          300,
+          55,
+          57,
+          34
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          298,
+          106,
+          76,
+          67
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          289,
+          182,
+          75,
+          63
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "FOOD CHAINS",
+        "bbox": [
+          [
+            242,
+            0
+          ],
+          [
+            337,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Green Plants",
+        "bbox": [
+          [
+            8,
+            105
+          ],
+          [
+            77,
+            127
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Snake",
+        "bbox": [
+          [
+            312,
+            242
+          ],
+          [
+            345,
+            258
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Hawk",
+        "bbox": [
+          [
+            309,
+            318
+          ],
+          [
+            343,
+            331
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            308,
+            391
+          ],
+          [
+            349,
+            408
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Algae",
+        "bbox": [
+          [
+            404,
+            101
+          ],
+          [
+            437,
+            115
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Small Fish",
+        "bbox": [
+          [
+            486,
+            87
+          ],
+          [
+            538,
+            102
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Large Fish",
+        "bbox": [
+          [
+            481,
+            155
+          ],
+          [
+            538,
+            174
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "SEA LION",
+        "bbox": [
+          [
+            491,
+            252
+          ],
+          [
+            534,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Shark",
+        "bbox": [
+          [
+            495,
+            319
+          ],
+          [
+            529,
+            335
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "BACTERIA",
+        "bbox": [
+          [
+            490,
+            392
+          ],
+          [
+            533,
+            407
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Insects",
+        "bbox": [
+          [
+            120,
+            93
+          ],
+          [
+            158,
+            115
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Fish",
+        "bbox": [
+          [
+            130,
+            150
+          ],
+          [
+            151,
+            165
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Big Fish",
+        "bbox": [
+          [
+            119,
+            222
+          ],
+          [
+            163,
+            237
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Eagle",
+        "bbox": [
+          [
+            125,
+            307
+          ],
+          [
+            154,
+            326
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            114,
+            395
+          ],
+          [
+            158,
+            410
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Plants",
+        "bbox": [
+          [
+            224,
+            116
+          ],
+          [
+            257,
+            133
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Grasshopper",
+        "bbox": [
+          [
+            292,
+            82
+          ],
+          [
+            357,
+            97
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Toad",
+        "bbox": [
+          [
+            313,
+            167
+          ],
+          [
+            341,
+            179
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          39,
+          24,
+          108,
+          38
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          224,
+          23,
+          110,
+          35
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          316,
+          257,
+          14,
+          21
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          503,
+          262,
+          16,
+          22
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          129,
+          326,
+          19,
+          21
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          318,
+          331,
+          15,
+          22
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          502,
+          334,
+          18,
+          19
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          408,
+          22,
+          111,
+          38
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          131,
+          113,
+          16,
+          23
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          316,
+          98,
+          19,
+          19
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          503,
+          100,
+          18,
+          23
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          131,
+          166,
+          16,
+          18
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          319,
+          185,
+          15,
+          17
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          504,
+          174,
+          16,
+          24
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          130,
+          238,
+          20,
+          24
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Eagle la nguon thuc an cho Bacteria. Hawk la nguon thuc an cho Bacteria. Algae la nguon thuc an cho Small Fish. Small Fish la nguon thuc an cho Large Fish. Large Fish la nguon thuc an cho SEA LION. SEA LION la nguon thuc an cho Shark. Shark la nguon thuc an cho BACTERIA. Big Fish la nguon thuc an cho Eagle. Fish la nguon thuc an cho Big Fish. Insects la nguon thuc an cho Fish. Green Plants la nguon thuc an cho Insects. Plants la nguon thuc an cho Grasshopper. Grasshopper la nguon thuc an cho Toad. Toad la nguon thuc an cho Snake. Snake la nguon thuc an cho Hawk."
+}

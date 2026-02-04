@@ -1,0 +1,211 @@
+{
+  "id": "2289.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2289.png_B0",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2289.png_B1",
+        "name": "Larva",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2289.png_B2",
+        "name": "Pupa",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2289.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2289.png_B0",
+        "target": "2289.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2289.png_B1",
+        "target": "2289.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2289.png_B2",
+        "target": "2289.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2289.png_B3",
+        "target": "2289.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          142,
+          0,
+          113,
+          106
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          292,
+          93,
+          106,
+          104
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          146,
+          180,
+          107,
+          106
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          1,
+          93,
+          106,
+          108
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Eggs",
+        "bbox": [
+          [
+            173,
+            111
+          ],
+          [
+            227,
+            136
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult",
+        "bbox": [
+          [
+            24,
+            206
+          ],
+          [
+            77,
+            227
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Pupa",
+        "bbox": [
+          [
+            172,
+            289
+          ],
+          [
+            228,
+            311
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Larva",
+        "bbox": [
+          [
+            318,
+            202
+          ],
+          [
+            377,
+            226
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          251,
+          198,
+          98,
+          58
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          251,
+          35,
+          97,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          48,
+          36,
+          101,
+          60
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          50,
+          198,
+          100,
+          58
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Eggs phat trien thanh Larva. Giai doan Larva phat trien thanh Pupa. Giai doan Pupa phat trien thanh Adult. Giai doan Adult phat trien thanh Eggs."
+}

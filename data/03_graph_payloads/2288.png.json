@@ -1,0 +1,254 @@
+{
+  "id": "2288.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2288.png_B0",
+        "name": "Molt",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2288.png_B1",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2288.png_B2",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2288.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2288.png_T0",
+        "name": "point the world SUPER COLORING",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2288.png_T1",
+        "name": "Life Cycle of a Cicada",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2288.png_B0",
+        "target": "2288.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2288.png_B1",
+        "target": "2288.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2288.png_B2",
+        "target": "2288.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2288.png_B3",
+        "target": "2288.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          426,
+          452,
+          331,
+          263
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          255,
+          222,
+          263,
+          205
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          31,
+          458,
+          167,
+          179
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          172,
+          610,
+          247,
+          383
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "point the world SUPER COLORING",
+        "bbox": [
+          [
+            649,
+            950
+          ],
+          [
+            748,
+            1005
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Life Cycle of a Cicada",
+        "bbox": [
+          [
+            71,
+            64
+          ],
+          [
+            708,
+            140
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Nymph",
+        "bbox": [
+          [
+            353,
+            387
+          ],
+          [
+            452,
+            421
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Eggs",
+        "bbox": [
+          [
+            170,
+            484
+          ],
+          [
+            238,
+            519
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult",
+        "bbox": [
+          [
+            376,
+            721
+          ],
+          [
+            449,
+            749
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Molt",
+        "bbox": [
+          [
+            509,
+            669
+          ],
+          [
+            573,
+            697
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          97,
+          296,
+          164,
+          166
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          82,
+          646,
+          118,
+          165
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          413,
+          722,
+          257,
+          171
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          519,
+          297,
+          163,
+          178
+        ]
+      }
+    }
+  }
+}

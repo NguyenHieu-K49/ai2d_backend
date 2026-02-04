@@ -1,0 +1,299 @@
+{
+  "id": "2130.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2130.png_B0",
+        "name": "BASS",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2130.png_B1",
+        "name": "AQUATIC INSECTS",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2130.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "2130.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "2130.png_B4",
+        "name": "PHYTOPLANKTON",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2130.png_B5",
+        "name": "ZOOPLANKTON",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2130.png_B6",
+        "name": "BLUEGILL",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2130.png_T0",
+        "name": "LIGHT",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2130.png_B0",
+        "target": "2130.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2130.png_B4",
+        "target": "2130.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2130.png_B5",
+        "target": "2130.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2130.png_B5",
+        "target": "2130.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          161,
+          432,
+          64,
+          23
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          258,
+          247,
+          92,
+          101
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          291,
+          17,
+          146,
+          87
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          318,
+          372,
+          113,
+          167
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          142,
+          112,
+          94,
+          101
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          80,
+          229,
+          93,
+          98
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          163,
+          373,
+          40,
+          41
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "LIGHT",
+        "bbox": [
+          [
+            277,
+            124
+          ],
+          [
+            328,
+            146
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "PHYTOPLANKTON",
+        "bbox": [
+          [
+            235,
+            173
+          ],
+          [
+            377,
+            197
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "AQUATIC INSECTS",
+        "bbox": [
+          [
+            357,
+            275
+          ],
+          [
+            435,
+            324
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "ZOOPLANKTON",
+        "bbox": [
+          [
+            6,
+            333
+          ],
+          [
+            132,
+            355
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "BLUEGILL",
+        "bbox": [
+          [
+            192,
+            359
+          ],
+          [
+            273,
+            379
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "BASS",
+        "bbox": [
+          [
+            169,
+            458
+          ],
+          [
+            226,
+            491
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          226,
+          437,
+          104,
+          37
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          139,
+          319,
+          40,
+          53
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          172,
+          269,
+          75,
+          33
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          135,
+          198,
+          35,
+          37
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: BASS la nguon thuc an cho B3. PHYTOPLANKTON la nguon thuc an cho ZOOPLANKTON. ZOOPLANKTON la nguon thuc an cho BLUEGILL. ZOOPLANKTON la nguon thuc an cho AQUATIC INSECTS."
+}

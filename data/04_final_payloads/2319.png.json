@@ -1,0 +1,396 @@
+{
+  "id": "2319.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2319.png_B0",
+        "name": "Third Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T7"
+        ]
+      },
+      {
+        "uid": "2319.png_B1",
+        "name": "Fourth Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T6"
+        ]
+      },
+      {
+        "uid": "2319.png_B2",
+        "name": "Pupal Stage",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2319.png_B3",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2319.png_B4",
+        "name": "Eggs",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2319.png_B5",
+        "name": "First Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2319.png_B6",
+        "name": "Second Larval Stage",
+        "type": "Stage",
+        "components": [
+          "B6",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2319.png_T2",
+        "name": "Mosquito Life Cycle (Generalized)",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "2319.png_T8",
+        "name": "Note: Each larval stage is larger than the previous one. Molting occurs between larval and pupal stage. Larval and pupal stages are aquatic.",
+        "type": "Stage",
+        "components": [
+          "T8"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2319.png_B0",
+        "target": "2319.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2319.png_B1",
+        "target": "2319.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2319.png_B2",
+        "target": "2319.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2319.png_B3",
+        "target": "2319.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2319.png_B4",
+        "target": "2319.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "2319.png_B5",
+        "target": "2319.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2319.png_B6",
+        "target": "2319.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          452,
+          408,
+          138,
+          133
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          174,
+          464,
+          193,
+          170
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          30,
+          306,
+          114,
+          108
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          27,
+          74,
+          232,
+          136
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          324,
+          16,
+          57,
+          31
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          479,
+          58,
+          58,
+          61
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          553,
+          231,
+          97,
+          95
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "First Larval Stage",
+        "bbox": [
+          [
+            468,
+            116
+          ],
+          [
+            595,
+            141
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Eggs",
+        "bbox": [
+          [
+            327,
+            50
+          ],
+          [
+            375,
+            71
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Mosquito Life Cycle (Generalized)",
+        "bbox": [
+          [
+            218,
+            260
+          ],
+          [
+            478,
+            321
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Second Larval Stage",
+        "bbox": [
+          [
+            545,
+            326
+          ],
+          [
+            689,
+            347
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Adult",
+        "bbox": [
+          [
+            108,
+            202
+          ],
+          [
+            163,
+            224
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Pupal Stage",
+        "bbox": [
+          [
+            41,
+            415
+          ],
+          [
+            130,
+            438
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Fourth Larval Stage",
+        "bbox": [
+          [
+            176,
+            589
+          ],
+          [
+            313,
+            618
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Third Larval Stage",
+        "bbox": [
+          [
+            487,
+            536
+          ],
+          [
+            614,
+            565
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Note: Each larval stage is larger than the previous one. Molting occurs between larval and pupal stage. Larval and pupal stages are aquatic.",
+        "bbox": [
+          [
+            31,
+            644
+          ],
+          [
+            678,
+            691
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          552,
+          132,
+          71,
+          139
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          545,
+          342,
+          79,
+          138
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          344,
+          496,
+          191,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          103,
+          438,
+          76,
+          77
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          66,
+          205,
+          33,
+          97
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          180,
+          31,
+          117,
+          59
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          389,
+          28,
+          84,
+          40
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Third Larval Stage phat trien thanh Fourth Larval Stage. Giai doan Fourth Larval Stage phat trien thanh Pupal Stage. Giai doan Pupal Stage phat trien thanh Adult. Giai doan Adult phat trien thanh Eggs. Giai doan Eggs phat trien thanh First Larval Stage. Giai doan First Larval Stage phat trien thanh Second Larval Stage. Giai doan Second Larval Stage phat trien thanh Third Larval Stage."
+}

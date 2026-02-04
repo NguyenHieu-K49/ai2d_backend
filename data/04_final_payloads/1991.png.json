@@ -1,0 +1,334 @@
+{
+  "id": "1991.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1991.png_T0",
+        "name": "Birds,",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "1991.png_T1",
+        "name": "Fish",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1991.png_T2",
+        "name": "Crayfish",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1991.png_T3",
+        "name": "Worms",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1991.png_T4",
+        "name": "Algae",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1991.png_T5",
+        "name": "Bacteria",
+        "type": "Organism",
+        "components": [
+          "T5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1991.png_T0",
+        "target": "1991.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1991.png_T1",
+        "target": "1991.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1991.png_T1",
+        "target": "1991.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1991.png_T2",
+        "target": "1991.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1991.png_T2",
+        "target": "1991.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1991.png_T2",
+        "target": "1991.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1991.png_T3",
+        "target": "1991.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1991.png_T3",
+        "target": "1991.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1991.png_T3",
+        "target": "1991.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1991.png_T4",
+        "target": "1991.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1991.png_T4",
+        "target": "1991.png_T2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1991.png_T4",
+        "target": "1991.png_T5",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Birds,",
+        "bbox": [
+          [
+            15,
+            0
+          ],
+          [
+            45,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fish",
+        "bbox": [
+          [
+            94,
+            43
+          ],
+          [
+            120,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Crayfish",
+        "bbox": [
+          [
+            6,
+            87
+          ],
+          [
+            52,
+            107
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Worms",
+        "bbox": [
+          [
+            90,
+            90
+          ],
+          [
+            128,
+            104
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Algae",
+        "bbox": [
+          [
+            47,
+            135
+          ],
+          [
+            79,
+            150
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Bacteria",
+        "bbox": [
+          [
+            99,
+            180
+          ],
+          [
+            142,
+            194
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          22,
+          15,
+          13,
+          76
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          31,
+          13,
+          76,
+          76
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          38,
+          0,
+          108,
+          208
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          115,
+          39,
+          24,
+          139
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          37,
+          5,
+          64,
+          41
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          44,
+          44,
+          55,
+          50
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          104,
+          58,
+          12,
+          30
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          96,
+          111,
+          16,
+          70
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          71,
+          95,
+          24,
+          42
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          22,
+          103,
+          35,
+          35
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          67,
+          145,
+          31,
+          36
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          0,
+          91,
+          99,
+          104
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Birds, la nguon thuc an cho Bacteria. Fish la nguon thuc an cho Bacteria. Fish la nguon thuc an cho Birds,. Crayfish la nguon thuc an cho Birds,. Crayfish la nguon thuc an cho Fish. Crayfish la nguon thuc an cho Bacteria. Worms la nguon thuc an cho Birds,. Worms la nguon thuc an cho Fish. Worms la nguon thuc an cho Bacteria. Algae la nguon thuc an cho Worms. Algae la nguon thuc an cho Crayfish. Algae la nguon thuc an cho Bacteria."
+}

@@ -1,0 +1,388 @@
+{
+  "id": "201.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "PEOPLE",
+        "bbox": [
+          [
+            31,
+            24
+          ],
+          [
+            132,
+            52
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "eating maple syrup",
+        "bbox": [
+          [
+            23,
+            88
+          ],
+          [
+            113,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "leaves falling",
+        "bbox": [
+          [
+            0,
+            252
+          ],
+          [
+            55,
+            288
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "roots taking up water",
+        "bbox": [
+          [
+            21,
+            391
+          ],
+          [
+            125,
+            436
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "nutrients leaching into soil",
+        "bbox": [
+          [
+            159,
+            391
+          ],
+          [
+            241,
+            446
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "roots taking up water",
+        "bbox": [
+          [
+            269,
+            397
+          ],
+          [
+            368,
+            435
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "SOIL",
+        "bbox": [
+          [
+            172,
+            491
+          ],
+          [
+            234,
+            521
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "TREES",
+        "bbox": [
+          [
+            71,
+            166
+          ],
+          [
+            149,
+            193
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "ANIMALS",
+        "bbox": [
+          [
+            265,
+            26
+          ],
+          [
+            382,
+            55
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "animals eating plants",
+        "bbox": [
+          [
+            242,
+            90
+          ],
+          [
+            362,
+            129
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "animals excreting and dying",
+        "bbox": [
+          [
+            390,
+            123
+          ],
+          [
+            471,
+            182
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "leaves falling plants dying",
+        "bbox": [
+          [
+            322,
+            249
+          ],
+          [
+            432,
+            291
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "roots taking up nutrients",
+        "bbox": [
+          [
+            149,
+            232
+          ],
+          [
+            253,
+            265
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "UNDERSTORY PLANTS",
+        "bbox": [
+          [
+            227,
+            161
+          ],
+          [
+            354,
+            204
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "FOREST FLOOR",
+        "bbox": [
+          [
+            159,
+            313
+          ],
+          [
+            246,
+            359
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          190,
+          366,
+          25,
+          109
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          104,
+          218,
+          94,
+          78
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          276,
+          215,
+          54,
+          292
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          282,
+          180,
+          109,
+          167
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          282,
+          39,
+          153,
+          304
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          120,
+          74,
+          202,
+          67
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          207,
+          214,
+          96,
+          82
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          78,
+          74,
+          42,
+          67
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          75,
+          211,
+          55,
+          301
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          287,
+          76,
+          39,
+          71
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          10,
+          172,
+          118,
+          177
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T8",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T2",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T0",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T9",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T9",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T3",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T14",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T2",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T8",
+      "via": "A16"
+    }
+  ],
+  "rst_source": true
+}

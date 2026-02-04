@@ -1,0 +1,676 @@
+{
+  "id": "1863.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          261,
+          86,
+          101,
+          70
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          420,
+          137,
+          101,
+          32
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          83,
+          170,
+          47,
+          70
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          144,
+          212,
+          82,
+          31
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          120,
+          123,
+          113,
+          36
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          524,
+          207,
+          47,
+          65
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          448,
+          204,
+          62,
+          53
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          369,
+          225,
+          79,
+          33
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          244,
+          284,
+          174,
+          46
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          295,
+          352,
+          64,
+          56
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          255,
+          226,
+          95,
+          27
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          127,
+          279,
+          65,
+          57
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          49,
+          266,
+          72,
+          34
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Blue whale",
+        "bbox": [
+          [
+            147,
+            169
+          ],
+          [
+            204,
+            181
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Emperor penguin",
+        "bbox": [
+          [
+            88,
+            234
+          ],
+          [
+            130,
+            259
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Crabeater seal",
+        "bbox": [
+          [
+            368,
+            258
+          ],
+          [
+            439,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Adelie penguin",
+        "bbox": [
+          [
+            517,
+            267
+          ],
+          [
+            587,
+            279
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Carnivore Herbivore Primary producer",
+        "bbox": [
+          [
+            504,
+            359
+          ],
+          [
+            583,
+            404
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Antarctic Food Webs",
+        "bbox": [
+          [
+            28,
+            31
+          ],
+          [
+            316,
+            57
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Killer whale",
+        "bbox": [
+          [
+            281,
+            149
+          ],
+          [
+            339,
+            170
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Weddell seal",
+        "bbox": [
+          [
+            153,
+            255
+          ],
+          [
+            214,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Patagonian toothfish",
+        "bbox": [
+          [
+            53,
+            308
+          ],
+          [
+            108,
+            334
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Herring, anchovies, and squids",
+        "bbox": [
+          [
+            133,
+            338
+          ],
+          [
+            186,
+            375
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Krill",
+        "bbox": [
+          [
+            316,
+            329
+          ],
+          [
+            339,
+            340
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Algae",
+        "bbox": [
+          [
+            311,
+            404
+          ],
+          [
+            342,
+            421
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Ross seal",
+        "bbox": [
+          [
+            286,
+            265
+          ],
+          [
+            332,
+            275
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Leopard seal",
+        "bbox": [
+          [
+            445,
+            172
+          ],
+          [
+            502,
+            187
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Antarctic petrel",
+        "bbox": [
+          [
+            442,
+            252
+          ],
+          [
+            514,
+            265
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          98,
+          295,
+          34,
+          23
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          115,
+          253,
+          29,
+          39
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          195,
+          156,
+          83,
+          131
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          299,
+          159,
+          18,
+          55
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          332,
+          244,
+          45,
+          12
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          126,
+          161,
+          306,
+          52
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          217,
+          173,
+          221,
+          55
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          326,
+          175,
+          121,
+          60
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          419,
+          181,
+          44,
+          42
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          419,
+          276,
+          116,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          197,
+          119,
+          67,
+          18
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          155,
+          267,
+          23,
+          22
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          185,
+          299,
+          51,
+          12
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          180,
+          249,
+          108,
+          48
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          360,
+          122,
+          78,
+          27
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          485,
+          182,
+          54,
+          49
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          385,
+          271,
+          22,
+          22
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          407,
+          259,
+          72,
+          42
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B1",
+      "to": "B0",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "B10",
+      "to": "B1",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "B11",
+      "to": "B1",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "B12",
+      "to": "B0",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "B2",
+      "to": "B1",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B7",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "B4",
+      "to": "B1",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B12",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B2",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B8",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B4",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B5",
+      "to": "B3",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B0",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "B7",
+      "to": "B1",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B9",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B10",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B11",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B8",
+      "to": "B7",
+      "via": "A5"
+    },
+    {
+      "type": "labeling",
+      "label": "T0",
+      "object": "B12"
+    },
+    {
+      "type": "labeling",
+      "label": "T1",
+      "object": "B10"
+    },
+    {
+      "type": "labeling",
+      "label": "T10",
+      "object": "B4"
+    },
+    {
+      "type": "labeling",
+      "label": "T11",
+      "object": "B2"
+    },
+    {
+      "type": "labeling",
+      "label": "T14",
+      "object": "B0"
+    },
+    {
+      "type": "labeling",
+      "label": "T2",
+      "object": "B11"
+    },
+    {
+      "type": "labeling",
+      "label": "T3",
+      "object": "B9"
+    },
+    {
+      "type": "labeling",
+      "label": "T4",
+      "object": "B8"
+    },
+    {
+      "type": "labeling",
+      "label": "T5",
+      "object": "B5"
+    },
+    {
+      "type": "labeling",
+      "label": "T6",
+      "object": "B6"
+    },
+    {
+      "type": "labeling",
+      "label": "T7",
+      "object": "B7"
+    },
+    {
+      "type": "labeling",
+      "label": "T8",
+      "object": "B1"
+    },
+    {
+      "type": "labeling",
+      "label": "T9",
+      "object": "B3"
+    }
+  ],
+  "rst_source": true
+}

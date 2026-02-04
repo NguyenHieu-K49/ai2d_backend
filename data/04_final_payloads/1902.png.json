@@ -1,0 +1,544 @@
+{
+  "id": "1902.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1902.png_B0",
+        "name": "B0",
+        "type": "Organism",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "1902.png_B1",
+        "name": "B1",
+        "type": "Organism",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1902.png_B10",
+        "name": "B10",
+        "type": "Organism",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "1902.png_B11",
+        "name": "B11",
+        "type": "Organism",
+        "components": [
+          "B11"
+        ]
+      },
+      {
+        "uid": "1902.png_B12",
+        "name": "B12",
+        "type": "Organism",
+        "components": [
+          "B12"
+        ]
+      },
+      {
+        "uid": "1902.png_B13",
+        "name": "B13",
+        "type": "Organism",
+        "components": [
+          "B13"
+        ]
+      },
+      {
+        "uid": "1902.png_B14",
+        "name": "B14",
+        "type": "Organism",
+        "components": [
+          "B14"
+        ]
+      },
+      {
+        "uid": "1902.png_B15",
+        "name": "B15",
+        "type": "Organism",
+        "components": [
+          "B15"
+        ]
+      },
+      {
+        "uid": "1902.png_B16",
+        "name": "B16",
+        "type": "Organism",
+        "components": [
+          "B16"
+        ]
+      },
+      {
+        "uid": "1902.png_B2",
+        "name": "B2",
+        "type": "Organism",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1902.png_B3",
+        "name": "B3",
+        "type": "Organism",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1902.png_B4",
+        "name": "B4",
+        "type": "Organism",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1902.png_B5",
+        "name": "B5",
+        "type": "Organism",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1902.png_B6",
+        "name": "B6",
+        "type": "Organism",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "1902.png_B7",
+        "name": "B7",
+        "type": "Organism",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "1902.png_B8",
+        "name": "B8",
+        "type": "Organism",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "1902.png_B9",
+        "name": "B9",
+        "type": "Organism",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "1902.png_T0",
+        "name": "Food Chains in Tundra ",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1902.png_B0",
+        "target": "1902.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1902.png_B1",
+        "target": "1902.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1902.png_B11",
+        "target": "1902.png_B12",
+        "relation": "LINKED_TO",
+        "via": "A9"
+      },
+      {
+        "source": "1902.png_B12",
+        "target": "1902.png_B13",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "1902.png_B13",
+        "target": "1902.png_B14",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "1902.png_B14",
+        "target": "1902.png_B15",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "1902.png_B15",
+        "target": "1902.png_B16",
+        "relation": "LINKED_TO",
+        "via": "A13"
+      },
+      {
+        "source": "1902.png_B2",
+        "target": "1902.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1902.png_B3",
+        "target": "1902.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "1902.png_B4",
+        "target": "1902.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1902.png_B6",
+        "target": "1902.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "1902.png_B7",
+        "target": "1902.png_B8",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "1902.png_B8",
+        "target": "1902.png_B9",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "1902.png_B9",
+        "target": "1902.png_B10",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          5,
+          167,
+          55,
+          54
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          135,
+          172,
+          53,
+          52
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          575,
+          334,
+          100,
+          69
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          11,
+          449,
+          51,
+          61
+        ]
+      },
+      "B12": {
+        "id": "B12",
+        "bbox": [
+          112,
+          452,
+          89,
+          61
+        ]
+      },
+      "B13": {
+        "id": "B13",
+        "bbox": [
+          257,
+          449,
+          100,
+          65
+        ]
+      },
+      "B14": {
+        "id": "B14",
+        "bbox": [
+          413,
+          439,
+          55,
+          78
+        ]
+      },
+      "B15": {
+        "id": "B15",
+        "bbox": [
+          517,
+          444,
+          75,
+          65
+        ]
+      },
+      "B16": {
+        "id": "B16",
+        "bbox": [
+          653,
+          454,
+          74,
+          47
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          262,
+          160,
+          71,
+          67
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          386,
+          158,
+          61,
+          79
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          489,
+          171,
+          85,
+          63
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          628,
+          170,
+          97,
+          68
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          6,
+          331,
+          54,
+          56
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          120,
+          327,
+          55,
+          72
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          247,
+          330,
+          98,
+          63
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          403,
+          328,
+          108,
+          74
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Chains in Tundra ",
+        "bbox": [
+          [
+            137,
+            44
+          ],
+          [
+            598,
+            94
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          75,
+          187,
+          48,
+          12
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          202,
+          188,
+          41,
+          12
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          207,
+          472,
+          42,
+          12
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          361,
+          474,
+          39,
+          11
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          470,
+          465,
+          41,
+          16
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          598,
+          470,
+          40,
+          15
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          337,
+          185,
+          40,
+          13
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          451,
+          187,
+          35,
+          13
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          578,
+          194,
+          42,
+          10
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          68,
+          350,
+          46,
+          15
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          186,
+          351,
+          44,
+          15
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          344,
+          356,
+          45,
+          14
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          524,
+          356,
+          38,
+          16
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          68,
+          474,
+          37,
+          12
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: B0 la nguon thuc an cho B1. B1 la nguon thuc an cho B2. B11 la nguon thuc an cho B12. B12 la nguon thuc an cho B13. B13 la nguon thuc an cho B14. B14 la nguon thuc an cho B15. B15 la nguon thuc an cho B16. B2 la nguon thuc an cho B3. B3 la nguon thuc an cho B4. B4 la nguon thuc an cho B5. B6 la nguon thuc an cho B7. B7 la nguon thuc an cho B8. B8 la nguon thuc an cho B9. B9 la nguon thuc an cho B10."
+}

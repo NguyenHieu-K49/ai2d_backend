@@ -1,0 +1,834 @@
+{
+  "id": "2021.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Food Web",
+        "bbox": [
+          [
+            388,
+            9
+          ],
+          [
+            426,
+            39
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Bottlenose Dolphins",
+        "bbox": [
+          [
+            487,
+            86
+          ],
+          [
+            545,
+            117
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Copepods",
+        "bbox": [
+          [
+            352,
+            478
+          ],
+          [
+            403,
+            493
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Baleen Whales",
+        "bbox": [
+          [
+            373,
+            346
+          ],
+          [
+            413,
+            377
+          ]
+        ]
+      },
+      {
+        "id": "T12",
+        "content": "Salmon",
+        "bbox": [
+          [
+            484,
+            301
+          ],
+          [
+            521,
+            317
+          ]
+        ]
+      },
+      {
+        "id": "T13",
+        "content": "Squid",
+        "bbox": [
+          [
+            545,
+            216
+          ],
+          [
+            578,
+            231
+          ]
+        ]
+      },
+      {
+        "id": "T14",
+        "content": "Tuna",
+        "bbox": [
+          [
+            632,
+            297
+          ],
+          [
+            663,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T15",
+        "content": "Crustaceans",
+        "bbox": [
+          [
+            752,
+            298
+          ],
+          [
+            818,
+            312
+          ]
+        ]
+      },
+      {
+        "id": "T16",
+        "content": "Zooplankton",
+        "bbox": [
+          [
+            618,
+            402
+          ],
+          [
+            688,
+            419
+          ]
+        ]
+      },
+      {
+        "id": "T17",
+        "content": "Phytoplankton",
+        "bbox": [
+          [
+            524,
+            532
+          ],
+          [
+            603,
+            551
+          ]
+        ]
+      },
+      {
+        "id": "T18",
+        "content": "Microplankton",
+        "bbox": [
+          [
+            268,
+            559
+          ],
+          [
+            348,
+            575
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Killer Whales",
+        "bbox": [
+          [
+            274,
+            88
+          ],
+          [
+            316,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "seals",
+        "bbox": [
+          [
+            97,
+            188
+          ],
+          [
+            127,
+            203
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Sperm Whale",
+        "bbox": [
+          [
+            22,
+            252
+          ],
+          [
+            60,
+            282
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "penguins",
+        "bbox": [
+          [
+            177,
+            260
+          ],
+          [
+            224,
+            273
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "birds",
+        "bbox": [
+          [
+            303,
+            254
+          ],
+          [
+            337,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Pelagic Fishes",
+        "bbox": [
+          [
+            222,
+            360
+          ],
+          [
+            262,
+            389
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Squids",
+        "bbox": [
+          [
+            70,
+            361
+          ],
+          [
+            105,
+            375
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Krill",
+        "bbox": [
+          [
+            220,
+            477
+          ],
+          [
+            248,
+            495
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          38,
+          192,
+          38,
+          52
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          81,
+          207,
+          16,
+          141
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          411,
+          46,
+          79,
+          41
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          495,
+          125,
+          27,
+          164
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          514,
+          124,
+          46,
+          82
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          556,
+          101,
+          92,
+          186
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          556,
+          99,
+          192,
+          194
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          601,
+          220,
+          133,
+          88
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          689,
+          327,
+          91,
+          70
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          625,
+          328,
+          161,
+          214
+        ]
+      },
+      "A18": {
+        "id": "A18",
+        "bbox": [
+          559,
+          322,
+          64,
+          198
+        ]
+      },
+      "A19": {
+        "id": "A19",
+        "bbox": [
+          562,
+          432,
+          93,
+          86
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          37,
+          287,
+          27,
+          68
+        ]
+      },
+      "A20": {
+        "id": "A20",
+        "bbox": [
+          556,
+          246,
+          11,
+          270
+        ]
+      },
+      "A21": {
+        "id": "A21",
+        "bbox": [
+          529,
+          249,
+          33,
+          46
+        ]
+      },
+      "A22": {
+        "id": "A22",
+        "bbox": [
+          557,
+          249,
+          62,
+          150
+        ]
+      },
+      "A23": {
+        "id": "A23",
+        "bbox": [
+          558,
+          246,
+          49,
+          65
+        ]
+      },
+      "A24": {
+        "id": "A24",
+        "bbox": [
+          639,
+          329,
+          21,
+          62
+        ]
+      },
+      "A25": {
+        "id": "A25",
+        "bbox": [
+          495,
+          330,
+          32,
+          195
+        ]
+      },
+      "A26": {
+        "id": "A26",
+        "bbox": [
+          502,
+          325,
+          99,
+          89
+        ]
+      },
+      "A27": {
+        "id": "A27",
+        "bbox": [
+          372,
+          384,
+          25,
+          79
+        ]
+      },
+      "A28": {
+        "id": "A28",
+        "bbox": [
+          351,
+          507,
+          30,
+          45
+        ]
+      },
+      "A29": {
+        "id": "A29",
+        "bbox": [
+          262,
+          378,
+          107,
+          94
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          65,
+          280,
+          152,
+          80
+        ]
+      },
+      "A30": {
+        "id": "A30",
+        "bbox": [
+          270,
+          286,
+          52,
+          71
+        ]
+      },
+      "A31": {
+        "id": "A31",
+        "bbox": [
+          323,
+          120,
+          70,
+          218
+        ]
+      },
+      "A32": {
+        "id": "A32",
+        "bbox": [
+          128,
+          258,
+          156,
+          111
+        ]
+      },
+      "A33": {
+        "id": "A33",
+        "bbox": [
+          116,
+          282,
+          85,
+          73
+        ]
+      },
+      "A34": {
+        "id": "A34",
+        "bbox": [
+          108,
+          215,
+          101,
+          257
+        ]
+      },
+      "A35": {
+        "id": "A35",
+        "bbox": [
+          85,
+          387,
+          113,
+          103
+        ]
+      },
+      "A36": {
+        "id": "A36",
+        "bbox": [
+          227,
+          506,
+          45,
+          48
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          108,
+          213,
+          94,
+          163
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          138,
+          210,
+          23,
+          58
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          145,
+          206,
+          150,
+          45
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          292,
+          129,
+          35,
+          114
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          140,
+          116,
+          134,
+          66
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          323,
+          46,
+          83,
+          43
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T2",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T12",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T13",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T14",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T15",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T18",
+      "via": "A28"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "T10",
+      "via": "A27"
+    },
+    {
+      "type": "connection",
+      "from": "T11",
+      "to": "T9",
+      "via": "A29"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T17",
+      "via": "A25"
+    },
+    {
+      "type": "connection",
+      "from": "T12",
+      "to": "T16",
+      "via": "A26"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T15",
+      "via": "A15"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T17",
+      "via": "A20"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T12",
+      "via": "A21"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T16",
+      "via": "A22"
+    },
+    {
+      "type": "connection",
+      "from": "T13",
+      "to": "T14",
+      "via": "A23"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T17",
+      "via": "A18"
+    },
+    {
+      "type": "connection",
+      "from": "T14",
+      "to": "T16",
+      "via": "A24"
+    },
+    {
+      "type": "connection",
+      "from": "T15",
+      "to": "T16",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T15",
+      "to": "T17",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "T16",
+      "to": "T17",
+      "via": "A19"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T11",
+      "via": "A31"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T6",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T8",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T9",
+      "via": "A34"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T5",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T6",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T8",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T7",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T8",
+      "via": "A33"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T7",
+      "via": "A30"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T8",
+      "via": "A32"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T9",
+      "via": "A35"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T18",
+      "via": "A36"
+    }
+  ],
+  "rst_source": true
+}

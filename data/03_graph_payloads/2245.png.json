@@ -1,0 +1,210 @@
+{
+  "id": "2245.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2245.png_B0",
+        "name": "Adult",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2245.png_B1",
+        "name": "Egg Case",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2245.png_B2",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2245.png_B3",
+        "name": "Nymph",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2245.png_B0",
+        "target": "2245.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2245.png_B1",
+        "target": "2245.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2245.png_B2",
+        "target": "2245.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2245.png_B3",
+        "target": "2245.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          0,
+          39,
+          117,
+          124
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          162,
+          4,
+          47,
+          19
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          285,
+          107,
+          33,
+          35
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          144,
+          186,
+          75,
+          73
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Egg Case",
+        "bbox": [
+          [
+            140,
+            22
+          ],
+          [
+            232,
+            46
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Adult",
+        "bbox": [
+          [
+            77,
+            110
+          ],
+          [
+            127,
+            126
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Nymph",
+        "bbox": [
+          [
+            147,
+            162
+          ],
+          [
+            212,
+            189
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Nymph",
+        "bbox": [
+          [
+            223,
+            105
+          ],
+          [
+            283,
+            130
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          49,
+          0,
+          117,
+          61
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          207,
+          7,
+          104,
+          101
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          42,
+          150,
+          107,
+          93
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          203,
+          149,
+          103,
+          94
+        ]
+      }
+    }
+  }
+}

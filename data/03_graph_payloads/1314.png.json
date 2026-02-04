@@ -1,0 +1,463 @@
+{
+  "id": "1314.png",
+  "meta": {
+    "category": "photosynthesisRespiration",
+    "domain": "Biology",
+    "label": "Component"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "1314.png_B0",
+        "name": "Energy",
+        "type": "Component",
+        "components": [
+          "B0",
+          "T0"
+        ]
+      },
+      {
+        "uid": "1314.png_B1",
+        "name": "B1",
+        "type": "Component",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "1314.png_B10",
+        "name": "B10",
+        "type": "Component",
+        "components": [
+          "B10"
+        ]
+      },
+      {
+        "uid": "1314.png_B11",
+        "name": "Food",
+        "type": "Component",
+        "components": [
+          "B11",
+          "T5"
+        ]
+      },
+      {
+        "uid": "1314.png_B2",
+        "name": "B2",
+        "type": "Component",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "1314.png_B3",
+        "name": "B3",
+        "type": "Component",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "1314.png_B4",
+        "name": "B4",
+        "type": "Component",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "1314.png_B5",
+        "name": "B5",
+        "type": "Component",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "1314.png_B6",
+        "name": "B6",
+        "type": "Component",
+        "components": [
+          "B6"
+        ]
+      },
+      {
+        "uid": "1314.png_B7",
+        "name": "B7",
+        "type": "Component",
+        "components": [
+          "B7"
+        ]
+      },
+      {
+        "uid": "1314.png_B8",
+        "name": "B8",
+        "type": "Component",
+        "components": [
+          "B8"
+        ]
+      },
+      {
+        "uid": "1314.png_B9",
+        "name": "B9",
+        "type": "Component",
+        "components": [
+          "B9"
+        ]
+      },
+      {
+        "uid": "1314.png_T1",
+        "name": "Oxygen (O2)",
+        "type": "Component",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "1314.png_T2",
+        "name": "Released",
+        "type": "Component",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "1314.png_T3",
+        "name": "CARBON DIOXIDE",
+        "type": "Component",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "1314.png_T4",
+        "name": "(CO2)",
+        "type": "Component",
+        "components": [
+          "T4"
+        ]
+      },
+      {
+        "uid": "1314.png_T6",
+        "name": "Water from soil",
+        "type": "Component",
+        "components": [
+          "T6"
+        ]
+      },
+      {
+        "uid": "1314.png_T7",
+        "name": "classroomclipart.com http://classroomclipartlcom",
+        "type": "Component",
+        "components": [
+          "T7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "1314.png_B11",
+        "target": "1314.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "1314.png_B11",
+        "target": "1314.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "1314.png_T4",
+        "target": "1314.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "1314.png_T6",
+        "target": "1314.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "1314.png_T6",
+        "target": "1314.png_B11",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          44,
+          24,
+          90,
+          89
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          58,
+          116,
+          15,
+          18
+        ]
+      },
+      "B10": {
+        "id": "B10",
+        "bbox": [
+          33,
+          23,
+          18,
+          13
+        ]
+      },
+      "B11": {
+        "id": "B11",
+        "bbox": [
+          193,
+          140,
+          310,
+          262
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          29,
+          96,
+          17,
+          15
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          19,
+          60,
+          18,
+          10
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          93,
+          119,
+          11,
+          19
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          127,
+          102,
+          16,
+          14
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          140,
+          65,
+          18,
+          9
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          134,
+          31,
+          17,
+          12
+        ]
+      },
+      "B8": {
+        "id": "B8",
+        "bbox": [
+          104,
+          5,
+          14,
+          18
+        ]
+      },
+      "B9": {
+        "id": "B9",
+        "bbox": [
+          75,
+          0,
+          10,
+          18
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Energy",
+        "bbox": [
+          [
+            178,
+            65
+          ],
+          [
+            274,
+            101
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Oxygen (O2)",
+        "bbox": [
+          [
+            387,
+            51
+          ],
+          [
+            523,
+            86
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Released",
+        "bbox": [
+          [
+            373,
+            93
+          ],
+          [
+            500,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "CARBON DIOXIDE",
+        "bbox": [
+          [
+            14,
+            211
+          ],
+          [
+            167,
+            230
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "(CO2)",
+        "bbox": [
+          [
+            0,
+            242
+          ],
+          [
+            75,
+            277
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Food",
+        "bbox": [
+          [
+            242,
+            242
+          ],
+          [
+            324,
+            271
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Water from soil",
+        "bbox": [
+          [
+            36,
+            356
+          ],
+          [
+            210,
+            393
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "classroomclipart.com http://classroomclipartlcom",
+        "bbox": [
+          [
+            345,
+            404
+          ],
+          [
+            549,
+            435
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          318,
+          88,
+          55,
+          46
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          467,
+          141,
+          39,
+          60
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          335,
+          315,
+          27,
+          39
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          245,
+          357,
+          87,
+          46
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          91,
+          244,
+          105,
+          36
+        ]
+      }
+    }
+  }
+}

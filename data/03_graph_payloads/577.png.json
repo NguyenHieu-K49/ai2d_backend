@@ -1,0 +1,270 @@
+{
+  "id": "577.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "577.png_B0",
+        "name": "B0",
+        "type": "Stage",
+        "components": [
+          "B0"
+        ]
+      },
+      {
+        "uid": "577.png_B1",
+        "name": "B1",
+        "type": "Stage",
+        "components": [
+          "B1"
+        ]
+      },
+      {
+        "uid": "577.png_B2",
+        "name": "B2",
+        "type": "Stage",
+        "components": [
+          "B2"
+        ]
+      },
+      {
+        "uid": "577.png_B3",
+        "name": "B3",
+        "type": "Stage",
+        "components": [
+          "B3"
+        ]
+      },
+      {
+        "uid": "577.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "577.png_T0",
+        "name": "B",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "577.png_T1",
+        "name": "C",
+        "type": "Stage",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "577.png_T2",
+        "name": "D",
+        "type": "Stage",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "577.png_T3",
+        "name": "A",
+        "type": "Stage",
+        "components": [
+          "T3"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "577.png_B0",
+        "target": "577.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "577.png_B1",
+        "target": "577.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "577.png_B2",
+        "target": "577.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "577.png_B3",
+        "target": "577.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "577.png_B4",
+        "target": "577.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          16,
+          149,
+          86,
+          106
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          89,
+          12,
+          80,
+          97
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          227,
+          33,
+          32,
+          80
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          257,
+          143,
+          28,
+          46
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          193,
+          235,
+          24,
+          27
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "B",
+        "bbox": [
+          [
+            192,
+            36
+          ],
+          [
+            207,
+            56
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "C",
+        "bbox": [
+          [
+            48,
+            96
+          ],
+          [
+            62,
+            120
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "D",
+        "bbox": [
+          [
+            120,
+            245
+          ],
+          [
+            134,
+            260
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "A",
+        "bbox": [
+          [
+            254,
+            216
+          ],
+          [
+            264,
+            236
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          52,
+          96,
+          31,
+          46
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          104,
+          228,
+          64,
+          27
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          221,
+          181,
+          42,
+          48
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          250,
+          96,
+          31,
+          41
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          170,
+          55,
+          56,
+          29
+        ]
+      }
+    }
+  }
+}

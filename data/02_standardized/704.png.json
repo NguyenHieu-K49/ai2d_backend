@@ -1,0 +1,461 @@
+{
+  "id": "704.png",
+  "visual_objects": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          309,
+          473,
+          111,
+          102
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Tertiary consumer",
+        "bbox": [
+          [
+            226,
+            21
+          ],
+          [
+            321,
+            76
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            41,
+            152
+          ],
+          [
+            141,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T10",
+        "content": "Secondary consumer",
+        "bbox": [
+          [
+            395,
+            148
+          ],
+          [
+            501,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "T11",
+        "content": "Decomposers",
+        "bbox": [
+          [
+            736,
+            131
+          ],
+          [
+            864,
+            166
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            16,
+            265
+          ],
+          [
+            111,
+            314
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Producer",
+        "bbox": [
+          [
+            41,
+            379
+          ],
+          [
+            127,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            176,
+            261
+          ],
+          [
+            272,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Producer",
+        "bbox": [
+          [
+            210,
+            385
+          ],
+          [
+            298,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Producer",
+        "bbox": [
+          [
+            400,
+            383
+          ],
+          [
+            483,
+            411
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Producer",
+        "bbox": [
+          [
+            580,
+            397
+          ],
+          [
+            665,
+            427
+          ]
+        ]
+      },
+      {
+        "id": "T8",
+        "content": "Primary Consumer",
+        "bbox": [
+          [
+            506,
+            265
+          ],
+          [
+            598,
+            316
+          ]
+        ]
+      },
+      {
+        "id": "T9",
+        "content": "Primary consumer",
+        "bbox": [
+          [
+            348,
+            263
+          ],
+          [
+            441,
+            318
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          83,
+          81,
+          183,
+          65
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          302,
+          78,
+          153,
+          74
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          598,
+          325,
+          42,
+          65
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          462,
+          318,
+          95,
+          58
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          429,
+          325,
+          23,
+          54
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          254,
+          319,
+          189,
+          64
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          243,
+          210,
+          202,
+          53
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          138,
+          206,
+          262,
+          59
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          478,
+          210,
+          88,
+          51
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          691,
+          19,
+          64,
+          417
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          56,
+          206,
+          48,
+          53
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          115,
+          418,
+          181,
+          102
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          78,
+          323,
+          21,
+          49
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          88,
+          321,
+          150,
+          53
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          123,
+          319,
+          149,
+          67
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          265,
+          425,
+          47,
+          51
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          418,
+          425,
+          41,
+          58
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          429,
+          439,
+          192,
+          90
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T5",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T6",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "B0",
+      "to": "T7",
+      "via": "A9"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T0",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T10",
+      "to": "T0",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T1",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T2",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T4",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T10",
+      "via": "A14"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T2",
+      "via": "A6"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T8",
+      "via": "A11"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T9",
+      "via": "A12"
+    },
+    {
+      "type": "connection",
+      "from": "T6",
+      "to": "T4",
+      "via": "A13"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T8",
+      "via": "A10"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T11",
+      "via": "A17"
+    },
+    {
+      "type": "connection",
+      "from": "T8",
+      "to": "T10",
+      "via": "A16"
+    },
+    {
+      "type": "connection",
+      "from": "T9",
+      "to": "T1",
+      "via": "A15"
+    }
+  ],
+  "rst_source": true
+}

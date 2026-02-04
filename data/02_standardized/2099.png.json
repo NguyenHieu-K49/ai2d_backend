@@ -1,0 +1,260 @@
+{
+  "id": "2099.png",
+  "visual_objects": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "grass",
+        "bbox": [
+          [
+            35,
+            44
+          ],
+          [
+            81,
+            62
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "rabbit",
+        "bbox": [
+          [
+            130,
+            43
+          ],
+          [
+            178,
+            61
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "rat",
+        "bbox": [
+          [
+            245,
+            11
+          ],
+          [
+            269,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "snake",
+        "bbox": [
+          [
+            228,
+            44
+          ],
+          [
+            273,
+            62
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "fruit tree",
+        "bbox": [
+          [
+            10,
+            122
+          ],
+          [
+            71,
+            140
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "caterpillar",
+        "bbox": [
+          [
+            105,
+            121
+          ],
+          [
+            179,
+            138
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "small bird",
+        "bbox": [
+          [
+            222,
+            123
+          ],
+          [
+            295,
+            138
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "hawk",
+        "bbox": [
+          [
+            316,
+            95
+          ],
+          [
+            358,
+            112
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          82,
+          44,
+          51,
+          13
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          177,
+          45,
+          49,
+          15
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          264,
+          15,
+          78,
+          82
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          247,
+          25,
+          12,
+          24
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          262,
+          61,
+          57,
+          44
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          244,
+          63,
+          10,
+          52
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          289,
+          108,
+          33,
+          29
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          177,
+          120,
+          45,
+          16
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          75,
+          123,
+          30,
+          13
+        ]
+      }
+    }
+  },
+  "relationships": [
+    {
+      "type": "connection",
+      "from": "T0",
+      "to": "T1",
+      "via": "A0"
+    },
+    {
+      "type": "connection",
+      "from": "T1",
+      "to": "T3",
+      "via": "A1"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T7",
+      "via": "A2"
+    },
+    {
+      "type": "connection",
+      "from": "T2",
+      "to": "T3",
+      "via": "A3"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T7",
+      "via": "A4"
+    },
+    {
+      "type": "connection",
+      "from": "T3",
+      "to": "T6",
+      "via": "A5"
+    },
+    {
+      "type": "connection",
+      "from": "T4",
+      "to": "T5",
+      "via": "A8"
+    },
+    {
+      "type": "connection",
+      "from": "T5",
+      "to": "T6",
+      "via": "A7"
+    },
+    {
+      "type": "connection",
+      "from": "T7",
+      "to": "T6",
+      "via": "A6"
+    }
+  ],
+  "rst_source": true
+}

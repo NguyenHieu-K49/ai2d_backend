@@ -1,0 +1,305 @@
+{
+  "id": "2174.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2174.png_B0",
+        "name": "Polyp",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2174.png_B1",
+        "name": "Planula",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2174.png_B2",
+        "name": "Fertilized Egg",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2174.png_B3",
+        "name": "Adult Medusa",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T0"
+        ]
+      },
+      {
+        "uid": "2174.png_B4",
+        "name": "Ephyra",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2174.png_B5",
+        "name": "Strobilating Polyp",
+        "type": "Stage",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2174.png_B0",
+        "target": "2174.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2174.png_B1",
+        "target": "2174.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "2174.png_B2",
+        "target": "2174.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2174.png_B3",
+        "target": "2174.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2174.png_B4",
+        "target": "2174.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "2174.png_B5",
+        "target": "2174.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          204,
+          230,
+          52,
+          71
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          288,
+          113,
+          38,
+          47
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          245,
+          18,
+          18,
+          27
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          62,
+          0,
+          65,
+          73
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          0,
+          109,
+          52,
+          59
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          69,
+          189,
+          47,
+          112
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Adult Medusa",
+        "bbox": [
+          [
+            120,
+            61
+          ],
+          [
+            168,
+            92
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Fertilized Egg",
+        "bbox": [
+          [
+            193,
+            44
+          ],
+          [
+            257,
+            77
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Planula",
+        "bbox": [
+          [
+            232,
+            125
+          ],
+          [
+            285,
+            145
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Polyp",
+        "bbox": [
+          [
+            213,
+            203
+          ],
+          [
+            248,
+            225
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Strobilating Polyp",
+        "bbox": [
+          [
+            107,
+            168
+          ],
+          [
+            186,
+            201
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Ephyra",
+        "bbox": [
+          [
+            52,
+            127
+          ],
+          [
+            108,
+            149
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          23,
+          39,
+          42,
+          72
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          128,
+          0,
+          114,
+          23
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          266,
+          35,
+          42,
+          70
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          26,
+          166,
+          36,
+          68
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          124,
+          269,
+          80,
+          24
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          258,
+          175,
+          50,
+          77
+        ]
+      }
+    }
+  },
+  "description": "Qua trinh phat trien nhu sau: Giai doan Polyp phat trien thanh Strobilating Polyp. Giai doan Planula phat trien thanh Polyp. Giai doan Fertilized Egg phat trien thanh Planula. Giai doan Adult Medusa phat trien thanh Fertilized Egg. Giai doan Ephyra phat trien thanh Adult Medusa. Giai doan Strobilating Polyp phat trien thanh Ephyra."
+}

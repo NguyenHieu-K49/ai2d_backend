@@ -1,0 +1,537 @@
+{
+  "id": "269.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "269.png_B0",
+        "name": "Sun's energy",
+        "type": "Organism",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "269.png_B1",
+        "name": "Hawk - tertiary consumer",
+        "type": "Organism",
+        "components": [
+          "B1",
+          "T0"
+        ]
+      },
+      {
+        "uid": "269.png_B2",
+        "name": "Owl-tertiary consumer",
+        "type": "Organism",
+        "components": [
+          "B2",
+          "T7"
+        ]
+      },
+      {
+        "uid": "269.png_B3",
+        "name": "Plant - Producer",
+        "type": "Organism",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "269.png_B4",
+        "name": "Grasshopper- primary consumer",
+        "type": "Organism",
+        "components": [
+          "B4",
+          "T3"
+        ]
+      },
+      {
+        "uid": "269.png_B5",
+        "name": "Spider - secondary consumer",
+        "type": "Organism",
+        "components": [
+          "B5",
+          "T4"
+        ]
+      },
+      {
+        "uid": "269.png_B6",
+        "name": "Shrew - secondary consumer",
+        "type": "Organism",
+        "components": [
+          "B6",
+          "T5"
+        ]
+      },
+      {
+        "uid": "269.png_B7",
+        "name": "Weasel-secondary consumer",
+        "type": "Organism",
+        "components": [
+          "B7",
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "269.png_B0",
+        "target": "269.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "269.png_B1",
+        "target": "269.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "269.png_B3",
+        "target": "269.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "269.png_B4",
+        "target": "269.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A12"
+      },
+      {
+        "source": "269.png_B4",
+        "target": "269.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A14"
+      },
+      {
+        "source": "269.png_B4",
+        "target": "269.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A15"
+      },
+      {
+        "source": "269.png_B4",
+        "target": "269.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A17"
+      },
+      {
+        "source": "269.png_B4",
+        "target": "269.png_B5",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "269.png_B5",
+        "target": "269.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A11"
+      },
+      {
+        "source": "269.png_B5",
+        "target": "269.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A16"
+      },
+      {
+        "source": "269.png_B5",
+        "target": "269.png_B6",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "269.png_B6",
+        "target": "269.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A10"
+      },
+      {
+        "source": "269.png_B6",
+        "target": "269.png_B7",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "269.png_B6",
+        "target": "269.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "269.png_B7",
+        "target": "269.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "269.png_B7",
+        "target": "269.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A8"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          60,
+          39,
+          201,
+          204
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          459,
+          18,
+          300,
+          177
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          1017,
+          27,
+          230,
+          303
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          81,
+          420,
+          156,
+          188
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          108,
+          762,
+          153,
+          93
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          597,
+          684,
+          138,
+          203
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          1139,
+          755,
+          196,
+          120
+        ]
+      },
+      "B7": {
+        "id": "B7",
+        "bbox": [
+          1127,
+          434,
+          297,
+          190
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Hawk - tertiary consumer",
+        "bbox": [
+          [
+            453,
+            198
+          ],
+          [
+            666,
+            270
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "Sun's energy",
+        "bbox": [
+          [
+            45,
+            261
+          ],
+          [
+            231,
+            300
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "Plant - Producer",
+        "bbox": [
+          [
+            75,
+            612
+          ],
+          [
+            288,
+            662
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "Grasshopper- primary consumer",
+        "bbox": [
+          [
+            57,
+            845
+          ],
+          [
+            276,
+            941
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "Spider - secondary consumer",
+        "bbox": [
+          [
+            552,
+            890
+          ],
+          [
+            716,
+            1017
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "Shrew - secondary consumer",
+        "bbox": [
+          [
+            1058,
+            912
+          ],
+          [
+            1310,
+            983
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "Weasel-secondary consumer",
+        "bbox": [
+          [
+            1142,
+            633
+          ],
+          [
+            1400,
+            699
+          ]
+        ]
+      },
+      {
+        "id": "T7",
+        "content": "Owl-tertiary consumer",
+        "bbox": [
+          [
+            1007,
+            318
+          ],
+          [
+            1196,
+            420
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          735,
+          183,
+          267,
+          18
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          165,
+          309,
+          18,
+          105
+        ]
+      },
+      "A10": {
+        "id": "A10",
+        "bbox": [
+          630,
+          270,
+          453,
+          509
+        ]
+      },
+      "A11": {
+        "id": "A11",
+        "bbox": [
+          755,
+          564,
+          355,
+          179
+        ]
+      },
+      "A12": {
+        "id": "A12",
+        "bbox": [
+          669,
+          546,
+          345,
+          231
+        ]
+      },
+      "A13": {
+        "id": "A13",
+        "bbox": [
+          314,
+          549,
+          348,
+          225
+        ]
+      },
+      "A14": {
+        "id": "A14",
+        "bbox": [
+          285,
+          498,
+          288,
+          252
+        ]
+      },
+      "A15": {
+        "id": "A15",
+        "bbox": [
+          579,
+          492,
+          512,
+          66
+        ]
+      },
+      "A16": {
+        "id": "A16",
+        "bbox": [
+          581,
+          288,
+          66,
+          390
+        ]
+      },
+      "A17": {
+        "id": "A17",
+        "bbox": [
+          288,
+          282,
+          276,
+          404
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          171,
+          669,
+          12,
+          90
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          314,
+          816,
+          217,
+          27
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          779,
+          804,
+          243,
+          27
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          1088,
+          593,
+          42,
+          169
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          1073,
+          405,
+          34,
+          83
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          1037,
+          402,
+          36,
+          311
+        ]
+      },
+      "A8": {
+        "id": "A8",
+        "bbox": [
+          681,
+          258,
+          404,
+          273
+        ]
+      },
+      "A9": {
+        "id": "A9",
+        "bbox": [
+          662,
+          237,
+          24,
+          27
+        ]
+      }
+    }
+  },
+  "description": "Trong luoi thuc an nay: Sun's energy la nguon thuc an cho Plant - Producer. Hawk - tertiary consumer la nguon thuc an cho Owl-tertiary consumer. Plant - Producer la nguon thuc an cho Grasshopper- primary consumer. Grasshopper- primary consumer la nguon thuc an cho Shrew - secondary consumer. Grasshopper- primary consumer la nguon thuc an cho Weasel-secondary consumer. Grasshopper- primary consumer la nguon thuc an cho Weasel-secondary consumer. Grasshopper- primary consumer la nguon thuc an cho Hawk - tertiary consumer. Grasshopper- primary consumer la nguon thuc an cho Spider - secondary consumer. Spider - secondary consumer la nguon thuc an cho Weasel-secondary consumer. Spider - secondary consumer la nguon thuc an cho Hawk - tertiary consumer. Spider - secondary consumer la nguon thuc an cho Shrew - secondary consumer. Shrew - secondary consumer la nguon thuc an cho Hawk - tertiary consumer. Shrew - secondary consumer la nguon thuc an cho Weasel-secondary consumer. Shrew - secondary consumer la nguon thuc an cho Owl-tertiary consumer. Weasel-secondary consumer la nguon thuc an cho Owl-tertiary consumer. Weasel-secondary consumer la nguon thuc an cho Hawk - tertiary consumer."
+}

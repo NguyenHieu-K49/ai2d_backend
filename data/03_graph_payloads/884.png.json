@@ -1,0 +1,261 @@
+{
+  "id": "884.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "884.png_B0",
+        "name": "pupa",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T1"
+        ]
+      },
+      {
+        "uid": "884.png_B1",
+        "name": "eggs",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T2"
+        ]
+      },
+      {
+        "uid": "884.png_B2",
+        "name": "adult",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "884.png_B3",
+        "name": "larval stages",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T0"
+        ]
+      },
+      {
+        "uid": "884.png_B4",
+        "name": "B4",
+        "type": "Stage",
+        "components": [
+          "B4"
+        ]
+      },
+      {
+        "uid": "884.png_B5",
+        "name": "B5",
+        "type": "Stage",
+        "components": [
+          "B5"
+        ]
+      },
+      {
+        "uid": "884.png_B6",
+        "name": "B6",
+        "type": "Stage",
+        "components": [
+          "B6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "884.png_B0",
+        "target": "884.png_B2",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "884.png_B1",
+        "target": "884.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "884.png_B2",
+        "target": "884.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "884.png_B3",
+        "target": "884.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          357,
+          194,
+          54,
+          84
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          5,
+          214,
+          39,
+          37
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          148,
+          326,
+          100,
+          96
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          227,
+          0,
+          66,
+          106
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          117,
+          32,
+          18,
+          30
+        ]
+      },
+      "B5": {
+        "id": "B5",
+        "bbox": [
+          142,
+          21,
+          31,
+          53
+        ]
+      },
+      "B6": {
+        "id": "B6",
+        "bbox": [
+          180,
+          16,
+          44,
+          73
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "larval stages",
+        "bbox": [
+          [
+            140,
+            107
+          ],
+          [
+            247,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "pupa",
+        "bbox": [
+          [
+            306,
+            228
+          ],
+          [
+            351,
+            246
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "eggs",
+        "bbox": [
+          [
+            48,
+            228
+          ],
+          [
+            97,
+            244
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "adult",
+        "bbox": [
+          [
+            180,
+            303
+          ],
+          [
+            222,
+            324
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          304,
+          83,
+          73,
+          103
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          26,
+          76,
+          66,
+          95
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          36,
+          277,
+          70,
+          86
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          296,
+          285,
+          72,
+          90
+        ]
+      }
+    }
+  }
+}

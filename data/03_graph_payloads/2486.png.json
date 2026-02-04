@@ -1,0 +1,301 @@
+{
+  "id": "2486.png",
+  "meta": {
+    "category": "lifeCycles",
+    "domain": "Biology",
+    "label": "Stage"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "2486.png_B0",
+        "name": "adult caddis",
+        "type": "Stage",
+        "components": [
+          "B0",
+          "T4"
+        ]
+      },
+      {
+        "uid": "2486.png_B1",
+        "name": "adult emerging from pupa",
+        "type": "Stage",
+        "components": [
+          "B1",
+          "T5"
+        ]
+      },
+      {
+        "uid": "2486.png_B2",
+        "name": "cased caddis",
+        "type": "Stage",
+        "components": [
+          "B2",
+          "T3"
+        ]
+      },
+      {
+        "uid": "2486.png_B3",
+        "name": "free living caddis larva",
+        "type": "Stage",
+        "components": [
+          "B3",
+          "T2"
+        ]
+      },
+      {
+        "uid": "2486.png_B4",
+        "name": "eggs",
+        "type": "Stage",
+        "components": [
+          "B4",
+          "T1"
+        ]
+      },
+      {
+        "uid": "2486.png_T0",
+        "name": "Caddisflies (Trichoptera)",
+        "type": "Stage",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "2486.png_T6",
+        "name": "egg laying",
+        "type": "Stage",
+        "components": [
+          "T6"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "2486.png_B0",
+        "target": "2486.png_B4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      },
+      {
+        "source": "2486.png_B1",
+        "target": "2486.png_B0",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "2486.png_B2",
+        "target": "2486.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "2486.png_B3",
+        "target": "2486.png_B1",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "2486.png_B4",
+        "target": "2486.png_B3",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {
+      "B0": {
+        "id": "B0",
+        "bbox": [
+          301,
+          6,
+          180,
+          107
+        ]
+      },
+      "B1": {
+        "id": "B1",
+        "bbox": [
+          368,
+          132,
+          183,
+          98
+        ]
+      },
+      "B2": {
+        "id": "B2",
+        "bbox": [
+          419,
+          260,
+          110,
+          62
+        ]
+      },
+      "B3": {
+        "id": "B3",
+        "bbox": [
+          331,
+          225,
+          75,
+          105
+        ]
+      },
+      "B4": {
+        "id": "B4",
+        "bbox": [
+          197,
+          122,
+          165,
+          99
+        ]
+      }
+    },
+    "texts": [
+      {
+        "id": "T0",
+        "content": "Caddisflies (Trichoptera)",
+        "bbox": [
+          [
+            143,
+            10
+          ],
+          [
+            381,
+            40
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "eggs",
+        "bbox": [
+          [
+            174,
+            216
+          ],
+          [
+            215,
+            236
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "free living caddis larva",
+        "bbox": [
+          [
+            250,
+            297
+          ],
+          [
+            336,
+            333
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "cased caddis",
+        "bbox": [
+          [
+            422,
+            323
+          ],
+          [
+            515,
+            339
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "adult caddis",
+        "bbox": [
+          [
+            480,
+            24
+          ],
+          [
+            561,
+            45
+          ]
+        ]
+      },
+      {
+        "id": "T5",
+        "content": "adult emerging from pupa",
+        "bbox": [
+          [
+            515,
+            120
+          ],
+          [
+            620,
+            161
+          ]
+        ]
+      },
+      {
+        "id": "T6",
+        "content": "egg laying",
+        "bbox": [
+          [
+            159,
+            96
+          ],
+          [
+            232,
+            118
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          219,
+          236,
+          39,
+          32
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          268,
+          98,
+          32,
+          38
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          435,
+          93,
+          35,
+          35
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          408,
+          208,
+          42,
+          30
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          471,
+          219,
+          30,
+          42
+        ]
+      }
+    }
+  }
+}

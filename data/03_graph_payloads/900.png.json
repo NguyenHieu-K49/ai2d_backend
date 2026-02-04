@@ -1,0 +1,251 @@
+{
+  "id": "900.png",
+  "meta": {
+    "category": "foodChainsWebs",
+    "domain": "Biology",
+    "label": "Organism"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "uid": "900.png_T0",
+        "name": "D",
+        "type": "Organism",
+        "components": [
+          "T0"
+        ]
+      },
+      {
+        "uid": "900.png_T1",
+        "name": "E",
+        "type": "Organism",
+        "components": [
+          "T1"
+        ]
+      },
+      {
+        "uid": "900.png_T2",
+        "name": "B",
+        "type": "Organism",
+        "components": [
+          "T2"
+        ]
+      },
+      {
+        "uid": "900.png_T3",
+        "name": "C",
+        "type": "Organism",
+        "components": [
+          "T3"
+        ]
+      },
+      {
+        "uid": "900.png_T4",
+        "name": "A",
+        "type": "Organism",
+        "components": [
+          "T4"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "900.png_T0",
+        "target": "900.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A3"
+      },
+      {
+        "source": "900.png_T0",
+        "target": "900.png_T1",
+        "relation": "LINKED_TO",
+        "via": "A5"
+      },
+      {
+        "source": "900.png_T1",
+        "target": "900.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A6"
+      },
+      {
+        "source": "900.png_T2",
+        "target": "900.png_T3",
+        "relation": "LINKED_TO",
+        "via": "A2"
+      },
+      {
+        "source": "900.png_T2",
+        "target": "900.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A4"
+      },
+      {
+        "source": "900.png_T2",
+        "target": "900.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A7"
+      },
+      {
+        "source": "900.png_T3",
+        "target": "900.png_T0",
+        "relation": "LINKED_TO",
+        "via": "A0"
+      },
+      {
+        "source": "900.png_T3",
+        "target": "900.png_T4",
+        "relation": "LINKED_TO",
+        "via": "A1"
+      }
+    ]
+  },
+  "raw": {
+    "blobs": {},
+    "texts": [
+      {
+        "id": "T0",
+        "content": "D",
+        "bbox": [
+          [
+            363,
+            3
+          ],
+          [
+            399,
+            38
+          ]
+        ]
+      },
+      {
+        "id": "T1",
+        "content": "E",
+        "bbox": [
+          [
+            663,
+            196
+          ],
+          [
+            684,
+            234
+          ]
+        ]
+      },
+      {
+        "id": "T2",
+        "content": "B",
+        "bbox": [
+          [
+            367,
+            337
+          ],
+          [
+            396,
+            376
+          ]
+        ]
+      },
+      {
+        "id": "T3",
+        "content": "C",
+        "bbox": [
+          [
+            75,
+            123
+          ],
+          [
+            110,
+            158
+          ]
+        ]
+      },
+      {
+        "id": "T4",
+        "content": "A",
+        "bbox": [
+          [
+            0,
+            271
+          ],
+          [
+            30,
+            304
+          ]
+        ]
+      }
+    ],
+    "arrows": {
+      "A0": {
+        "id": "A0",
+        "bbox": [
+          112,
+          19,
+          258,
+          119
+        ]
+      },
+      "A1": {
+        "id": "A1",
+        "bbox": [
+          0,
+          149,
+          82,
+          122
+        ]
+      },
+      "A2": {
+        "id": "A2",
+        "bbox": [
+          103,
+          148,
+          263,
+          196
+        ]
+      },
+      "A3": {
+        "id": "A3",
+        "bbox": [
+          27,
+          34,
+          346,
+          230
+        ]
+      },
+      "A4": {
+        "id": "A4",
+        "bbox": [
+          370,
+          38,
+          26,
+          292
+        ]
+      },
+      "A5": {
+        "id": "A5",
+        "bbox": [
+          399,
+          19,
+          272,
+          171
+        ]
+      },
+      "A6": {
+        "id": "A6",
+        "bbox": [
+          44,
+          214,
+          614,
+          74
+        ]
+      },
+      "A7": {
+        "id": "A7",
+        "bbox": [
+          33,
+          293,
+          325,
+          67
+        ]
+      }
+    }
+  }
+}
